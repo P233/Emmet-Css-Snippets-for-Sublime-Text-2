@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[display: -moz-inline-stack
+
+]]></content>
+	<tabTrigger>d:mis</tabTrigger>
+	<scope>source.sass</scope>
+	<description>display:-moz-inline-stack</description>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[display: -moz-inline-box
+
+]]></content>
+	<tabTrigger>d:mib</tabTrigger>
+	<scope>source.sass</scope>
+	<description>display:-moz-inline-box</description>
+</snippet>
