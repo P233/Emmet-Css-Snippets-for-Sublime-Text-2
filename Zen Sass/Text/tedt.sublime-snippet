@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[text-emphasis: dot
+
+]]></content>
+	<tabTrigger>te:dt</tabTrigger>
+	<scope>source.sass</scope>
+	<description>text-emphasis:dot</description>
+</snippet>

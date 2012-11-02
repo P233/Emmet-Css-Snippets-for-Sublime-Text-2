@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[border-left-width: 
+]]></content>
+	<tabTrigger>bdlw</tabTrigger>
+	<scope>source.sass</scope>
+	<description>border-left-width</description>
+</snippet>

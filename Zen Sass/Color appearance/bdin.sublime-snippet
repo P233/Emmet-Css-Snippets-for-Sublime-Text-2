@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[border-image: none
+
+]]></content>
+	<tabTrigger>bdi:n</tabTrigger>
+	<scope>source.sass</scope>
+	<description>border-image:none</description>
+</snippet>

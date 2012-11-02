@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[position: absolute
+
+]]></content>
+	<tabTrigger>pos:a</tabTrigger>
+	<scope>source.sass</scope>
+	<description>position:absolute</description>
+</snippet>

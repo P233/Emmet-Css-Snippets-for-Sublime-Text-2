@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[text-transform: uppercase
+
+]]></content>
+	<tabTrigger>tt:u</tabTrigger>
+	<scope>source.sass</scope>
+	<description>text-transform:uppercase</description>
+</snippet>

@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[border-bottom-right-radius: 
+]]></content>
+	<tabTrigger>bdbrrs</tabTrigger>
+	<scope>source.sass</scope>
+	<description>border-bottom-right-radius</description>
+</snippet>

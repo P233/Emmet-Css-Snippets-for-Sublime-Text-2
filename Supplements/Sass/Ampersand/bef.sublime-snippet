@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[&:before
+	content: "$1"
+	$2
+]]></content>
+	<tabTrigger>bef</tabTrigger>
+	<scope>source.sass</scope>
+	<description>&amp;:before</description>
+</snippet>

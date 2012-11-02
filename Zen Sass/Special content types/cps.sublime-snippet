@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[caption-side: 
+]]></content>
+	<tabTrigger>cps</tabTrigger>
+	<scope>source.sass</scope>
+	<description>caption-side</description>
+</snippet>

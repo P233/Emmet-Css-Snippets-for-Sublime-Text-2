@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[content: counter("$1")
+$2
+]]></content>
+	<tabTrigger>ct:c</tabTrigger>
+	<scope>source.sass</scope>
+	<description>content:counter()</description>
+</snippet>

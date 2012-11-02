@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[text-align: left
+
+]]></content>
+	<tabTrigger>ta:l</tabTrigger>
+	<scope>source.sass</scope>
+	<description>text-align:left</description>
+</snippet>

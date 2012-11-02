@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[orphans: 
+]]></content>
+	<tabTrigger>orp</tabTrigger>
+	<scope>source.sass</scope>
+	<description>orphans</description>
+</snippet>

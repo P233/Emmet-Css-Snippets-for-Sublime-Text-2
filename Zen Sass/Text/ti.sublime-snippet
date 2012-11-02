@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[text-indent: 
+]]></content>
+	<tabTrigger>ti</tabTrigger>
+	<scope>source.sass</scope>
+	<description>text-indent</description>
+</snippet>

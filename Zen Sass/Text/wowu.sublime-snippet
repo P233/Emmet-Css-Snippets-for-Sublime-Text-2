@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[word-wrap: unrestricted
+
+]]></content>
+	<tabTrigger>wow:u</tabTrigger>
+	<scope>source.sass</scope>
+	<description>word-wrap:unrestricted</description>
+</snippet>

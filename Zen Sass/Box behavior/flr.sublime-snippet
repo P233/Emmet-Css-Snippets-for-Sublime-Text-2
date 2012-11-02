@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[float: right
+
+]]></content>
+	<tabTrigger>fl:r</tabTrigger>
+	<scope>source.sass</scope>
+	<description>float:right</description>
+</snippet>

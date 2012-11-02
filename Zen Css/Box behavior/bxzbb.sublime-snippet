@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[box-sizing: border-box;
+
+]]></content>
+	<tabTrigger>bxz:bb</tabTrigger>
+	<scope>source.css, source.scss</scope>
+	<description>box-sizing:border-box</description>
+</snippet>

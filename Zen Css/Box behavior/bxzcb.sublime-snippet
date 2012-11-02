@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[box-sizing: content-box;
+
+]]></content>
+	<tabTrigger>bxz:cb</tabTrigger>
+	<scope>source.css, source.scss</scope>
+	<description>box-sizing:content-box</description>
+</snippet>

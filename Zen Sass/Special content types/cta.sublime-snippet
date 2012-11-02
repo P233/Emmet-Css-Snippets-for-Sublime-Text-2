@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[content: attr("$1")
+$2
+]]></content>
+	<tabTrigger>ct:a</tabTrigger>
+	<scope>source.sass</scope>
+	<description>content:attr()</description>
+</snippet>

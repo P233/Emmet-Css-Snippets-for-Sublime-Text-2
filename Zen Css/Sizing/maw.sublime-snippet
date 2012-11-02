@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[max-width: 
+]]></content>
+	<tabTrigger>maw</tabTrigger>
+	<scope>source.css, source.scss</scope>
+	<description>max-width</description>
+</snippet>

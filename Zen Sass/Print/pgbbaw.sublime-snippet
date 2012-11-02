@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[page-break-before: always
+
+]]></content>
+	<tabTrigger>pgbb:aw</tabTrigger>
+	<scope>source.sass</scope>
+	<description>page-break-before:always</description>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[background-size: auto
+
+]]></content>
+	<tabTrigger>bgz:a</tabTrigger>
+	<scope>source.sass</scope>
+	<description>background-size:auto</description>
+</snippet>

@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[position: 
+]]></content>
+	<tabTrigger>pos</tabTrigger>
+	<scope>source.sass</scope>
+	<description>position</description>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[&:nth-child($1)
+	$2
+]]></content>
+	<tabTrigger>nth</tabTrigger>
+	<scope>source.sass</scope>
+	<description>&amp;:nth-child</description>
+</snippet>

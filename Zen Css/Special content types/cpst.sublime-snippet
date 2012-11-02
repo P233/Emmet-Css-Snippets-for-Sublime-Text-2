@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[caption-side: top;
+
+]]></content>
+	<tabTrigger>cps:t</tabTrigger>
+	<scope>source.css, source.scss</scope>
+	<description>caption-side:top</description>
+</snippet>

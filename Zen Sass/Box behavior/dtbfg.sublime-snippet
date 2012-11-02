@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[display: table-footer-group
+
+]]></content>
+	<tabTrigger>d:tbfg</tabTrigger>
+	<scope>source.sass</scope>
+	<description>display:table-footer-group</description>
+</snippet>

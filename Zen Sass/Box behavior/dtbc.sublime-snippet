@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[display: table-cell
+
+]]></content>
+	<tabTrigger>d:tbc</tabTrigger>
+	<scope>source.sass</scope>
+	<description>display:table-cell</description>
+</snippet>

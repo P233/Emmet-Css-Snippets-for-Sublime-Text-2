@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[overflow-y: scroll
+
+]]></content>
+	<tabTrigger>ovy:s</tabTrigger>
+	<scope>source.sass</scope>
+	<description>overflow-y:scroll</description>
+</snippet>

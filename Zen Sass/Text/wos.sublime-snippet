@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[word-spacing: 
+]]></content>
+	<tabTrigger>wos</tabTrigger>
+	<scope>source.sass</scope>
+	<description>word-spacing</description>
+</snippet>

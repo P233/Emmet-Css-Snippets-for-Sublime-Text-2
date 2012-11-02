@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[text-justify: kashida;
+
+]]></content>
+	<tabTrigger>tj:k</tabTrigger>
+	<scope>source.css, source.scss</scope>
+	<description>text-justify:kashida</description>
+</snippet>

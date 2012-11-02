@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[$1:nth-child($2) {
+	$3
+}
+]]></content>
+	<tabTrigger>nth</tabTrigger>
+	<scope>source.css, source.scss</scope>
+	<description>:nth-child</description>
+</snippet>

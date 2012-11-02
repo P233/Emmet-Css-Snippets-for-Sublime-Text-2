@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[table-layout: fixed
+
+]]></content>
+	<tabTrigger>tbl:f</tabTrigger>
+	<scope>source.sass</scope>
+	<description>table-layout:fixed</description>
+</snippet>

@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[widows: 
+]]></content>
+	<tabTrigger>widows</tabTrigger>
+	<scope>source.sass</scope>
+	<description>widows</description>
+</snippet>

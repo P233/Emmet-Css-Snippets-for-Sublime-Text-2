@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[margin: ${1:0} ${2:0}
+]]></content>
+	<tabTrigger>m:2</tabTrigger>
+	<scope>source.sass</scope>
+	<description>margin:0 0</description>
+</snippet>

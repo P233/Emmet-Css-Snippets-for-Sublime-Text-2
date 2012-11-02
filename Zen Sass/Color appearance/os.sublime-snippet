@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[outline-style: 
+]]></content>
+	<tabTrigger>os</tabTrigger>
+	<scope>source.sass</scope>
+	<description>outline-style</description>
+</snippet>

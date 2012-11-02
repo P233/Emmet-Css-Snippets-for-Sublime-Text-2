@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[padding: 
+]]></content>
+	<tabTrigger>pad</tabTrigger>
+	<scope>source.sass</scope>
+	<description>padding</description>
+</snippet>

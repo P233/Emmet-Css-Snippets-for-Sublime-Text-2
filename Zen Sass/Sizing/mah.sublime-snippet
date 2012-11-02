@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[max-height: 
+]]></content>
+	<tabTrigger>mah</tabTrigger>
+	<scope>source.sass</scope>
+	<description>max-height</description>
+</snippet>

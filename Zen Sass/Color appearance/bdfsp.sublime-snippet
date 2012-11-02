@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[border-fit: space
+
+]]></content>
+	<tabTrigger>bdf:sp</tabTrigger>
+	<scope>source.sass</scope>
+	<description>border-fit:space</description>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[cursor: help
+
+]]></content>
+	<tabTrigger>cur:he</tabTrigger>
+	<scope>source.sass</scope>
+	<description>cursor:help</description>
+</snippet>

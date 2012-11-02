@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[&:active {
+	$1
+}
+]]></content>
+	<tabTrigger>act</tabTrigger>
+	<scope>source.css.less, source.scss</scope>
+	<description>&amp;:active</description>
+</snippet>

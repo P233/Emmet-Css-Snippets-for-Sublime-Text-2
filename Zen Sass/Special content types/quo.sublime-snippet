@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[quotes: 
+]]></content>
+	<tabTrigger>quo</tabTrigger>
+	<scope>source.sass</scope>
+	<description>quotes</description>
+</snippet>

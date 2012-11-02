@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[border-top-left-image: 
+]]></content>
+	<tabTrigger>bdtli</tabTrigger>
+	<scope>source.sass</scope>
+	<description>border-top-left-image</description>
+</snippet>

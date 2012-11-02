@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[text-replace: 
+]]></content>
+	<tabTrigger>tr</tabTrigger>
+	<scope>source.css, source.scss</scope>
+	<description>text-replace</description>
+</snippet>

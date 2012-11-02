@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[clip: 
+]]></content>
+	<tabTrigger>cp</tabTrigger>
+	<scope>source.sass</scope>
+	<description>clip</description>
+</snippet>

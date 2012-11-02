@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[$1:after
+	content: "$2"
+	$3
+]]></content>
+	<tabTrigger>aft</tabTrigger>
+	<scope>source.sass</scope>
+	<description>:after</description>
+</snippet>

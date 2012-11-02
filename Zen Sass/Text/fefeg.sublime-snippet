@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[font-effect: engrave
+
+]]></content>
+	<tabTrigger>fef:eg</tabTrigger>
+	<scope>source.sass</scope>
+	<description>font-effect:engrave</description>
+</snippet>

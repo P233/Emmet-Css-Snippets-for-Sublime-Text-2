@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='',sizingMethod='crop')
+]]></content>
+	<tabTrigger>bg:ie</tabTrigger>
+	<scope>source.sass</scope>
+	<description>background:filter</description>
+</snippet>

@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[font-effect: 
+]]></content>
+	<tabTrigger>fef</tabTrigger>
+	<scope>source.sass</scope>
+	<description>font-effect</description>
+</snippet>

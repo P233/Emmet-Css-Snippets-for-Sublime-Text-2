@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[background-clip: padding-box
+
+]]></content>
+	<tabTrigger>bgcp:pb</tabTrigger>
+	<scope>source.sass</scope>
+	<description>background-clip:padding-box</description>
+</snippet>

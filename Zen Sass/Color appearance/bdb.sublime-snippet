@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[border-bottom: 
+]]></content>
+	<tabTrigger>bdb</tabTrigger>
+	<scope>source.sass</scope>
+	<description>border-bottom</description>
+</snippet>

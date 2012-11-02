@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[border-left-color: ${1:#000}
+]]></content>
+	<tabTrigger>bdlc</tabTrigger>
+	<scope>source.sass</scope>
+	<description>border-left-color</description>
+</snippet>

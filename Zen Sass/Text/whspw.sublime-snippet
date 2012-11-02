@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[white-space: pre-wrap
+
+]]></content>
+	<tabTrigger>whs:pw</tabTrigger>
+	<scope>source.sass</scope>
+	<description>white-space:pre-wrap</description>
+</snippet>

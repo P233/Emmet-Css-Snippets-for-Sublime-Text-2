@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[cursor: default
+
+]]></content>
+	<tabTrigger>cur:d</tabTrigger>
+	<scope>source.sass</scope>
+	<description>cursor:default</description>
+</snippet>

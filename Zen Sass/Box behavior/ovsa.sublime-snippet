@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[overflow-style: auto
+
+]]></content>
+	<tabTrigger>ovs:a</tabTrigger>
+	<scope>source.sass</scope>
+	<description>overflow-style:auto</description>
+</snippet>

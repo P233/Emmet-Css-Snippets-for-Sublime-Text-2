@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[content: open-quote
+
+]]></content>
+	<tabTrigger>ct:oq</tabTrigger>
+	<scope>source.sass</scope>
+	<description>content:open-quote</description>
+</snippet>

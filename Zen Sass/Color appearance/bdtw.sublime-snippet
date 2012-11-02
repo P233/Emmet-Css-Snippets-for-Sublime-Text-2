@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[border-top-width: 
+]]></content>
+	<tabTrigger>bdtw</tabTrigger>
+	<scope>source.sass</scope>
+	<description>border-top-width</description>
+</snippet>

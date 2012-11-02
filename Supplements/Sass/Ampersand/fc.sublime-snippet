@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[&:first-child
+	
+]]></content>
+	<tabTrigger>fc</tabTrigger>
+	<scope>source.sass</scope>
+	<description>&amp;:first-child</description>
+</snippet>
