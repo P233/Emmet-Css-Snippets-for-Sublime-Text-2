@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[display: compact;
+	<content><![CDATA[
+display: compact;
 
 ]]></content>
 	<tabTrigger>d:cp</tabTrigger>

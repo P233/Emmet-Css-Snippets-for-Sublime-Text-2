@@ -1,6 +1,7 @@
 <snippet>
-	<content><![CDATA[filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=${1:100});
-$2
+	<content><![CDATA[
+filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=${1:100});
+
 ]]></content>
 	<tabTrigger>op:ie</tabTrigger>
 	<scope>source.css, source.scss</scope>

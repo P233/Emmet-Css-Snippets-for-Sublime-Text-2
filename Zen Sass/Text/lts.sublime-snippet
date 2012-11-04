@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[letter-spacing: 
+	<content><![CDATA[
+letter-spacing: 
 ]]></content>
 	<tabTrigger>lts</tabTrigger>
 	<scope>source.sass</scope>

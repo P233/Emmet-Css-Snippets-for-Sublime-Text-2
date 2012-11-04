@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[font-weight: bold
+	<content><![CDATA[
+font-weight: bold
 
 ]]></content>
 	<tabTrigger>fw:b</tabTrigger>

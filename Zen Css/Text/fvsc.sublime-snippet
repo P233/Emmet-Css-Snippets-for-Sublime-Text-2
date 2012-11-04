@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[font-variant: small-caps;
+	<content><![CDATA[
+font-variant: small-caps;
 
 ]]></content>
 	<tabTrigger>fv:sc</tabTrigger>

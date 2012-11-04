@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[background-repeat: no-repeat;
+	<content><![CDATA[
+background-repeat: no-repeat;
 
 ]]></content>
 	<tabTrigger>bgr:n</tabTrigger>

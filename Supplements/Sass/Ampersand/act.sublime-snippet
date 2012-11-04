@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[&:active
+	<content><![CDATA[
+&:active
 	
 ]]></content>
 	<tabTrigger>act</tabTrigger>

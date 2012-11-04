@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[background-size: cover;
+	<content><![CDATA[
+background-size: cover;
 
 ]]></content>
 	<tabTrigger>bgz:cv</tabTrigger>

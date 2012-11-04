@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[word-wrap: 
+	<content><![CDATA[
+word-wrap: 
 ]]></content>
 	<tabTrigger>wow</tabTrigger>
 	<scope>source.sass</scope>

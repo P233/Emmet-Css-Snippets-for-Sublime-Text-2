@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[font-smooth: auto;
+	<content><![CDATA[
+font-smooth: auto;
 
 ]]></content>
 	<tabTrigger>fsm:a</tabTrigger>

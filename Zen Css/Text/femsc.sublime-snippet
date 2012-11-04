@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[font-emphasize-style: circle;
+	<content><![CDATA[
+font-emphasize-style: circle;
 
 ]]></content>
 	<tabTrigger>fems:c</tabTrigger>

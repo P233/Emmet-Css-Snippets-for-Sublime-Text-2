@@ -1,8 +1,10 @@
 <snippet>
-	<content><![CDATA[&:before {
+	<content><![CDATA[
+&:before {
 	content: "$1";
 	$2
 }
+
 ]]></content>
 	<tabTrigger>bef</tabTrigger>
 	<scope>source.css.less, source.scss</scope>

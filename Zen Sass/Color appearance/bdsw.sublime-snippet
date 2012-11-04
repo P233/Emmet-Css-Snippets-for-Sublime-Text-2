@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[border-style: wave
+	<content><![CDATA[
+border-style: wave
 
 ]]></content>
 	<tabTrigger>bds:w</tabTrigger>

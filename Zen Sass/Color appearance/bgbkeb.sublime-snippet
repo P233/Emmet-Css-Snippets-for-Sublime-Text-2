@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[background-break: each-box
+	<content><![CDATA[
+background-break: each-box
 
 ]]></content>
 	<tabTrigger>bgbk:eb</tabTrigger>

@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[font-stretch: semi-expanded;
+	<content><![CDATA[
+font-stretch: semi-expanded;
 
 ]]></content>
 	<tabTrigger>fst:se</tabTrigger>

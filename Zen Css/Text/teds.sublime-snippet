@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[text-emphasis: disc;
+	<content><![CDATA[
+text-emphasis: disc;
 
 ]]></content>
 	<tabTrigger>te:ds</tabTrigger>

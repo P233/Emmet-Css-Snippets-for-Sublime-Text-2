@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[list-style-type: circle
+	<content><![CDATA[
+list-style-type: circle
 
 ]]></content>
 	<tabTrigger>list:c</tabTrigger>

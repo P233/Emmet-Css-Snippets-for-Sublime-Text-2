@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[border-break: close;
+	<content><![CDATA[
+border-break: close;
 
 ]]></content>
 	<tabTrigger>bdbk:c</tabTrigger>

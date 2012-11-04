@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[table-layout: auto
+	<content><![CDATA[
+table-layout: auto
 
 ]]></content>
 	<tabTrigger>tbl:a</tabTrigger>

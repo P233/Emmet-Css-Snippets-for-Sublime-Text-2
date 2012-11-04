@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[text-justify: 
+	<content><![CDATA[
+text-justify: 
 ]]></content>
 	<tabTrigger>tj</tabTrigger>
 	<scope>source.sass</scope>

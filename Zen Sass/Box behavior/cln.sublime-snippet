@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[clear: none
+	<content><![CDATA[
+clear: none
 
 ]]></content>
 	<tabTrigger>cl:n</tabTrigger>

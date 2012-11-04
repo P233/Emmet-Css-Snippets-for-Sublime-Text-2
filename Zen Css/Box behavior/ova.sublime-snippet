@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[overflow: auto;
+	<content><![CDATA[
+overflow: auto;
 
 ]]></content>
 	<tabTrigger>ov:a</tabTrigger>

@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[background-origin: 
+	<content><![CDATA[
+background-origin: 
 ]]></content>
 	<tabTrigger>bgo</tabTrigger>
 	<scope>source.sass</scope>

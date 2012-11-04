@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[font-stretch: ultra-condensed
+	<content><![CDATA[
+font-stretch: ultra-condensed
 
 ]]></content>
 	<tabTrigger>fst:uc</tabTrigger>

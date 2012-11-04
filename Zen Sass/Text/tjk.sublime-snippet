@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[text-justify: kashida
+	<content><![CDATA[
+text-justify: kashida
 
 ]]></content>
 	<tabTrigger>tj:k</tabTrigger>

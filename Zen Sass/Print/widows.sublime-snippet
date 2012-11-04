@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[widows: 
+	<content><![CDATA[
+widows: 
 ]]></content>
 	<tabTrigger>widows</tabTrigger>
 	<scope>source.sass</scope>

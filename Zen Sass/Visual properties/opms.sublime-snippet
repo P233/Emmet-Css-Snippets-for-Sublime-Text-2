@@ -1,6 +1,7 @@
 <snippet>
-	<content><![CDATA[-ms-filter: 'progid:DXImageTransform.Microsoft.Alpha(Opacity=${1:100})'
-$2
+	<content><![CDATA[
+-ms-filter: 'progid:DXImageTransform.Microsoft.Alpha(Opacity=${1:100})'
+
 ]]></content>
 	<tabTrigger>op:ms</tabTrigger>
 	<scope>source.sass</scope>

@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[overflow-y: hidden
+	<content><![CDATA[
+overflow-y: hidden
 
 ]]></content>
 	<tabTrigger>ovy:h</tabTrigger>

@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[word-wrap: none;
+	<content><![CDATA[
+word-wrap: none;
 
 ]]></content>
 	<tabTrigger>wow:no</tabTrigger>

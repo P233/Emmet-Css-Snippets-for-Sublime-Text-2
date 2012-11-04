@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[text-height: text-size;
+	<content><![CDATA[
+text-height: text-size;
 
 ]]></content>
 	<tabTrigger>th:t</tabTrigger>

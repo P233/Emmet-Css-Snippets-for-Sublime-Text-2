@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[font-effect: none
+	<content><![CDATA[
+font-effect: none
 
 ]]></content>
 	<tabTrigger>fef:n</tabTrigger>

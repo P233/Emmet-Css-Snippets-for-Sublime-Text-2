@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[visibility: collapse;
+	<content><![CDATA[
+visibility: collapse;
 
 ]]></content>
 	<tabTrigger>v:c</tabTrigger>

@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[page-break-after: auto;
+	<content><![CDATA[
+page-break-after: auto;
 
 ]]></content>
 	<tabTrigger>pgba:a</tabTrigger>

@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[overflow-x: scroll
+	<content><![CDATA[
+overflow-x: scroll
 
 ]]></content>
 	<tabTrigger>ovx:s</tabTrigger>

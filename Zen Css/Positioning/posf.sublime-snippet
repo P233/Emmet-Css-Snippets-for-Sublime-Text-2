@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[position: fixed;
+	<content><![CDATA[
+position: fixed;
 
 ]]></content>
 	<tabTrigger>pos:f</tabTrigger>

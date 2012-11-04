@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[display: list-item;
+	<content><![CDATA[
+display: list-item;
 
 ]]></content>
 	<tabTrigger>d:li</tabTrigger>

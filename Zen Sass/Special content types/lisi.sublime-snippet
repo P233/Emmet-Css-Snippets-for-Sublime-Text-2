@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[list-style-image: 
+	<content><![CDATA[
+list-style-image: 
 ]]></content>
 	<tabTrigger>lisi</tabTrigger>
 	<scope>source.sass</scope>

@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[text-transform: lowercase
+	<content><![CDATA[
+text-transform: lowercase
 
 ]]></content>
 	<tabTrigger>tt:l</tabTrigger>

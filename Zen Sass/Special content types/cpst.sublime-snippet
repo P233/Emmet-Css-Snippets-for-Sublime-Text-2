@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[caption-side: top
+	<content><![CDATA[
+caption-side: top
 
 ]]></content>
 	<tabTrigger>cps:t</tabTrigger>

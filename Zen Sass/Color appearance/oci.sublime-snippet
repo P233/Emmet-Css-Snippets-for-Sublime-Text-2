@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[outline-color: invert
+	<content><![CDATA[
+outline-color: invert
 
 ]]></content>
 	<tabTrigger>oc:i</tabTrigger>

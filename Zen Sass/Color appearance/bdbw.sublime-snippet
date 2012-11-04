@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[border-bottom-width: 
+	<content><![CDATA[
+border-bottom-width: 
 ]]></content>
 	<tabTrigger>bdbw</tabTrigger>
 	<scope>source.sass</scope>

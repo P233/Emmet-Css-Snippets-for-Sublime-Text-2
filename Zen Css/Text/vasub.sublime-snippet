@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[vertical-align: sub;
+	<content><![CDATA[
+vertical-align: sub;
 
 ]]></content>
 	<tabTrigger>va:sub</tabTrigger>

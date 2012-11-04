@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[background-origin: padding-box;
+	<content><![CDATA[
+background-origin: padding-box;
 
 ]]></content>
 	<tabTrigger>bgo:pb</tabTrigger>

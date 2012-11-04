@@ -1,7 +1,9 @@
 <snippet>
-	<content><![CDATA[&:last-child {
+	<content><![CDATA[
+&:last-child {
 	$1
 }
+
 ]]></content>
 	<tabTrigger>lc</tabTrigger>
 	<scope>source.css.less, source.scss</scope>

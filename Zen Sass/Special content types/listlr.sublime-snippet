@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[list-style-type: lower-roman
+	<content><![CDATA[
+list-style-type: lower-roman
 
 ]]></content>
 	<tabTrigger>list:lr</tabTrigger>

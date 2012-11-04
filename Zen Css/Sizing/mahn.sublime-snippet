@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[max-height: none;
+	<content><![CDATA[
+max-height: none;
 
 ]]></content>
 	<tabTrigger>mah:n</tabTrigger>

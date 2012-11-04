@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[display: -moz-inline-stack
+	<content><![CDATA[
+display: -moz-inline-stack
 
 ]]></content>
 	<tabTrigger>d:mis</tabTrigger>

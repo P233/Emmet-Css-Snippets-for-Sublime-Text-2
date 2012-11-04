@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[border-top: ${1:1px} ${2:solid} ${3:#000}
+	<content><![CDATA[
+border-top: ${1:1px} ${2:solid} ${3:#000}
 ]]></content>
 	<tabTrigger>bdt+</tabTrigger>
 	<scope>source.sass</scope>

@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[counter-increment: 
+	<content><![CDATA[
+counter-increment: 
 ]]></content>
 	<tabTrigger>coi</tabTrigger>
 	<scope>source.sass</scope>

@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[content: attr("$1")
+	<content><![CDATA[
+content: attr("$1")
 $2
 ]]></content>
 	<tabTrigger>ct:a</tabTrigger>

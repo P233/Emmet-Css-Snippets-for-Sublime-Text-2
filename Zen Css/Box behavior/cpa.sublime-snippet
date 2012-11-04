@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[clip: auto;
+	<content><![CDATA[
+clip: auto;
 
 ]]></content>
 	<tabTrigger>cp:a</tabTrigger>

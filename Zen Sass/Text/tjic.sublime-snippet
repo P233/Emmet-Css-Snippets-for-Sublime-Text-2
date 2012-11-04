@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[text-justify: inter-cluster
+	<content><![CDATA[
+text-justify: inter-cluster
 
 ]]></content>
 	<tabTrigger>tj:ic</tabTrigger>

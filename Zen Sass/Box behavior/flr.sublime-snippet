@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[float: right
+	<content><![CDATA[
+float: right
 
 ]]></content>
 	<tabTrigger>fl:r</tabTrigger>

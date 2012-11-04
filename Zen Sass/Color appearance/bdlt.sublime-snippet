@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[border-length: 
+	<content><![CDATA[
+border-length: 
 ]]></content>
 	<tabTrigger>bdlt</tabTrigger>
 	<scope>source.sass</scope>

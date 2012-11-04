@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[padding-left: 
+	<content><![CDATA[
+padding-left: 
 ]]></content>
 	<tabTrigger>pl</tabTrigger>
 	<scope>source.sass</scope>

@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[border-top-left-radius: 
+	<content><![CDATA[
+border-top-left-radius: 
 ]]></content>
 	<tabTrigger>bdtlrs</tabTrigger>
 	<scope>source.sass</scope>

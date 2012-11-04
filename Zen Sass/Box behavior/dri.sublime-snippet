@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[display: run-in
+	<content><![CDATA[
+display: run-in
 
 ]]></content>
 	<tabTrigger>d:ri</tabTrigger>

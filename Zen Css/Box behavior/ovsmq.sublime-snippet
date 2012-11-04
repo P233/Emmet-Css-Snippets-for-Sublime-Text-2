@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[overflow-style: marquee;
+	<content><![CDATA[
+overflow-style: marquee;
 
 ]]></content>
 	<tabTrigger>ovs:mq</tabTrigger>

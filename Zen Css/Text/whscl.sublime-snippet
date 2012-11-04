@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[white-space-collapse: loose;
+	<content><![CDATA[
+white-space-collapse: loose;
 
 ]]></content>
 	<tabTrigger>whsc:l</tabTrigger>

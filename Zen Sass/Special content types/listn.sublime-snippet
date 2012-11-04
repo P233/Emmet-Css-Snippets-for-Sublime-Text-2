@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[list-style-type: none
+	<content><![CDATA[
+list-style-type: none
 
 ]]></content>
 	<tabTrigger>list:n</tabTrigger>

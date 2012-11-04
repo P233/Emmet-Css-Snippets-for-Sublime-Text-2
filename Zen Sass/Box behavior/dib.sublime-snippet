@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[display: inline-block
+	<content><![CDATA[
+display: inline-block
 
 ]]></content>
 	<tabTrigger>d:ib</tabTrigger>

@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[list-style-type: upper-roman;
+	<content><![CDATA[
+list-style-type: upper-roman;
 
 ]]></content>
 	<tabTrigger>list:ur</tabTrigger>

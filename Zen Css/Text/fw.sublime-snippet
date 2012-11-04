@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[font-weight: 
+	<content><![CDATA[
+font-weight: 
 ]]></content>
 	<tabTrigger>fw</tabTrigger>
 	<scope>source.css, source.scss</scope>

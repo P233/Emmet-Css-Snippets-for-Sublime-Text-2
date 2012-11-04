@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[page-break-inside: avoid;
+	<content><![CDATA[
+page-break-inside: avoid;
 
 ]]></content>
 	<tabTrigger>pgbi:av</tabTrigger>

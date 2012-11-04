@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[background: ${1:#fff} url(${2:images/}) ${3:0} ${4:0} ${5:no-repeat}
+	<content><![CDATA[
+background: ${1:#fff} url(${2:images/}) ${3:0} ${4:0} ${5:no-repeat}
 ]]></content>
 	<tabTrigger>bg+</tabTrigger>
 	<scope>source.css, source.scss</scope>

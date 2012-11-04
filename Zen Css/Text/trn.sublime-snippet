@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[text-replace: none;
+	<content><![CDATA[
+text-replace: none;
 
 ]]></content>
 	<tabTrigger>tr:n</tabTrigger>

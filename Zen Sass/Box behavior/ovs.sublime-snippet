@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[overflow: scroll
+	<content><![CDATA[
+overflow: scroll
 
 ]]></content>
 	<tabTrigger>ov:s</tabTrigger>

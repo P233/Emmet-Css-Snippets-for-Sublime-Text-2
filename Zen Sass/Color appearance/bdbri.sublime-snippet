@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[border-bottom-right-image: 
+	<content><![CDATA[
+border-bottom-right-image: 
 ]]></content>
 	<tabTrigger>bdbri</tabTrigger>
 	<scope>source.sass</scope>

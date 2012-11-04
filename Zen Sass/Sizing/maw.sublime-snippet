@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[max-width: 
+	<content><![CDATA[
+max-width: 
 ]]></content>
 	<tabTrigger>maw</tabTrigger>
 	<scope>source.sass</scope>

@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[background-color: ${1:#fff}
+	<content><![CDATA[
+background-color: ${1:#fff}
 ]]></content>
 	<tabTrigger>bgc</tabTrigger>
 	<scope>source.sass</scope>

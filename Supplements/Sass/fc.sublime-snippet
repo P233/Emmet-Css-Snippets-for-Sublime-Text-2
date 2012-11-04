@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[$1:first-child
+	<content><![CDATA[
+$1:first-child
 	$2
 ]]></content>
 	<tabTrigger>fc</tabTrigger>

@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[border-left-style: 
+	<content><![CDATA[
+border-left-style: 
 ]]></content>
 	<tabTrigger>bdls</tabTrigger>
 	<scope>source.sass</scope>

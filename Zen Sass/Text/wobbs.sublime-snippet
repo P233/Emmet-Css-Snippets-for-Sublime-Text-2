@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[word-break: break-strict
+	<content><![CDATA[
+word-break: break-strict
 
 ]]></content>
 	<tabTrigger>wob:bs</tabTrigger>

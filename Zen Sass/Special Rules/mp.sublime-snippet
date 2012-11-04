@@ -1,7 +1,8 @@
 <snippet>
-	<content><![CDATA[@media print {
+	<content><![CDATA[
+@media print
 	$1
-}
+
 ]]></content>
 	<tabTrigger>mp</tabTrigger>
 	<scope>source.sass</scope>

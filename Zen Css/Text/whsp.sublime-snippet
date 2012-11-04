@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[white-space: pre;
+	<content><![CDATA[
+white-space: pre;
 
 ]]></content>
 	<tabTrigger>whs:p</tabTrigger>

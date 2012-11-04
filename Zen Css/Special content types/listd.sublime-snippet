@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[list-style-type: disc;
+	<content><![CDATA[
+list-style-type: disc;
 
 ]]></content>
 	<tabTrigger>list:d</tabTrigger>

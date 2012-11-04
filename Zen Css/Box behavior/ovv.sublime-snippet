@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[overflow: visible;
+	<content><![CDATA[
+overflow: visible;
 
 ]]></content>
 	<tabTrigger>ov:v</tabTrigger>

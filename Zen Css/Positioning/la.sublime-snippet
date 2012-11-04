@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[left: auto;
+	<content><![CDATA[
+left: auto;
 
 ]]></content>
 	<tabTrigger>l:a</tabTrigger>

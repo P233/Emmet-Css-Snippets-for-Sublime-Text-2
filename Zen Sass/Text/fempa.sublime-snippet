@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[font-emphasize-position: after
+	<content><![CDATA[
+font-emphasize-position: after
 
 ]]></content>
 	<tabTrigger>femp:a</tabTrigger>

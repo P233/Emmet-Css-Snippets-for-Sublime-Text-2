@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[zoom: 1;
+	<content><![CDATA[
+zoom: 1;
 
 ]]></content>
 	<tabTrigger>zoo</tabTrigger>

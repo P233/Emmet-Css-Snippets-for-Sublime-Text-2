@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[white-space: nowrap
+	<content><![CDATA[
+white-space: nowrap
 
 ]]></content>
 	<tabTrigger>whs:nw</tabTrigger>

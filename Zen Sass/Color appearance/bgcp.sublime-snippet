@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[background-clip: 
+	<content><![CDATA[
+background-clip: 
 ]]></content>
 	<tabTrigger>bgcp</tabTrigger>
 	<scope>source.sass</scope>

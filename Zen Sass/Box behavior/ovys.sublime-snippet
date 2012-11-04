@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[overflow-y: scroll
+	<content><![CDATA[
+overflow-y: scroll
 
 ]]></content>
 	<tabTrigger>ovy:s</tabTrigger>

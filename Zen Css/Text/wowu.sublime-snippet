@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[word-wrap: unrestricted;
+	<content><![CDATA[
+word-wrap: unrestricted;
 
 ]]></content>
 	<tabTrigger>wow:u</tabTrigger>

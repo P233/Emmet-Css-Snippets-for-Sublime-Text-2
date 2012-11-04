@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[list-style-type: square;
+	<content><![CDATA[
+list-style-type: square;
 
 ]]></content>
 	<tabTrigger>list:s</tabTrigger>

@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[font-style: 
+	<content><![CDATA[
+font-style: 
 ]]></content>
 	<tabTrigger>fs</tabTrigger>
 	<scope>source.sass</scope>

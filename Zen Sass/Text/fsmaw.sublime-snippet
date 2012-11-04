@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[font-smooth: always
+	<content><![CDATA[
+font-smooth: always
 
 ]]></content>
 	<tabTrigger>fsm:aw</tabTrigger>

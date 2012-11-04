@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[text-justify: inter-ideograph;
+	<content><![CDATA[
+text-justify: inter-ideograph;
 
 ]]></content>
 	<tabTrigger>tj:ii</tabTrigger>

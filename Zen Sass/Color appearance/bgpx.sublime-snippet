@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[background-position-x: 
+	<content><![CDATA[
+background-position-x: 
 ]]></content>
 	<tabTrigger>bgpx</tabTrigger>
 	<scope>source.sass</scope>

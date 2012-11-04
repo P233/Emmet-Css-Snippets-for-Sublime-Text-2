@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[font-effect: engrave
+	<content><![CDATA[
+font-effect: engrave
 
 ]]></content>
 	<tabTrigger>fef:eg</tabTrigger>

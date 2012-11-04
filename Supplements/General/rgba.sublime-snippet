@@ -1,7 +1,8 @@
 <snippet>
-	<content><![CDATA[rgba(${1:255}, ${2:255}, ${3:255}, ${4:0.5})$5
+	<content><![CDATA[
+rgba(${1:255}, ${2:255}, ${3:255}, ${4:0.5})
 ]]></content>
 	<tabTrigger>rgba</tabTrigger>
 	<scope>source.css, source.scss, source.sass</scope>
-	<description>rgba( )</description>
+	<description>rgba()</description>
 </snippet>

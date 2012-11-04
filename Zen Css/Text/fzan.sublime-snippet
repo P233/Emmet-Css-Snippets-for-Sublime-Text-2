@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[font-size-adjust: none;
+	<content><![CDATA[
+font-size-adjust: none;
 
 ]]></content>
 	<tabTrigger>fza:n</tabTrigger>

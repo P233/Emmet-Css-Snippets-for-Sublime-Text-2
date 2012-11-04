@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[border-left-image: none;
+	<content><![CDATA[
+border-left-image: none;
 
 ]]></content>
 	<tabTrigger>bdli:n</tabTrigger>

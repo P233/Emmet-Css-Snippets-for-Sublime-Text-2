@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[font-family: 'Monotype Corsiva', 'Comic Sans MS', cursive;
+	<content><![CDATA[
+font-family: 'Monotype Corsiva', 'Comic Sans MS', cursive;
 
 ]]></content>
 	<tabTrigger>ff:c</tabTrigger>

@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[border-fit: overwrite
+	<content><![CDATA[
+border-fit: overwrite
 
 ]]></content>
 	<tabTrigger>bdf:ow</tabTrigger>

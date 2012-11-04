@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[quotes: none;
+	<content><![CDATA[
+quotes: none;
 
 ]]></content>
 	<tabTrigger>q:n</tabTrigger>

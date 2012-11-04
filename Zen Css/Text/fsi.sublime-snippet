@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[font-style: italic;
+	<content><![CDATA[
+font-style: italic;
 
 ]]></content>
 	<tabTrigger>fs:i</tabTrigger>

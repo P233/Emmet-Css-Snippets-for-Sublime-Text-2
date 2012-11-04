@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[text-shadow: 
+	<content><![CDATA[
+text-shadow: 
 ]]></content>
 	<tabTrigger>tsh</tabTrigger>
 	<scope>source.sass</scope>

@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[$1:focus
+	<content><![CDATA[
+$1:focus
 	$2
 ]]></content>
 	<tabTrigger>foc</tabTrigger>

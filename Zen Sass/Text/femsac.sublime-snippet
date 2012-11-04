@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[font-emphasize-style: accent
+	<content><![CDATA[
+font-emphasize-style: accent
 
 ]]></content>
 	<tabTrigger>fems:ac</tabTrigger>

@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[border-bottom-right-image: none
+	<content><![CDATA[
+border-bottom-right-image: none
 
 ]]></content>
 	<tabTrigger>bdbri:n</tabTrigger>

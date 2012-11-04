@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[z-index: auto;
+	<content><![CDATA[
+z-index: auto;
 
 ]]></content>
 	<tabTrigger>z:a</tabTrigger>

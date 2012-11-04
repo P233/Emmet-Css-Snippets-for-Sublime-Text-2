@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[clear: right
+	<content><![CDATA[
+clear: right
 
 ]]></content>
 	<tabTrigger>cl:r</tabTrigger>

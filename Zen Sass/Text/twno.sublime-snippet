@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[text-wrap: none
+	<content><![CDATA[
+text-wrap: none
 
 ]]></content>
 	<tabTrigger>tw:no</tabTrigger>

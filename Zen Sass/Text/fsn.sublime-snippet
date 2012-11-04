@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[font-style: normal
+	<content><![CDATA[
+font-style: normal
 
 ]]></content>
 	<tabTrigger>fs:n</tabTrigger>

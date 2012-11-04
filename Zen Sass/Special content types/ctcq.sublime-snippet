@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[content: close-quote
+	<content><![CDATA[
+content: close-quote
 
 ]]></content>
 	<tabTrigger>ct:cq</tabTrigger>

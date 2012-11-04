@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[background-clip: border-box
+	<content><![CDATA[
+background-clip: border-box
 
 ]]></content>
 	<tabTrigger>bgcp:bb</tabTrigger>

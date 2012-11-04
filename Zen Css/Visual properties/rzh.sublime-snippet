@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[resize: horizontal;
+	<content><![CDATA[
+resize: horizontal;
 
 ]]></content>
 	<tabTrigger>rz:h</tabTrigger>

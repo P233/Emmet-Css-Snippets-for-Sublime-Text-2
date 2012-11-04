@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[background-clip: no-clip;
+	<content><![CDATA[
+background-clip: no-clip;
 
 ]]></content>
 	<tabTrigger>bgcp:nc</tabTrigger>

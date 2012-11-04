@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[quotes: '\201C' '\201D' '\2018' '\2019';
+	<content><![CDATA[
+quotes: '\201C' '\201D' '\2018' '\2019';
 
 ]]></content>
 	<tabTrigger>q:en</tabTrigger>

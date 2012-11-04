@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[page-break-before: right;
+	<content><![CDATA[
+page-break-before: right;
 
 ]]></content>
 	<tabTrigger>pgbb:r</tabTrigger>

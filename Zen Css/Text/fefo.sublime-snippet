@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[font-effect: outline;
+	<content><![CDATA[
+font-effect: outline;
 
 ]]></content>
 	<tabTrigger>fef:o</tabTrigger>

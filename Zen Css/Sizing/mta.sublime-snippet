@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[margin-top: auto;
+	<content><![CDATA[
+margin-top: auto;
 
 ]]></content>
 	<tabTrigger>mt:a</tabTrigger>

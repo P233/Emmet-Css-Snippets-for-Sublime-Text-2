@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[overflow: 
+	<content><![CDATA[
+overflow: 
 ]]></content>
 	<tabTrigger>ov</tabTrigger>
 	<scope>source.sass</scope>

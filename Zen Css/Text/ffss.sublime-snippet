@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[font-family: Helvetica, Arial, sans-serif;
+	<content><![CDATA[
+font-family: Helvetica, Arial, sans-serif;
 
 ]]></content>
 	<tabTrigger>ff:ss</tabTrigger>

@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[text-emphasis: accent;
+	<content><![CDATA[
+text-emphasis: accent;
 
 ]]></content>
 	<tabTrigger>te:ac</tabTrigger>

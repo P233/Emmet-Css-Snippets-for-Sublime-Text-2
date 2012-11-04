@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[text-decoration: overline
+	<content><![CDATA[
+text-decoration: overline
 
 ]]></content>
 	<tabTrigger>td:o</tabTrigger>

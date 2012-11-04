@@ -1,5 +1,7 @@
 <snippet>
-	<content><![CDATA[font: ${1:1em} ${2:Arial}, sans-serif
+	<content><![CDATA[
+font: ${1:1em} ${2:Arial}, sans-serif
+
 ]]></content>
 	<tabTrigger>font+</tabTrigger>
 	<scope>source.sass</scope>

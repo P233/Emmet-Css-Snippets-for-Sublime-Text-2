@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[text-align: center;
+	<content><![CDATA[
+text-align: center;
 
 ]]></content>
 	<tabTrigger>ta:c</tabTrigger>

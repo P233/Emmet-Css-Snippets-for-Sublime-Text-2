@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[text-decoration: line-through;
+	<content><![CDATA[
+text-decoration: line-through;
 
 ]]></content>
 	<tabTrigger>td:l</tabTrigger>

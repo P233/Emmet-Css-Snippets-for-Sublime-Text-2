@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[content: counters("$1")
+	<content><![CDATA[
+content: counters("$1")
 $2
 ]]></content>
 	<tabTrigger>ct:cs</tabTrigger>

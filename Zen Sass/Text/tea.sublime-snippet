@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[text-emphasis: after
+	<content><![CDATA[
+text-emphasis: after
 
 ]]></content>
 	<tabTrigger>te:a</tabTrigger>

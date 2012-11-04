@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[font-emphasize-style: disc;
+	<content><![CDATA[
+font-emphasize-style: disc;
 
 ]]></content>
 	<tabTrigger>fems:ds</tabTrigger>

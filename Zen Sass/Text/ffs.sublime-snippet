@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[font-family: Georgia, 'Times New Roman', serif
+	<content><![CDATA[
+font-family: Georgia, 'Times New Roman', serif
 
 ]]></content>
 	<tabTrigger>ff:s</tabTrigger>

@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[$1:after
+	<content><![CDATA[
+$1:after
 	content: "$2"
 	$3
 ]]></content>

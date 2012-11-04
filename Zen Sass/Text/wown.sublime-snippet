@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[word-wrap: normal
+	<content><![CDATA[
+word-wrap: normal
 
 ]]></content>
 	<tabTrigger>wow:n</tabTrigger>

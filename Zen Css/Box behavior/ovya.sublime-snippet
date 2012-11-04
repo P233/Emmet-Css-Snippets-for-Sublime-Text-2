@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[overflow-y: auto;
+	<content><![CDATA[
+overflow-y: auto;
 
 ]]></content>
 	<tabTrigger>ovy:a</tabTrigger>

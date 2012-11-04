@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[text-align: justify;
+	<content><![CDATA[
+text-align: justify;
 
 ]]></content>
 	<tabTrigger>ta:j</tabTrigger>

@@ -1,5 +1,7 @@
 <snippet>
-	<content><![CDATA[filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='',sizingMethod='crop')
+	<content><![CDATA[
+filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='',sizingMethod='crop');
+
 ]]></content>
 	<tabTrigger>bg:ie</tabTrigger>
 	<scope>source.css, source.scss</scope>

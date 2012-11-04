@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[display: table-cell
+	<content><![CDATA[
+display: table-cell
 
 ]]></content>
 	<tabTrigger>d:tbc</tabTrigger>

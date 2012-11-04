@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[font-family: Capitals,Impact, fantasy;
+	<content><![CDATA[
+font-family: Capitals,Impact, fantasy;
 
 ]]></content>
 	<tabTrigger>ff:f</tabTrigger>

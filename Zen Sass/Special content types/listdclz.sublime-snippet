@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[list-style-type: decimal-leading-zero
+	<content><![CDATA[
+list-style-type: decimal-leading-zero
 
 ]]></content>
 	<tabTrigger>list:dclz</tabTrigger>

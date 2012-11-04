@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[display: table-column;
+	<content><![CDATA[
+display: table-column;
 
 ]]></content>
 	<tabTrigger>d:tbcl</tabTrigger>

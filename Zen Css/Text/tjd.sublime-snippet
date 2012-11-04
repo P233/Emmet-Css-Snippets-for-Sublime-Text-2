@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[text-justify: distribute;
+	<content><![CDATA[
+text-justify: distribute;
 
 ]]></content>
 	<tabTrigger>tj:d</tabTrigger>

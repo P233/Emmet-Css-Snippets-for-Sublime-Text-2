@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[background-break: 
+	<content><![CDATA[
+background-break: 
 ]]></content>
 	<tabTrigger>bgbk</tabTrigger>
 	<scope>source.sass</scope>

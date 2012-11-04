@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[white-space-collapse: 
+	<content><![CDATA[
+white-space-collapse: 
 ]]></content>
 	<tabTrigger>whsc</tabTrigger>
 	<scope>source.sass</scope>

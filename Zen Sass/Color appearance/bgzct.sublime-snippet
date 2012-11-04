@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[background-size: contain
+	<content><![CDATA[
+background-size: contain
 
 ]]></content>
 	<tabTrigger>bgz:ct</tabTrigger>

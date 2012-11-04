@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[border-corner-image: 
+	<content><![CDATA[
+border-corner-image: 
 ]]></content>
 	<tabTrigger>bdci</tabTrigger>
 	<scope>source.sass</scope>

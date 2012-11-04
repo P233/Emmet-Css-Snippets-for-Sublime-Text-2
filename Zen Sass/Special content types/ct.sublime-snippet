@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[content: "$1"
+	<content><![CDATA[
+content: "$1"
 $2
 ]]></content>
 	<tabTrigger>ct</tabTrigger>

@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[max-width: none
+	<content><![CDATA[
+max-width: none
 
 ]]></content>
 	<tabTrigger>maw:n</tabTrigger>

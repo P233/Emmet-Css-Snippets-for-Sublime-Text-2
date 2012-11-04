@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[list-style-position: outside;
+	<content><![CDATA[
+list-style-position: outside;
 
 ]]></content>
 	<tabTrigger>lisp:o</tabTrigger>

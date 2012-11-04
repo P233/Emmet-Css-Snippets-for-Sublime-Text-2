@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[text-shadow: none;
+	<content><![CDATA[
+text-shadow: none;
 
 ]]></content>
 	<tabTrigger>tsh:n</tabTrigger>

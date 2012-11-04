@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[box-sizing: content-box
+	<content><![CDATA[
+box-sizing: content-box
 
 ]]></content>
 	<tabTrigger>bxz:cb</tabTrigger>

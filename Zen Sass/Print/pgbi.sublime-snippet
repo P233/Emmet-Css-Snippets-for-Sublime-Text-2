@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[page-break-inside: 
+	<content><![CDATA[
+page-break-inside: 
 ]]></content>
 	<tabTrigger>pgbi</tabTrigger>
 	<scope>source.sass</scope>

@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[text-decoration: 
+	<content><![CDATA[
+text-decoration: 
 ]]></content>
 	<tabTrigger>td</tabTrigger>
 	<scope>source.sass</scope>

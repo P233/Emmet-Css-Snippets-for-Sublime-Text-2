@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[display: table-header-group
+	<content><![CDATA[
+display: table-header-group
 
 ]]></content>
 	<tabTrigger>d:tbhg</tabTrigger>

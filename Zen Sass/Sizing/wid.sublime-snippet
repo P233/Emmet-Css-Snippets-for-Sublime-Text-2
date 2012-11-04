@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[width: 
+	<content><![CDATA[
+width: 
 ]]></content>
 	<tabTrigger>wid</tabTrigger>
 	<scope>source.sass</scope>

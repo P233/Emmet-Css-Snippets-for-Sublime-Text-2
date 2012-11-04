@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[inherit;
+	<content><![CDATA[
+inherit;
 
 ]]></content>
 	<tabTrigger>in</tabTrigger>

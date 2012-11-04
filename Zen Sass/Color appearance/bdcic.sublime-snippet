@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[border-corner-image: continue
+	<content><![CDATA[
+border-corner-image: continue
 
 ]]></content>
 	<tabTrigger>bdci:c</tabTrigger>

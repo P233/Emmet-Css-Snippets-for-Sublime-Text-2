@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[border-collapse: separate;
+	<content><![CDATA[
+border-collapse: separate;
 
 ]]></content>
 	<tabTrigger>bdcl:s</tabTrigger>

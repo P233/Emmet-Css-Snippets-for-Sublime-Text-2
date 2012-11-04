@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[background-origin: border-box
+	<content><![CDATA[
+background-origin: border-box
 
 ]]></content>
 	<tabTrigger>bgo:bb</tabTrigger>

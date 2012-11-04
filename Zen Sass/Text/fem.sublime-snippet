@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[font-emphasize: 
+	<content><![CDATA[
+font-emphasize: 
 ]]></content>
 	<tabTrigger>fem</tabTrigger>
 	<scope>source.sass</scope>

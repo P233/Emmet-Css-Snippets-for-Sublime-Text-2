@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[empty-cells: 
+	<content><![CDATA[
+empty-cells: 
 ]]></content>
 	<tabTrigger>ec</tabTrigger>
 	<scope>source.sass</scope>

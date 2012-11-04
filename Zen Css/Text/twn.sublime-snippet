@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[text-wrap: normal;
+	<content><![CDATA[
+text-wrap: normal;
 
 ]]></content>
 	<tabTrigger>tw:n</tabTrigger>

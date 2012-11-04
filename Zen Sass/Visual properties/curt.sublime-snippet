@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[cursor: text
+	<content><![CDATA[
+cursor: text
 
 ]]></content>
 	<tabTrigger>cur:t</tabTrigger>
