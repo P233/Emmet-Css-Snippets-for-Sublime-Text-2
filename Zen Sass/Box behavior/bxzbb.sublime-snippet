@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-box-sizing: border-box
-
-]]></content>
-	<tabTrigger>bxz:bb</tabTrigger>
-	<scope>source.sass</scope>
-	<description>box-sizing:border-box</description>
-</snippet>

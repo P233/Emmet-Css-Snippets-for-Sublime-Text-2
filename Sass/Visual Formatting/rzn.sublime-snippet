@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+-webkit-resize: none
+-moz-resize: none
+resize: none
+
+]]></content>
+	<tabTrigger>rz:n</tabTrigger>
+	<scope>source.sass</scope>
+	<description>resize:none</description>
+</snippet>

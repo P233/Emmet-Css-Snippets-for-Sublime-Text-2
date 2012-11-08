@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+-webkit-border-image: none
+-moz-border-image: none
+border-image: none
+
+]]></content>
+	<tabTrigger>bdi:n</tabTrigger>
+	<scope>source.sass</scope>
+	<description>border-image:none</description>
+</snippet>

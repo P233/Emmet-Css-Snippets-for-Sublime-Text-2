@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+clear: 
+]]></content>
+	<tabTrigger>cl</tabTrigger>
+	<scope>source.sass</scope>
+	<description>clear</description>
+</snippet>

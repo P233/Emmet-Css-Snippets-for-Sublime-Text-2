@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-$1:hover
-	$2
-]]></content>
-	<tabTrigger>hov</tabTrigger>
-	<scope>source.sass</scope>
-	<description>:hover</description>
-</snippet>

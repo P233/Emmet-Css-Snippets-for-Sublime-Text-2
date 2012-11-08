@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-resize: both
-
-]]></content>
-	<tabTrigger>rz:b</tabTrigger>
-	<scope>source.sass</scope>
-	<description>resize:both</description>
-</snippet>

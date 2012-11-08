@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-margin: 0;
-
-]]></content>
-	<tabTrigger>m:0</tabTrigger>
-	<scope>source.css, source.scss</scope>
-	<description>margin:0</description>
-</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+$1:focus
+	$2
+
+]]></content>
+	<tabTrigger>foc</tabTrigger>
+	<scope>source.sass</scope>
+	<description>:focus</description>
+</snippet>

@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+&:visited {
+	$1
+}
+
+]]></content>
+	<tabTrigger>vit:a</tabTrigger>
+	<scope>source.css.less, source.scss</scope>
+	<description>&amp;:visited</description>
+</snippet>

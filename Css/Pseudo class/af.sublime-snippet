@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+$1:after {
+	content: "$2";
+	$3
+}
+
+]]></content>
+	<tabTrigger>af</tabTrigger>
+	<scope>source.css, source.scss</scope>
+	<description>:after</description>
+</snippet>

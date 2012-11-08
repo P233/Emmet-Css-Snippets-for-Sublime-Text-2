@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+border-style: dot-dot-dash
+
+]]></content>
+	<tabTrigger>bds:ddd</tabTrigger>
+	<scope>source.sass</scope>
+	<description>border-style:dot-dot-dash</description>
+</snippet>

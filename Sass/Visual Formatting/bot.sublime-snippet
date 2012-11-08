@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+bottom: 
+]]></content>
+	<tabTrigger>bot</tabTrigger>
+	<scope>source.sass</scope>
+	<description>bottom</description>
+</snippet>

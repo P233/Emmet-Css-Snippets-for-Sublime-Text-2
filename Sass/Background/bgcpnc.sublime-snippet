@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+-webkit-background-clip: no-clip
+-moz-background-clip: no-clip
+background-clip: no-clip
+
+]]></content>
+	<tabTrigger>bgcp:nc</tabTrigger>
+	<scope>source.sass</scope>
+	<description>background-clip:no-clip</description>
+</snippet>

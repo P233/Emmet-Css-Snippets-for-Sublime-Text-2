@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+box-shadow: none
+
+]]></content>
+	<tabTrigger>bxsh:n</tabTrigger>
+	<scope>source.sass</scope>
+	<description>box-shadow:none</description>
+</snippet>

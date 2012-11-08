@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+-webkit-background-size: contain
+-moz-background-size: contain
+background-size: contain
+
+]]></content>
+	<tabTrigger>bgz:ct</tabTrigger>
+	<scope>source.sass</scope>
+	<description>background-size:contain</description>
+</snippet>

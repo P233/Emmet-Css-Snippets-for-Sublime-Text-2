@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[
-overflow-y: 
-]]></content>
-	<tabTrigger>ovy</tabTrigger>
-	<scope>source.css, source.scss</scope>
-	<description>overflow-y</description>
-</snippet>

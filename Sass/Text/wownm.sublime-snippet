@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+word-wrap: normal
+
+]]></content>
+	<tabTrigger>wow:nm</tabTrigger>
+	<scope>source.sass</scope>
+	<description>word-wrap:normal</description>
+</snippet>

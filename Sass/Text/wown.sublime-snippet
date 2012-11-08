@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+word-wrap: none
+
+]]></content>
+	<tabTrigger>wow:n</tabTrigger>
+	<scope>source.sass</scope>
+	<description>word-wrap:none</description>
+</snippet>

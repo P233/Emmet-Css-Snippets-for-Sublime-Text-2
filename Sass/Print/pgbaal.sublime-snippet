@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+page-break-after: always
+
+]]></content>
+	<tabTrigger>pgba:al</tabTrigger>
+	<scope>source.sass</scope>
+	<description>page-break-after:always</description>
+</snippet>

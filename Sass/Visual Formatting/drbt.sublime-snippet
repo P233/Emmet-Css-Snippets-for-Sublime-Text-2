@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+display: ruby-text
+
+]]></content>
+	<tabTrigger>d:rbt</tabTrigger>
+	<scope>source.sass</scope>
+	<description>display:ruby-text</description>
+</snippet>

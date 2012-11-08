@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+content: "$1";
+
+]]></content>
+	<tabTrigger>ct</tabTrigger>
+	<scope>source.css, source.scss</scope>
+	<description>content</description>
+</snippet>

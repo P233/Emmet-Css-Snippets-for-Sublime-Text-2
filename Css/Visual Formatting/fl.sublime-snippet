@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+float: 
+]]></content>
+	<tabTrigger>fl</tabTrigger>
+	<scope>source.css, source.scss</scope>
+	<description>float</description>
+</snippet>

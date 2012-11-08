@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+$1:link
+	$2
+
+]]></content>
+	<tabTrigger>li</tabTrigger>
+	<scope>source.sass</scope>
+	<description>:link</description>
+</snippet>

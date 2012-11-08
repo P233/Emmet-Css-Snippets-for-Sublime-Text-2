@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+font-smooth: auto
+
+]]></content>
+	<tabTrigger>fsm:au</tabTrigger>
+	<scope>source.sass</scope>
+	<description>font-smooth:auto</description>
+</snippet>

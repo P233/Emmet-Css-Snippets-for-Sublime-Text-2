@@ -1,302 +1,172 @@
-# Zen Css Snippets for Sublime Text 2
+# Emmet Css Snippets for Sublime Text 2
 
-Zen Css is a great tool to increase css input speed, but the property aliases are not easy to remeber. Fortunately, Sublime Text 2 has a very powerful snippets feature can turn these syntaxes into autocomplete hints. So, I organized Zen Css syntaxes into Sublime Text 2 snippets. It can work with Css, Less, Scss and Sass. I also made a few changes and added some additional snippets which you will see from below. Now it significantly increased my coding speed. Hope you will like it.
+Zen Css (now has been updated to [Emmet](http://docs.emmet.io)) is a great tool to increase css workflow, but the property aliases are not easy to remeber. Therefore I turned Zen Css syntaxes into sublime text 2 snippets, so we can use Zen Css through autocomplete hints. It can work with Css, Less, Scss and Sass. I also made a few changes and added some additional snippets which you will see from below.
 
-I would be very happy to hear your feedbacks and suggestions for improvement.
+If you have any problems with this repo or suggestions for improvement, please [fill an issue](https://github.com/P233/Emmet-Css-Snippets-for-Sublime-Text-2/issues).
 
-<br/>
-## Zen Css
-If you haven't used Zen Css before, please check the link below:
+*This repo has been updated accordingly from "Zen Css Snippets" to "Emmet Css Snippets".*
 
-http://code.google.com/p/zen-coding/wiki/ZenCSSPropertiesEn
-
-
-<br/>
 ## Installation
-Rename the downloaded folder as you like, and then move it into the Packages folder of Subliem Text 2
+Rename the downloaded folder as you like, and then move it into the Packages folder of Subliem Text 2.
 
 
-<br/>
 ## Explanation
-##### 1. The snippets will automatically add a carriage return after autocomplete.
+1. If snippet contains css value, it will automaticlly insert a new line after semicolon. However, if you write a css property before existing one, it will also insert a needless new line in the middle. To deal with this problem, you may try to write css properties top-down and use the [CSScomb tool](http://csscomb.com) to rearrange the order.
 
-##### 2. If the alias is only one character in Zen Css, now it should be the first three characters of the property it represented. In addition, the alias of widows property is full spelling now. This is in order to increase the accuracy of autocomplete hints.
-* <del>t</del> top => top:
-* <del>r</del> rig => right:
-* <del>b</del> bot => bottom:
-* <del>l</del> lef => left:
-* <del>z</del> zin => z-index:
-* <del>d</del> dis => display:
-* <del>v</del> vis => visibility:
-* <del>m</del> mar => margin:
-* <del>p</del> pad => padding:
-* <del>w</del> wid => width:
-* <del>h</del> hei => height:
-* <del>o</del> out => outline:
-* <del>c</del> col => color:
-* <del>q</del> quo => quotes:
-* <del>f</del> fon => font:
-* <del>f+</del> fon+ => font: 1em Arial,sans-serif;
-* <del>wid</del> widows => widows
+2. If snippet contains "{ }" , it will automaticlly insert a new line after "}". So it's easier to make the cursor jump out of '{ }' by pressing the Command + Down_Arrow keys or sometimes the Tab key, and start to write a new piece of css.
 
-##### 3. Snippets canot begain with a symbol. Here are the changes：
-* <del>@i</del> imp => @import url()
-* <del>@m</del> mp => @media print {}
-* <del>@f</del> ffa => @font-face {}
-* <del>!</del> imt => !important
+3. No need to type "colon" as in Emmet.
 
-For this reason, alias contains "+" need to be selected manually in the autocompelte pupup window.
+4. If property alias is only one character in Emmet, now it should be the first three characters of the property it represented (e.g., "mar" => "margin:", wid" => "width:"). In addition, the alias of "widows" property is full spelling now. This is in order to increase the accuracy of autocomplete hints. There are also some other changes, please see the [Snippets List](https://github.com/P233/Emmet-Css-Snippets-for-Sublime-Text-2/blob/master/Snippets%20List.md) for more details.
 
-##### 4. Removed all properties begin with prefix -webkit- and -moz-
-* <del>bdim   =>   -moz-border-image:</del>
-* <del>bdim+  =>   -moz-border-image:url() 0 repeat</del>
-* <del>bdiw   =>   -webkit-border-image:</del>
-* <del>bdiw+  =>   -moz-border-image:url() 0 repeat</del>
-* <del>bdrmw  =>   -moz-border-radius:</del>
-* <del>bdrsw  =>   -webkit-border-radius: </del>
-* <del>bxshm  =>   -moz-box-shadow:</del>
-* <del>bxshm+ =>   -moz-box-shadow: 0 0 0 #000</del>
-* <del>bxshw  =>   -webkit-box-shadow:</del>
-* <del>bxshw+ =>   -webkit-box-shadow: 0 0 0 #000</del>
+5. Property alias canot contain symbols in Sublime Text 2 snippets. Here are the changes：
 
-##### 5. In some snippets, pressing Tab key can move cursor position. For instance, once you finished editing comment, press the Tab key, cursor will jump out of the comment line and advance to a new line. Pressing Shift + Tab will move the cursor backwards.
+	```
+	imp    =>    @import url()
+	mp     =>    @media print {}
+	ffa    =>    @font-face {}
+	ffa+   =>    @font-face {}
+	imt    =>    !important
+	*For this reason, property alias contains "+" need to be selected manually in the autocompelte pupup window.
+	```
 
-##### 6. The remaining snippets have no different from Zen Css.
+6. You can move cursor position by pressing the Tab key in some snippets. For instance, once you finished editing comment, press the Tab key, cursor will jump out of the comment line and advance to a new line. Pressing the Shift + Tab keys will move the cursor backwards.
 
-<br/>
-## Supplements
-### General
+7. Added vendor prefixes for some properties. 
 
-	act   =>   &:active {}
-
-	aft   =>   &:after { content: ""; }
-
-	bef   =>   &:before { content: ""; }
-
-	com   =>   /* --------- comment -----------*/
-
-	fc    =>   &:first-child {}
-
-	foc   =>   &:focus {}
-
-	hov   =>   &:hover {}
-
-	hsl   =>   hsl(359, 100%, 100%)
-	
-	hsla  =>   hsla(359, 100%, 100%, 0.5)
-
-	in    =>   inherit;
-
-	lc    =>   &:last-child {}
-
-	nth   =>   &:nth-child() {}
-
-	reset =>   Eric Meyer's Reset CSS 2.0
-
-	rgb   =>   rgb(255, 255, 255)
-	
-	rgba  =>   rgba(255, 255, 255, 0.5)
-	
-### Scss / Sass
-
-	ext   =>   @extend
-
-	inc   =>   @include
-
-	mix   =>   @mixin
-##### * There are two versions of pseudo class snippets in Less, Scss and Sass. In the first version, selector is replaced with "&". In the second version, it is better to type out selector after triggering snippet.
+8. **Added additional snippets, please see the [Snippets List](https://github.com/P233/Emmet-Css-Snippets-for-Sublime-Text-2/blob/master/Snippets%20List.md) for more details.**
 
 
-<br/>
+
 ## Sublime Text 2 Key Bindings
-Here are a few key bindings may help you to write css conveniently. Just copy and paste the following code to “Preferences menu => Key Bindings - User”
-##### 1. input "{}" with auto carriage return and indent inside <br/>
+Here are a few key bindings may help you to write css conveniently. Copy and paste the following code to "Key Bindings - User" of Preferences menu.
+
+<br>
+Pressing the "{" key to input "{ }" with a new line with indent inside and a new line after "}"
+
 ```
-{ "keys": ["{"], "command": "insert_snippet", "args": {"contents": " {\n\t$0\n}"}, "c"ontext":
+{ "keys": ["{"], "command": "insert_snippet", "args": {"contents": " {\n\t$0\n}\n"}, "c"ontext":
     [
         { "key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
         { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true },
         { "key": "following_text", "operator": "regex_contains", "operand": "^(?:\t| |\\)|]|\\}|$)", "match_all": true }
     ]
 },
-{ "keys": ["{"], "command": "insert_snippet", "args": {"contents": " {\n\t${0:$SELECTION}\n}"}, "context":
+{ "keys": ["{"], "command": "insert_snippet", "args": {"contents": " {\n\t${0:$SELECTION}\n}\n"}, "context":
     [
         { "key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
         { "key": "selection_empty", "operator": "equal", "operand": false, "match_all": true }
     ]
 },
 ```
-##### 2. input ":" with a space behind<br/>
+
+Pressing the ":" key to input colon with a space behind
+
 ```
 { "keys": [":"], "command": "insert", "args": {"characters": ": "} },
 ```
-##### 3. input ";" with auto carriage return <br/>
+
+Pressing the ";" key to input semicolon with a new line behind
+
 ```
 { "keys": [";"], "command": "insert", "args": {"characters": ";\n"} },
 ```
-###### "Ctrl + ;" input ";" without auto carriage return
+
+Pressing the "Ctrl" + ";" keys to input semicolon without a new line behind
+
 ```
 { "keys": ["ctrl+;"], "command": "insert", "args": {"characters": ";"} },
 ```
 
-
-<br/>
 ## Credit
-Zen Css -- http://code.google.com/p/zen-coding/wiki/ZenCSSPropertiesEn
+**Emmet** -- http://docs.emmet.io
 
-Eric Meyer's Reset CSS 2.0 -- http://meyerweb.com/eric/tools/css/reset/
+**Eric Meyer's Reset CSS 2.0** -- http://meyerweb.com/eric/tools/css/reset/
 
 <br/><br/>
 
 ---
 
 <br/><br/>
-# Zen Css Snippets for Sublime Text 2
+# Emmet Css Snippets for Sublime Text 2 中文说明
 
-Zen Css 可以显著提高 css 的书写速度，但是比较难记、也没有提示，好在 Sublime Text 2 的自定义 snippets  功能非常强大，可以将其法将其转化为自动补完功能，因此整理了一下，兼容 Css，Less，Scss 以及 Sass。同时做了一些修改，比如补完后自动换行，Tab 键切换光标位置等等。
+Zen Css（已升级为 [Emmet](http://docs.emmet.io)）可以显著提高 css 的书写速度，但是缩写比较难记、也没有提示。于是通过 Sublime Text 2 的自定义 snippets 功能将其整理为自动补完，兼容 Css，Less，Scss 以及 Sass。同时做了一些修改，添加了额外的 snippets 等等。
 
-疏漏、错误的地方请大家多提醒，好建议也请一起交流，QQ: 40132147，谢谢关注！！
+如果在使用中遇到任何问题或修改建议, 请 [填写 issue](https://github.com/P233/Emmet-Css-Snippets-for-Sublime-Text-2/issues)
 
-
-<br/>
-## Zen Css
-如果还未用过 Zen Css，请先查看下面的链接：
-
-http://code.google.com/p/zen-coding/wiki/ZenCSSPropertiesEn
-
-
-<br/>
 ## 安装
 将下载的文件夹重命名，然后移动到 Sublime Text 2 的 Packages 文件夹下即可
 
 
-<br/>
 ## 说明
-##### 1. 自动补完后自动换行
+1. 包含 css 值的 snippet 都会在“分号”后自动换行，但如果在几个属性之间插入 css 属性，也会在后面添加多余的一行。建议自上而下书写 css 属性，然后用 [CSScomb 工具](http://csscomb.com) 重新排列顺序
 
-##### 2. Zen Css 中只用到一个字母的缩写改为使用前三个字母作为缩写，widows 属性使用完整拼写（这样做是为了提高自动提示的准确度）：
-* <del>t</del> top => top:
-* <del>r</del> rig => right:
-* <del>b</del> bot => bottom:
-* <del>l</del> lef => left:
-* <del>z</del> zin => z-index:
-* <del>d</del> dis => display:
-* <del>v</del> vis => visibility:
-* <del>m</del> mar => margin:
-* <del>p</del> pad => padding:
-* <del>w</del> wid => width:
-* <del>h</del> hei => height:
-* <del>o</del> out => outline:
-* <del>c</del> col => color:
-* <del>q</del> quo => quotes:
-* <del>f</del> fon => font:
-* <del>f+</del> fon+ => font: 1em Arial,sans-serif;
-* <del>wid</del> widows => widows
+2. 如果 snippet 中包含 "{ }" , 会在 "}" 后自动换行，通过 Command + Down_Arrow 快捷键（有时 Tab 键）让光标跳出 "{ }"，然后开始书写新的一段 css
 
-##### 3. 以符号开头的 snippets 无效，所以修改为：
-* <del>@i</del> imp => @import url()
-* <del>@m</del> mp => @media print {}
-* <del>@f</del> ffa => @font-face {}
-* <del>!</del> imt => !important
+3. 不需要输入“冒号”
 
-同理，包含“+”的不能直接输入，需要手动选择
+4. Emmet 中只用到一个字母的缩写改为使用前三个字母作为缩写(例如, "mar" => "margin:", wid" => "width:")，widows 属性使用完整拼写，这样做是为了提高自动提示的准确度。更多变更请查看 [Snippets List](https://github.com/P233/Emmet-Css-Snippets-for-Sublime-Text-2/blob/master/Snippets%20List.md)
 
-##### 4. 去掉了所有包含 -webkit- 与 -moz- 前缀的属性
-* <del>bdim   =>   -moz-border-image:</del>
-* <del>bdim+  =>   -moz-border-image:url() 0 repeat</del>
-* <del>bdiw   =>   -webkit-border-image:</del>
-* <del>bdiw+  =>   -moz-border-image:url() 0 repeat</del>
-* <del>bdrmw  =>   -moz-border-radius:</del>
-* <del>bdrsw  =>   -webkit-border-radius: </del>
-* <del>bxshm  =>   -moz-box-shadow:</del>
-* <del>bxshm+ =>   -moz-box-shadow: 0 0 0 #000</del>
-* <del>bxshw  =>   -webkit-box-shadow:</del>
-* <del>bxshw+ =>   -webkit-box-shadow: 0 0 0 #000</del>
+5. 缩写不能包含符号，所以做出以下更改：
 
-##### 5. 部分 snippets 可用 Tab 键切换光标位置，例如编辑完注释后，按下 Tab 键，光标跳出注释进入新的一行。Shift + Tab 返回上一位置。
+	```
+	imp    =>    @import url()
+	mp     =>    @media print {}
+	ffa    =>    @font-face {}
+	ffa+   =>    @font-face {}
+	imt    =>    !important
+	*同理，包含 "+" 的缩写不能直接输入，需要手动选择
+	```
 
-##### 6. 其他与 Zen Css 一致，如果对上述修改有不同想法，我们可以一起交流
+6. 某些 snippets 中可用 Tab 键切换光标位置。例如，编辑完注释后按下 Tab 键，光标跳出注释进入新的一行。按下 Shift + Tab 组合键，光标返回上一位置
+
+7. 部分 css 属性添加了浏览器前缀
+
+8. **添加了额外的 snippets, 具体请查看 [Snippets List](https://github.com/P233/Emmet-Css-Snippets-for-Sublime-Text-2/blob/master/Snippets%20List.md)**
 
 
-<br/>
-## Supplements - 补充内容
-### General
 
-	act   =>   &:active {}
+## Sublime Text 2 按键设置
+几个按键设置也许能让书写 css 更方便，复制以下代码到设置菜单中的 “Key Bindings - User” 中
 
-	aft   =>   &:after { content: ""; }
+<br>
+输入 "{" + 自动换行 + 缩进 + "}" + 自动换行
 
-	bef   =>   &:before { content: ""; }
-
-	com   =>   /* --------- comment -----------*/
-
-	fc    =>   &:first-child {}
-
-	foc   =>   &:focus {}
-
-	hov   =>   &:hover {}
-
-	hsl   =>   hsl(359, 100%, 100%)
-	
-	hsla  =>   hsla(359, 100%, 100%, 0.5)
-
-	in    =>   inherit;
-
-	lc    =>   &:last-child {}
-
-	nth   =>   &:nth-child() {}
-
-	reset =>   Eric Meyer's Reset CSS 2.0
-
-	rgb   =>   rgb(255, 255, 255)
-	
-	rgba  =>   rgba(255, 255, 255, 0.5)
-	
-### Scss / Sass
-
-	ext   =>   @extend
-
-	inc   =>   @include
-
-	mix   =>   @mixin
-##### * 在 Less, Scss 和 Sass 中，伪类的 snippets 各有两个版本：第一个版本中选择器被 "&" 替换；第二个版本，请先激活 snippet 再输入选择器。
-
-
-<br/>
-## Sublime Text 2 Key Bindings
-分享几个按键设置，复制代码到 设置菜单中的 “Key Bindings - User” 中即可
-##### 1. "{" + 自动换行 + 缩进 + "}"<br/>
 ```
-{ "keys": ["{"], "command": "insert_snippet", "args": {"contents": " {\n\t$0\n}"}, "c"ontext":
+{ "keys": ["{"], "command": "insert_snippet", "args": {"contents": " {\n\t$0\n}\n"}, "c"ontext":
     [
         { "key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
         { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true },
         { "key": "following_text", "operator": "regex_contains", "operand": "^(?:\t| |\\)|]|\\}|$)", "match_all": true }
     ]
 },
-{ "keys": ["{"], "command": "insert_snippet", "args": {"contents": " {\n\t${0:$SELECTION}\n}"}, "context":
+{ "keys": ["{"], "command": "insert_snippet", "args": {"contents": " {\n\t${0:$SELECTION}\n}\n"}, "context":
     [
         { "key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
         { "key": "selection_empty", "operator": "equal", "operand": false, "match_all": true }
     ]
 },
 ```
-##### 2. ":" + 自动空格 <br/>
+
+输入 ":" + 自动空格
+
 ```
 { "keys": [":"], "command": "insert", "args": {"characters": ": "} },
 ```
-##### 3. ";" + 自动换行 <br/>
+
+输入 ";" + 自动换行
+
 ```
 { "keys": [";"], "command": "insert", "args": {"characters": ";\n"} },
 ```
-###### "Ctrl + ;" 组合键取消自动换行
+
+"Ctrl" + ";" 组合键输入 ";" 无自动换行
+
 ```
 { "keys": ["ctrl+;"], "command": "insert", "args": {"characters": ";"} },
 ```
 
+## 感谢
+**Emmet** -- http://docs.emmet.io
 
-<br/>
-## Credit - 感谢
-Zen Css -- http://code.google.com/p/zen-coding/wiki/ZenCSSPropertiesEn
-
-Eric Meyer's Reset CSS 2.0 -- http://meyerweb.com/eric/tools/css/reset/
+**Eric Meyer's Reset CSS 2.0** -- http://meyerweb.com/eric/tools/css/reset/

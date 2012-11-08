@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[
-border-image: url(${1:images/}) ${2:0} ${3:repeat}
-]]></content>
-	<tabTrigger>bdi:+</tabTrigger>
-	<scope>source.sass</scope>
-	<description>border-image:url()</description>
-</snippet>

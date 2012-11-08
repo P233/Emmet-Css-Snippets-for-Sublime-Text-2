@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-&:last-child
-	
-]]></content>
-	<tabTrigger>lc</tabTrigger>
-	<scope>source.sass</scope>
-	<description>&amp;:last-child</description>
-</snippet>

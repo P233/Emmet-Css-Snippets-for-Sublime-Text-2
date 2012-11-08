@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+-ms-overflow-y: $1
+overflow-y: $1
+$2
+]]></content>
+	<tabTrigger>ovy</tabTrigger>
+	<scope>source.sass</scope>
+	<description>overflow-y</description>
+</snippet>

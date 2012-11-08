@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[
-padding: ${1:0} ${2:0}
-]]></content>
-	<tabTrigger>p:2</tabTrigger>
-	<scope>source.sass</scope>
-	<description>padding:0 0</description>
-</snippet>

@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+display: ruby-base;
+
+]]></content>
+	<tabTrigger>d:rbb</tabTrigger>
+	<scope>source.css, source.scss</scope>
+	<description>display:ruby-base</description>
+</snippet>

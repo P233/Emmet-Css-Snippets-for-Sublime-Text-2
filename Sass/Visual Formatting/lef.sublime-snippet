@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+left: 
+]]></content>
+	<tabTrigger>lef</tabTrigger>
+	<scope>source.sass</scope>
+	<description>left</description>
+</snippet>

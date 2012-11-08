@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+&:first-letter {
+	$1
+}
+
+]]></content>
+	<tabTrigger>fle:a</tabTrigger>
+	<scope>source.css.less, source.scss</scope>
+	<description>&amp;:first-letter</description>
+</snippet>

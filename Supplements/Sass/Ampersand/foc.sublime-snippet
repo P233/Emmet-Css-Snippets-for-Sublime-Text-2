@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-&:focus
-	
-]]></content>
-	<tabTrigger>foc</tabTrigger>
-	<scope>source.sass</scope>
-	<description>&amp;:focus</description>
-</snippet>

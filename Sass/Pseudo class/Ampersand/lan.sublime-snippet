@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+&:lang($1)
+	$2
+
+]]></content>
+	<tabTrigger>lan:a</tabTrigger>
+	<scope>source.sass</scope>
+	<description>&amp:lang</description>
+</snippet>

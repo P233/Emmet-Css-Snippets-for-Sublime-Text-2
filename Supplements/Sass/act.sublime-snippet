@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-$1:active
-	$2
-]]></content>
-	<tabTrigger>act</tabTrigger>
-	<scope>source.sass</scope>
-	<description>:active</description>
-</snippet>

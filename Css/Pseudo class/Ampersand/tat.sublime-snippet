@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+&:target {
+	$1
+}
+
+]]></content>
+	<tabTrigger>tat:a</tabTrigger>
+	<scope>source.css.less, source.scss</scope>
+	<description>&amp;:target</description>
+</snippet>

@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-border-style: dot-dash;
-
-]]></content>
-	<tabTrigger>bds:dtds</tabTrigger>
-	<scope>source.css, source.scss</scope>
-	<description>border-style:dot-dash</description>
-</snippet>

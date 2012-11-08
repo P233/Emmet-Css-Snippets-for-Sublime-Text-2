@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+top: 
+]]></content>
+	<tabTrigger>top</tabTrigger>
+	<scope>source.css, source.scss</scope>
+	<description>top</description>
+</snippet>

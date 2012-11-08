@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-resize: vertical
-
-]]></content>
-	<tabTrigger>rz:v</tabTrigger>
-	<scope>source.sass</scope>
-	<description>resize:vertical</description>
-</snippet>

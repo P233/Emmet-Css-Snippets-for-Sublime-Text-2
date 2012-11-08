@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+bottom: 
+]]></content>
+	<tabTrigger>bot</tabTrigger>
+	<scope>source.css, source.scss</scope>
+	<description>bottom</description>
+</snippet>

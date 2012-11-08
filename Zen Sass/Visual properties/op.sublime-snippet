@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[
-opacity: 
-]]></content>
-	<tabTrigger>op</tabTrigger>
-	<scope>source.sass</scope>
-	<description>opacity</description>
-</snippet>

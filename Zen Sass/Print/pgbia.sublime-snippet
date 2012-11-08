@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-page-break-inside: auto
-
-]]></content>
-	<tabTrigger>pgbi:a</tabTrigger>
-	<scope>source.sass</scope>
-	<description>page-break-inside:auto</description>
-</snippet>

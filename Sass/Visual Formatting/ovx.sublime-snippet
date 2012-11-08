@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+-ms-overflow-x: $1
+overflow-x: $1
+$2
+]]></content>
+	<tabTrigger>ovx</tabTrigger>
+	<scope>source.sass</scope>
+	<description>overflow-x</description>
+</snippet>
