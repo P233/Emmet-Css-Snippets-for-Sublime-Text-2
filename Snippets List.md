@@ -1,10 +1,28 @@
 # Snippets List
 
-** This list is based on the offical [Cheat Sheet](http://docs.emmet.io/cheat-sheet/) of Emmet. **
+**This list is based on the offical [Cheat Sheet](http://docs.emmet.io/cheat-sheet/) of Emmet.**
 
 \* means the property alias is changed in order to increase the accuracy of autocomplete hints.
 
 \+ means this is an additional snippet.
+
+## Menu
+* [Visual Formatting](#visual-formatting)
+* [Margin & Padding](#margin--padding)
+* [Box Sizing](#box-sizing)
+* [Font](#font)
+* [Text](#text)
+* [Background](#background)
+* [Color](#color)
+* [Generated content](#generated-content)
+* [Outline](#outline)
+* [Table](#table)
+* [Border](#border)
+* [Lists](#lists)
+* [Print](#print)
+* [Others](#others)
+* [Pseudo class](#-pseudo-class)
+* [Scss & Sass](#-scss---sass)
 
 ## Visual Formatting
 ```
@@ -116,11 +134,12 @@
   cur:p      =>    cursor:pointer;
   cur:t      =>    cursor:text;
 ```
+**[Back to Top](#menu)**
 
 ## Margin & Padding
 ```
 * mar        =>    margin:;
-+ m:a        =>    margin: 0 auto;
++ m:au       =>    margin: 0 auto;
 
   mt         =>    margin-top:;
   mt:a       =>    margin-top:auto;
@@ -140,6 +159,7 @@
   pb         =>    padding-bottom:;
   pl         =>    padding-left:;
 ```
+**[Back to Top](#menu)**
 
 ## Box Sizing
 ```
@@ -166,6 +186,7 @@
   miw        =>    min-width:;
   mih        =>    min-height:;
 ```
+**[Back to Top](#menu)**
 
 ## Font
 ```
@@ -233,6 +254,7 @@
   fst:ee     =>    font-stretch:extra-expanded;
   fst:ue     =>    font-stretch:ultra-expanded;
 ```
+**[Back to Top](#menu)**
 
 ## Text
 ```
@@ -347,6 +369,7 @@
   wow:u      =>    word-wrap:unrestricted;
   wow:s      =>    word-wrap:suppress;
 ```
+**[Back to Top](#menu)**
 
 ## Background
 ```
@@ -395,6 +418,7 @@
   bgz:ct     =>    background-size:contain;
   bgz:cv     =>    background-size:cover;
 ```
+**[Back to Top](#menu)**
 
 ## Color
 ```
@@ -406,6 +430,7 @@
 + rgb        =>    rgb(255, 255, 255)
 + rgba       =>    rgba(255, 255, 255, 0.5)
 ```
+**[Back to Top](#menu)**
 
 ## Generated content
 ```
@@ -427,6 +452,7 @@
   coi        =>    counter-increment:;
   cor        =>    counter-reset:;
 ```
+**[Back to Top](#menu)**
 
 ## Outline
 ```
@@ -440,6 +466,7 @@
   oc         =>    outline-color:#000;
   oc:i       =>    outline-color:invert;
 ```
+**[Back to Top](#menu)**
 
 ## Table
 ```
@@ -455,6 +482,7 @@
   ec:s       =>    empty-cells:show;
   ec:h       =>    empty-cells:hide;
 ```
+**[Back to Top](#menu)**
 
 ## Border
 ```
@@ -587,6 +615,7 @@
   bdbrrs     =>    border-bottom-right-radius:;
   bdblrs     =>    border-bottom-left-radius:;
 ```
+**[Back to Top](#menu)**
 
 ## Lists
 ```
@@ -610,6 +639,7 @@
   lisi       =>    list-style-image:;
   lisi:n     =>    list-style-image:none;
 ```
+**[Back to Top](#menu)**
 
 ## Print
 ```
@@ -632,6 +662,7 @@
   orp        =>    orphans:;
 * widows     =>    widows:;
 ```
+**[Back to Top](#menu)**
 
 ## Others
 ```
@@ -689,6 +720,8 @@
 + in         =>    inherit;
 
 ```
+**[Back to Top](#menu)**
+
 ## + Pseudo class
 
 *"&:pseudo_class" snippets are only available in Less, Scss and Sass*
@@ -736,6 +769,8 @@
 + tat        =>    :target {}
 + tat:a      =>   &:target {}
 ```
+**[Back to Top](#menu)**
+
 ## + Scss &  Sass
 ```
 + ext        =>    @extend

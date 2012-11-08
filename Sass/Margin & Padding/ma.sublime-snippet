@@ -3,7 +3,7 @@
 margin: 0 auto
 
 ]]></content>
-	<tabTrigger>m:a</tabTrigger>
+	<tabTrigger>m:au</tabTrigger>
 	<scope>source.sass</scope>
 	<description>margin:0 auto</description>
 </snippet>
