@@ -736,6 +736,15 @@
 + be         =>    :before {}
 + be:a       =>   &:before {}
 
++ ch         =>    :checked {}
++ ch:a       =>   &:checked {}
+
++ di         =>    :disabled {}
++ di:a       =>   &:disabled {}
+
++ en         =>    :enabled {}
++ en:a       =>   &:enabled {}
+
 + fc         =>    :first-child {}
 + fc:a       =>   &:first-child {}
 

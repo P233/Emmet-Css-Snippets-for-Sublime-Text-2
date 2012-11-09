@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+&:enabled {
+	$1
+}
+
+]]></content>
+	<tabTrigger>en:a</tabTrigger>
+	<scope>source.css.less, source.scss</scope>
+	<description>&amp;:enabled</description>
+</snippet>

@@ -15,7 +15,7 @@ Rename the downloaded folder as you like, and then move it into the Packages fol
 
 2. If snippet contains "{ }" , it will automaticlly insert a new line after "}". So it's easier to make the cursor jump out of '{ }' by pressing the Command + Down_Arrow keys or sometimes the Tab key, and start to write a new piece of css.
 
-3. No need to type "colon" as in Emmet.
+3. No need to type the "colon" of property aliases.
 
 4. If property alias is only one character in Emmet, now it should be the first three characters of the property it represented (e.g., "mar" => "margin:", wid" => "width:"). In addition, the alias of "widows" property is full spelling now. This is in order to increase the accuracy of autocomplete hints. There are also some other changes, please see the [Snippets List](https://github.com/P233/Emmet-Css-Snippets-for-Sublime-Text-2/blob/master/Snippets%20List.md) for more details.
 
@@ -103,7 +103,7 @@ Zen Css（已升级为 [Emmet](http://docs.emmet.io)）可以显著提高 css �
 
 2. 如果 snippet 中包含 "{ }" , 会在 "}" 后自动换行，通过 Command + Down_Arrow 快捷键（有时 Tab 键）让光标跳出 "{ }"，然后开始书写新的一段 css
 
-3. 不需要输入“冒号”
+3. 不需要输入缩写中的“冒号”
 
 4. Emmet 中只用到一个字母的缩写改为使用前三个字母作为缩写(例如, "mar" => "margin:", wid" => "width:")，widows 属性使用完整拼写，这样做是为了提高自动提示的准确度。更多变更请查看 [Snippets List](https://github.com/P233/Emmet-Css-Snippets-for-Sublime-Text-2/blob/master/Snippets%20List.md)
 

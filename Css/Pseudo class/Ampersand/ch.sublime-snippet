@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+&:checked {
+	$1
+}
+
+]]></content>
+	<tabTrigger>ch:a</tabTrigger>
+	<scope>source.css.less, source.scss</scope>
+	<description>&amp;:checked</description>
+</snippet>

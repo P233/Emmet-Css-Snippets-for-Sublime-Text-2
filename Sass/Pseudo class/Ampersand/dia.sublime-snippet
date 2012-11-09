@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+&:disabled
+	$1
+
+]]></content>
+	<tabTrigger>dia:a</tabTrigger>
+	<scope>source.sass</scope>
+	<description>&amp;:disabled</description>
+</snippet>
