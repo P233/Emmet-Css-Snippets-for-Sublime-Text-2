@@ -6,5 +6,5 @@
 ]]></content>
 	<tabTrigger>lan:a</tabTrigger>
 	<scope>source.sass</scope>
-	<description>&amp:lang</description>
+	<description>&amp;:lang</description>
 </snippet>

@@ -6,5 +6,5 @@
 ]]></content>
 	<tabTrigger>ho:a</tabTrigger>
 	<scope>source.sass</scope>
-	<description>&amp:hover</description>
+	<description>&amp;:hover</description>
 </snippet>

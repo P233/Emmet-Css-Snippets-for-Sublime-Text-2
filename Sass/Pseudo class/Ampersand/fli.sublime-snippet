@@ -6,5 +6,5 @@
 ]]></content>
 	<tabTrigger>fli:a</tabTrigger>
 	<scope>source.sass</scope>
-	<description>&amp:first-line</description>
+	<description>&amp;:first-line</description>
 </snippet>

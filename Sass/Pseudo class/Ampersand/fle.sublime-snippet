@@ -6,5 +6,5 @@
 ]]></content>
 	<tabTrigger>fle:a</tabTrigger>
 	<scope>source.sass</scope>
-	<description>&amp:first-letter</description>
+	<description>&amp;:first-letter</description>
 </snippet>

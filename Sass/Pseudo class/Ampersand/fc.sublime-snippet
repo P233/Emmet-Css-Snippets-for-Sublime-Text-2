@@ -6,5 +6,5 @@
 ]]></content>
 	<tabTrigger>fc:a</tabTrigger>
 	<scope>source.sass</scope>
-	<description>&amp:first-child</description>
+	<description>&amp;:first-child</description>
 </snippet>

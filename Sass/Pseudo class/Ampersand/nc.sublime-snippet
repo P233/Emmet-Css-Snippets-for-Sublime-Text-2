@@ -6,5 +6,5 @@
 ]]></content>
 	<tabTrigger>nc:a</tabTrigger>
 	<scope>source.sass</scope>
-	<description>&amp:nth-child</description>
+	<description>&amp;:nth-child</description>
 </snippet>

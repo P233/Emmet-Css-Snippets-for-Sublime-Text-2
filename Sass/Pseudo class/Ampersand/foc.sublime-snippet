@@ -6,5 +6,5 @@
 ]]></content>
 	<tabTrigger>foc:a</tabTrigger>
 	<scope>source.sass</scope>
-	<description>&amp:focus</description>
+	<description>&amp;:focus</description>
 </snippet>

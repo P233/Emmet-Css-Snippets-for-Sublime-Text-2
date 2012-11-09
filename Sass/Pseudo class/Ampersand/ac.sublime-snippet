@@ -6,5 +6,5 @@
 ]]></content>
 	<tabTrigger>ac:a</tabTrigger>
 	<scope>source.sass</scope>
-	<description>&amp:active</description>
+	<description>&amp;:active</description>
 </snippet>

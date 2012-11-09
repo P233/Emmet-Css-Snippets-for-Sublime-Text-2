@@ -6,5 +6,5 @@
 ]]></content>
 	<tabTrigger>tat:a</tabTrigger>
 	<scope>source.sass</scope>
-	<description>&amp:target</description>
+	<description>&amp;:target</description>
 </snippet>

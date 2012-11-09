@@ -6,5 +6,5 @@
 ]]></content>
 	<tabTrigger>vit:a</tabTrigger>
 	<scope>source.sass</scope>
-	<description>&amp:visited</description>
+	<description>&amp;:visited</description>
 </snippet>

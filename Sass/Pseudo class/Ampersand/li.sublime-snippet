@@ -6,5 +6,5 @@
 ]]></content>
 	<tabTrigger>li:a</tabTrigger>
 	<scope>source.sass</scope>
-	<description>&amp:link</description>
+	<description>&amp;:link</description>
 </snippet>

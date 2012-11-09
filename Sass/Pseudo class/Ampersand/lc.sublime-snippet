@@ -6,5 +6,5 @@
 ]]></content>
 	<tabTrigger>lc:a</tabTrigger>
 	<scope>source.sass</scope>
-	<description>&amp:last-child</description>
+	<description>&amp;:last-child</description>
 </snippet>

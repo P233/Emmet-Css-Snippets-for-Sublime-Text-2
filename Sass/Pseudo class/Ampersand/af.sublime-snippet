@@ -7,5 +7,5 @@
 ]]></content>
 	<tabTrigger>af:a</tabTrigger>
 	<scope>source.sass</scope>
-	<description>&amp:after</description>
+	<description>&amp;:after</description>
 </snippet>
