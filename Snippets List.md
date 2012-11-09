@@ -739,8 +739,8 @@
 + ch         =>    :checked {}
 + ch:a       =>   &:checked {}
 
-+ di         =>    :disabled {}
-+ di:a       =>   &:disabled {}
++ dia        =>    :disabled {}
++ dia:a      =>   &:disabled {}
 
 + en         =>    :enabled {}
 + en:a       =>   &:enabled {}
