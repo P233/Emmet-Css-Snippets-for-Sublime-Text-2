@@ -1,10 +1,10 @@
 <snippet>
 	<content><![CDATA[
-$1:target
+$1:disabled
 	$2
 
 ]]></content>
-	<tabTrigger>tat</tabTrigger>
+	<tabTrigger>dsa</tabTrigger>
 	<scope>source.sass</scope>
-	<description>:target</description>
+	<description>:disabled</description>
 </snippet>

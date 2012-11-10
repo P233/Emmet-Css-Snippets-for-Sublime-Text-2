@@ -5,7 +5,7 @@ $1:target {
 }
 
 ]]></content>
-	<tabTrigger>tat</tabTrigger>
+	<tabTrigger>tgt</tabTrigger>
 	<scope>source.css, source.scss</scope>
 	<description>:target</description>
 </snippet>

@@ -739,8 +739,8 @@
 + ch         =>    :checked {}
 + ch:a       =>   &:checked {}
 
-+ dia        =>    :disabled {}
-+ dia:a      =>   &:disabled {}
++ dsa        =>    :disabled {}
++ dsa:a      =>   &:disabled {}
 
 + en         =>    :enabled {}
 + en:a       =>   &:enabled {}
@@ -775,8 +775,8 @@
 + vit        =>    :visited {}
 + vit:a      =>   &:visited {}
 
-+ tat        =>    :target {}
-+ tat:a      =>   &:target {}
++ tgt        =>    :target {}
++ tgt:a      =>   &:target {}
 ```
 **[Back to Top](#menu)**
 

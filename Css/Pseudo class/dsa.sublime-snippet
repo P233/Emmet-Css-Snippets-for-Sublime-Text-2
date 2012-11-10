@@ -1,10 +1,11 @@
 <snippet>
 	<content><![CDATA[
-$1:disabled
+$1:disabled {
 	$2
+}
 
 ]]></content>
-	<tabTrigger>dia</tabTrigger>
-	<scope>source.sass</scope>
+	<tabTrigger>dsa</tabTrigger>
+	<scope>source.css, source.scss</scope>
 	<description>:disabled</description>
 </snippet>

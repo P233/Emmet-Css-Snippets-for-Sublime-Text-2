@@ -1,10 +1,11 @@
 <snippet>
 	<content><![CDATA[
-&:target
+&:target {
 	$1
+}
 
 ]]></content>
-	<tabTrigger>tat:a</tabTrigger>
-	<scope>source.sass</scope>
+	<tabTrigger>tgt:a</tabTrigger>
+	<scope>source.css.less, source.scss</scope>
 	<description>&amp;:target</description>
 </snippet>
