@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-/*------- ${1:comment} -----*/
+/*------- ${1:comment} -------*/
 $2
 ]]></content>
 	<tabTrigger>com</tabTrigger>

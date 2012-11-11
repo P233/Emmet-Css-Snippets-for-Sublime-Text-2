@@ -3,7 +3,7 @@
 border-fit: scale;
 
 ]]></content>
-	<tabTrigger>bdf:s</tabTrigger>
+	<tabTrigger>bdf:sc</tabTrigger>
 	<scope>source.css, source.scss</scope>
 	<description>border-fit:scale</description>
 </snippet>
