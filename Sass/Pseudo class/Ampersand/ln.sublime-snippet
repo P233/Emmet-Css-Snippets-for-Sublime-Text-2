@@ -4,7 +4,7 @@
 	$2
 
 ]]></content>
-	<tabTrigger>lan:a</tabTrigger>
+	<tabTrigger>ln:a</tabTrigger>
 	<scope>source.sass</scope>
 	<description>&amp;:lang</description>
 </snippet>

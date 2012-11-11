@@ -5,7 +5,7 @@
 }
 
 ]]></content>
-	<tabTrigger>lan:a</tabTrigger>
+	<tabTrigger>ln:a</tabTrigger>
 	<scope>source.css.less, source.scss</scope>
 	<description>&amp;:lang</description>
 </snippet>
