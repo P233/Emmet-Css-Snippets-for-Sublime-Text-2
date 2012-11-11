@@ -2,9 +2,11 @@
 
 **This list is based on the offical [Cheat Sheet](http://docs.emmet.io/cheat-sheet/) of Emmet.**
 
-\* means the property alias is changed in order to increase the accuracy of autocomplete hints.
+* \* means the property alias is changed in order to increase the accuracy of autocomplete hints.
 
-\+ means this is an additional snippet.
+* \+ means this is an additional snippet.
+
+* [Simplified alias] *This might be changed when adding new properties*
 
 ## Menu
 * [Visual Formatting](#visual-formatting)
@@ -26,25 +28,25 @@
 
 ## Visual Formatting
 ```
-  pos        =>    position:;
-  pos:s      =>    position:static;
-  pos:a      =>    position:absolute;
-  pos:r      =>    position:relative;
-  pos:f      =>    position:fixed;
+  pos        =>    position:;                         [ps]
+  pos:s      =>    position:static;                   [ps:s]
+  pos:a      =>    position:absolute;                 [ps:a]
+  pos:r      =>    position:relative;                 [ps:r]
+  pos:f      =>    position:fixed;                    [ps:f]
 
 * top        =>    top:;
   t:a        =>    top:auto;
 
-* rig        =>    right:;
+* rig        =>    right:;                            [ri]
   r:a        =>    right:auto;
 
 * bot        =>    bottom:;
   b:a        =>    bottom:auto;
 
-* lef        =>    left:;
+* lef        =>    left:;                             [le]
   l:a        =>    left:auto;
 
-* zin        =>    z-index:;
+* zin        =>    z-index:;                          [zi]
   z:a        =>    z-index:auto;
 
   fl         =>    float:;
@@ -67,15 +69,15 @@
   d:ri       =>    display:run-in;
   d:cp       =>    display:compact;
   d:tb       =>    display:table;
-  d:itb      =>    display:inline-table;
-  d:tbcp     =>    display:table-caption;
-  d:tbcl     =>    display:table-column;
-  d:tbclg    =>    display:table-column-group;
-  d:tbhg     =>    display:table-header-group;
-  d:tbfg     =>    display:table-footer-group;
-  d:tbr      =>    display:table-row;
-  d:tbrg     =>    display:table-row-group;
-  d:tbc      =>    display:table-cell;
+  d:itb      =>    display:inline-table;              [d:it]
+  d:tbcp     =>    display:table-caption;             [d:tcp]
+  d:tbcl     =>    display:table-column;              [d:cl]
+  d:tbclg    =>    display:table-column-group;        [d:cg]
+  d:tbhg     =>    display:table-header-group;        [d:hg]
+  d:tbfg     =>    display:table-footer-group;        [d:fg]
+  d:tbr      =>    display:table-row;                 [d:tr]
+  d:tbrg     =>    display:table-row-group;           [d:trg]
+  d:tbc      =>    display:table-cell;                [d:tc]
   d:rb       =>    display:ruby;
   d:rbb      =>    display:ruby-base;
   d:rbbg     =>    display:ruby-base-group;
@@ -89,57 +91,57 @@
 
   ov         =>    overflow:;
   ov:v       =>    overflow:visible;
-  ov:h       =>    overflow:hidden;
+  ov:h       =>    overflow:hidden;                   [o:h]
   ov:s       =>    overflow:scroll;
-  ov:a       =>    overflow:auto;
+  ov:a       =>    overflow:auto;                     [o:a]
 
-  ovx        =>    overflow-x:;
-  ovx:v      =>    overflow-x:visible;
-  ovx:h      =>    overflow-x:hidden;
-  ovx:s      =>    overflow-x:scroll;
-  ovx:a      =>    overflow-x:auto;
+  ovx        =>    overflow-x:;                       [ox]
+  ovx:v      =>    overflow-x:visible;                [ox:v]
+  ovx:h      =>    overflow-x:hidden;                 [ox:h]
+  ovx:s      =>    overflow-x:scroll;                 [ox:s]
+  ovx:a      =>    overflow-x:auto;                   [ox:a]
 
-  ovy        =>    overflow-y:;
-  ovy:v      =>    overflow-y:visible;
-  ovy:h      =>    overflow-y:hidden;
-  ovy:s      =>    overflow-y:scroll;
-  ovy:a      =>    overflow-y:auto;
+  ovy        =>    overflow-y:;                       [oy]
+  ovy:v      =>    overflow-y:visible;                [oy:v]
+  ovy:h      =>    overflow-y:hidden;                 [oy:h]
+  ovy:s      =>    overflow-y:scroll;                 [oy:s]
+  ovy:a      =>    overflow-y:auto;                   [oy:v]
 
   ovs        =>    overflow-style:;
-  ovs:a      =>    overflow-style:auto;
-  ovs:s      =>    overflow-style:scrollbar;
-  ovs:p      =>    overflow-style:panner;
-  ovs:m      =>    overflow-style:move;
-  ovs:mq     =>    overflow-style:marquee;
+  ovs:a      =>    overflow-style:auto;               [os:a]
+  ovs:s      =>    overflow-style:scrollbar;          [os:s]
+  ovs:p      =>    overflow-style:panner;             [os:p]
+  ovs:m      =>    overflow-style:move;               [os:m]
+  ovs:mq     =>    overflow-style:marquee;            [os:q]
 
-  zoo        =>    zoom:1;
+  zoo        =>    zoom:1;                            [zo]
 
   cp         =>    clip:;
   cp:a       =>    clip:auto;
   cp:r       =>    clip:rect();
 
   rz         =>    resize:;
-  rz:n       =>    resize:none;
+  rz:n       =>    resize:none;                       [r:n]
   rz:b       =>    resize:both;
-  rz:h       =>    resize:horizontal;
-  rz:v       =>    resize:vertical;
+  rz:h       =>    resize:horizontal;                 [r:h]
+  rz:v       =>    resize:vertical;                   [r:v]
 
   cur        =>    cursor:;
-  cur:a      =>    cursor:auto;
-  cur:d      =>    cursor:default;
-  cur:c      =>    cursor:crosshair;
-  cur:ha     =>    cursor:hand;
-  cur:he     =>    cursor:help;
-  cur:m      =>    cursor:move;
-  cur:p      =>    cursor:pointer;
-  cur:t      =>    cursor:text;
+  cur:a      =>    cursor:auto;                       [cr:a]
+  cur:d      =>    cursor:default;                    [cr:d]
+  cur:c      =>    cursor:crosshair;                  [cr:c]
+  cur:ha     =>    cursor:hand;                       [cr:ha]
+  cur:he     =>    cursor:help;                       [cr:he]
+  cur:m      =>    cursor:move;                       [cr:m]
+  cur:p      =>    cursor:pointer;                    [cr:p]
+  cur:t      =>    cursor:text;                       [cr:t]
 ```
 **[Back to Top](#menu)**
 
 ## Margin & Padding
 ```
 * mar        =>    margin:;
-+ m:au       =>    margin: 0 auto;
++ m:au       =>    margin: 0 auto;                    [m:u]
 
   mt         =>    margin-top:;
   mt:a       =>    margin-top:auto;
@@ -163,18 +165,18 @@
 
 ## Box Sizing
 ```
-  bxz        =>    box-sizing:;   
-  bxz:cb     =>    box-sizing:content-box;
-  bxz:bb     =>    box-sizing:border-box;
+  bxz        =>    box-sizing:;
+  bxz:cb     =>    box-sizing:content-box;            [bz:cb]
+  bxz:bb     =>    box-sizing:border-box;             [bz:bb]
 
-  bxsh       =>    box-shadow:;
-  bxsh:n     =>    box-shadow:none;
-+ bxsh+      =>    box-shadow:hoff voff radius color;
+  bxsh       =>    box-shadow:;                       [bsh]
+  bxsh:n     =>    box-shadow:none;                   [bsh:n]
++ bxsh+      =>    box-shadow:hoff voff radius color; [bsh+]
 
-* wid        =>    width:;
+* wid        =>    width:;                            [wd]
   w:a        =>    width:auto;
 
-* hei        =>    height:;
+* hei        =>    height:;                           [he]
   h:a        =>    height:auto;
 
   maw        =>    max-width:;
@@ -227,16 +229,16 @@
 
   fem        =>    font-emphasize:;
   
-  femp       =>    font-emphasize-position:;
-  femp:b     =>    font-emphasize-position:before;
-  femp:a     =>    font-emphasize-position:after;
+  femp       =>    font-emphasize-position:;          [fp]
+  femp:b     =>    font-emphasize-position:before;    [fp:b]
+  femp:a     =>    font-emphasize-position:after;     [fp:a]
 
-  fems       =>    font-emphasize-style:;
-  fems:n     =>    font-emphasize-style:none;
-  fems:ac    =>    font-emphasize-style:accent;
-  fems:dt    =>    font-emphasize-style:dot;
-  fems:c     =>    font-emphasize-style:circle;
-  fems:ds    =>    font-emphasize-style:disc;
+  fems       =>    font-emphasize-style:;             [fes]
+  fems:n     =>    font-emphasize-style:none;         [fes:n]
+  fems:ac    =>    font-emphasize-style:accent;       [fes:a]
+  fems:dt    =>    font-emphasize-style:dot;          [fes:t]
+  fems:c     =>    font-emphasize-style:circle;       [fes:c]
+  fems:ds    =>    font-emphasize-style:disc;         [fes:s]
 
   fsm        =>    font-smooth:;
 * fsm:au     =>    font-smooth:auto;
@@ -347,26 +349,26 @@
   whs:pw     =>    white-space:pre-wrap;
   whs:pl     =>    white-space:pre-line;
 
-  whsc       =>    white-space-collapse:;
-  whsc:n     =>    white-space-collapse:normal;
-  whsc:k     =>    white-space-collapse:keep-all;
-  whsc:l     =>    white-space-collapse:loose;
-  whsc:bs    =>    white-space-collapse:break-strict;
-  whsc:ba    =>    white-space-collapse:break-all;
+  whsc       =>    white-space-collapse:;             [wc]
+  whsc:n     =>    white-space-collapse:normal;       [wc:n]
+  whsc:k     =>    white-space-collapse:keep-all;     [wc:k]
+  whsc:l     =>    white-space-collapse:loose;        [wc:l]
+  whsc:bs    =>    white-space-collapse:break-strict; [wc:s]
+  whsc:ba    =>    white-space-collapse:break-all;    [wc:a]
 
   wob        =>    word-break:;
-  wob:n      =>    word-break:normal;
-  wob:k      =>    word-break:keep-all;
-  wob:l      =>    word-break:loose;
-  wob:bs     =>    word-break:break-strict;
-  wob:ba     =>    word-break:break-all;
+  wob:n      =>    word-break:normal;                 [wb:n]
+  wob:k      =>    word-break:keep-all;               [wb:k]
+  wob:l      =>    word-break:loose;                  [wb:l]
+  wob:bs     =>    word-break:break-strict;           [wb:s]
+  wob:ba     =>    word-break:break-all;              [wb:a]
 
   wos        =>    word-spacing:;
 
   wow        =>    word-wrap:;
-  wow:nm     =>    word-wrap:normal;
-  wow:n      =>    word-wrap:none;
-  wow:u      =>    word-wrap:unrestricted;
+  wow:nm     =>    word-wrap:normal;                  [ww:m]
+  wow:n      =>    word-wrap:none;                    [ww:n]
+  wow:u      =>    word-wrap:unrestricted;            [ww:u]
   wow:s      =>    word-wrap:suppress;
 ```
 **[Back to Top](#menu)**
@@ -397,26 +399,26 @@
   bgpx       =>    background-position-x:;
   bgpy       =>    background-position-y:;
 
-  bgbk       =>    background-break:;
-  bgbk:bb    =>    background-break:bounding-box;
-  bgbk:eb    =>    background-break:each-box;
-  bgbk:c     =>    background-break:continuous;
+  bgbk       =>    background-break:;                 [bgk]
+  bgbk:bb    =>    background-break:bounding-box;     [bk:bb]
+  bgbk:eb    =>    background-break:each-box;         [bk:e]
+  bgbk:c     =>    background-break:continuous;       [bgk:c]
 
-  bgcp       =>    background-clip:;
-  bgcp:bb    =>    background-clip:border-box;
-  bgcp:pb    =>    background-clip:padding-box;
-  bgcp:cb    =>    background-clip:content-box;
-  bgcp:nc    =>    background-clip:no-clip;
+  bgcp       =>    background-clip:;                  [bcp]
+  bgcp:bb    =>    background-clip:border-box;        [bc:bb]
+  bgcp:pb    =>    background-clip:padding-box;       [bc:p]
+  bgcp:cb    =>    background-clip:content-box;       [bc:cb]
+  bgcp:nc    =>    background-clip:no-clip;           [bc:n]
 
   bgo        =>    background-origin:;
-  bgo:pb     =>    background-origin:padding-box;
-  bgo:bb     =>    background-origin:border-box;
-  bgo:cb     =>    background-origin:content-box;
+  bgo:pb     =>    background-origin:padding-box;     [bo:p]
+  bgo:bb     =>    background-origin:border-box;      [bo:bb]
+  bgo:cb     =>    background-origin:content-box;     [bo:c]
 
   bgz        =>    background-size:;
-  bgz:a      =>    background-size:auto;
-  bgz:ct     =>    background-size:contain;
-  bgz:cv     =>    background-size:cover;
+  bgz:a      =>    background-size:auto;              [bz:a]
+  bgz:ct     =>    background-size:contain;           [bz:t]
+  bgz:cv     =>    background-size:cover;             [bz:v]
 ```
 **[Back to Top](#menu)**
 
@@ -426,9 +428,9 @@
   op         =>    opacity:;
   
 + hsl        =>    hsl(359, 100%, 100%)
-+ hsla       =>    hsla(359, 100%, 100%, 0.5)
++ hsla       =>    hsla(359, 100%, 100%, 0.5)         [hsa]
 + rgb        =>    rgb(255, 255, 255)
-+ rgba       =>    rgba(255, 255, 255, 0.5)
++ rgba       =>    rgba(255, 255, 255, 0.5)           [rga]
 ```
 **[Back to Top](#menu)**
 
@@ -437,19 +439,19 @@
 * ct         =>    content:;
   ct:n       =>    content:normal;
   ct:oq      =>    content:open-quote;
-  ct:noq     =>    content:no-open-quote;
+  ct:noq     =>    content:no-open-quote;             [ct:no]
   ct:cq      =>    content:close-quote;
-  ct:ncq     =>    content:no-close-quote;
+  ct:ncq     =>    content:no-close-quote;            [ct:nc]
   ct:a       =>    content:attr();
   ct:c       =>    content:counter();
-  ct:cs      =>    content:counters();
+  ct:cs      =>    content:counters();                [ct:s]
 
 * quo        =>    quotes:;
   q:n        =>    quotes:none;
   q:ru       =>    quotes:'\00AB' '\00BB' '\201E' '\201C';
   q:en       =>    quotes:'\201C' '\201D' '\2018' '\2019';
 
-  coi        =>    counter-increment:;
+  coi        =>    counter-increment:;                [ci]
   cor        =>    counter-reset:;
 ```
 **[Back to Top](#menu)**
@@ -474,13 +476,13 @@
   tbl:a      =>    table-layout:auto;
   tbl:f      =>    table-layout:fixed;
 
-  cps        =>    caption-side:;
-  cps:t      =>    caption-side:top;
-  cps:b      =>    caption-side:bottom;
+  cps        =>    caption-side:;                     [cs]
+  cps:t      =>    caption-side:top;                  [cs:t]
+  cps:b      =>    caption-side:bottom;               [cs:b]
 
-  ec         =>    empty-cells:;
-  ec:s       =>    empty-cells:show;
-  ec:h       =>    empty-cells:hide;
+  ec         =>    empty-cells:;                      [ec]
+  ec:s       =>    empty-cells:show;                  [es]
+  ec:h       =>    empty-cells:hide;                  [eh]
 ```
 **[Back to Top](#menu)**
 
@@ -514,34 +516,34 @@
   bdli       =>    border-left-image:url();
   bdli:n     =>    border-left-image:none;
 
-  bdci       =>    border-corner-image:url();
-  bdci:n     =>    border-corner-image:none;
-  bdci:c     =>    border-corner-image:continue;
+  bdci       =>    border-corner-image:url();         [bci]
+  bdci:n     =>    border-corner-image:none;          [bci:n]
+  bdci:c     =>    border-corner-image:continue;      [bci:c]
 
-  bdtli      =>    border-top-left-image:url();
-  bdtli:n    =>    border-top-left-image:none;
-  bdtli:c    =>    border-top-left-image:continue;
+  bdtli      =>    border-top-left-image:url();       [btli]
+  bdtli:n    =>    border-top-left-image:none;        [btl:n]
+  bdtli:c    =>    border-top-left-image:continue;    [btl:c]
 
-  bdtri      =>    border-top-right-image:url();
-  bdtri:n    =>    border-top-right-image:none;
-  bdtri:c    =>    border-top-right-image:continue;
+  bdtri      =>    border-top-right-image:url();      [btri]
+  bdtri:n    =>    border-top-right-image:none;       [btr:n]
+  bdtri:c    =>    border-top-right-image:continue;   [btr:c]
 
-  bdbri      =>    border-bottom-right-image:url();
-  bdbri:n    =>    border-bottom-right-image:none;
-  bdbri:c    =>    border-bottom-right-image:continue;
+  bdbri      =>    border-bottom-right-image:url();   [bbri]
+  bdbri:n    =>    border-bottom-right-image:none;    [bbr:n]
+  bdbri:c    =>    border-bottom-right-image:continue;[bbr:c]
 
-  bdbli      =>    border-bottom-left-image:url();
-  bdbli:n    =>    border-bottom-left-image:none;
-  bdbli:c    =>    border-bottom-left-image:continue;
+  bdbli      =>    border-bottom-left-image:url();    [bbli]
+  bdbli:n    =>    border-bottom-left-image:none;     [bbl:n]
+  bdbli:c    =>    border-bottom-left-image:continue; [bbl:c]
 
-  bdf        =>    border-fit:;
-  bdf:c      =>    border-fit:clip;
-  bdf:r      =>    border-fit:repeat;
-  bdf:sc     =>    border-fit:scale;
-  bdf:st     =>    border-fit:stretch;
-  bdf:ow     =>    border-fit:overwrite;
-  bdf:of     =>    border-fit:overflow;
-  bdf:sp     =>    border-fit:space;
+  bdf        =>    border-fit:;                       [bf]
+  bdf:c      =>    border-fit:clip;                   [bf:c]
+  bdf:r      =>    border-fit:repeat;                 [bf:r]
+  bdf:sc     =>    border-fit:scale;                  [bf:sc]
+  bdf:st     =>    border-fit:stretch;                [bf:t]
+  bdf:ow     =>    border-fit:overwrite;              [bf:w]
+  bdf:of     =>    border-fit:overflow;               [bf:f]
+  bdf:sp     =>    border-fit:space;                  [bf:p]
 
 + bdlt       =>    border-length:;
 * bdlt:a     =>    border-length:auto;
@@ -609,11 +611,11 @@
 
   bdlc       =>    border-left-color:#000;
 
-* bdrsa      =>    border-radius:;
-  bdtrrs     =>    border-top-right-radius:;
-  bdtlrs     =>    border-top-left-radius:;
-  bdbrrs     =>    border-bottom-right-radius:;
-  bdblrs     =>    border-bottom-left-radius:;
+* bdrsa      =>    border-radius:;                    [bra]
+  bdtrrs     =>    border-top-right-radius:;          [btrr]
+  bdtlrs     =>    border-top-left-radius:;           [btlr]
+  bdbrrs     =>    border-bottom-right-radius:;       [bbrr]
+  bdblrs     =>    border-bottom-left-radius:;        [bblr]
 ```
 **[Back to Top](#menu)**
 
@@ -622,22 +624,22 @@
   lis        =>    list-style:;
   lis:n      =>    list-style:none;
 
-  lisp       =>    list-style-position:;
-  lisp:i     =>    list-style-position:inside;
-  lisp:o     =>    list-style-position:outside;
+  lisp       =>    list-style-position:;              [lp]
+  lisp:i     =>    list-style-position:inside;        [lp:i]
+  lisp:o     =>    list-style-position:outside;       [lp:o]
 
-  list       =>    list-style-type:;
-  list:n     =>    list-style-type:none;
-  list:d     =>    list-style-type:disc;
-  list:c     =>    list-style-type:circle;
-  list:s     =>    list-style-type:square;
-  list:dc    =>    list-style-type:decimal;
-  list:dclz  =>    list-style-type:decimal-leading-zero;
-  list:lr    =>    list-style-type:lower-roman;
-  list:ur    =>    list-style-type:upper-roman;
+  list       =>    list-style-type:;                  [lst]
+  list:n     =>    list-style-type:none;              [lt:n]
+  list:d     =>    list-style-type:disc;              [lt:d]
+  list:c     =>    list-style-type:circle;            [lt:c]
+  list:s     =>    list-style-type:square;            [lt:s]
+  list:dc    =>    list-style-type:decimal;           [lt:dc]
+  list:dclz  =>    list-style-type:decimal-leading-zero;  [lt:z]
+  list:lr    =>    list-style-type:lower-roman;       [lt:l]
+  list:ur    =>    list-style-type:upper-roman;       [lt:u]
 
-  lisi       =>    list-style-image:;
-  lisi:n     =>    list-style-image:none;
+  lisi       =>    list-style-image:;                 [lsi]
+  lisi:n     =>    list-style-image:none;             [lsi:n]
 ```
 **[Back to Top](#menu)**
 
@@ -659,14 +661,14 @@
   pgba:l     =>    page-break-after:left;
   pgba:r     =>    page-break-after:right;
 
-  orp        =>    orphans:;
-* widows     =>    widows:;
+  orp        =>    orphans:;                          [or]
+* widows     =>    widows:;                           [wds]
 ```
 **[Back to Top](#menu)**
 
 ## Others
 ```
-* imt        =>    !important
+* ipt        =>    !important                         [it]
 
 * ffa
     =>
@@ -698,22 +700,22 @@
 
   op:ms      =>    -ms-filter:'progid:DXImageTransform.Microsoft.Alpha(Opacity=100)';
   
-  trf        =>    transform:;
-  trf:r      =>    transform: rotate(90deg);
-  trf:sc     =>    transform: scale(x, y);
-  trf:scx    =>    transform: scaleX(x);
-  trf:scy    =>    transform: scaleY(y);
-  trf:skx    =>    transform: skewX(90deg);
-  trf:sky    =>    transform: skewY(90deg);
-  trf:t      =>    transform: translate(x, y);
-  trf:tx     =>    transform: translateX(x);
-  trf:ty     =>    transform: translateY(y);
+  trf        =>    transform:;                        [tf]
+  trf:r      =>    transform: rotate(90deg);          [tf:r]
+  trf:sc     =>    transform: scale(x, y);            [t:sc]
+  trf:scx    =>    transform: scaleX(x);              [t:cx]
+  trf:scy    =>    transform: scaleY(y);              [t:cy]
+  trf:skx    =>    transform: skewX(90deg);           [t:kx]
+  trf:sky    =>    transform: skewY(90deg);           [t:ky]
+  trf:t      =>    transform: translate(x, y);        [tf:t]
+  trf:tx     =>    transform: translateX(x);          [t:tx]
+  trf:ty     =>    transform: translateY(y);          [t:ty]
   
   trs        =>    transition:;
-  trsde      =>    transition-delay:;
-  trsdu      =>    transition-duration:;
-  trsp       =>    transition-property:;
-  trstf      =>    transition-timing-function:;
+  trsde      =>    transition-delay:;                 [tse]
+  trsdu      =>    transition-duration:;              [tsdu]
+  trsp       =>    transition-property:;              [tsp]
+  trstf      =>    transition-timing-function:;       [tst]
 
 * com        =>    /*--------- comment -----------*/
 + reset      =>    Eric Meyer's Reset CSS 2.0
@@ -739,8 +741,8 @@
 + ch         =>    :checked {}
 + ch:a       =>   &:checked {}
 
-+ dsa        =>    :disabled {}
-+ dsa:a      =>   &:disabled {}
++ dsa        =>    :disabled {}                       [da]
++ dsa:a      =>   &:disabled {}                       [da:a]
 
 + en         =>    :enabled {}
 + en:a       =>   &:enabled {}
@@ -760,8 +762,8 @@
 + ho         =>    :hover {}
 + ho:a       =>   &:hover {}
 
-+ lan        =>    :lang() {}
-+ lan:a      =>   &:lang() {}
++ ln         =>    :lang() {}
++ ln:a       =>   &:lang() {}
 
 + lc         =>    :last-child {}
 + lc:a       =>   &:last-child {}
@@ -775,16 +777,16 @@
 + vit        =>    :visited {}
 + vit:a      =>   &:visited {}
 
-+ tgt        =>    :target {}
-+ tgt:a      =>   &:target {}
++ tgt        =>    :target {}                         [tg]
++ tgt:a      =>   &:target {}                         [tg:a]
 ```
 **[Back to Top](#menu)**
 
 ## + Scss &  Sass
 ```
-+ ext        =>    @extend
++ ext        =>    @extend                            [et]
 
-+ inc        =>    @include
++ inc        =>    @include                           [ic]
 
-+ mix        =>    @mixin
++ mix        =>    @mixin                             [mx]
 ```
