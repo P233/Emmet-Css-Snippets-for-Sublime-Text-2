@@ -1,8 +1,8 @@
 <snippet>
 	<content><![CDATA[
-border-radius: 
+border-right-style: 
 ]]></content>
 	<tabTrigger>bdrs</tabTrigger>
 	<scope>source.css, source.scss</scope>
-	<description>border-radius</description>
+	<description>border-right-style</description>
 </snippet>

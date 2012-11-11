@@ -609,7 +609,7 @@
 
   bdlc       =>    border-left-color:#000;
 
-  bdrs       =>    border-radius:;
+* bdrsa      =>    border-radius:;
   bdtrrs     =>    border-top-right-radius:;
   bdtlrs     =>    border-top-left-radius:;
   bdbrrs     =>    border-bottom-right-radius:;
