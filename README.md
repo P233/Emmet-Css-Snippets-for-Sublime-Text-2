@@ -26,7 +26,7 @@ Rename the downloaded folder as you like, and then move it into the Packages fol
 	mp     =>    @media print {}
 	ffa    =>    @font-face {}
 	ffa+   =>    @font-face {}
-	imt    =>    !important
+	ipt    =>    !important
 	*For this reason, property alias contains "+" need to be selected manually in the autocompelte pupup window.
 	```
 
@@ -114,7 +114,7 @@ Zen Css（已升级为 [Emmet](http://docs.emmet.io)）可以显著提高 css �
 	mp     =>    @media print {}
 	ffa    =>    @font-face {}
 	ffa+   =>    @font-face {}
-	imt    =>    !important
+	ipt    =>    !important
 	*同理，包含 "+" 的缩写不能直接输入，需要手动选择
 	```
 
