@@ -2,7 +2,6 @@
 	<content><![CDATA[
 $1:checked
 	$2
-
 ]]></content>
 	<tabTrigger>ch</tabTrigger>
 	<scope>source.sass</scope>

@@ -2,7 +2,6 @@
 	<content><![CDATA[
 &:focus
 	$1
-
 ]]></content>
 	<tabTrigger>foc:a</tabTrigger>
 	<scope>source.sass</scope>

@@ -2,7 +2,6 @@
 	<content><![CDATA[
 $1:first-child
 	$2
-
 ]]></content>
 	<tabTrigger>fc</tabTrigger>
 	<scope>source.sass</scope>

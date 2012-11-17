@@ -2,7 +2,6 @@
 	<content><![CDATA[
 $1:last-child
 	$2
-
 ]]></content>
 	<tabTrigger>lc</tabTrigger>
 	<scope>source.sass</scope>

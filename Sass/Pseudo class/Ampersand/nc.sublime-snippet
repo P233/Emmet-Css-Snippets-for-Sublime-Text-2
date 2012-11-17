@@ -2,7 +2,6 @@
 	<content><![CDATA[
 &:nth-child($1)
 	$2
-
 ]]></content>
 	<tabTrigger>nc:a</tabTrigger>
 	<scope>source.sass</scope>

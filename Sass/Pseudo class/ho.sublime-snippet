@@ -2,7 +2,6 @@
 	<content><![CDATA[
 $1:hover
 	$2
-
 ]]></content>
 	<tabTrigger>ho</tabTrigger>
 	<scope>source.sass</scope>

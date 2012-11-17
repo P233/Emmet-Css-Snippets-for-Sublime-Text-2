@@ -2,7 +2,6 @@
 	<content><![CDATA[
 &:target
 	$1
-
 ]]></content>
 	<tabTrigger>tgt:a</tabTrigger>
 	<scope>source.sass</scope>

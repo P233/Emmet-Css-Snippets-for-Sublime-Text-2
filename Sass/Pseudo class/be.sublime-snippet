@@ -3,7 +3,6 @@
 $1:before
 	content: "$2"
 	$3
-
 ]]></content>
 	<tabTrigger>be</tabTrigger>
 	<scope>source.sass</scope>

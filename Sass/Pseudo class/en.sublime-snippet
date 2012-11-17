@@ -2,7 +2,6 @@
 	<content><![CDATA[
 $1:enabled
 	$2
-
 ]]></content>
 	<tabTrigger>en</tabTrigger>
 	<scope>source.sass</scope>

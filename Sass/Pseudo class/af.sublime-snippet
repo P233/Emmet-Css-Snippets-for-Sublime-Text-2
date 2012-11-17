@@ -3,7 +3,6 @@
 $1:after
 	content: "$2"
 	$3
-
 ]]></content>
 	<tabTrigger>af</tabTrigger>
 	<scope>source.sass</scope>

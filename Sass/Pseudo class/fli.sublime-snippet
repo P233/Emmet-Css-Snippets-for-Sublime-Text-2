@@ -2,7 +2,6 @@
 	<content><![CDATA[
 $1:first-line
 	$2
-
 ]]></content>
 	<tabTrigger>fli</tabTrigger>
 	<scope>source.sass</scope>

@@ -2,7 +2,6 @@
 	<content><![CDATA[
 &:visited
 	$1
-
 ]]></content>
 	<tabTrigger>vit:a</tabTrigger>
 	<scope>source.sass</scope>

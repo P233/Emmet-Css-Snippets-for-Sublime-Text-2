@@ -2,7 +2,6 @@
 	<content><![CDATA[
 &:active
 	$1
-
 ]]></content>
 	<tabTrigger>ac:a</tabTrigger>
 	<scope>source.sass</scope>

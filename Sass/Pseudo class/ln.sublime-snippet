@@ -2,7 +2,6 @@
 	<content><![CDATA[
 $1:lang($2)
 	$3
-
 ]]></content>
 	<tabTrigger>ln</tabTrigger>
 	<scope>source.sass</scope>
