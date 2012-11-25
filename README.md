@@ -1,4 +1,4 @@
-# Emmet Css Snippets for Sublime Text 2
+# [Emmet Css Snippets for Sublime Text 2](https://github.com/P233/Emmet-Css-Snippets-for-Sublime-Text-2)
 
 Zen Css (now has been updated to [Emmet](http://docs.emmet.io)) is a great tool to increase css workflow, but the property aliases are not easy to remeber. Therefore I turned Zen Css syntaxes into sublime text 2 snippets, so we can use Zen Css through autocomplete hints. It can work with Css, Less, Scss and Sass. I also made a few changes and added some additional snippets which you will see from below.
 
@@ -7,7 +7,7 @@ If you have any problems with this repo or suggestions for improvement, please [
 *This repo has been updated accordingly from "Zen Css Snippets" to "Emmet Css Snippets".*
 
 ## Installation
-Rename the downloaded folder as you like, and then move it into the Packages folder of Subliem Text 2.
+Strongly recommend to install this repo through Package Control.
 
 
 ## Explanation
@@ -95,7 +95,7 @@ Zen Css（已升级为 [Emmet](http://docs.emmet.io)）可以显著提高 css �
 如果在使用中遇到任何问题或修改建议, 请 [填写 issue](https://github.com/P233/Emmet-Css-Snippets-for-Sublime-Text-2/issues)
 
 ## 安装
-将下载的文件夹重命名，然后移动到 Sublime Text 2 的 Packages 文件夹下即可
+强烈建议您通过 Package Control 安装
 
 
 ## 说明
