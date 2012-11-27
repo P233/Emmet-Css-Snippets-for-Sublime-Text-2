@@ -13,7 +13,7 @@ Strongly recommend to install this repo through Package Control.
 ## Explanation
 1. If snippet contains css value, it will automaticlly insert a new line after semicolon. However, if you write a css property before existing one, it will also insert a needless new line in the middle. To deal with this problem, you may try to write css properties top-down and use the [CSScomb tool](http://csscomb.com) to rearrange the order.
 
-2. If snippet contains "{ }" , it will automaticlly insert a new line after "}". So it's easier to make the cursor jump out of '{ }' by pressing the Command + Down_Arrow keys or sometimes the Tab key, and start to write a new piece of css.
+2. If snippet contains "{ }" , it will automaticlly insert a new line after "}". So it's easier to make the cursor jump out of '{ }' by pressing the <kbd>Command</kbd> + <kbd>Down_Arrow</kbd> keys or sometimes the <kbd>Tab</kbd> key, and start to write a new piece of css.
 
 3. Because of the smart search function of Sublime Text 2, it is no need to type the "colon" of property aliases or the full spelling of *some* aliases. Please see the simplified aliases list in [Snippets List](https://github.com/P233/Emmet-Css-Snippets-for-Sublime-Text-2/blob/master/Snippets%20List.md).
 
@@ -30,7 +30,7 @@ Strongly recommend to install this repo through Package Control.
 	*For this reason, property alias contains "+" need to be selected manually in the autocompelte pupup window.
 	```
 
-6. You can move cursor position by pressing the Tab key in some snippets. For instance, once you finished editing comment, press the Tab key, cursor will jump out of the comment line and advance to a new line. Pressing the Shift + Tab keys will move the cursor backwards.
+6. You can move cursor position by pressing the Tab key in some snippets. For instance, once you finished editing comment, press the <kbd>Tab</kbd> key, cursor will jump out of the comment line and advance to a new line. Pressing the <kbd>Shift</kbd> + <kbd>Tab</kbd> keys will move the cursor backwards.
 
 7. Added vendor prefixes for some properties. 
 
@@ -42,10 +42,10 @@ Strongly recommend to install this repo through Package Control.
 Here are a few key bindings may help you to write css conveniently. Copy and paste the following code to "Key Bindings - User" of Preferences menu.
 
 <br>
-Pressing the "{" key to input "{ }" with a new line with indent inside and a new line after "}"
+Pressing the <kbd>{</kbd> key to input "{ }" with a new line with indent inside and a new line after "}"
 
 ```
-{ "keys": ["{"], "command": "insert_snippet", "args": {"contents": " {\n\t$0\n}\n"}, "c"ontext":
+{ "keys": ["{"], "command": "insert_snippet", "args": {"contents": " {\n\t$0\n}\n"}, "context":
     [
         { "key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
         { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true },
@@ -60,19 +60,19 @@ Pressing the "{" key to input "{ }" with a new line with indent inside and a new
 },
 ```
 
-Pressing the ":" key to input colon with a space behind
+Pressing the <kbd>:</kbd> key to input colon with a space behind
 
 ```
 { "keys": [":"], "command": "insert", "args": {"characters": ": "} },
 ```
 
-Pressing the ";" key to input semicolon with a new line behind
+Pressing the <kbd>;</kbd> key to input semicolon with a new line behind
 
 ```
 { "keys": [";"], "command": "insert", "args": {"characters": ";\n"} },
 ```
 
-Pressing the "Ctrl" + ";" keys to input semicolon without a new line behind
+Pressing the <kbd>Ctrl</kbd> + <kbd>;</kbd> keys to input semicolon without a new line behind
 
 ```
 { "keys": ["ctrl+;"], "command": "insert", "args": {"characters": ";"} },
@@ -101,7 +101,7 @@ Zen Css（已升级为 [Emmet](http://docs.emmet.io)）可以显著提高 css �
 ## 说明
 1. 包含 css 值的 snippet 都会在“分号”后自动换行，但如果在几个属性之间插入 css 属性，也会在后面添加多余的一行。建议自上而下书写 css 属性，然后用 [CSScomb 工具](http://csscomb.com) 重新排列顺序
 
-2. 如果 snippet 中包含 "{ }" , 会在 "}" 后自动换行，通过 Command + Down_Arrow 快捷键（有时 Tab 键）让光标跳出 "{ }"，然后开始书写新的一段 css
+2. 如果 snippet 中包含 "{ }" , 会在 "}" 后自动换行，通过 <kbd>Command</kbd> + <kbd>Down_Arrow</kbd> 快捷键（有时 <kbd>Tab</kbd> 键）让光标跳出 "{ }"，然后开始书写新的一段 css
 
 3. 基于 Sublime Text 2 的智能搜索功能，不需要输入缩写中的“冒号”，部分缩写可以不用输入完整拼写。请查看 [Snippets List](https://github.com/P233/Emmet-Css-Snippets-for-Sublime-Text-2/blob/master/Snippets%20List.md) 中的简化缩写列表
 
@@ -118,7 +118,7 @@ Zen Css（已升级为 [Emmet](http://docs.emmet.io)）可以显著提高 css �
 	*同理，包含 "+" 的缩写不能直接输入，需要手动选择
 	```
 
-6. 某些 snippets 中可用 Tab 键切换光标位置。例如，编辑完注释后按下 Tab 键，光标跳出注释进入新的一行。按下 Shift + Tab 组合键，光标返回上一位置
+6. 某些 snippets 中可用 <kbd>Tab</kbd> 键切换光标位置。例如，编辑完注释后按下 <kbd>Tab<kbd> 键，光标跳出注释进入新的一行。按下 <kbd>Shift</kbd> + <kbd>Tab</kbd> 组合键，光标返回上一位置
 
 7. 部分 css 属性添加了浏览器前缀
 
@@ -133,7 +133,7 @@ Zen Css（已升级为 [Emmet](http://docs.emmet.io)）可以显著提高 css �
 输入 "{" + 自动换行 + 缩进 + "}" + 自动换行
 
 ```
-{ "keys": ["{"], "command": "insert_snippet", "args": {"contents": " {\n\t$0\n}\n"}, "c"ontext":
+{ "keys": ["{"], "command": "insert_snippet", "args": {"contents": " {\n\t$0\n}\n"}, "context":
     [
         { "key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
         { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true },
