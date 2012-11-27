@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+transparent
+
+]]></content>
+	<tabTrigger>tra</tabTrigger>
+	<scope>source.sass</scope>
+	<description>transparent</description>
+</snippet>

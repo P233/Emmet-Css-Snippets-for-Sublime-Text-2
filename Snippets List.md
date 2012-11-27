@@ -271,7 +271,7 @@
   va:sub     =>    vertical-align:sub;
 
   ta         =>    text-align:;
-  ta:l       =>    text-align:left;
+* ta:le      =>    text-align:left;
   ta:c       =>    text-align:center;
   ta:r       =>    text-align:right;
 + ta:j       =>    text-align:justify;
@@ -720,6 +720,9 @@
 * com        =>    /*--------- comment -----------*/
 + reset      =>    Eric Meyer's Reset CSS 2.0
 + in         =>    inherit;
++ tra        =>    transparent;
++ beh        =>    behavior: url();
++ cha        =>    @charset '';
 
 ```
 **[Back to Top](#menu)**
@@ -773,6 +776,10 @@
 
 + nc         =>    :nth-child() {}
 + nc:a       =>   &:nth-child() {}
+
++ pla        =>   ::-webkit-input-placeholder {}
+                   :-moz-placeholder {}
+                   :-ms-input-placeholder {}
 
 + vit        =>    :visited {}
 + vit:a      =>   &:visited {}
