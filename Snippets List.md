@@ -716,6 +716,16 @@
   trsdu      =>    transition-duration:;              [tsdu]
   trsp       =>    transition-property:;              [tsp]
   trstf      =>    transition-timing-function:;       [tst]
+  
+  ani        =>    animation:;
+  ann        =>    animation-name:;
+  adu        =>    animation-duration:;
+  atf        =>    animation-timing-function:;
+  ade        =>    animation-delay:;
+  aic        =>    animation-iteration-count:;
+  adi        =>    animation-direction:;
+  aps        =>    animation-play-state:;
+  key        =>    @keyframes {}
 
 * com        =>    /*--------- comment -----------*/
 + reset      =>    Eric Meyer's Reset CSS 2.0

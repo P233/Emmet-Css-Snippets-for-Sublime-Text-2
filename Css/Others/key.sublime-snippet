@@ -1,0 +1,53 @@
+<snippet>
+	<content><![CDATA[
+@-webkit-keyframes ${1:name} {
+	0% {
+		$2
+	}
+	${3:50% }
+	100% {
+		$4
+	}
+}
+@-moz-keyframes ${1:name} {
+	0% {
+		$2
+	}
+	${3:50% }
+	100% {
+		$4
+	}
+}
+@-o-keyframes ${1:name} {
+	0% {
+		$2
+	}
+	${3:50% }
+	100% {
+		$4
+	}
+}
+@-ms-keyframes ${1:name} {
+	0% {
+		$2
+	}
+	${3:50% }
+	100% {
+		$4
+	}
+}
+@keyframes ${1:name} {
+	0% {
+		$2
+	}
+	${3:50% }
+	100% {
+		$4
+	}
+}
+$5
+]]></content>
+	<tabTrigger>key</tabTrigger>
+	<scope>source.css, source.scss</scope>
+	<description>@keyframes</description>
+</snippet>
