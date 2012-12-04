@@ -1,13 +1,13 @@
 <snippet>
 	<content><![CDATA[
 $1::-webkit-input-placeholder {
-	$2
+	${2:/* style */}
 }
 $1:-moz-placeholder {
-	$2
+	${2:/* style */}
 }
 $1:-ms-input-placeholder {
-	$2
+	${2:/* style */}
 }
 $3
 ]]></content>

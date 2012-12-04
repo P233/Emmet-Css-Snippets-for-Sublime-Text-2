@@ -1,7 +1,7 @@
 <snippet>
 	<content><![CDATA[
 &:target {
-	$1
+	${1:/* style */}
 }
 
 ]]></content>

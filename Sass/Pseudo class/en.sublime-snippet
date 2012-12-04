@@ -1,7 +1,7 @@
 <snippet>
 	<content><![CDATA[
 $1:enabled
-	$2
+	${2:/* style */}
 ]]></content>
 	<tabTrigger>en</tabTrigger>
 	<scope>source.sass</scope>

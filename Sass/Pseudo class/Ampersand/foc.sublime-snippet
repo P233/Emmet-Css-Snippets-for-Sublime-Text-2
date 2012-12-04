@@ -1,7 +1,7 @@
 <snippet>
 	<content><![CDATA[
 &:focus
-	$1
+	${1:/* style */}
 ]]></content>
 	<tabTrigger>foc:a</tabTrigger>
 	<scope>source.sass</scope>

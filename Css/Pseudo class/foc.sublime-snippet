@@ -1,7 +1,7 @@
 <snippet>
 	<content><![CDATA[
 $1:focus {
-	$2
+	${2:/* style */}
 }
 
 ]]></content>

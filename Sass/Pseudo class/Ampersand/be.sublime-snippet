@@ -2,7 +2,7 @@
 	<content><![CDATA[
 &:before
 	content: "$1"
-	$2
+	${2:/* style */}
 ]]></content>
 	<tabTrigger>be:a</tabTrigger>
 	<scope>source.sass</scope>

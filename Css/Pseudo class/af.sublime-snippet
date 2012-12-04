@@ -2,7 +2,7 @@
 	<content><![CDATA[
 $1:after {
 	content: "$2";
-	$3
+	${3:/* style */}
 }
 
 ]]></content>

@@ -1,7 +1,7 @@
 <snippet>
 	<content><![CDATA[
 $1:nth-child($2) {
-	$3
+	${3:/* style */}
 }
 
 ]]></content>

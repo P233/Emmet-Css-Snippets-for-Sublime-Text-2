@@ -1,7 +1,7 @@
 <snippet>
 	<content><![CDATA[
 &:target
-	$1
+	${1:/* style */}
 ]]></content>
 	<tabTrigger>tgt:a</tabTrigger>
 	<scope>source.sass</scope>

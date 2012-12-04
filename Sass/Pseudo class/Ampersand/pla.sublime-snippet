@@ -1,11 +1,11 @@
 <snippet>
 	<content><![CDATA[
 &::-webkit-input-placeholder
-	$1
+	${1:/* style */}
 &:-moz-placeholder
-	$1
+	${1:/* style */}
 &:-ms-input-placeholder
-	$1
+	${1:/* style */}
 $2
 ]]></content>
 	<tabTrigger>pla:a</tabTrigger>
