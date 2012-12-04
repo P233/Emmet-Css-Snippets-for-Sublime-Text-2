@@ -726,6 +726,8 @@
   adi        =>    animation-direction:;
   aps        =>    animation-play-state:;
   key        =>    @keyframes {}
+  
+  ms         =>    @media screen and () {}
 
 * com        =>    /*--------- comment -----------*/
 + reset      =>    Eric Meyer's Reset CSS 2.0
