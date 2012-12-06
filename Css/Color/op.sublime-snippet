@@ -1,7 +1,7 @@
 <snippet>
 	<content><![CDATA[
 -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=${1:100})";
-filter: alpha(opacity=${1:100});
+filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=${1:100});
 opacity: ${2:1}
 ]]></content>
 	<tabTrigger>op</tabTrigger>

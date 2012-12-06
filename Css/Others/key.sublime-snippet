@@ -2,47 +2,47 @@
 	<content><![CDATA[
 @-webkit-keyframes ${1:name} {
 	0% {
-		$2
+		${2:/* style */}
 	}
 	${3:50% }
 	100% {
-		$4
+		${4:/* style */}
 	}
 }
 @-moz-keyframes ${1:name} {
 	0% {
-		$2
+		${2:/* style */}
 	}
 	${3:50% }
 	100% {
-		$4
+		${4:/* style */}
 	}
 }
 @-o-keyframes ${1:name} {
 	0% {
-		$2
+		${2:/* style */}
 	}
 	${3:50% }
 	100% {
-		$4
+		${4:/* style */}
 	}
 }
 @-ms-keyframes ${1:name} {
 	0% {
-		$2
+		${2:/* style */}
 	}
 	${3:50% }
 	100% {
-		$4
+		${4:/* style */}
 	}
 }
 @keyframes ${1:name} {
 	0% {
-		$2
+		${2:/* style */}
 	}
 	${3:50% }
 	100% {
-		$4
+		${4:/* style */}
 	}
 }
 $5
