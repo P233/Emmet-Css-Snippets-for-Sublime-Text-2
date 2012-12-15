@@ -1,8 +1,10 @@
-# [Emmet Css Snippets for Sublime Text 2](https://github.com/P233/Emmet-Css-Snippets-for-Sublime-Text-2)
+# Emmet Css Snippets for Sublime Text 2
+
+**Update:** [published the new snippets list](http://p233.github.com/Emmet-Css-Snippets-for-Sublime-Text-2/)
 
 Zen Css (now has been updated to [Emmet](http://docs.emmet.io)) is a great tool to increase css workflow, but the property aliases are not easy to remeber. Therefore I turned Zen Css syntaxes into sublime text 2 snippets, so we can use Zen Css through autocomplete hints. It can work with Css, Less, Scss and Sass. I also made a few changes and added some additional snippets which you will see from below.
 
-If you have any problems with this repo or suggestions for improvement, please [fill an issue](https://github.com/P233/Emmet-Css-Snippets-for-Sublime-Text-2/issues).
+If you have any problems with this plugin or suggestions for improvement, please feel free to [fill an issue](https://github.com/P233/Emmet-Css-Snippets-for-Sublime-Text-2/issues).
 
 *This repo has been updated accordingly from "Zen Css Snippets" to "Emmet Css Snippets".*
 
@@ -15,9 +17,9 @@ Strongly recommend to install this repo through Package Control.
 
 2. If snippet contains "{ }" , it will automaticlly insert a new line after "}". So it's easier to make the cursor jump out of '{ }' by pressing the <kbd>Command</kbd> + <kbd>Down_Arrow</kbd> keys or sometimes the <kbd>Tab</kbd> key, and start to write a new piece of css.
 
-3. Because of the smart search function of Sublime Text 2, it is no need to type the "colon" of property aliases or the full spelling of *some* aliases. Please see the simplified aliases list in [Snippets List](https://github.com/P233/Emmet-Css-Snippets-for-Sublime-Text-2/blob/master/Snippets%20List.md).
+3. Because of the fuzzy search function of Sublime Text 2, it is no need to type the "colon" of property aliases or the full spelling of *some* aliases. Please see the simplified aliases list in [Snippets List](http://p233.github.com/Emmet-Css-Snippets-for-Sublime-Text-2/).
 
-4. If property alias is only one character in Emmet, now it should be the first three characters of the property it represented (e.g., "mar" => "margin:", wid" => "width:"). In addition, the alias of "widows" property is full spelling now. This is in order to increase the accuracy of autocomplete hints. There are also some other changes, please see the [Snippets List](https://github.com/P233/Emmet-Css-Snippets-for-Sublime-Text-2/blob/master/Snippets%20List.md) for more details.
+4. If property alias is only one character in Emmet, now it should be the first three characters of the property it represented (e.g., "mar" => "margin:", wid" => "width:"). In addition, the alias of "widows" property is full spelling now. This is in order to increase the accuracy of autocomplete hints. There are also some other changes, please see the [Snippets List](http://p233.github.com/Emmet-Css-Snippets-for-Sublime-Text-2/) for more details.
 
 5. Property alias canot contain symbols in Sublime Text 2 snippets. Here are the changes：
 
@@ -34,7 +36,7 @@ Strongly recommend to install this repo through Package Control.
 
 7. Added vendor prefixes for some properties. 
 
-8. **Added additional snippets, please see the [Snippets List](https://github.com/P233/Emmet-Css-Snippets-for-Sublime-Text-2/blob/master/Snippets%20List.md) for more details.**
+8. **Added additional snippets, please see the [Snippets List](http://p233.github.com/Emmet-Css-Snippets-for-Sublime-Text-2/) for more details.**
 
 
 
@@ -90,6 +92,8 @@ Pressing the <kbd>Ctrl</kbd> + <kbd>;</kbd> keys to input semicolon without a ne
 <br/><br/>
 # Emmet Css Snippets for Sublime Text 2 中文说明
 
+**最近更新:** [发布了新的 snippets 列表](http://p233.github.com/Emmet-Css-Snippets-for-Sublime-Text-2/)
+
 Zen Css（已升级为 [Emmet](http://docs.emmet.io)）可以显著提高 css 的书写速度，但是缩写比较难记、也没有提示。于是通过 Sublime Text 2 的自定义 snippets 功能将其整理为自动补完，兼容 Css，Less，Scss 以及 Sass。同时做了一些修改，添加了额外的 snippets 等等。
 
 如果在使用中遇到任何问题或修改建议, 请 [填写 issue](https://github.com/P233/Emmet-Css-Snippets-for-Sublime-Text-2/issues)
@@ -103,9 +107,9 @@ Zen Css（已升级为 [Emmet](http://docs.emmet.io)）可以显著提高 css �
 
 2. 如果 snippet 中包含 "{ }" , 会在 "}" 后自动换行，通过 <kbd>Command</kbd> + <kbd>Down_Arrow</kbd> 快捷键（有时 <kbd>Tab</kbd> 键）让光标跳出 "{ }"，然后开始书写新的一段 css
 
-3. 基于 Sublime Text 2 的智能搜索功能，不需要输入缩写中的“冒号”，部分缩写可以不用输入完整拼写。请查看 [Snippets List](https://github.com/P233/Emmet-Css-Snippets-for-Sublime-Text-2/blob/master/Snippets%20List.md) 中的简化缩写列表
+3. 基于 Sublime Text 2 的模糊搜索功能，不需要输入缩写中的“冒号”，部分缩写可以不用输入完整拼写。请查看 [Snippets List](http://p233.github.com/Emmet-Css-Snippets-for-Sublime-Text-2/) 中的简化缩写列表
 
-4. Emmet 中只用到一个字母的缩写改为使用前三个字母作为缩写(例如, "mar" => "margin:", wid" => "width:")，widows 属性使用完整拼写，这样做是为了提高自动提示的准确度。更多变更请查看 [Snippets List](https://github.com/P233/Emmet-Css-Snippets-for-Sublime-Text-2/blob/master/Snippets%20List.md)
+4. Emmet 中只用到一个字母的缩写改为使用前三个字母作为缩写(例如, "mar" => "margin:", wid" => "width:")，widows 属性使用完整拼写，这样做是为了提高自动提示的准确度。更多变更请查看 [Snippets List](http://p233.github.com/Emmet-Css-Snippets-for-Sublime-Text-2/)
 
 5. 缩写不能包含符号，所以做出以下更改：
 
@@ -118,11 +122,11 @@ Zen Css（已升级为 [Emmet](http://docs.emmet.io)）可以显著提高 css �
 	*同理，包含 "+" 的缩写不能直接输入，需要手动选择
 	```
 
-6. 某些 snippets 中可用 <kbd>Tab</kbd> 键切换光标位置。例如，编辑完注释后按下 <kbd>Tab<kbd> 键，光标跳出注释进入新的一行。按下 <kbd>Shift</kbd> + <kbd>Tab</kbd> 组合键，光标返回上一位置
+6. 某些 snippets 中可用 <kbd>Tab</kbd> 键切换光标位置。例如，编辑完注释后按下 <kbd>Tab</kbd> 键，光标跳出注释进入新的一行。按下 <kbd>Shift</kbd> + <kbd>Tab</kbd> 组合键，光标返回上一位置
 
 7. 部分 css 属性添加了浏览器前缀
 
-8. **添加了额外的 snippets, 详情请查看 [Snippets List](https://github.com/P233/Emmet-Css-Snippets-for-Sublime-Text-2/blob/master/Snippets%20List.md)**
+8. **添加了额外的 snippets, 详情请查看 [Snippets List](http://p233.github.com/Emmet-Css-Snippets-for-Sublime-Text-2/)**
 
 
 
