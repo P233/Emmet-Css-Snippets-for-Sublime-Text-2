@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-list-style-type: circle
-
-]]></content>
-	<tabTrigger>list:c</tabTrigger>
-	<scope>source.sass</scope>
-	<description>list-style-type:circle</description>
-</snippet>

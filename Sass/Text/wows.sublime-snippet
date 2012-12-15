@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-word-wrap: suppress
-
-]]></content>
-	<tabTrigger>wow:s</tabTrigger>
-	<scope>source.sass</scope>
-	<description>word-wrap:suppress</description>
-</snippet>

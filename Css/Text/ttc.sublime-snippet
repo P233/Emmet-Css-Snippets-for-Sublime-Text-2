@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-text-transform: capitalize;
-
-]]></content>
-	<tabTrigger>tt:c</tabTrigger>
-	<scope>source.css, source.scss</scope>
-	<description>text-transform:capitalize</description>
-</snippet>

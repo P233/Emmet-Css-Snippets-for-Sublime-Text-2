@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-inherit
-
-]]></content>
-	<tabTrigger>in</tabTrigger>
-	<scope>source.sass</scope>
-	<description>inherit</description>
-</snippet>

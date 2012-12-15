@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-font-emphasize-position: after
-
-]]></content>
-	<tabTrigger>femp:a</tabTrigger>
-	<scope>source.sass</scope>
-	<description>font-emphasize-position:after</description>
-</snippet>

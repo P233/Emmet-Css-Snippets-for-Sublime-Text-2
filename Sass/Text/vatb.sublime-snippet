@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-vertical-align: text-bottom
-
-]]></content>
-	<tabTrigger>va:tb</tabTrigger>
-	<scope>source.sass</scope>
-	<description>vertical-align:text-bottom</description>
-</snippet>

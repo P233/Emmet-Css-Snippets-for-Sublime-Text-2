@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-page-break-inside: avoid
-
-]]></content>
-	<tabTrigger>pgbi:av</tabTrigger>
-	<scope>source.sass</scope>
-	<description>page-break-inside:avoid</description>
-</snippet>

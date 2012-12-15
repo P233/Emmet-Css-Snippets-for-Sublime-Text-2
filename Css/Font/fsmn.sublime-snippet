@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-font-smooth: never;
-
-]]></content>
-	<tabTrigger>fsm:n</tabTrigger>
-	<scope>source.css, source.scss</scope>
-	<description>font-smooth:never</description>
-</snippet>

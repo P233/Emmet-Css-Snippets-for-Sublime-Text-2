@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-white-space: normal;
-
-]]></content>
-	<tabTrigger>whs:n</tabTrigger>
-	<scope>source.css, source.scss</scope>
-	<description>white-space:normal</description>
-</snippet>

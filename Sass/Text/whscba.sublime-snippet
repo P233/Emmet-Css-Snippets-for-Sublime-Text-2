@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-white-space-collapse: break-all
-
-]]></content>
-	<tabTrigger>whsc:ba</tabTrigger>
-	<scope>source.sass</scope>
-	<description>white-space-collapse:break-all</description>
-</snippet>

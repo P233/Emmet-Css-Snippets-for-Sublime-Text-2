@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-font: ${1:1em} ${2:Arial}, sans-serif
-
-]]></content>
-	<tabTrigger>fon+</tabTrigger>
-	<scope>source.sass</scope>
-	<description>font: 1em Arial</description>
-</snippet>

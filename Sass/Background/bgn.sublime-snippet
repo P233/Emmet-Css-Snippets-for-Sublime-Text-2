@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-background: none
-
-]]></content>
-	<tabTrigger>bg:n</tabTrigger>
-	<scope>source.sass</scope>
-	<description>background:none</description>
-</snippet>

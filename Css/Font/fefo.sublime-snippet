@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-font-effect: outline;
-
-]]></content>
-	<tabTrigger>fef:o</tabTrigger>
-	<scope>source.css, source.scss</scope>
-	<description>font-effect:outline</description>
-</snippet>

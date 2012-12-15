@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-position: fixed
-
-]]></content>
-	<tabTrigger>pos:f</tabTrigger>
-	<scope>source.sass</scope>
-	<description>position:fixed</description>
-</snippet>

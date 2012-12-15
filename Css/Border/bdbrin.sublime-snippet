@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-border-bottom-right-image: none;
-
-]]></content>
-	<tabTrigger>bdbri:n</tabTrigger>
-	<scope>source.css, source.scss</scope>
-	<description>border-bottom-right-image:none</description>
-</snippet>

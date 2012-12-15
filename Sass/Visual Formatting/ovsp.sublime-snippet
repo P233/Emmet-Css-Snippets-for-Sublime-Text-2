@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-overflow-style: panner
-
-]]></content>
-	<tabTrigger>ovs:p</tabTrigger>
-	<scope>source.sass</scope>
-	<description>overflow-style:panner</description>
-</snippet>

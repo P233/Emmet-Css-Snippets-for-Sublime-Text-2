@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-font-family: Capitals,Impact, fantasy
-
-]]></content>
-	<tabTrigger>ff:f</tabTrigger>
-	<scope>source.sass</scope>
-	<description>font-family:fantasy</description>
-</snippet>

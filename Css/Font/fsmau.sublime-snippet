@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-font-smooth: auto;
-
-]]></content>
-	<tabTrigger>fsm:au</tabTrigger>
-	<scope>source.css, source.scss</scope>
-	<description>font-smooth:auto</description>
-</snippet>

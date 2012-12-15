@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-text-justify: tibetan;
-
-]]></content>
-	<tabTrigger>tj:t</tabTrigger>
-	<scope>source.css, source.scss</scope>
-	<description>text-justify:tibetan</description>
-</snippet>

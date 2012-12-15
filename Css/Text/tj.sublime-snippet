@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[
-text-justify: 
-]]></content>
-	<tabTrigger>tj</tabTrigger>
-	<scope>source.css, source.scss</scope>
-	<description>text-justify</description>
-</snippet>

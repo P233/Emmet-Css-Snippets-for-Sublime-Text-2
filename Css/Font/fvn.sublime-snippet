@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-font-variant: normal;
-
-]]></content>
-	<tabTrigger>fv:n</tabTrigger>
-	<scope>source.css, source.scss</scope>
-	<description>font-variant:normal</description>
-</snippet>

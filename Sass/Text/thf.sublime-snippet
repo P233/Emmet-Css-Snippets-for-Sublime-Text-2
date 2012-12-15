@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-text-height: font-size
-
-]]></content>
-	<tabTrigger>th:f</tabTrigger>
-	<scope>source.sass</scope>
-	<description>text-height:font-size</description>
-</snippet>

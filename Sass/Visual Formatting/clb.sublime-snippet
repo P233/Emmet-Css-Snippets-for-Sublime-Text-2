@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-clear: both
-
-]]></content>
-	<tabTrigger>cl:b</tabTrigger>
-	<scope>source.sass</scope>
-	<description>clear:both</description>
-</snippet>

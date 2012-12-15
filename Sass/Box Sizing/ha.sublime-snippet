@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-height: auto
-
-]]></content>
-	<tabTrigger>h:a</tabTrigger>
-	<scope>source.sass</scope>
-	<description>height:auto</description>
-</snippet>

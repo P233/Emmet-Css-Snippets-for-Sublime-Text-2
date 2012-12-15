@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-font-family: Monaco,'Courier New', monospace;
-
-]]></content>
-	<tabTrigger>ff:m</tabTrigger>
-	<scope>source.css, source.scss</scope>
-	<description>font-family:monospace</description>
-</snippet>

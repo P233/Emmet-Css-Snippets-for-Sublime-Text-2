@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-vertical-align: text-top;
-
-]]></content>
-	<tabTrigger>va:tt</tabTrigger>
-	<scope>source.css, source.scss</scope>
-	<description>vertical-align:text-top</description>
-</snippet>

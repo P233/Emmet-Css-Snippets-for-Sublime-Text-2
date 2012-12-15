@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-font-effect: emboss;
-
-]]></content>
-	<tabTrigger>fef:eb</tabTrigger>
-	<scope>source.css, source.scss</scope>
-	<description>font-effect:emboss</description>
-</snippet>

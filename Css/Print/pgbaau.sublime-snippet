@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-page-break-after: auto;
-
-]]></content>
-	<tabTrigger>pgba:au</tabTrigger>
-	<scope>source.css, source.scss</scope>
-	<description>page-break-after:auto</description>
-</snippet>

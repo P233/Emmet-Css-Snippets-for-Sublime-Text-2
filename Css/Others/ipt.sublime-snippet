@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-!important;
-
-]]></content>
-	<tabTrigger>ipt</tabTrigger>
-	<scope>source.css, source.scss</scope>
-	<description>!important</description>
-</snippet>

@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-text-decoration: underline;
-
-]]></content>
-	<tabTrigger>td:u</tabTrigger>
-	<scope>source.css, source.scss</scope>
-	<description>text-decoration:underline</description>
-</snippet>

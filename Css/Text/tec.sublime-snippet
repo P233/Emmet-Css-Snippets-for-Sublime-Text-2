@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-text-emphasis: circle;
-
-]]></content>
-	<tabTrigger>te:c</tabTrigger>
-	<scope>source.css, source.scss</scope>
-	<description>text-emphasis:circle</description>
-</snippet>

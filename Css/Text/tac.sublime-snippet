@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-text-align: center;
-
-]]></content>
-	<tabTrigger>ta:c</tabTrigger>
-	<scope>source.css, source.scss</scope>
-	<description>text-align:center</description>
-</snippet>

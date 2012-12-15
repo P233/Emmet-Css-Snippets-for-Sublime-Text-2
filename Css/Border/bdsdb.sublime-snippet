@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-border-style: double;
-
-]]></content>
-	<tabTrigger>bds:db</tabTrigger>
-	<scope>source.css, source.scss</scope>
-	<description>border-style:double</description>
-</snippet>

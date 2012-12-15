@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[
-text-replace: 
-]]></content>
-	<tabTrigger>tr</tabTrigger>
-	<scope>source.sass</scope>
-	<description>text-replace</description>
-</snippet>

@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-cursor: move
-
-]]></content>
-	<tabTrigger>cur:m</tabTrigger>
-	<scope>source.sass</scope>
-	<description>cursor:move</description>
-</snippet>

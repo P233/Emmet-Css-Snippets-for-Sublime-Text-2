@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-font-size-adjust: none
-
-]]></content>
-	<tabTrigger>fza:n</tabTrigger>
-	<scope>source.sass</scope>
-	<description>font-size-adjust:none</description>
-</snippet>

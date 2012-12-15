@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-text-emphasis: before;
-
-]]></content>
-	<tabTrigger>te:b</tabTrigger>
-	<scope>source.css, source.scss</scope>
-	<description>text-emphasis:before</description>
-</snippet>

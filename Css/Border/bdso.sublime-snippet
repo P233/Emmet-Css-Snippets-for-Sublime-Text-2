@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-border-style: outset;
-
-]]></content>
-	<tabTrigger>bds:o</tabTrigger>
-	<scope>source.css, source.scss</scope>
-	<description>border-style:outset</description>
-</snippet>

@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-text-emphasis: none;
-
-]]></content>
-	<tabTrigger>te:n</tabTrigger>
-	<scope>source.css, source.scss</scope>
-	<description>text-emphasis:none</description>
-</snippet>

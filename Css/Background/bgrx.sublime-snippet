@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-background-repeat: repeat-x;
-
-]]></content>
-	<tabTrigger>bgr:x</tabTrigger>
-	<scope>source.css, source.scss</scope>
-	<description>background-repeat:repeat-x</description>
-</snippet>

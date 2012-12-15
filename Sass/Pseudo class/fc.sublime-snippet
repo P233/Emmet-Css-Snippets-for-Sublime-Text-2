@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-$1:first-child
-	${2:/* style */}
-]]></content>
-	<tabTrigger>fc</tabTrigger>
-	<scope>source.sass</scope>
-	<description>:first-child</description>
-</snippet>

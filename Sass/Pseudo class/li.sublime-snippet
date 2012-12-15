@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-$1:link
-	${2:/* style */}
-]]></content>
-	<tabTrigger>li</tabTrigger>
-	<scope>source.sass</scope>
-	<description>:link</description>
-</snippet>

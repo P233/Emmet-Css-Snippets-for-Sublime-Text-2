@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-visibility: visible;
-
-]]></content>
-	<tabTrigger>v:v</tabTrigger>
-	<scope>source.css, source.scss</scope>
-	<description>visibility:visible</description>
-</snippet>

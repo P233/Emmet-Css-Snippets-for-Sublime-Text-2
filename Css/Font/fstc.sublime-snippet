@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-font-stretch: condensed;
-
-]]></content>
-	<tabTrigger>fst:c</tabTrigger>
-	<scope>source.css, source.scss</scope>
-	<description>font-stretch:condensed</description>
-</snippet>

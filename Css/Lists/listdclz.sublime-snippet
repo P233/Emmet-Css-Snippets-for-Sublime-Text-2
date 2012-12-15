@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-list-style-type: decimal-leading-zero;
-
-]]></content>
-	<tabTrigger>list:dclz</tabTrigger>
-	<scope>source.css, source.scss</scope>
-	<description>list-style-type:decimal-leading-zero</description>
-</snippet>

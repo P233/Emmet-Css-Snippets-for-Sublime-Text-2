@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-z-index: auto;
-
-]]></content>
-	<tabTrigger>z:a</tabTrigger>
-	<scope>source.css, source.scss</scope>
-	<description>z-index:auto</description>
-</snippet>

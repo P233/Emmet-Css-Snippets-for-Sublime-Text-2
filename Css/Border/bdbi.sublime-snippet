@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[
-border-bottom-image: 
-]]></content>
-	<tabTrigger>bdbi</tabTrigger>
-	<scope>source.css, source.scss</scope>
-	<description>border-bottom-image</description>
-</snippet>

@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-zoom: 1
-
-]]></content>
-	<tabTrigger>zoo</tabTrigger>
-	<scope>source.sass</scope>
-	<description>zoom:1</description>
-</snippet>

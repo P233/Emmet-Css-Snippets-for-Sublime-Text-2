@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-background-image: url(${1:images/})
-
-]]></content>
-	<tabTrigger>bgi</tabTrigger>
-	<scope>source.sass</scope>
-	<description>background-image</description>
-</snippet>

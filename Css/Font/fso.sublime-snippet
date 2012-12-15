@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-font-style: oblique;
-
-]]></content>
-	<tabTrigger>fs:o</tabTrigger>
-	<scope>source.css, source.scss</scope>
-	<description>font-style:oblique</description>
-</snippet>

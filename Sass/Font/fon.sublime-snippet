@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[
-font: 
-]]></content>
-	<tabTrigger>fon</tabTrigger>
-	<scope>source.sass</scope>
-	<description>font</description>
-</snippet>

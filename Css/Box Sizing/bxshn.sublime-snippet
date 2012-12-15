@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-box-shadow: none;
-
-]]></content>
-	<tabTrigger>bxsh:n</tabTrigger>
-	<scope>source.css, source.scss</scope>
-	<description>box-shadow:none</description>
-</snippet>

@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-border-fit: repeat
-
-]]></content>
-	<tabTrigger>bdf:r</tabTrigger>
-	<scope>source.sass</scope>
-	<description>border-fit:repeat</description>
-</snippet>

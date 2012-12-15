@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-empty-cells: show
-
-]]></content>
-	<tabTrigger>ec:s</tabTrigger>
-	<scope>source.sass</scope>
-	<description>empty-cells:show</description>
-</snippet>

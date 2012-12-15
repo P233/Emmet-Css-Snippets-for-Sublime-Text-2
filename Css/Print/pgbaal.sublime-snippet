@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-page-break-after: always;
-
-]]></content>
-	<tabTrigger>pgba:al</tabTrigger>
-	<scope>source.css, source.scss</scope>
-	<description>page-break-after:always</description>
-</snippet>

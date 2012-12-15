@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-overflow-style: move
-
-]]></content>
-	<tabTrigger>ovs:m</tabTrigger>
-	<scope>source.sass</scope>
-	<description>overflow-style:move</description>
-</snippet>

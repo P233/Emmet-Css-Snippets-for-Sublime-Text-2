@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-quotes: '\00AB' '\00BB' '\201E' '\201C'
-
-]]></content>
-	<tabTrigger>q:ru</tabTrigger>
-	<scope>source.sass</scope>
-	<description>quotes:ru</description>
-</snippet>

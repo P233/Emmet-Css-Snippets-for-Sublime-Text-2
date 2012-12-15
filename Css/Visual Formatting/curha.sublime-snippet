@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-cursor: hand;
-
-]]></content>
-	<tabTrigger>cur:ha</tabTrigger>
-	<scope>source.css, source.scss</scope>
-	<description>cursor:hand</description>
-</snippet>

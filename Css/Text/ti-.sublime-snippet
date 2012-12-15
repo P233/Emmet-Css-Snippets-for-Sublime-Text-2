@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-text-indent: -9999px;
-
-]]></content>
-	<tabTrigger>ti:-</tabTrigger>
-	<scope>source.css, source.scss</scope>
-	<description>text-indent:-9999px</description>
-</snippet>

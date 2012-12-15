@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-border-fit: stretch;
-
-]]></content>
-	<tabTrigger>bdf:st</tabTrigger>
-	<scope>source.css, source.scss</scope>
-	<description>border-fit:stretch</description>
-</snippet>

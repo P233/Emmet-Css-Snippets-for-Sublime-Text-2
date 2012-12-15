@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-font-weight: normal
-
-]]></content>
-	<tabTrigger>fw:n</tabTrigger>
-	<scope>source.sass</scope>
-	<description>font-weight:normal</description>
-</snippet>

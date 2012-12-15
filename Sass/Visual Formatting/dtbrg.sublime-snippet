@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-display: table-row-group
-
-]]></content>
-	<tabTrigger>d:tbrg</tabTrigger>
-	<scope>source.sass</scope>
-	<description>display:table-row-group</description>
-</snippet>

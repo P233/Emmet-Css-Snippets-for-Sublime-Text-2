@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-font-stretch: normal
-
-]]></content>
-	<tabTrigger>fst:n</tabTrigger>
-	<scope>source.sass</scope>
-	<description>font-stretch:normal</description>
-</snippet>

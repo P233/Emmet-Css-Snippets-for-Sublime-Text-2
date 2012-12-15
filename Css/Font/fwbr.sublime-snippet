@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-font-weight: bolder;
-
-]]></content>
-	<tabTrigger>fw:br</tabTrigger>
-	<scope>source.css, source.scss</scope>
-	<description>font-weight:bolder</description>
-</snippet>

@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-text-justify: inter-word;
-
-]]></content>
-	<tabTrigger>tj:iw</tabTrigger>
-	<scope>source.css, source.scss</scope>
-	<description>text-justify:inter-word</description>
-</snippet>

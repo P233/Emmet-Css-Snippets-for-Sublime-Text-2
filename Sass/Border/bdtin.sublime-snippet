@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-border-top-image: none
-
-]]></content>
-	<tabTrigger>bdti:n</tabTrigger>
-	<scope>source.sass</scope>
-	<description>border-top-image:none</description>
-</snippet>

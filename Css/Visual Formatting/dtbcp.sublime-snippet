@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-display: table-caption;
-
-]]></content>
-	<tabTrigger>d:tbcp</tabTrigger>
-	<scope>source.css, source.scss</scope>
-	<description>display:table-caption</description>
-</snippet>

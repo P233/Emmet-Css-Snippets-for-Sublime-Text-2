@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-@media print
-	${1:/* style */}
-]]></content>
-	<tabTrigger>mp</tabTrigger>
-	<scope>source.sass</scope>
-	<description>@media print</description>
-</snippet>

@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-table-layout: auto;
-
-]]></content>
-	<tabTrigger>tbl:a</tabTrigger>
-	<scope>source.css, source.scss</scope>
-	<description>table-layout:auto</description>
-</snippet>

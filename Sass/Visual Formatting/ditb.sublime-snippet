@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-display: inline-table
-
-]]></content>
-	<tabTrigger>d:itb</tabTrigger>
-	<scope>source.sass</scope>
-	<description>display:inline-table</description>
-</snippet>

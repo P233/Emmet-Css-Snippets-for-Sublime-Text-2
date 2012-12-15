@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-font-emphasize-style: disc
-
-]]></content>
-	<tabTrigger>fems:ds</tabTrigger>
-	<scope>source.sass</scope>
-	<description>font-emphasize-style:disc</description>
-</snippet>

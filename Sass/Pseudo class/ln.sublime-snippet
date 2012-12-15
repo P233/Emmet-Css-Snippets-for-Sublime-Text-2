@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-$1:lang($2)
-	${3:/* style */}
-]]></content>
-	<tabTrigger>ln</tabTrigger>
-	<scope>source.sass</scope>
-	<description>:lang</description>
-</snippet>

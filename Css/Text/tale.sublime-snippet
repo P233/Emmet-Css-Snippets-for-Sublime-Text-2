@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-text-align: left;
-
-]]></content>
-	<tabTrigger>ta:le</tabTrigger>
-	<scope>source.css, source.scss</scope>
-	<description>text-align:left</description>
-</snippet>

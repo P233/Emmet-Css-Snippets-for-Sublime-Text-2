@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-background-repeat: repeat
-
-]]></content>
-	<tabTrigger>bgr:r</tabTrigger>
-	<scope>source.sass</scope>
-	<description>background-repeat:repeat</description>
-</snippet>

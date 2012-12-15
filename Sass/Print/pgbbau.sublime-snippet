@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-page-break-before: auto
-
-]]></content>
-	<tabTrigger>pgbb:au</tabTrigger>
-	<scope>source.sass</scope>
-	<description>page-break-before:auto</description>
-</snippet>

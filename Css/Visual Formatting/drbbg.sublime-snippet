@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-display: ruby-base-group;
-
-]]></content>
-	<tabTrigger>d:rbbg</tabTrigger>
-	<scope>source.css, source.scss</scope>
-	<description>display:ruby-base-group</description>
-</snippet>

@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-clip: auto
-
-]]></content>
-	<tabTrigger>cp:a</tabTrigger>
-	<scope>source.sass</scope>
-	<description>clip:auto</description>
-</snippet>

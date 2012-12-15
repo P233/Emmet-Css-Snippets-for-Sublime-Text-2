@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-text-justify: distribute;
-
-]]></content>
-	<tabTrigger>tj:d</tabTrigger>
-	<scope>source.css, source.scss</scope>
-	<description>text-justify:distribute</description>
-</snippet>

@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-overflow-x: auto;
-
-]]></content>
-	<tabTrigger>ovx:a</tabTrigger>
-	<scope>source.css, source.scss</scope>
-	<description>overflow-x:auto</description>
-</snippet>

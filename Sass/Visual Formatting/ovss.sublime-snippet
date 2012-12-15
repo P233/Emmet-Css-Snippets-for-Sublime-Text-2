@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-overflow-style: scrollbar
-
-]]></content>
-	<tabTrigger>ovs:s</tabTrigger>
-	<scope>source.sass</scope>
-	<description>overflow-style:scrollbar</description>
-</snippet>

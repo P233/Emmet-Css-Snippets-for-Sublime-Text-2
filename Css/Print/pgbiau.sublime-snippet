@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-page-break-inside: auto;
-
-]]></content>
-	<tabTrigger>pgbi:au</tabTrigger>
-	<scope>source.css, source.scss</scope>
-	<description>page-break-inside:auto</description>
-</snippet>

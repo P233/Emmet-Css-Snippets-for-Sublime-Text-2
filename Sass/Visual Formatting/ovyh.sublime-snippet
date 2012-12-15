@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-overflow-y: hidden
-
-]]></content>
-	<tabTrigger>ovy:h</tabTrigger>
-	<scope>source.sass</scope>
-	<description>overflow-y:hidden</description>
-</snippet>

@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-text-wrap: suppress
-
-]]></content>
-	<tabTrigger>tw:s</tabTrigger>
-	<scope>source.sass</scope>
-	<description>text-wrap:suppress</description>
-</snippet>

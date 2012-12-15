@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-&:checked
-	${1:/* style */}
-]]></content>
-	<tabTrigger>ch:a</tabTrigger>
-	<scope>source.sass</scope>
-	<description>&amp;:checked</description>
-</snippet>

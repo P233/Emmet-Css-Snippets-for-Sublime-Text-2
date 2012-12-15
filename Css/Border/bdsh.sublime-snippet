@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-border-style: hidden;
-
-]]></content>
-	<tabTrigger>bds:h</tabTrigger>
-	<scope>source.css, source.scss</scope>
-	<description>border-style:hidden</description>
-</snippet>

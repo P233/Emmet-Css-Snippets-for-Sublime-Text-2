@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-list-style-image: none
-
-]]></content>
-	<tabTrigger>lisi:n</tabTrigger>
-	<scope>source.sass</scope>
-	<description>list-style-image:none</description>
-</snippet>

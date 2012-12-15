@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-white-space: pre-line
-
-]]></content>
-	<tabTrigger>whs:pl</tabTrigger>
-	<scope>source.sass</scope>
-	<description>white-space:pre-line</description>
-</snippet>

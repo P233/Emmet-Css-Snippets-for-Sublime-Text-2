@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-caption-side: bottom
-
-]]></content>
-	<tabTrigger>cps:b</tabTrigger>
-	<scope>source.sass</scope>
-	<description>caption-side:bottom</description>
-</snippet>

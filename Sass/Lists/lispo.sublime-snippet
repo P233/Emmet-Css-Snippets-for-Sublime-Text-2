@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-list-style-position: outside
-
-]]></content>
-	<tabTrigger>lisp:o</tabTrigger>
-	<scope>source.sass</scope>
-	<description>list-style-position:outside</description>
-</snippet>

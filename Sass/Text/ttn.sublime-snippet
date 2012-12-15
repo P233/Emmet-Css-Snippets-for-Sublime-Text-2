@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-text-transform: none
-
-]]></content>
-	<tabTrigger>tt:n</tabTrigger>
-	<scope>source.sass</scope>
-	<description>text-transform:none</description>
-</snippet>

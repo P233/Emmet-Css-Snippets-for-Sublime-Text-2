@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-font-effect: none;
-
-]]></content>
-	<tabTrigger>fef:n</tabTrigger>
-	<scope>source.css, source.scss</scope>
-	<description>font-effect:none</description>
-</snippet>

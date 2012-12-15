@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-vertical-align: super
-
-]]></content>
-	<tabTrigger>va:sup</tabTrigger>
-	<scope>source.sass</scope>
-	<description>vertical-align:super</description>
-</snippet>

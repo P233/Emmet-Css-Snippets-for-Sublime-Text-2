@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-border-length: auto;
-
-]]></content>
-	<tabTrigger>bdlt:a</tabTrigger>
-	<scope>source.css, source.scss</scope>
-	<description>border-length:auto</description>
-</snippet>

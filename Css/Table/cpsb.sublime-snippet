@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-caption-side: bottom;
-
-]]></content>
-	<tabTrigger>cps:b</tabTrigger>
-	<scope>source.css, source.scss</scope>
-	<description>caption-side:bottom</description>
-</snippet>

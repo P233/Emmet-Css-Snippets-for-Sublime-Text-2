@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-clear: right;
-
-]]></content>
-	<tabTrigger>cl:r</tabTrigger>
-	<scope>source.css, source.scss</scope>
-	<description>clear:right</description>
-</snippet>

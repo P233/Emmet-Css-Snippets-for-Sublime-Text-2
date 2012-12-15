@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-&:first-letter
-	${1:/* style */}
-]]></content>
-	<tabTrigger>fle:a</tabTrigger>
-	<scope>source.sass</scope>
-	<description>&amp;:first-letter</description>
-</snippet>

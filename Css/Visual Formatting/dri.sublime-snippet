@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-display: run-in;
-
-]]></content>
-	<tabTrigger>d:ri</tabTrigger>
-	<scope>source.css, source.scss</scope>
-	<description>display:run-in</description>
-</snippet>

@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-vertical-align: sub;
-
-]]></content>
-	<tabTrigger>va:sub</tabTrigger>
-	<scope>source.css, source.scss</scope>
-	<description>vertical-align:sub</description>
-</snippet>

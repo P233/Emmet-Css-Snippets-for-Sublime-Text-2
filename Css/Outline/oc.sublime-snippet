@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[
-outline-color: ${1:#000}
-]]></content>
-	<tabTrigger>oc</tabTrigger>
-	<scope>source.css, source.scss</scope>
-	<description>outline-color</description>
-</snippet>

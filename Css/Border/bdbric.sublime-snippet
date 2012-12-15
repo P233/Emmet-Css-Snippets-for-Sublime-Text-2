@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-border-bottom-right-image: continue;
-
-]]></content>
-	<tabTrigger>bdbri:c</tabTrigger>
-	<scope>source.css, source.scss</scope>
-	<description>border-bottom-right-image:continue</description>
-</snippet>

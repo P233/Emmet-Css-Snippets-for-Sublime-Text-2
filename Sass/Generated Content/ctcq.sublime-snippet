@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-content: close-quote
-
-]]></content>
-	<tabTrigger>ct:cq</tabTrigger>
-	<scope>source.sass</scope>
-	<description>content:close-quote</description>
-</snippet>

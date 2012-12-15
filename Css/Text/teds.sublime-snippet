@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-text-emphasis: disc;
-
-]]></content>
-	<tabTrigger>te:ds</tabTrigger>
-	<scope>source.css, source.scss</scope>
-	<description>text-emphasis:disc</description>
-</snippet>

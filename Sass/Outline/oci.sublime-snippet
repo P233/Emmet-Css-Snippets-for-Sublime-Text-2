@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-outline-color: invert
-
-]]></content>
-	<tabTrigger>oc:i</tabTrigger>
-	<scope>source.sass</scope>
-	<description>outline-color:invert</description>
-</snippet>

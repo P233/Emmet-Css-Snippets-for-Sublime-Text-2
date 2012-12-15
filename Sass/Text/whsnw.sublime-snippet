@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-white-space: nowrap
-
-]]></content>
-	<tabTrigger>whs:nw</tabTrigger>
-	<scope>source.sass</scope>
-	<description>white-space:nowrap</description>
-</snippet>

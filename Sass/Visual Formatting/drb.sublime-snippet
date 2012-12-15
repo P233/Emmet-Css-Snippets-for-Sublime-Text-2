@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-display: ruby
-
-]]></content>
-	<tabTrigger>d:rb</tabTrigger>
-	<scope>source.sass</scope>
-	<description>display:ruby</description>
-</snippet>

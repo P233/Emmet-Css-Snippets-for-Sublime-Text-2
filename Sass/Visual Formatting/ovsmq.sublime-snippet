@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-overflow-style: marquee
-
-]]></content>
-	<tabTrigger>ovs:mq</tabTrigger>
-	<scope>source.sass</scope>
-	<description>overflow-style:marquee</description>
-</snippet>

@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-text-height: max-size;
-
-]]></content>
-	<tabTrigger>th:t</tabTrigger>
-	<scope>source.css, source.scss</scope>
-	<description>text-height:max-size</description>
-</snippet>

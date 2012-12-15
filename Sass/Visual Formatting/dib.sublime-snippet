@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-display: inline-block
-
-]]></content>
-	<tabTrigger>d:ib</tabTrigger>
-	<scope>source.sass</scope>
-	<description>display:inline-block</description>
-</snippet>

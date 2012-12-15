@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-display: table-header-group
-
-]]></content>
-	<tabTrigger>d:tbhg</tabTrigger>
-	<scope>source.sass</scope>
-	<description>display:table-header-group</description>
-</snippet>

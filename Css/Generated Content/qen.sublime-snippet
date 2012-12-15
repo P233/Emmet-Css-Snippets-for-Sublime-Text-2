@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-quotes: '\201C' '\201D' '\2018' '\2019';
-
-]]></content>
-	<tabTrigger>q:en</tabTrigger>
-	<scope>source.css, source.scss</scope>
-	<description>quotes:en</description>
-</snippet>

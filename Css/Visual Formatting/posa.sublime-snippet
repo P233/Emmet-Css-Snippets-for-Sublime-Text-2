@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-position: absolute;
-
-]]></content>
-	<tabTrigger>pos:a</tabTrigger>
-	<scope>source.css, source.scss</scope>
-	<description>position:absolute</description>
-</snippet>

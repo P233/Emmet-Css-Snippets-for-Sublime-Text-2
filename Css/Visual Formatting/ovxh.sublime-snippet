@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-overflow-x: hidden;
-
-]]></content>
-	<tabTrigger>ovx:h</tabTrigger>
-	<scope>source.css, source.scss</scope>
-	<description>overflow-x:hidden</description>
-</snippet>

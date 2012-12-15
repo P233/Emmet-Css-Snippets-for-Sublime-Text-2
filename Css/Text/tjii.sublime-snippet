@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-text-justify: inter-ideograph;
-
-]]></content>
-	<tabTrigger>tj:ii</tabTrigger>
-	<scope>source.css, source.scss</scope>
-	<description>text-justify:inter-ideograph</description>
-</snippet>

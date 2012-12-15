@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-behavior: url($1);
-$2
-]]></content>
-	<tabTrigger>beh</tabTrigger>
-	<scope>source.css, source.scss</scope>
-	<description>behavior</description>
-</snippet>

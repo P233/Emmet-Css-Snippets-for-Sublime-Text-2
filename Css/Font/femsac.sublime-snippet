@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-font-emphasize-style: accent;
-
-]]></content>
-	<tabTrigger>fems:ac</tabTrigger>
-	<scope>source.css, source.scss</scope>
-	<description>font-emphasize-style:accent</description>
-</snippet>

@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-content: normal
-
-]]></content>
-	<tabTrigger>ct:n</tabTrigger>
-	<scope>source.sass</scope>
-	<description>content:normal</description>
-</snippet>

@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-list-style-type: upper-roman;
-
-]]></content>
-	<tabTrigger>list:ur</tabTrigger>
-	<scope>source.css, source.scss</scope>
-	<description>list-style-type:upper-roman</description>
-</snippet>

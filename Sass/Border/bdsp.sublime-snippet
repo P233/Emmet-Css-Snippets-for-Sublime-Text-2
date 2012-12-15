@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[
-border-spacing: 
-]]></content>
-	<tabTrigger>bdsp</tabTrigger>
-	<scope>source.sass</scope>
-	<description>border-spacing</description>
-</snippet>

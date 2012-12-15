@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-list-style: none
-
-]]></content>
-	<tabTrigger>lis:n</tabTrigger>
-	<scope>source.sass</scope>
-	<description>list-style:none</description>
-</snippet>

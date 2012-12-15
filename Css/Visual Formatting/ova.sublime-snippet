@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-overflow: auto;
-
-]]></content>
-	<tabTrigger>ov:a</tabTrigger>
-	<scope>source.css, source.scss</scope>
-	<description>overflow:auto</description>
-</snippet>

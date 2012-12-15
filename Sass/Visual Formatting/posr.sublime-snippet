@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-position: relative
-
-]]></content>
-	<tabTrigger>pos:r</tabTrigger>
-	<scope>source.sass</scope>
-	<description>position:relative</description>
-</snippet>

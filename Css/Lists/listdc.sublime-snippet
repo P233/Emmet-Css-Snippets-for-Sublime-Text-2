@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-list-style-type: decimal;
-
-]]></content>
-	<tabTrigger>list:dc</tabTrigger>
-	<scope>source.css, source.scss</scope>
-	<description>list-style-type:decimal</description>
-</snippet>

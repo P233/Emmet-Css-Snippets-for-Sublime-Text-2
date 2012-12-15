@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-content: counters("$1");
-
-]]></content>
-	<tabTrigger>ct:cs</tabTrigger>
-	<scope>source.css, source.scss</scope>
-	<description>content:counters()</description>
-</snippet>

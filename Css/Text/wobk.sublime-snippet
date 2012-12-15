@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-word-break: keep-all;
-
-]]></content>
-	<tabTrigger>wob:k</tabTrigger>
-	<scope>source.css, source.scss</scope>
-	<description>word-break:keep-all</description>
-</snippet>

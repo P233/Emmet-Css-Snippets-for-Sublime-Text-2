@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-$1:target
-	${2:/* style */}
-]]></content>
-	<tabTrigger>tgt</tabTrigger>
-	<scope>source.sass</scope>
-	<description>:target</description>
-</snippet>

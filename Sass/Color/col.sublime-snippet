@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[
-color: ${1:#000}
-]]></content>
-	<tabTrigger>col</tabTrigger>
-	<scope>source.sass</scope>
-	<description>color</description>
-</snippet>

@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-display: compact
-
-]]></content>
-	<tabTrigger>d:cp</tabTrigger>
-	<scope>source.sass</scope>
-	<description>display:compact</description>
-</snippet>

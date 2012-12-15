@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-cursor: crosshair
-
-]]></content>
-	<tabTrigger>cur:c</tabTrigger>
-	<scope>source.sass</scope>
-	<description>cursor:crosshair</description>
-</snippet>

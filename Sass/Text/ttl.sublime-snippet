@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-text-transform: lowercase
-
-]]></content>
-	<tabTrigger>tt:l</tabTrigger>
-	<scope>source.sass</scope>
-	<description>text-transform:lowercase</description>
-</snippet>

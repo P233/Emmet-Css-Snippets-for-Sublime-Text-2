@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-text-decoration: overline
-
-]]></content>
-	<tabTrigger>td:o</tabTrigger>
-	<scope>source.sass</scope>
-	<description>text-decoration:overline</description>
-</snippet>

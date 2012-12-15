@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-text-justify: inter-cluster
-
-]]></content>
-	<tabTrigger>tj:ic</tabTrigger>
-	<scope>source.sass</scope>
-	<description>text-justify:inter-cluster</description>
-</snippet>

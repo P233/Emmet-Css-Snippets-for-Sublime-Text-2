@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-word-break: break-strict;
-
-]]></content>
-	<tabTrigger>wob:bs</tabTrigger>
-	<scope>source.css, source.scss</scope>
-	<description>word-break:break-strict</description>
-</snippet>

@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-list-style-type: lower-roman;
-
-]]></content>
-	<tabTrigger>list:lr</tabTrigger>
-	<scope>source.css, source.scss</scope>
-	<description>list-style-type:lower-roman</description>
-</snippet>

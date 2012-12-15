@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-border-fit: scale;
-
-]]></content>
-	<tabTrigger>bdf:sc</tabTrigger>
-	<scope>source.css, source.scss</scope>
-	<description>border-fit:scale</description>
-</snippet>

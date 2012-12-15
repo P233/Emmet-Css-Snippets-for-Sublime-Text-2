@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-bottom: auto;
-
-]]></content>
-	<tabTrigger>b:a</tabTrigger>
-	<scope>source.css, source.scss</scope>
-	<description>bottom:auto</description>
-</snippet>

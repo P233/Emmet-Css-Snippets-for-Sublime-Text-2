@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-page-break-after: left
-
-]]></content>
-	<tabTrigger>pgba:l</tabTrigger>
-	<scope>source.sass</scope>
-	<description>page-break-after:left</description>
-</snippet>

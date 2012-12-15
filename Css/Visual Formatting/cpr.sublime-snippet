@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-clip: rect(${1:0 0 0 0});
-
-]]></content>
-	<tabTrigger>cp:r</tabTrigger>
-	<scope>source.css, source.scss</scope>
-	<description>clip:rect(0 0 0 0)</description>
-</snippet>

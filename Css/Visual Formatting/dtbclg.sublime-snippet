@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-display: table-column-group;
-
-]]></content>
-	<tabTrigger>d:tbclg</tabTrigger>
-	<scope>source.css, source.scss</scope>
-	<description>display:table-column-group</description>
-</snippet>

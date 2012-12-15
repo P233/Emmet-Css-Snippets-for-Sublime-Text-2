@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-border-style: solid;
-
-]]></content>
-	<tabTrigger>bds:s</tabTrigger>
-	<scope>source.css, source.scss</scope>
-	<description>border-style:solid</description>
-</snippet>

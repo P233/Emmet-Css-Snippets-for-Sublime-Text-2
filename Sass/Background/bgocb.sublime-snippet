@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-background-origin: content-box
-
-]]></content>
-	<tabTrigger>bgo:cb</tabTrigger>
-	<scope>source.sass</scope>
-	<description>background-origin:content-box</description>
-</snippet>

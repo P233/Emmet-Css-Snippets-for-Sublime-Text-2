@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-display: list-item;
-
-]]></content>
-	<tabTrigger>d:li</tabTrigger>
-	<scope>source.css, source.scss</scope>
-	<description>display:list-item</description>
-</snippet>

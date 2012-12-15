@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-border-fit: clip;
-
-]]></content>
-	<tabTrigger>bdf:c</tabTrigger>
-	<scope>source.css, source.scss</scope>
-	<description>border-fit:clip</description>
-</snippet>

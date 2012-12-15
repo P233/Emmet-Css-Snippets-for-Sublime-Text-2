@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-border-style: wave;
-
-]]></content>
-	<tabTrigger>bds:w</tabTrigger>
-	<scope>source.css, source.scss</scope>
-	<description>border-style:wave</description>
-</snippet>

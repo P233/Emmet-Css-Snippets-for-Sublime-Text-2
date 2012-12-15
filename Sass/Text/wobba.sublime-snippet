@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-word-break: break-all
-
-]]></content>
-	<tabTrigger>wob:ba</tabTrigger>
-	<scope>source.sass</scope>
-	<description>word-break:break-all</description>
-</snippet>

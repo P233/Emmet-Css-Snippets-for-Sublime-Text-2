@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-content: no-close-quote;
-
-]]></content>
-	<tabTrigger>ct:ncq</tabTrigger>
-	<scope>source.css, source.scss</scope>
-	<description>content:no-close-quote</description>
-</snippet>

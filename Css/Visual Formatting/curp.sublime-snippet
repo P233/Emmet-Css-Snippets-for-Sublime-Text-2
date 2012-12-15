@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-cursor: pointer;
-
-]]></content>
-	<tabTrigger>cur:p</tabTrigger>
-	<scope>source.css, source.scss</scope>
-	<description>cursor:pointer</description>
-</snippet>

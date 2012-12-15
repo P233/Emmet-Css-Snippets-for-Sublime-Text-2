@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-position: fixed;
-
-]]></content>
-	<tabTrigger>pos:f</tabTrigger>
-	<scope>source.css, source.scss</scope>
-	<description>position:fixed</description>
-</snippet>

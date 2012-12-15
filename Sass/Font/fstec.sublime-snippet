@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-font-stretch: extra-condensed
-
-]]></content>
-	<tabTrigger>fst:ec</tabTrigger>
-	<scope>source.sass</scope>
-	<description>font-stretch:extra-condensed</description>
-</snippet>

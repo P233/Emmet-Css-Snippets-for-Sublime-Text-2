@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-float: none
-
-]]></content>
-	<tabTrigger>fl:n</tabTrigger>
-	<scope>source.sass</scope>
-	<description>float:none</description>
-</snippet>

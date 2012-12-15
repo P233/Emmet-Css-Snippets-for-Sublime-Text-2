@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-background-break: each-box
-
-]]></content>
-	<tabTrigger>bgbk:eb</tabTrigger>
-	<scope>source.sass</scope>
-	<description>background-break:each-box</description>
-</snippet>

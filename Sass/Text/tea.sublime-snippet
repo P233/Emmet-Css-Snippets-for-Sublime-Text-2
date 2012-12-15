@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-text-emphasis: after
-
-]]></content>
-	<tabTrigger>te:a</tabTrigger>
-	<scope>source.sass</scope>
-	<description>text-emphasis:after</description>
-</snippet>

@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-empty-cells: hide;
-
-]]></content>
-	<tabTrigger>ec:h</tabTrigger>
-	<scope>source.css, source.scss</scope>
-	<description>empty-cells:hide</description>
-</snippet>

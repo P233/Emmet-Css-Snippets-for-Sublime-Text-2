@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-&:disabled
-	${1:/* style */}
-]]></content>
-	<tabTrigger>dsa:a</tabTrigger>
-	<scope>source.sass</scope>
-	<description>&amp;:disabled</description>
-</snippet>

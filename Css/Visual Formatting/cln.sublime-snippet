@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-clear: none;
-
-]]></content>
-	<tabTrigger>cl:n</tabTrigger>
-	<scope>source.css, source.scss</scope>
-	<description>clear:none</description>
-</snippet>

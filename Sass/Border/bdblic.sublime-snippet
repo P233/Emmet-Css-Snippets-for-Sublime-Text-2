@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-border-bottom-left-image: continue
-
-]]></content>
-	<tabTrigger>bdbli:c</tabTrigger>
-	<scope>source.sass</scope>
-	<description>border-bottom-left-image:continue</description>
-</snippet>

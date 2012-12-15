@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-font-stretch: extra-expanded;
-
-]]></content>
-	<tabTrigger>fst:ee</tabTrigger>
-	<scope>source.css, source.scss</scope>
-	<description>font-stretch:extra-expanded</description>
-</snippet>

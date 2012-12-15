@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-&:visited
-	${1:/* style */}
-]]></content>
-	<tabTrigger>vit:a</tabTrigger>
-	<scope>source.sass</scope>
-	<description>&amp;:visited</description>
-</snippet>

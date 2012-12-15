@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-$1:first-line
-	${2:/* style */}
-]]></content>
-	<tabTrigger>fli</tabTrigger>
-	<scope>source.sass</scope>
-	<description>:first-line</description>
-</snippet>

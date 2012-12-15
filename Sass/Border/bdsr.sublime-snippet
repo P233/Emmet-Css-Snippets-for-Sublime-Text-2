@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-border-style: ridge
-
-]]></content>
-	<tabTrigger>bds:r</tabTrigger>
-	<scope>source.sass</scope>
-	<description>border-style:ridge</description>
-</snippet>

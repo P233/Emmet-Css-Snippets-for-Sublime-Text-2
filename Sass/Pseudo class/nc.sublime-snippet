@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-$1:nth-child($2)
-	${3:/* style */}
-]]></content>
-	<tabTrigger>nc</tabTrigger>
-	<scope>source.sass</scope>
-	<description>:nth-child</description>
-</snippet>

@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-text-align-last: auto;
-
-]]></content>
-	<tabTrigger>tal:a</tabTrigger>
-	<scope>source.css, source.scss</scope>
-	<description>text-align-last:auto</description>
-</snippet>
