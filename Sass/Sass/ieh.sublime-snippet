@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+ie-hex-str($1)
+]]></content>
+	<tabTrigger>ieh</tabTrigger>
+	<scope>source.scss, source.sass</scope>
+	<description>ie-hex-str()</description>
+</snippet>

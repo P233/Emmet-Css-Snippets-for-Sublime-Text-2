@@ -1,7 +1,6 @@
 <snippet>
 	<content><![CDATA[
-@import url($1);
-
+@import 
 ]]></content>
 	<tabTrigger>imp</tabTrigger>
 	<scope>source.css, source.scss</scope>

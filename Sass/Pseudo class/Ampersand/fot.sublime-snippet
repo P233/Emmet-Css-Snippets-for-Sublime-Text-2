@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+&:first-of-type
+	${1:/* style */}
+]]></content>
+	<tabTrigger>fot:a</tabTrigger>
+	<scope>source.sass</scope>
+	<description>&amp;:first-of-type</description>
+</snippet>

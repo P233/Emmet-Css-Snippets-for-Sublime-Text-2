@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+$1:nth-of-type($2)
+	${3:/* style */}
+]]></content>
+	<tabTrigger>not</tabTrigger>
+	<scope>source.sass</scope>
+	<description>:nth-of-type()</description>
+</snippet>

@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+&:nth-of-type($1) {
+	${2:/* style */}
+}
+
+]]></content>
+	<tabTrigger>not:a</tabTrigger>
+	<scope>source.css, source.scss</scope>
+	<description>&amp;:nth-of-type()</description>
+</snippet>

@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+&:first-of-type {
+	${1:/* style */}
+}
+
+]]></content>
+	<tabTrigger>fot:a</tabTrigger>
+	<scope>source.css, source.scss</scope>
+	<description>&amp;:first-of-type</description>
+</snippet>
