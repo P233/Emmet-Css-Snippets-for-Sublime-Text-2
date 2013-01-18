@@ -395,6 +395,11 @@
         <p><b>bgz:a</b><span>background-size:auto;</span><i>[bz:a]</i></p>
         <p><b>bgz:ct</b><span>background-size:contain;</span><i>[bz:t]</i></p>
         <p><b>bgz:cv</b><span>background-size:cover;</span><i>[bz:v]</i></p><a name="anchor7"></a>
+        <p class="new special"><b>bgig</b><span>background-image: -webkit-gradient(${1:Style_1});<br>
+background-image: -webkit-linear-gradient(${2:Style_2});<br>
+background-image: -moz-linear-gradient(${2:Style_2});<br>
+background-image: -o-linear-gradient(${2:Style_2});<br>
+background-image: linear-gradient(${3:Style_3});</span></p>
         <h2>Color</h2>
         <p class="diff"><b>col</b><span>color:#000;</span></p>
         <p><b>op</b><span>opacity:;</span></p>
@@ -710,11 +715,21 @@
         <p class="new"><b>vit:a</b><span>&:visited{}</span></p>
         <hr>
         <p class="new"><b>tgt</b><span> :target{}</span><i>[tg]</i></p>
-        <p class="new"><b>tgt:a</b><span>&:target{}</span><i>[tg:a]</i></p><a name="anchor16"></a>
+        <p class="new"><b>tgt:a</b><span>&:target{}</span><i>[tg:a]</i></p>
+        <hr>
+        <p class="new"><b>fot</b><span> :first-of-type{}</span></p>
+        <p class="new"><b>fot:a</b><span>&:first-of-type{}</span></p>
+        <hr>
+        <p class="new"><b>lot</b><span> :last-of-type{}</span></p>
+        <p class="new"><b>lot:a</b><span>&:last-of-type{}</span></p>
+        <hr>
+        <p class="new"><b>not</b><span> :nth-of-type(){}</span><i>[nt]</i></p>
+        <p class="new"><b>not:a</b><span>&:nth-of-type(){}</span><i>[nt:a]</i></p><a name="anchor16"></a>
         <h2>Scss &amp; Sass</h2>
         <p class="new"><b>ext</b><span>@extend</span><i>[et]</i></p>
         <p class="new"><b>inc</b><span>@include</span><i>[ic]</i></p>
-        <p class="new"><b>mix</b><span>@mixin</span><i>[mx]</i></p><a id="top" href="#">Top</a>
+        <p class="new"><b>mix</b><span>@mixin</span><i>[mx]</i></p>
+        <p class="new"><b>ieh</b><span>ie-hex-str()</span></p><a id="top" href="#">Top</a>
       </div>
       <div id="note" class="inner">
         <p>This list is based on the offical <a href="http://docs.emmet.io/cheat-sheet/" target="_blank">Cheat Sheet of Emmet.</a></p>
