@@ -3,6 +3,6 @@
 border-radius: 
 ]]></content>
 	<tabTrigger>bdrsa</tabTrigger>
-	<scope>source.css, source.scss</scope>
+	<scope>source.css, source.scss, source.sass</scope>
 	<description>border-radius</description>
 </snippet>

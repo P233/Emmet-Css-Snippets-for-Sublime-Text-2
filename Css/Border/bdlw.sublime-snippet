@@ -3,6 +3,6 @@
 border-left-width: 
 ]]></content>
 	<tabTrigger>bdlw</tabTrigger>
-	<scope>source.css, source.scss</scope>
+	<scope>source.css, source.scss, source.sass</scope>
 	<description>border-left-width</description>
 </snippet>

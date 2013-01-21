@@ -3,6 +3,6 @@
 page-break-before: 
 ]]></content>
 	<tabTrigger>pgbb</tabTrigger>
-	<scope>source.css, source.scss</scope>
+	<scope>source.css, source.scss, source.sass</scope>
 	<description>page-break-before</description>
 </snippet>

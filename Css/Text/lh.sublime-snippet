@@ -3,6 +3,6 @@
 line-height: 
 ]]></content>
 	<tabTrigger>lh</tabTrigger>
-	<scope>source.css, source.scss</scope>
+	<scope>source.css, source.scss, source.sass</scope>
 	<description>line-height</description>
 </snippet>

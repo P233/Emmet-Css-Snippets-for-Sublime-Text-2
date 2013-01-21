@@ -3,6 +3,6 @@
 font-smooth: 
 ]]></content>
 	<tabTrigger>fsm</tabTrigger>
-	<scope>source.css, source.scss</scope>
+	<scope>source.css, source.scss, source.sass</scope>
 	<description>font-smooth</description>
 </snippet>

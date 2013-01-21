@@ -3,6 +3,6 @@
 font-emphasize-style: 
 ]]></content>
 	<tabTrigger>fems</tabTrigger>
-	<scope>source.css, source.scss</scope>
+	<scope>source.css, source.scss, source.sass</scope>
 	<description>font-emphasize-style</description>
 </snippet>

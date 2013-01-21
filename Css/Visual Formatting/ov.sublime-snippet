@@ -3,6 +3,6 @@
 overflow: 
 ]]></content>
 	<tabTrigger>ov</tabTrigger>
-	<scope>source.css, source.scss</scope>
+	<scope>source.css, source.scss, source.sass</scope>
 	<description>overflow</description>
 </snippet>

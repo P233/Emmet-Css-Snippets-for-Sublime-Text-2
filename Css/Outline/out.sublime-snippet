@@ -3,6 +3,6 @@
 outline: 
 ]]></content>
 	<tabTrigger>out</tabTrigger>
-	<scope>source.css, source.scss</scope>
+	<scope>source.css, source.scss, source.sass</scope>
 	<description>outline</description>
 </snippet>

@@ -3,6 +3,6 @@
 text-justify: 
 ]]></content>
 	<tabTrigger>tj</tabTrigger>
-	<scope>source.css, source.scss</scope>
+	<scope>source.css, source.scss, source.sass</scope>
 	<description>text-justify</description>
 </snippet>

@@ -3,6 +3,6 @@
 border-bottom: 
 ]]></content>
 	<tabTrigger>bdb</tabTrigger>
-	<scope>source.css, source.scss</scope>
+	<scope>source.css, source.scss, source.sass</scope>
 	<description>border-bottom</description>
 </snippet>

@@ -3,6 +3,6 @@
 right: 
 ]]></content>
 	<tabTrigger>rig</tabTrigger>
-	<scope>source.css, source.scss</scope>
+	<scope>source.css, source.scss, source.sass</scope>
 	<description>right</description>
 </snippet>

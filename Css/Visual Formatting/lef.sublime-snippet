@@ -3,6 +3,6 @@
 left: 
 ]]></content>
 	<tabTrigger>lef</tabTrigger>
-	<scope>source.css, source.scss</scope>
+	<scope>source.css, source.scss, source.sass</scope>
 	<description>left</description>
 </snippet>

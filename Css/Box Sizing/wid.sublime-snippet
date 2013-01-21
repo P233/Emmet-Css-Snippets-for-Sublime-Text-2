@@ -3,6 +3,6 @@
 width: 
 ]]></content>
 	<tabTrigger>wid</tabTrigger>
-	<scope>source.css, source.scss</scope>
+	<scope>source.css, source.scss, source.sass</scope>
 	<description>width</description>
 </snippet>

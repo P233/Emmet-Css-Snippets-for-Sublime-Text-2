@@ -3,6 +3,6 @@
 counter-increment: 
 ]]></content>
 	<tabTrigger>coi</tabTrigger>
-	<scope>source.css, source.scss</scope>
+	<scope>source.css, source.scss, source.sass</scope>
 	<description>counter-increment</description>
 </snippet>

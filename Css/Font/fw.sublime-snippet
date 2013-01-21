@@ -3,6 +3,6 @@
 font-weight: 
 ]]></content>
 	<tabTrigger>fw</tabTrigger>
-	<scope>source.css, source.scss</scope>
+	<scope>source.css, source.scss, source.sass</scope>
 	<description>font-weight</description>
 </snippet>
