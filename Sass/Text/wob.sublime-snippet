@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[
-word-break: 
-]]></content>
-	<tabTrigger>wob</tabTrigger>
-	<scope>source.sass</scope>
-	<description>word-break</description>
-</snippet>

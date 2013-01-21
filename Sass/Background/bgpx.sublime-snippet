@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[
-background-position-x: 
-]]></content>
-	<tabTrigger>bgpx</tabTrigger>
-	<scope>source.sass</scope>
-	<description>background-position-x</description>
-</snippet>
