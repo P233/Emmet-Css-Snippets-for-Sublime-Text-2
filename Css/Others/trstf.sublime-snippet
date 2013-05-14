@@ -2,8 +2,8 @@
 	<content><![CDATA[
 -webkit-transition-timing-function: $1;
 -moz-transition-timing-function: $1;
--o-transition-timing-function: $1;
 -ms-transition-timing-function: $1;
+-o-transition-timing-function: $1;
 transition-timing-function: $1;
 $2
 ]]></content>

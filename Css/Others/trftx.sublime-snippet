@@ -2,8 +2,8 @@
 	<content><![CDATA[
 -webkit-transform: translateX($1);
 -moz-transform: translateX($1);
--o-transform: translateX($1);
 -ms-transform: translateX($1);
+-o-transform: translateX($1);
 transform: translateX($1);
 $2
 ]]></content>

@@ -2,8 +2,8 @@
 	<content><![CDATA[
 -webkit-animation: $1;
 -moz-animation: $1;
--o-animation: $1;
 -ms-animation: $1;
+-o-animation: $1;
 animation: $1;
 $2
 ]]></content>

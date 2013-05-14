@@ -2,8 +2,8 @@
 	<content><![CDATA[
 -webkit-transform: rotate(${1:90}deg);
 -moz-transform: rotate(${1:90}deg);
--o-transform: rotate(${1:90}deg);
 -ms-transform: rotate(${1:90}deg);
+-o-transform: rotate(${1:90}deg);
 transform: rotate(${1:90}deg);
 $2
 ]]></content>

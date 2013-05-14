@@ -2,8 +2,8 @@
 	<content><![CDATA[
 -webkit-transition-duration: $1;
 -moz-transition-duration: $1;
--o-transition-duration: $1;
 -ms-transition-duration: $1;
+-o-transition-duration: $1;
 transition-duration: $1;
 $2
 ]]></content>

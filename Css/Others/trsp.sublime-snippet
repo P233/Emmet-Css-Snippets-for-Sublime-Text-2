@@ -2,8 +2,8 @@
 	<content><![CDATA[
 -webkit-transition-property: $1;
 -moz-transition-property: $1;
--o-transition-property: $1;
 -ms-transition-property: $1;
+-o-transition-property: $1;
 transition-property: $1;
 $2
 ]]></content>

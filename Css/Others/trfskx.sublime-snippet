@@ -2,8 +2,8 @@
 	<content><![CDATA[
 -webkit-transform: skewX($1);
 -moz-transform: skewX($1);
--o-transform: skewX($1);
 -ms-transform: skewX($1);
+-o-transform: skewX($1);
 transform: skewX($1);
 $2
 ]]></content>
