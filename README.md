@@ -1,6 +1,6 @@
 # Emmet CSS Snippets for Sublime Text 2
 
-**Update:** <del>Added Compass CSS3 mixins autocompletions (still under working progress)</del> Sorry, Compass autocompletions will be added to [Syntax Highlighting for Sass](https://github.com/P233/Syntax-highlighting-for-Sass) soon.
+**Update:** Sass functions autocompletion has been moved to [Syntax Highlighting for Sass](https://github.com/P233/Syntax-highlighting-for-Sass). This is in order to increase the accuracy. If you miss this feature you can manually download [the file](https://github.com/P233/Emmet-Css-Snippets-for-Sublime-Text-2/blob/gh-pages/Sass_Functions.sublime-completions) and place it into the User folder of Sublime Text. I do apologise for the inconvenience!
 
 Zen CSS (now has been updated to [Emmet](http://docs.emmet.io)) is a great tool to increase CSS workflow, but the property aliases are not easy to remember. Therefore I turned Zen CSS syntaxes into sublime text 2 snippets, so we can use Zen CSS through autocomplete hints. It can work with CSS, LESS, SCSS and Sass. I also made a few changes and added some additional snippets which you will see from below.
 
