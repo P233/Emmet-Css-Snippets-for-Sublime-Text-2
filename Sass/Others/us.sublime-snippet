@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+-webkit-user-select: none
+-moz-user-select: none
+-ms-user-select: none
+user-select: none
+$1
+]]></content>
+	<tabTrigger>us</tabTrigger>
+	<scope>source.sass</scope>
+	<description>user-select:none</description>
+</snippet>

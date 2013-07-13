@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+-webkit-font-smoothing: none
+$1
+]]></content>
+	<tabTrigger>wfs:n</tabTrigger>
+	<scope>source.sass</scope>
+	<description>-webkit-font-smoothing:none</description>
+</snippet>

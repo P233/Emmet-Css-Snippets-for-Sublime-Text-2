@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+-webkit-font-smoothing: subpixel-antialiased
+$1
+]]></content>
+	<tabTrigger>wfs:sa</tabTrigger>
+	<scope>source.sass</scope>
+	<description>-webkit-font-smoothing:subpixel-antialiased</description>
+</snippet>
