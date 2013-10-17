@@ -4,6 +4,6 @@ background-image: none;
 
 ]]></content>
 	<tabTrigger>bgi:n</tabTrigger>
-	<scope>source.css, source.scss</scope>
+	<scope>source.css, source.scss, source.less</scope>
 	<description>background-image:none</description>
 </snippet>

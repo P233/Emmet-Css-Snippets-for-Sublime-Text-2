@@ -6,6 +6,6 @@ $1:checked {
 
 ]]></content>
 	<tabTrigger>ch</tabTrigger>
-	<scope>source.css, source.scss</scope>
+	<scope>source.css, source.less, source.scss</scope>
 	<description>:checked</description>
 </snippet>

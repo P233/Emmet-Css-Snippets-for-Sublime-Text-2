@@ -4,6 +4,6 @@ overflow-style: scrollbar;
 
 ]]></content>
 	<tabTrigger>ovs:s</tabTrigger>
-	<scope>source.css, source.scss</scope>
+	<scope>source.css, source.less, source.scss</scope>
 	<description>overflow-style:scrollbar</description>
 </snippet>

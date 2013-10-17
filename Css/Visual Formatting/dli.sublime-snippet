@@ -4,6 +4,6 @@ display: list-item;
 
 ]]></content>
 	<tabTrigger>d:li</tabTrigger>
-	<scope>source.css, source.scss</scope>
+	<scope>source.css, source.less, source.scss</scope>
 	<description>display:list-item</description>
 </snippet>

@@ -6,6 +6,6 @@ background-size: contain;
 
 ]]></content>
 	<tabTrigger>bgz:ct</tabTrigger>
-	<scope>source.css, source.scss</scope>
+	<scope>source.css, source.scss, source.less</scope>
 	<description>background-size:contain</description>
 </snippet>

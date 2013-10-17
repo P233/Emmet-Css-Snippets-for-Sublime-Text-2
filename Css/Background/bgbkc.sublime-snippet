@@ -4,6 +4,6 @@ background-break: continuous;
 
 ]]></content>
 	<tabTrigger>bgbk:c</tabTrigger>
-	<scope>source.css, source.scss</scope>
+	<scope>source.css, source.scss, source.less</scope>
 	<description>background-break:continuous</description>
 </snippet>

@@ -4,6 +4,6 @@ display: ruby-text;
 
 ]]></content>
 	<tabTrigger>d:rbt</tabTrigger>
-	<scope>source.css, source.scss</scope>
+	<scope>source.css, source.less, source.scss</scope>
 	<description>display:ruby-text</description>
 </snippet>

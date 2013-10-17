@@ -4,6 +4,6 @@ empty-cells: show;
 
 ]]></content>
 	<tabTrigger>ec:s</tabTrigger>
-	<scope>source.css, source.scss</scope>
+	<scope>source.css, source.less, source.scss</scope>
 	<description>empty-cells:show</description>
 </snippet>

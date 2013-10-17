@@ -4,6 +4,6 @@ font-weight: normal;
 
 ]]></content>
 	<tabTrigger>fw:n</tabTrigger>
-	<scope>source.css, source.scss</scope>
+	<scope>source.css, source.less, source.scss</scope>
 	<description>font-weight:normal</description>
 </snippet>

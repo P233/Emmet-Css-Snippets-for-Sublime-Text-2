@@ -4,6 +4,6 @@ text-decoration: line-through;
 
 ]]></content>
 	<tabTrigger>td:l</tabTrigger>
-	<scope>source.css, source.scss</scope>
+	<scope>source.css, source.less, source.scss</scope>
 	<description>text-decoration:line-through</description>
 </snippet>

@@ -4,6 +4,6 @@ text-align-last: left;
 
 ]]></content>
 	<tabTrigger>tal:l</tabTrigger>
-	<scope>source.css, source.scss</scope>
+	<scope>source.css, source.less, source.scss</scope>
 	<description>text-align-last:left</description>
 </snippet>

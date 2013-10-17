@@ -4,6 +4,6 @@ background-color: transparent;
 
 ]]></content>
 	<tabTrigger>bgc:t</tabTrigger>
-	<scope>source.css, source.scss</scope>
+	<scope>source.css, source.scss, source.less</scope>
 	<description>background-color:transparent</description>
 </snippet>

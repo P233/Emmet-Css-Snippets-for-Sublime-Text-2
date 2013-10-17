@@ -6,6 +6,6 @@ $1:enabled {
 
 ]]></content>
 	<tabTrigger>en</tabTrigger>
-	<scope>source.css, source.scss</scope>
+	<scope>source.css, source.less, source.scss</scope>
 	<description>:enabled</description>
 </snippet>

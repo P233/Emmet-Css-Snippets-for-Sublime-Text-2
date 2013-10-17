@@ -4,6 +4,6 @@ text-justify: inter-cluster;
 
 ]]></content>
 	<tabTrigger>tj:ic</tabTrigger>
-	<scope>source.css, source.scss</scope>
+	<scope>source.css, source.less, source.scss</scope>
 	<description>text-justify:inter-cluster</description>
 </snippet>

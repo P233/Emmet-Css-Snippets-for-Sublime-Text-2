@@ -4,6 +4,6 @@ clear: both;
 
 ]]></content>
 	<tabTrigger>cl:b</tabTrigger>
-	<scope>source.css, source.scss</scope>
+	<scope>source.css, source.less, source.scss</scope>
 	<description>clear:both</description>
 </snippet>

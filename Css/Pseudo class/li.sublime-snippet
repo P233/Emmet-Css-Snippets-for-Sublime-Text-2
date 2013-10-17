@@ -6,6 +6,6 @@ $1:link {
 
 ]]></content>
 	<tabTrigger>li</tabTrigger>
-	<scope>source.css, source.scss</scope>
+	<scope>source.css, source.less, source.scss</scope>
 	<description>:link</description>
 </snippet>

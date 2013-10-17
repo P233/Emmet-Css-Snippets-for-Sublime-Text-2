@@ -6,6 +6,6 @@ resize: both;
 
 ]]></content>
 	<tabTrigger>rz:b</tabTrigger>
-	<scope>source.css, source.scss</scope>
+	<scope>source.css, source.less, source.scss</scope>
 	<description>resize:both</description>
 </snippet>

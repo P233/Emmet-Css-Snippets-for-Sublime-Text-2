@@ -4,6 +4,6 @@ left: auto;
 
 ]]></content>
 	<tabTrigger>l:a</tabTrigger>
-	<scope>source.css, source.scss</scope>
+	<scope>source.css, source.less, source.scss</scope>
 	<description>left:auto</description>
 </snippet>

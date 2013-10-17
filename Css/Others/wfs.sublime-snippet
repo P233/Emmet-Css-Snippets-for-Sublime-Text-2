@@ -3,6 +3,6 @@
 -webkit-font-smoothing: $1
 ]]></content>
 	<tabTrigger>wfs</tabTrigger>
-	<scope>source.css, source.scss, source.sass</scope>
+	<scope>source.css, source.less, source.scss, source.sass</scope>
 	<description>-webkit-font-smoothing</description>
 </snippet>

@@ -7,6 +7,6 @@ user-select: none;
 $1
 ]]></content>
 	<tabTrigger>us</tabTrigger>
-	<scope>source.css, source.scss</scope>
+	<scope>source.css, source.less, source.scss</scope>
 	<description>user-select:none</description>
 </snippet>

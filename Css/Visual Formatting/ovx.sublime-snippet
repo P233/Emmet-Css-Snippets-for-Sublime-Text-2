@@ -5,6 +5,6 @@ overflow-x: $1;
 $2
 ]]></content>
 	<tabTrigger>ovx</tabTrigger>
-	<scope>source.css, source.scss</scope>
+	<scope>source.css, source.less, source.scss</scope>
 	<description>overflow-x</description>
 </snippet>

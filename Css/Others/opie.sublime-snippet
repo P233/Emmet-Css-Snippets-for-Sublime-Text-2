@@ -4,6 +4,6 @@ filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=${1:100});
 
 ]]></content>
 	<tabTrigger>op:ie</tabTrigger>
-	<scope>source.css, source.scss</scope>
+	<scope>source.css, source.less, source.scss</scope>
 	<description>filter:opacity</description>
 </snippet>

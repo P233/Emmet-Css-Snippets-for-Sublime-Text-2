@@ -3,6 +3,6 @@
 background-color: ${1:#fff}
 ]]></content>
 	<tabTrigger>bgc</tabTrigger>
-	<scope>source.css, source.scss</scope>
+	<scope>source.css, source.scss, source.less</scope>
 	<description>background-color</description>
 </snippet>

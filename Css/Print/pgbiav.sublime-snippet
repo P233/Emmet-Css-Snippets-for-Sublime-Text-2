@@ -4,6 +4,6 @@ page-break-inside: avoid;
 
 ]]></content>
 	<tabTrigger>pgbi:av</tabTrigger>
-	<scope>source.css, source.scss</scope>
+	<scope>source.css, source.less, source.scss</scope>
 	<description>page-break-inside:avoid</description>
 </snippet>

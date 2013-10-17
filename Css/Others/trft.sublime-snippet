@@ -8,6 +8,6 @@ transform: translate($1, $2);
 $3
 ]]></content>
 	<tabTrigger>trf:t</tabTrigger>
-	<scope>source.css, source.scss</scope>
+	<scope>source.css, source.less, source.scss</scope>
 	<description>transform:translate()</description>
 </snippet>

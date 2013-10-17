@@ -1,11 +1,11 @@
 <snippet>
-	<content><![CDATA[
+    <content><![CDATA[
 $1:last-of-type {
-	${2:/* style */}
+    ${2:/* style */}
 }
 
 ]]></content>
-	<tabTrigger>lot</tabTrigger>
-	<scope>source.css, source.scss</scope>
-	<description>:last-of-type</description>
+    <tabTrigger>lot</tabTrigger>
+    <scope>source.css, source.less, source.scss</scope>
+    <description>:last-of-type</description>
 </snippet>

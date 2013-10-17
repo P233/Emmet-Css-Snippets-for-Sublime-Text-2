@@ -4,6 +4,6 @@ font-family: Georgia, 'Times New Roman', serif;
 
 ]]></content>
 	<tabTrigger>ff:s</tabTrigger>
-	<scope>source.css, source.scss</scope>
+	<scope>source.css, source.less, source.scss</scope>
 	<description>font-family:serif</description>
 </snippet>

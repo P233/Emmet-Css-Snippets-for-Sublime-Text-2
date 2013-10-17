@@ -4,6 +4,6 @@ max-height: none;
 
 ]]></content>
 	<tabTrigger>mah:n</tabTrigger>
-	<scope>source.css, source.scss</scope>
+	<scope>source.css, source.less, source.scss</scope>
 	<description>max-height:none</description>
 </snippet>

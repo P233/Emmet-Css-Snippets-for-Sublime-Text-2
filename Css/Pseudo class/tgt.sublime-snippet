@@ -1,11 +1,11 @@
 <snippet>
-	<content><![CDATA[
+    <content><![CDATA[
 $1:target {
-	${2:/* style */}
+    ${2:/* style */}
 }
 
 ]]></content>
-	<tabTrigger>tgt</tabTrigger>
-	<scope>source.css, source.scss</scope>
-	<description>:target</description>
+    <tabTrigger>tgt</tabTrigger>
+    <scope>source.css, source.less, source.scss</scope>
+    <description>:target</description>
 </snippet>

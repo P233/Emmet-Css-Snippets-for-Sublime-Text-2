@@ -6,6 +6,6 @@
 
 ]]></content>
 	<tabTrigger>ho:a</tabTrigger>
-	<scope>source.css.less, source.scss</scope>
+	<scope>source.css, source.less, source.scss</scope>
 	<description>&amp;:hover</description>
 </snippet>

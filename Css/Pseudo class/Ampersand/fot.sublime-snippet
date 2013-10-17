@@ -6,6 +6,6 @@
 
 ]]></content>
 	<tabTrigger>fot:a</tabTrigger>
-	<scope>source.css, source.scss</scope>
+	<scope>source.css, source.less, source.scss</scope>
 	<description>&amp;:first-of-type</description>
 </snippet>

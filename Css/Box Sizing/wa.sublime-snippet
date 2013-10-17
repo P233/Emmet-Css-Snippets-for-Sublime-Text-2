@@ -4,6 +4,6 @@ width: auto;
 
 ]]></content>
 	<tabTrigger>w:a</tabTrigger>
-	<scope>source.css, source.scss</scope>
+	<scope>source.css, source.less, source.scss</scope>
 	<description>width:auto</description>
 </snippet>

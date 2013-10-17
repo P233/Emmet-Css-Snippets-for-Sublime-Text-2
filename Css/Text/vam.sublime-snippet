@@ -4,6 +4,6 @@ vertical-align: middle;
 
 ]]></content>
 	<tabTrigger>va:m</tabTrigger>
-	<scope>source.css, source.scss</scope>
+	<scope>source.css, source.less, source.scss</scope>
 	<description>vertical-align:middle</description>
 </snippet>

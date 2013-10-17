@@ -4,6 +4,6 @@ text-shadow: none;
 
 ]]></content>
 	<tabTrigger>tsh:n</tabTrigger>
-	<scope>source.css, source.scss</scope>
+	<scope>source.css, source.less, source.scss</scope>
 	<description>text-shadow:none</description>
 </snippet>

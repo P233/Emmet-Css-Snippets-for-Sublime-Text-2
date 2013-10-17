@@ -4,6 +4,6 @@ border-top-left-image: continue;
 
 ]]></content>
 	<tabTrigger>bdtli:c</tabTrigger>
-	<scope>source.css, source.scss</scope>
+	<scope>source.css, source.less, source.scss</scope>
 	<description>border-top-left-image:continue</description>
 </snippet>

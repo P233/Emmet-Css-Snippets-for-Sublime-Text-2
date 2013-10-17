@@ -4,6 +4,6 @@ background-origin: padding-box;
 
 ]]></content>
 	<tabTrigger>bgo:pb</tabTrigger>
-	<scope>source.css, source.scss</scope>
+	<scope>source.css, source.scss, source.less</scope>
 	<description>background-origin:padding-box</description>
 </snippet>

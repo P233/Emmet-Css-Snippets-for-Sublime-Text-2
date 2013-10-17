@@ -4,6 +4,6 @@ display: inline;
 
 ]]></content>
 	<tabTrigger>d:i</tabTrigger>
-	<scope>source.css, source.scss</scope>
+	<scope>source.css, source.less, source.scss</scope>
 	<description>display:inline</description>
 </snippet>

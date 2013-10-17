@@ -4,6 +4,6 @@ empty-cells: hide;
 
 ]]></content>
 	<tabTrigger>ec:h</tabTrigger>
-	<scope>source.css, source.scss</scope>
+	<scope>source.css, source.less, source.scss</scope>
 	<description>empty-cells:hide</description>
 </snippet>

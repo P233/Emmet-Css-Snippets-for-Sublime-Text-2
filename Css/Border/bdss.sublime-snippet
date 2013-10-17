@@ -4,6 +4,6 @@ border-style: solid;
 
 ]]></content>
 	<tabTrigger>bds:s</tabTrigger>
-	<scope>source.css, source.scss</scope>
+	<scope>source.css, source.lesssource.css, source.less, source.scss</scope>
 	<description>border-style:solid</description>
 </snippet>

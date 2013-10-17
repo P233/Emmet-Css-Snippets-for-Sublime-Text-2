@@ -6,6 +6,6 @@ border-image: $1;
 $2
 ]]></content>
 	<tabTrigger>bdi</tabTrigger>
-	<scope>source.css, source.scss</scope>
+	<scope>source.css, source.less, source.scss</scope>
 	<description>border-image</description>
 </snippet>

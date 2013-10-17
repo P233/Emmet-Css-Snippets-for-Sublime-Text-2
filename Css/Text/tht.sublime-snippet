@@ -4,6 +4,6 @@ text-height: text-size;
 
 ]]></content>
 	<tabTrigger>th:t</tabTrigger>
-	<scope>source.css, source.scss</scope>
+	<scope>source.css, source.less, source.scss</scope>
 	<description>text-height:text-size</description>
 </snippet>

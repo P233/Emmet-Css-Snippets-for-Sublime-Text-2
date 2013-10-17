@@ -8,6 +8,6 @@ animation-name: $1;
 $2
 ]]></content>
 	<tabTrigger>ann</tabTrigger>
-	<scope>source.css, source.scss</scope>
+	<scope>source.css, source.less, source.scss</scope>
 	<description>animation-name</description>
 </snippet>

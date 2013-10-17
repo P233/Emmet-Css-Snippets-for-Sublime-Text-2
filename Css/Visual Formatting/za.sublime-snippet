@@ -4,6 +4,6 @@ z-index: auto;
 
 ]]></content>
 	<tabTrigger>z:a</tabTrigger>
-	<scope>source.css, source.scss</scope>
+	<scope>source.css, source.less, source.scss</scope>
 	<description>z-index:auto</description>
 </snippet>
