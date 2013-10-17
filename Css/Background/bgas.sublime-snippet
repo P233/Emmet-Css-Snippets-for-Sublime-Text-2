@@ -4,6 +4,6 @@ background-attachment: scroll;
 
 ]]></content>
 	<tabTrigger>bga:s</tabTrigger>
-	<scope>source.css, source.scss</scope>
+	<scope>source.css, source.less, source.scss</scope>
 	<description>background-attachment:scroll</description>
 </snippet>

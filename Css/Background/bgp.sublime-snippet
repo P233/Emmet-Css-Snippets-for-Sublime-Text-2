@@ -4,6 +4,6 @@ background-position: ${1:0} ${2:0};
 
 ]]></content>
 	<tabTrigger>bgp</tabTrigger>
-	<scope>source.css, source.scss</scope>
+	<scope>source.css, source.scss, source.less</scope>
 	<description>background-position</description>
 </snippet>

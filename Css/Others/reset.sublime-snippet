@@ -52,6 +52,6 @@ table {
 
 ]]></content>
 	<tabTrigger>reset</tabTrigger>
-	<scope>source.css, source.scss</scope>
+	<scope>source.css, source.less, source.scss</scope>
 	<description>Eric Meyer's Reset CSS</description>
 </snippet>

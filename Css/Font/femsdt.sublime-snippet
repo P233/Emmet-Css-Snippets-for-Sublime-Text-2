@@ -4,6 +4,6 @@ font-emphasize-style: dot;
 
 ]]></content>
 	<tabTrigger>fems:dt</tabTrigger>
-	<scope>source.css, source.scss</scope>
+	<scope>source.css, source.less, source.scss</scope>
 	<description>font-emphasize-style:dot</description>
 </snippet>

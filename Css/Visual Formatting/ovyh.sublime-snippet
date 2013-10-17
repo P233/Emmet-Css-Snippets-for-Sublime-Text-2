@@ -4,6 +4,6 @@ overflow-y: hidden;
 
 ]]></content>
 	<tabTrigger>ovy:h</tabTrigger>
-	<scope>source.css, source.scss</scope>
+	<scope>source.css, source.less, source.scss</scope>
 	<description>overflow-y:hidden</description>
 </snippet>

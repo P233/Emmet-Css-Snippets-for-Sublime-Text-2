@@ -4,6 +4,6 @@ cursor: text;
 
 ]]></content>
 	<tabTrigger>cur:t</tabTrigger>
-	<scope>source.css, source.scss</scope>
+	<scope>source.css, source.less, source.scss</scope>
 	<description>cursor:text</description>
 </snippet>

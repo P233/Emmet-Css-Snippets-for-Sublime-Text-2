@@ -6,6 +6,6 @@
 
 ]]></content>
 	<tabTrigger>tgt:a</tabTrigger>
-	<scope>source.css.less, source.scss</scope>
+	<scope>source.css, source.less, source.scss</scope>
 	<description>&amp;:target</description>
 </snippet>

@@ -4,6 +4,6 @@ background-break: each-box;
 
 ]]></content>
 	<tabTrigger>bgbk:eb</tabTrigger>
-	<scope>source.css, source.scss</scope>
+	<scope>source.css, source.scss, source.less</scope>
 	<description>background-break:each-box</description>
 </snippet>

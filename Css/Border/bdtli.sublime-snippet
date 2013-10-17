@@ -3,6 +3,6 @@
 border-top-left-image: 
 ]]></content>
 	<tabTrigger>bdtli</tabTrigger>
-	<scope>source.css, source.scss, source.sass</scope>
+	<scope>source.css, source.less, source.scss, source.sass</scope>
 	<description>border-top-left-image</description>
 </snippet>

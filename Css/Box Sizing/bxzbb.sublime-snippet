@@ -7,6 +7,6 @@ box-sizing: border-box;
 
 ]]></content>
 	<tabTrigger>bxz:bb</tabTrigger>
-	<scope>source.css, source.scss</scope>
+	<scope>source.css, source.less, source.scss</scope>
 	<description>box-sizing:border-box</description>
 </snippet>

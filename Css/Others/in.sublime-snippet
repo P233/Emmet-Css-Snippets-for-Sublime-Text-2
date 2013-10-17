@@ -4,6 +4,6 @@ inherit;
 
 ]]></content>
 	<tabTrigger>in</tabTrigger>
-	<scope>source.css, source.scss</scope>
+	<scope>source.css, source.less, source.scss</scope>
 	<description>inherit</description>
 </snippet>

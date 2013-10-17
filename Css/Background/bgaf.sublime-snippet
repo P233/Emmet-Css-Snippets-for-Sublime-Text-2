@@ -4,6 +4,6 @@ background-attachment: fixed;
 
 ]]></content>
 	<tabTrigger>bga:f</tabTrigger>
-	<scope>source.css, source.scss</scope>
+	<scope>source.css, source.less, source.scss</scope>
 	<description>background-attachment:fixed</description>
 </snippet>

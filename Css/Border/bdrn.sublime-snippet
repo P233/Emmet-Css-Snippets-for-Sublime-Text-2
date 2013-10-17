@@ -4,6 +4,6 @@ border-right: none;
 
 ]]></content>
 	<tabTrigger>bdr:n</tabTrigger>
-	<scope>source.css, source.scss</scope>
+	<scope>source.css, source.less, source.scss</scope>
 	<description>border-right:none</description>
 </snippet>

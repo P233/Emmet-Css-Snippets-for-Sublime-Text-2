@@ -4,6 +4,6 @@ height: auto;
 
 ]]></content>
 	<tabTrigger>h:a</tabTrigger>
-	<scope>source.css, source.scss</scope>
+	<scope>source.css, source.less, source.scss</scope>
 	<description>height:auto</description>
 </snippet>

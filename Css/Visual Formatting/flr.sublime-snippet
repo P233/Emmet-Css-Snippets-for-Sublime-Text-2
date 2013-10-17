@@ -4,6 +4,6 @@ float: right;
 
 ]]></content>
 	<tabTrigger>fl:r</tabTrigger>
-	<scope>source.css, source.scss</scope>
+	<scope>source.css, source.less, source.scss</scope>
 	<description>float:right</description>
 </snippet>

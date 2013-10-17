@@ -4,6 +4,6 @@ display: table-column;
 
 ]]></content>
 	<tabTrigger>d:tbcl</tabTrigger>
-	<scope>source.css, source.scss</scope>
+	<scope>source.css, source.less, source.scss</scope>
 	<description>display:table-column</description>
 </snippet>

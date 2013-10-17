@@ -3,6 +3,6 @@
 border-bottom-color: ${1:#000}
 ]]></content>
 	<tabTrigger>bdbc</tabTrigger>
-	<scope>source.css, source.scss</scope>
+	<scope>source.css, source.less, source.scss</scope>
 	<description>border-bottom-color</description>
 </snippet>

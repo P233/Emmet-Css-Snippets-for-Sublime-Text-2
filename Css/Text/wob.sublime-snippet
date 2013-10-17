@@ -3,6 +3,6 @@
 word-break: 
 ]]></content>
 	<tabTrigger>wob</tabTrigger>
-	<scope>source.css, source.scss, source.sass</scope>
+	<scope>source.css, source.less, source.scss, source.sass</scope>
 	<description>word-break</description>
 </snippet>

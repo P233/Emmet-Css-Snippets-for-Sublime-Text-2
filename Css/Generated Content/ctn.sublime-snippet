@@ -4,6 +4,6 @@ content: normal;
 
 ]]></content>
 	<tabTrigger>ct:n</tabTrigger>
-	<scope>source.css, source.scss</scope>
+	<scope>source.css, source.less, source.scss</scope>
 	<description>content:normal</description>
 </snippet>

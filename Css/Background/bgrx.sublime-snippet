@@ -4,6 +4,6 @@ background-repeat: repeat-x;
 
 ]]></content>
 	<tabTrigger>bgr:x</tabTrigger>
-	<scope>source.css, source.scss</scope>
+	<scope>source.css, source.scss, source.less</scope>
 	<description>background-repeat:repeat-x</description>
 </snippet>

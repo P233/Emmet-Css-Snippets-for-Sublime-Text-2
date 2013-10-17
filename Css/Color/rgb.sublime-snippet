@@ -3,6 +3,6 @@
 rgb(${1:255},${2:255},${3:255})
 ]]></content>
 	<tabTrigger>rgb</tabTrigger>
-	<scope>source.css, source.scss, source.sass</scope>
+	<scope>source.css, source.less, source.scss, source.sass</scope>
 	<description>rgb()</description>
 </snippet>

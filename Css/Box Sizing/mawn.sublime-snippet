@@ -4,6 +4,6 @@ max-width: none;
 
 ]]></content>
 	<tabTrigger>maw:n</tabTrigger>
-	<scope>source.css, source.scss</scope>
+	<scope>source.css, source.less, source.scss</scope>
 	<description>max-width:none</description>
 </snippet>

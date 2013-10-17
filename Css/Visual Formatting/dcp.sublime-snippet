@@ -4,6 +4,6 @@ display: compact;
 
 ]]></content>
 	<tabTrigger>d:cp</tabTrigger>
-	<scope>source.css, source.scss</scope>
+	<scope>source.css, source.less, source.scss</scope>
 	<description>display:compact</description>
 </snippet>

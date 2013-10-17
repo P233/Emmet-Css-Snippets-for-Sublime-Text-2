@@ -4,6 +4,6 @@ behavior: url($1);
 $2
 ]]></content>
 	<tabTrigger>beh</tabTrigger>
-	<scope>source.css, source.scss</scope>
+	<scope>source.css, source.less, source.scss</scope>
 	<description>behavior</description>
 </snippet>

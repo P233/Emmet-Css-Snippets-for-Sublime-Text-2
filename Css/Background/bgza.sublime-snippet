@@ -6,6 +6,6 @@ background-size: auto;
 
 ]]></content>
 	<tabTrigger>bgz:a</tabTrigger>
-	<scope>source.css, source.scss</scope>
+	<scope>source.css, source.scss, source.less</scope>
 	<description>background-size:auto</description>
 </snippet>

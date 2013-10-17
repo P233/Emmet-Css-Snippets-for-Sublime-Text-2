@@ -6,6 +6,6 @@ $1:disabled {
 
 ]]></content>
 	<tabTrigger>dsa</tabTrigger>
-	<scope>source.css, source.scss</scope>
+	<scope>source.css, source.less, source.scss</scope>
 	<description>:disabled</description>
 </snippet>

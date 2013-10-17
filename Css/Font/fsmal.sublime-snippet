@@ -4,6 +4,6 @@ font-smooth: always;
 
 ]]></content>
 	<tabTrigger>fsm:al</tabTrigger>
-	<scope>source.css, source.scss</scope>
+	<scope>source.css, source.less, source.scss</scope>
 	<description>font-smooth:always</description>
 </snippet>

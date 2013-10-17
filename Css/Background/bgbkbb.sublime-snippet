@@ -4,6 +4,6 @@ background-break: bounding-box;
 
 ]]></content>
 	<tabTrigger>bgbk:bb</tabTrigger>
-	<scope>source.css, source.scss</scope>
+	<scope>source.css, source.scss, source.less</scope>
 	<description>background-break:bounding-box</description>
 </snippet>

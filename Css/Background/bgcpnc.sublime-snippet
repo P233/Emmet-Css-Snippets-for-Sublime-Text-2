@@ -6,6 +6,6 @@ background-clip: no-clip;
 
 ]]></content>
 	<tabTrigger>bgcp:nc</tabTrigger>
-	<scope>source.css, source.scss</scope>
+	<scope>source.css, source.scss, source.less</scope>
 	<description>background-clip:no-clip</description>
 </snippet>

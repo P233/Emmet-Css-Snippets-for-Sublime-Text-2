@@ -4,6 +4,6 @@ background: none;
 
 ]]></content>
 	<tabTrigger>bg:n</tabTrigger>
-	<scope>source.css, source.scss</scope>
+	<scope>source.css, source.scss, source.less</scope>
 	<description>background:none</description>
 </snippet>

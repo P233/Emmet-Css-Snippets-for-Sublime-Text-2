@@ -4,6 +4,6 @@ quotes: none;
 
 ]]></content>
 	<tabTrigger>q:n</tabTrigger>
-	<scope>source.css, source.scss</scope>
+	<scope>source.css, source.less, source.scss</scope>
 	<description>quotes:none</description>
 </snippet>

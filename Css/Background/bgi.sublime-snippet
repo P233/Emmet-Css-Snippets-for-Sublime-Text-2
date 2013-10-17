@@ -4,6 +4,6 @@ background-image: url(${1:images/});
 
 ]]></content>
 	<tabTrigger>bgi</tabTrigger>
-	<scope>source.css, source.scss</scope>
+	<scope>source.css, source.scss, source.less</scope>
 	<description>background-image</description>
 </snippet>

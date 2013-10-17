@@ -4,6 +4,6 @@ text-emphasis: accent;
 
 ]]></content>
 	<tabTrigger>te:ac</tabTrigger>
-	<scope>source.css, source.scss</scope>
+	<scope>source.css, source.less, source.scss</scope>
 	<description>text-emphasis:accent</description>
 </snippet>

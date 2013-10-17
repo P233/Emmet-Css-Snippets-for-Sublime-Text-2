@@ -8,6 +8,6 @@ animation-direction: $1;
 $2
 ]]></content>
 	<tabTrigger>adi</tabTrigger>
-	<scope>source.css, source.scss</scope>
+	<scope>source.css, source.less, source.scss</scope>
 	<description>animation-direction</description>
 </snippet>

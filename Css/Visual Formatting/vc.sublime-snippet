@@ -4,6 +4,6 @@ visibility: collapse;
 
 ]]></content>
 	<tabTrigger>v:c</tabTrigger>
-	<scope>source.css, source.scss</scope>
+	<scope>source.css, source.less, source.scss</scope>
 	<description>visibility:collapse</description>
 </snippet>

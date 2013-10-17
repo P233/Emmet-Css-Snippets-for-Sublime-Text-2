@@ -8,6 +8,6 @@ transition-delay: $1;
 $2
 ]]></content>
 	<tabTrigger>trsde</tabTrigger>
-	<scope>source.css, source.scss</scope>
+	<scope>source.css, source.less, source.scss</scope>
 	<description>transition-delay</description>
 </snippet>

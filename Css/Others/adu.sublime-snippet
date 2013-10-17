@@ -8,6 +8,6 @@ animation-duration: $1;
 $2
 ]]></content>
 	<tabTrigger>adu</tabTrigger>
-	<scope>source.css, source.scss</scope>
+	<scope>source.css, source.less, source.scss</scope>
 	<description>animation-duration</description>
 </snippet>

@@ -4,6 +4,6 @@ position: relative;
 
 ]]></content>
 	<tabTrigger>pos:r</tabTrigger>
-	<scope>source.css, source.scss</scope>
+	<scope>source.css, source.less, source.scss</scope>
 	<description>position:relative</description>
 </snippet>

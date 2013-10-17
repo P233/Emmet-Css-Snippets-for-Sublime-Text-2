@@ -1,17 +1,17 @@
 <snippet>
-	<content><![CDATA[
+    <content><![CDATA[
 $1::-webkit-input-placeholder {
-	${2:/* style */}
+    ${2:/* style */}
 }
 $1:-moz-placeholder {
-	${2:/* style */}
+    ${2:/* style */}
 }
 $1:-ms-input-placeholder {
-	${2:/* style */}
+    ${2:/* style */}
 }
 $3
 ]]></content>
-	<tabTrigger>pla</tabTrigger>
-	<scope>source.css, source.scss</scope>
-	<description>:placeholder</description>
+    <tabTrigger>pla</tabTrigger>
+    <scope>source.css, source.less, source.scss</scope>
+    <description>:placeholder</description>
 </snippet>

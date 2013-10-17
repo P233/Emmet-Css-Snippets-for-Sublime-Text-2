@@ -6,6 +6,6 @@ $1:focus {
 
 ]]></content>
 	<tabTrigger>foc</tabTrigger>
-	<scope>source.css, source.scss</scope>
+	<scope>source.css, source.less, source.scss</scope>
 	<description>:focus</description>
 </snippet>

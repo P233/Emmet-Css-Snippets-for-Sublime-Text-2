@@ -8,6 +8,6 @@ transform: $1;
 $2
 ]]></content>
 	<tabTrigger>trf</tabTrigger>
-	<scope>source.css, source.scss</scope>
+	<scope>source.css, source.less, source.scss</scope>
 	<description>transform</description>
 </snippet>

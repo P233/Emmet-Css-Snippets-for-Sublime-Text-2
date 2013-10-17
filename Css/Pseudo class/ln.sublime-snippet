@@ -6,6 +6,6 @@ $1:lang($2) {
 
 ]]></content>
 	<tabTrigger>ln</tabTrigger>
-	<scope>source.css, source.scss</scope>
+	<scope>source.css, source.less, source.scss</scope>
 	<description>:lang</description>
 </snippet>

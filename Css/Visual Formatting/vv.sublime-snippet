@@ -4,6 +4,6 @@ visibility: visible;
 
 ]]></content>
 	<tabTrigger>v:v</tabTrigger>
-	<scope>source.css, source.scss</scope>
+	<scope>source.css, source.less, source.scss</scope>
 	<description>visibility:visible</description>
 </snippet>

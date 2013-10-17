@@ -4,6 +4,6 @@ border-fit: clip;
 
 ]]></content>
 	<tabTrigger>bdf:c</tabTrigger>
-	<scope>source.css, source.scss</scope>
+	<scope>source.css, source.less, source.scss</scope>
 	<description>border-fit:clip</description>
 </snippet>

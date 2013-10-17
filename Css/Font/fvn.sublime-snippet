@@ -4,6 +4,6 @@ font-variant: normal;
 
 ]]></content>
 	<tabTrigger>fv:n</tabTrigger>
-	<scope>source.css, source.scss</scope>
+	<scope>source.css, source.less, source.scss</scope>
 	<description>font-variant:normal</description>
 </snippet>

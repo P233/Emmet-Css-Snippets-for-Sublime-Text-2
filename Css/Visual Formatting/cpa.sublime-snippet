@@ -4,6 +4,6 @@ clip: auto;
 
 ]]></content>
 	<tabTrigger>cp:a</tabTrigger>
-	<scope>source.css, source.scss</scope>
+	<scope>source.css, source.less, source.scss</scope>
 	<description>clip:auto</description>
 </snippet>

@@ -4,6 +4,6 @@ text-decoration: none;
 
 ]]></content>
 	<tabTrigger>td:n</tabTrigger>
-	<scope>source.css, source.scss</scope>
+	<scope>source.css, source.less, source.scss</scope>
 	<description>text-decoration:none</description>
 </snippet>

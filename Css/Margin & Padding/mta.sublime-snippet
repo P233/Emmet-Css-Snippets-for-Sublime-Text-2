@@ -4,6 +4,6 @@ margin-top: auto;
 
 ]]></content>
 	<tabTrigger>mt:a</tabTrigger>
-	<scope>source.css, source.scss</scope>
+	<scope>source.css, source.less, source.scss</scope>
 	<description>margin-top:auto</description>
 </snippet>

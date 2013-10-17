@@ -6,6 +6,6 @@ background-clip: content-box;
 
 ]]></content>
 	<tabTrigger>bgcp:cb</tabTrigger>
-	<scope>source.css, source.scss</scope>
+	<scope>source.css, source.scss, source.less</scope>
 	<description>background-clip:content-box</description>
 </snippet>

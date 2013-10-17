@@ -4,6 +4,6 @@ font-emphasize-position: after;
 
 ]]></content>
 	<tabTrigger>femp:a</tabTrigger>
-	<scope>source.css, source.scss</scope>
+	<scope>source.css, source.less, source.scss</scope>
 	<description>font-emphasize-position:after</description>
 </snippet>

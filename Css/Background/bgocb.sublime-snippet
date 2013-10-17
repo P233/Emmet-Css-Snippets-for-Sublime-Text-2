@@ -4,6 +4,6 @@ background-origin: content-box;
 
 ]]></content>
 	<tabTrigger>bgo:cb</tabTrigger>
-	<scope>source.css, source.scss</scope>
+	<scope>source.css, source.scss, source.less</scope>
 	<description>background-origin:content-box</description>
 </snippet>
