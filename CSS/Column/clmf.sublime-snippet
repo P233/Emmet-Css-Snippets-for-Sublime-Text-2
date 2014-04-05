@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+column-fill: 
+]]></content>
+	<tabTrigger>clmf</tabTrigger>
+	<scope>source.css, source.less, source.scss, source.sass</scope>
+	<description>column-fill</description>
+</snippet>

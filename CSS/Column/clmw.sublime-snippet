@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+column-width: 
+]]></content>
+	<tabTrigger>clmw</tabTrigger>
+	<scope>source.css, source.less, source.scss, source.sass</scope>
+	<description>column-width</description>
+</snippet>

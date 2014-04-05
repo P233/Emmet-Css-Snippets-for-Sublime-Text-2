@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+column-gap: 
+]]></content>
+	<tabTrigger>clmg</tabTrigger>
+	<scope>source.css, source.less, source.scss, source.sass</scope>
+	<description>column-gap</description>
+</snippet>

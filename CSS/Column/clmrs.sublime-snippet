@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+column-rule-style: 
+]]></content>
+	<tabTrigger>clmrs</tabTrigger>
+	<scope>source.css, source.less, source.scss, source.sass</scope>
+	<description>column-rule-style</description>
+</snippet>

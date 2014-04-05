@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+column-rule-color: 
+]]></content>
+	<tabTrigger>clmrc</tabTrigger>
+	<scope>source.css, source.less, source.scss, source.sass</scope>
+	<description>column-rule-color</description>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+columns: 
+]]></content>
+	<tabTrigger>clm</tabTrigger>
+	<scope>source.css, source.less, source.scss, source.sass</scope>
+	<description>columns</description>
+</snippet>
