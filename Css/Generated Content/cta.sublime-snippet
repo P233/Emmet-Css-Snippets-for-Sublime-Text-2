@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-content: attr("$1");
+content: attr($1);
 
 ]]></content>
 	<tabTrigger>ct:a</tabTrigger>
