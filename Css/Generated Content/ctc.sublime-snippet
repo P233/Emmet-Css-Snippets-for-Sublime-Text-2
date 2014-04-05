@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-content: counter("$1");
+content: counter($1);
 
 ]]></content>
 	<tabTrigger>ct:c</tabTrigger>

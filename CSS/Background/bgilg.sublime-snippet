@@ -8,6 +8,6 @@ background-image: linear-gradient(${3:Style_3});
 
 ]]></content>
 	<tabTrigger>bgi:lg</tabTrigger>
-	<scope>source.css, source.scss, source.less</scope>
+	<scope>source.css, source.less, source.scss</scope>
 	<description>linear-gradient</description>
 </snippet>

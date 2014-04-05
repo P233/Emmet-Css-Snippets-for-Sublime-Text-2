@@ -1,8 +1,8 @@
 <snippet>
 	<content><![CDATA[
-border-color: ${1:#000}
+border-color: 
 ]]></content>
 	<tabTrigger>bdc</tabTrigger>
-	<scope>source.css, source.less, source.scss</scope>
-	<description>border-color:#000</description>
+	<scope>source.css, source.less, source.scss, source.sass</scope>
+	<description>border-color</description>
 </snippet>

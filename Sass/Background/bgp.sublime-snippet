@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-background-position: ${1:0} ${2:0}
-
-]]></content>
-	<tabTrigger>bgp</tabTrigger>
-	<scope>source.sass</scope>
-	<description>background-position</description>
-</snippet>
