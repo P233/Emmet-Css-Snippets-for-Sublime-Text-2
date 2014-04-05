@@ -1,10 +1,8 @@
 <snippet>
 	<content><![CDATA[
--ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=${1:100})";
-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=${1:100});
-opacity: ${2:1}
+opacity: 
 ]]></content>
 	<tabTrigger>op</tabTrigger>
-	<scope>source.css, source.less, source.scss</scope>
+	<scope>source.css, source.less, source.scss, source.sass</scope>
 	<description>opacity</description>
 </snippet>
