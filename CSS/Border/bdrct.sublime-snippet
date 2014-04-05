@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+border-right-color: transparent;
+
+]]></content>
+	<tabTrigger>bdrc:t</tabTrigger>
+	<scope>source.css, source.less, source.scss</scope>
+	<description>border-right-color:transparent</description>
+</snippet>

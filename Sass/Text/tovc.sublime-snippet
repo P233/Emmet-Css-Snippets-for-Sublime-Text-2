@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+text-overflow: clip
+
+]]></content>
+	<tabTrigger>tov:c</tabTrigger>
+	<scope>source.sass</scope>
+	<description>text-overflow:clip</description>
+</snippet>

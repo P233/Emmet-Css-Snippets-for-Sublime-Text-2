@@ -1,9 +1,9 @@
 <snippet>
 	<content><![CDATA[
-clip: rect($1);
+text-overflow: clip;
 
 ]]></content>
-	<tabTrigger>cp:r</tabTrigger>
+	<tabTrigger>tov:c</tabTrigger>
 	<scope>source.css, source.less, source.scss</scope>
-	<description>clip:rect()</description>
+	<description>text-overflow:clip</description>
 </snippet>

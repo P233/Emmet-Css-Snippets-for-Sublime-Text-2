@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+text-overflow: ellipsis
+
+]]></content>
+	<tabTrigger>tov:e</tabTrigger>
+	<scope>source.sass</scope>
+	<description>text-overflow:ellipsis</description>
+</snippet>

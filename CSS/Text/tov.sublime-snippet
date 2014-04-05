@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+text-overflow: 
+]]></content>
+	<tabTrigger>tov</tabTrigger>
+	<scope>source.css, source.less, source.scss, source.sass</scope>
+	<description>text-overflow</description>
+</snippet>

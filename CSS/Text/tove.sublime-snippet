@@ -1,9 +1,9 @@
 <snippet>
 	<content><![CDATA[
-clip: rect($1);
+text-overflow: ellipsis;
 
 ]]></content>
-	<tabTrigger>cp:r</tabTrigger>
+	<tabTrigger>tov:e</tabTrigger>
 	<scope>source.css, source.less, source.scss</scope>
-	<description>clip:rect()</description>
+	<description>text-overflow:ellipsis</description>
 </snippet>
