@@ -1,7 +1,5 @@
 <snippet>
 	<content><![CDATA[
--webkit-resize: none;
--moz-resize: none;
 resize: none;
 
 ]]></content>

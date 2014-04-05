@@ -1,8 +1,9 @@
 <snippet>
 	<content><![CDATA[
-resize: 
+background-size: 
+
 ]]></content>
-	<tabTrigger>rz</tabTrigger>
+	<tabTrigger>bgz</tabTrigger>
 	<scope>source.css, source.less, source.scss, source.sass</scope>
-	<description>resize</description>
+	<description>background-size</description>
 </snippet>

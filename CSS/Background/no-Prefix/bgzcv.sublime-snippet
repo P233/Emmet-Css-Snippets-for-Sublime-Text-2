@@ -1,9 +1,9 @@
 <snippet>
 	<content><![CDATA[
-resize: horizontal;
+background-size: cover;
 
 ]]></content>
-	<tabTrigger>rz:h</tabTrigger>
+	<tabTrigger>bgz:cv</tabTrigger>
 	<scope>source.css, source.less, source.scss</scope>
-	<description>resize:horizontal</description>
+	<description>background-size:cover</description>
 </snippet>

@@ -1,9 +1,9 @@
 <snippet>
 	<content><![CDATA[
-resize: horizontal;
+box-sizing: border-box;
 
 ]]></content>
-	<tabTrigger>rz:h</tabTrigger>
+	<tabTrigger>bxz:bb</tabTrigger>
 	<scope>source.css, source.less, source.scss</scope>
-	<description>resize:horizontal</description>
+	<description>box-sizing:border-box</description>
 </snippet>

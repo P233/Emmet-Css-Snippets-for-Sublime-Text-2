@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+background-clip: border-box
+
+]]></content>
+	<tabTrigger>bgcp:bb</tabTrigger>
+	<scope>source.sass</scope>
+	<description>background-clip:border-box</description>
+</snippet>

@@ -1,8 +1,8 @@
 <snippet>
 	<content><![CDATA[
-resize: 
+border-image: 
 ]]></content>
-	<tabTrigger>rz</tabTrigger>
+	<tabTrigger>bdi</tabTrigger>
 	<scope>source.css, source.less, source.scss, source.sass</scope>
-	<description>resize</description>
+	<description>border-image</description>
 </snippet>

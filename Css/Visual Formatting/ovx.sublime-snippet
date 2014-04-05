@@ -1,10 +1,8 @@
 <snippet>
 	<content><![CDATA[
--ms-overflow-x: $1;
-overflow-x: $1;
-$2
+overflow-x: 
 ]]></content>
 	<tabTrigger>ovx</tabTrigger>
-	<scope>source.css, source.less, source.scss</scope>
+	<scope>source.css, source.less, source.scss, source.sass</scope>
 	<description>overflow-x</description>
 </snippet>

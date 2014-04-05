@@ -1,8 +1,8 @@
 <snippet>
 	<content><![CDATA[
-resize: 
+background-clip: 
 ]]></content>
-	<tabTrigger>rz</tabTrigger>
+	<tabTrigger>bgcp</tabTrigger>
 	<scope>source.css, source.less, source.scss, source.sass</scope>
-	<description>resize</description>
+	<description>background-clip</description>
 </snippet>

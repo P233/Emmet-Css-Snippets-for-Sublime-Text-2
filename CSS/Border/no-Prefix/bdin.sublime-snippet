@@ -1,9 +1,9 @@
 <snippet>
 	<content><![CDATA[
-resize: horizontal;
+border-image: none;
 
 ]]></content>
-	<tabTrigger>rz:h</tabTrigger>
+	<tabTrigger>bdi:n</tabTrigger>
 	<scope>source.css, source.less, source.scss</scope>
-	<description>resize:horizontal</description>
+	<description>border-image:none</description>
 </snippet>
