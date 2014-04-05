@@ -1,8 +1,8 @@
 <snippet>
 	<content><![CDATA[
-border: ${1:1px} ${2:solid} ${3:#000}
+border-top-right-radius: 
 ]]></content>
-	<tabTrigger>bd+</tabTrigger>
+	<tabTrigger>bdtrra</tabTrigger>
 	<scope>source.css, source.less, source.scss, source.sass</scope>
-	<description>border:1px solid #000</description>
+	<description>border-top-right-radius</description>
 </snippet>

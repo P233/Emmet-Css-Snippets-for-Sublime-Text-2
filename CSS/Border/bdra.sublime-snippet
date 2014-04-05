@@ -1,8 +1,8 @@
 <snippet>
 	<content><![CDATA[
-border-bottom-left-radius: 
+border-radius: 
 ]]></content>
-	<tabTrigger>bdblrs</tabTrigger>
+	<tabTrigger>bdra</tabTrigger>
 	<scope>source.css, source.less, source.scss, source.sass</scope>
-	<description>border-bottom-left-radius</description>
+	<description>border-radius</description>
 </snippet>

@@ -2,7 +2,7 @@
 	<content><![CDATA[
 border-bottom-right-radius: 
 ]]></content>
-	<tabTrigger>bdbrrs</tabTrigger>
+	<tabTrigger>bdbrra</tabTrigger>
 	<scope>source.css, source.less, source.scss, source.sass</scope>
 	<description>border-bottom-right-radius</description>
 </snippet>

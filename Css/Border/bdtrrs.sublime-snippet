@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[
-border-top-right-radius: 
-]]></content>
-	<tabTrigger>bdtrrs</tabTrigger>
-	<scope>source.css, source.less, source.scss, source.sass</scope>
-	<description>border-top-right-radius</description>
-</snippet>
