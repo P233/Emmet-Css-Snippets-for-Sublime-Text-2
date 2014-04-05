@@ -1,9 +1,9 @@
 <snippet>
 	<content><![CDATA[
-right: auto;
+left: auto;
 
 ]]></content>
-	<tabTrigger>r:a</tabTrigger>
+	<tabTrigger>lf:a</tabTrigger>
 	<scope>source.css, source.less, source.scss</scope>
-	<description>right:auto</description>
+	<description>left:auto</description>
 </snippet>

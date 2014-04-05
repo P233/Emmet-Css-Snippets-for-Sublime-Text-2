@@ -3,7 +3,7 @@
 right: auto
 
 ]]></content>
-	<tabTrigger>r:a</tabTrigger>
+	<tabTrigger>rg:a</tabTrigger>
 	<scope>source.sass</scope>
 	<description>right:auto</description>
 </snippet>

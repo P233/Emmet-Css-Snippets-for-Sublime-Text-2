@@ -1,9 +1,9 @@
 <snippet>
 	<content><![CDATA[
-display: inline;
+top: auto;
 
 ]]></content>
-	<tabTrigger>d:i</tabTrigger>
+	<tabTrigger>tp:a</tabTrigger>
 	<scope>source.css, source.less, source.scss</scope>
-	<description>display:inline</description>
+	<description>top:auto</description>
 </snippet>

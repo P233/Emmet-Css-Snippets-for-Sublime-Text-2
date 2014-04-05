@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+display: inline;
+
+]]></content>
+	<tabTrigger>d:in</tabTrigger>
+	<scope>source.css, source.less, source.scss</scope>
+	<description>display:inline</description>
+</snippet>

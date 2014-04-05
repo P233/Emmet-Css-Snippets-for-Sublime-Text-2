@@ -3,7 +3,7 @@
 bottom: auto
 
 ]]></content>
-	<tabTrigger>b:a</tabTrigger>
+	<tabTrigger>bt:a</tabTrigger>
 	<scope>source.sass</scope>
 	<description>bottom:auto</description>
 </snippet>
