@@ -3,7 +3,7 @@
 font-stretch: condensed
 
 ]]></content>
-	<tabTrigger>fst:c</tabTrigger>
+	<tabTrigger>fst:cd</tabTrigger>
 	<scope>source.sass</scope>
 	<description>font-stretch:condensed</description>
 </snippet>
