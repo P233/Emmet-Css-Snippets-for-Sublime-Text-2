@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+animation-direction: normal;
+
+]]></content>
+	<tabTrigger>adi:n</tabTrigger>
+	<scope>source.css, source.less, source.scss</scope>
+	<description>animation-direction:normal</description>
+</snippet>

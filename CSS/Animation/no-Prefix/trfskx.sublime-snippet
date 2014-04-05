@@ -1,9 +1,9 @@
 <snippet>
 	<content><![CDATA[
-transparent;
-
+transform: skewX($1);
+$2
 ]]></content>
-	<tabTrigger>tra</tabTrigger>
+	<tabTrigger>trf:skx</tabTrigger>
 	<scope>source.css, source.less, source.scss</scope>
-	<description>transparent</description>
+	<description>transform:skewX()</description>
 </snippet>

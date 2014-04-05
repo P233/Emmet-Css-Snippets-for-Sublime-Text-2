@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+transition-delay: 
+]]></content>
+	<tabTrigger>trsde</tabTrigger>
+	<scope>source.css, source.less, source.scss, source.sass</scope>
+	<description>transition-delay</description>
+</snippet>

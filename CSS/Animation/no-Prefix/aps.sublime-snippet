@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+animation-play-state: 
+]]></content>
+	<tabTrigger>aps</tabTrigger>
+	<scope>source.css, source.less, source.scss, source.sass</scope>
+	<description>animation-play-state</description>
+</snippet>

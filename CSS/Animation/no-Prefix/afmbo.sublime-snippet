@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+animation-fill-mode: both;
+
+]]></content>
+	<tabTrigger>afm:bo</tabTrigger>
+	<scope>source.css, source.less, source.scss</scope>
+	<description>animation-fill-mode:both</description>
+</snippet>

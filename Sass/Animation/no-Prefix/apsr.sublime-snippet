@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+animation-play-state: running
+
+]]></content>
+	<tabTrigger>aps:r</tabTrigger>
+	<scope>source.sass</scope>
+	<description>animation-play-state:running</description>
+</snippet>

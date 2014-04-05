@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+transform: skewX($1)
+$2
+]]></content>
+	<tabTrigger>trf:skx</tabTrigger>
+	<scope>source.sass</scope>
+	<description>transform:skewX()</description>
+</snippet>

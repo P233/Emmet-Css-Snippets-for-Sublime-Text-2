@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+animation-delay: 
+]]></content>
+	<tabTrigger>ade</tabTrigger>
+	<scope>source.css, source.less, source.scss, source.sass</scope>
+	<description>animation-delay</description>
+</snippet>

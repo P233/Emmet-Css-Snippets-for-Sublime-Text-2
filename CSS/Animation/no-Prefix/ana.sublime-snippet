@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+animation-name: 
+]]></content>
+	<tabTrigger>ana</tabTrigger>
+	<scope>source.css, source.less, source.scss, source.sass</scope>
+	<description>animation-name</description>
+</snippet>

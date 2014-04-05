@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+transition-property: 
+]]></content>
+	<tabTrigger>trsp</tabTrigger>
+	<scope>source.css, source.less, source.scss, source.sass</scope>
+	<description>transition-property</description>
+</snippet>

@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+animation-iteration-count: infinite;
+
+]]></content>
+	<tabTrigger>aic:i</tabTrigger>
+	<scope>source.css, source.less, source.scss</scope>
+	<description>animation-iteration-count:infinite</description>
+</snippet>

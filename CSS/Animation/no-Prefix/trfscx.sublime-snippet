@@ -1,9 +1,9 @@
 <snippet>
 	<content><![CDATA[
-behavior: url($1);
+transform: scaleX($1);
 $2
 ]]></content>
-	<tabTrigger>beh</tabTrigger>
+	<tabTrigger>trf:scx</tabTrigger>
 	<scope>source.css, source.less, source.scss</scope>
-	<description>behavior</description>
+	<description>transform:scaleX()</description>
 </snippet>

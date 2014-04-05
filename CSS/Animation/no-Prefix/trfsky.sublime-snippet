@@ -1,9 +1,9 @@
 <snippet>
 	<content><![CDATA[
-inherit;
-
+transform: skewY($1);
+$2
 ]]></content>
-	<tabTrigger>in</tabTrigger>
+	<tabTrigger>trf:sky</tabTrigger>
 	<scope>source.css, source.less, source.scss</scope>
-	<description>inherit</description>
+	<description>transform:skewY()</description>
 </snippet>

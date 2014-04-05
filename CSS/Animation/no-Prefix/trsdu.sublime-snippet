@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+transition-duration: 
+]]></content>
+	<tabTrigger>trsdu</tabTrigger>
+	<scope>source.css, source.less, source.scss, source.sass</scope>
+	<description>transition-duration</description>
+</snippet>

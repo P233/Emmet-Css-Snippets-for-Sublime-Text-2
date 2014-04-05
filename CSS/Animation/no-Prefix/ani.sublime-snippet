@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+animation: 
+]]></content>
+	<tabTrigger>ani</tabTrigger>
+	<scope>source.css, source.less, source.scss, source.sass</scope>
+	<description>animation</description>
+</snippet>

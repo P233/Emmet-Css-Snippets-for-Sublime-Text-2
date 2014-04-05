@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+animation-timing-function: 
+]]></content>
+	<tabTrigger>atf</tabTrigger>
+	<scope>source.css, source.less, source.scss, source.sass</scope>
+	<description>animation-timing-function</description>
+</snippet>

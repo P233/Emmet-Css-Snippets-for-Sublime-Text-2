@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+transition: 
+]]></content>
+	<tabTrigger>trs</tabTrigger>
+	<scope>source.css, source.less, source.scss, source.sass</scope>
+	<description>transition</description>
+</snippet>

@@ -7,7 +7,7 @@
 animation-name: $1;
 $2
 ]]></content>
-	<tabTrigger>ann</tabTrigger>
+	<tabTrigger>ana</tabTrigger>
 	<scope>source.css, source.less, source.scss</scope>
 	<description>animation-name</description>
 </snippet>

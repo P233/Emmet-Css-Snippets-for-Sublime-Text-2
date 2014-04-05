@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+animation-play-state: paused
+
+]]></content>
+	<tabTrigger>aps:p</tabTrigger>
+	<scope>source.sass</scope>
+	<description>animation-play-state:paused</description>
+</snippet>

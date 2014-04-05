@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+transition-timing-function: 
+]]></content>
+	<tabTrigger>trstf</tabTrigger>
+	<scope>source.css, source.less, source.scss, source.sass</scope>
+	<description>transition-timing-function</description>
+</snippet>
