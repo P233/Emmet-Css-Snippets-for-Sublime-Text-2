@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+max-resolution: 
+]]></content>
+	<tabTrigger>mxr</tabTrigger>
+	<scope>source.css, source.less, source.scss, source.sass</scope>
+	<description>max-resolution</description>
+</snippet>
