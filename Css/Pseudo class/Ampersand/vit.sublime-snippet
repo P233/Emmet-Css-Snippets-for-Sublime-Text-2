@@ -6,6 +6,6 @@
 
 ]]></content>
 	<tabTrigger>vit:a</tabTrigger>
-	<scope>source.css, source.less, source.scss</scope>
+	<scope>source.less, source.scss</scope>
 	<description>&amp;:visited</description>
 </snippet>

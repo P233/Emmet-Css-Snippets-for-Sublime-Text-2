@@ -9,9 +9,9 @@
 &:-ms-input-placeholder {
 	${1:/* style */}
 }
-$2
+
 ]]></content>
 	<tabTrigger>pla:a</tabTrigger>
-	<scope>source.css, source.less, source.scss</scope>
+	<scope>source.less, source.scss</scope>
 	<description>&amp;:placeholder</description>
 </snippet>

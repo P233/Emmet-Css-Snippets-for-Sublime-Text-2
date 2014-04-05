@@ -6,6 +6,6 @@
 
 ]]></content>
 	<tabTrigger>fle:a</tabTrigger>
-	<scope>source.css, source.less, source.scss</scope>
+	<scope>source.less, source.scss</scope>
 	<description>&amp;:first-letter</description>
 </snippet>
