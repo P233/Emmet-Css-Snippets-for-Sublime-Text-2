@@ -5,7 +5,7 @@ $1:nth-of-type($2) {
 }
 
 ]]></content>
-	<tabTrigger>not</tabTrigger>
+	<tabTrigger>nt</tabTrigger>
 	<scope>source.css, source.less, source.scss</scope>
 	<description>:nth-of-type()</description>
 </snippet>
