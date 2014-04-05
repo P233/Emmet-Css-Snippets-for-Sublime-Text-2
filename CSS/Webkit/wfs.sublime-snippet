@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
--webkit-font-smoothing: $1
+-webkit-font-smoothing: 
 ]]></content>
 	<tabTrigger>wfs</tabTrigger>
 	<scope>source.css, source.less, source.scss, source.sass</scope>

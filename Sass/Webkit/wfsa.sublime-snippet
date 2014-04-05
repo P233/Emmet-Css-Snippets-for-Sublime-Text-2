@@ -1,9 +1,9 @@
 <snippet>
 	<content><![CDATA[
--webkit-font-smoothing: antialiased;
-$1
+-webkit-font-smoothing: antialiased
+
 ]]></content>
 	<tabTrigger>wfs:a</tabTrigger>
-	<scope>source.css, source.less, source.scss</scope>
+	<scope>source.sass</scope>
 	<description>-webkit-font-smoothing:antialiased</description>
 </snippet>
