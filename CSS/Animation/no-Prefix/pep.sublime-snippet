@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+perspective: 
+]]></content>
+	<tabTrigger>pep</tabTrigger>
+	<scope>source.css, source.less, source.scss, source.sass</scope>
+	<description>perspective</description>
+</snippet>

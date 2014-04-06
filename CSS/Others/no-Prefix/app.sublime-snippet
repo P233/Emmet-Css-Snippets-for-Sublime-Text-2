@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+appearance: ${1:none}
+]]></content>
+	<tabTrigger>app</tabTrigger>
+	<scope>source.css, source.less, source.scss, source.sass</scope>
+	<description>appearance</description>
+</snippet>

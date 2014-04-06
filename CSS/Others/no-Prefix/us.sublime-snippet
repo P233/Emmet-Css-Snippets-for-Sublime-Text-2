@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+user-select: ${1:none}
+]]></content>
+	<tabTrigger>us</tabTrigger>
+	<scope>source.css, source.less, source.scss, source.sass</scope>
+	<description>user-select</description>
+</snippet>

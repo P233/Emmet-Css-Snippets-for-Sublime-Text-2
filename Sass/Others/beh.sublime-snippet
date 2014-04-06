@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-behavior: url($1)
-
-]]></content>
-	<tabTrigger>beh</tabTrigger>
-	<scope>source.sass</scope>
-	<description>behavior</description>
-</snippet>

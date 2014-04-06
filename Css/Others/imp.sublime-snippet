@@ -3,6 +3,6 @@
 @import 
 ]]></content>
 	<tabTrigger>imp</tabTrigger>
-	<scope>source.css, source.less, source.scss</scope>
+	<scope>source.css, source.less, source.scss, source.sass</scope>
 	<description>@import</description>
 </snippet>
