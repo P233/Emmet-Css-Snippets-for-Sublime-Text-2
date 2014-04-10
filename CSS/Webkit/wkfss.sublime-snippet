@@ -3,7 +3,7 @@
 -webkit-font-smoothing: subpixel-antialiased;
 
 ]]></content>
-	<tabTrigger>wfs:sa</tabTrigger>
+	<tabTrigger>wkfs:s</tabTrigger>
 	<scope>source.css, source.less, source.scss</scope>
 	<description>-webkit-font-smoothing:subpixel-antialiased</description>
 </snippet>

@@ -2,7 +2,7 @@
 	<content><![CDATA[
 -webkit-font-smoothing: 
 ]]></content>
-	<tabTrigger>wfs</tabTrigger>
+	<tabTrigger>wkfs</tabTrigger>
 	<scope>source.css, source.less, source.scss, source.sass</scope>
 	<description>-webkit-font-smoothing</description>
 </snippet>

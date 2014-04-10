@@ -3,7 +3,7 @@
 -webkit-font-smoothing: antialiased;
 
 ]]></content>
-	<tabTrigger>wfs:a</tabTrigger>
+	<tabTrigger>wkfs:a</tabTrigger>
 	<scope>source.css, source.less, source.scss</scope>
 	<description>-webkit-font-smoothing:antialiased</description>
 </snippet>

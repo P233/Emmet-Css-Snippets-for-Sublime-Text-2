@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+-webkit-overflow-scrolling: touch;
+
+]]></content>
+	<tabTrigger>wkos:t</tabTrigger>
+	<scope>source.css, source.less, source.scss</scope>
+	<description>-webkit-overflow-scrolling:touch</description>
+</snippet>

@@ -3,7 +3,7 @@
 -webkit-font-smoothing: none
 
 ]]></content>
-	<tabTrigger>wfs:n</tabTrigger>
+	<tabTrigger>wkfs:n</tabTrigger>
 	<scope>source.sass</scope>
 	<description>-webkit-font-smoothing:none</description>
 </snippet>
