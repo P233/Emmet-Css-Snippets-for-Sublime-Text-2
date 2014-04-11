@@ -1,9 +1,9 @@
 <snippet>
 	<content><![CDATA[
--webkit-user-select: ${1:none};
--moz-user-select: ${1:none};
--ms-user-select: ${1:none};
-user-select: ${1:none};
+-webkit-user-select: $1;
+-moz-user-select: $1;
+-ms-user-select: $1;
+user-select: $1;
 $2
 ]]></content>
 	<tabTrigger>us</tabTrigger>

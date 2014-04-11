@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+-webkit-columns: $1;
+-moz-columns: $1;
+columns: $1;
+$2
+]]></content>
+	<tabTrigger>clm</tabTrigger>
+	<scope>source.css, source.less, source.scss</scope>
+	<description>columns</description>
+</snippet>

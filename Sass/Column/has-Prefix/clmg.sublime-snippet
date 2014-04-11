@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+-webkit-column-gap: $1
+-moz-column-gap: $1
+column-gap: $1
+$2
+]]></content>
+	<tabTrigger>clmg</tabTrigger>
+	<scope>source.sass</scope>
+	<description>column-gap</description>
+</snippet>

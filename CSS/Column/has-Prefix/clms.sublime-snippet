@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+-webkit-column-span: $1;
+-moz-column-span: $1;
+column-span: $1;
+$2
+]]></content>
+	<tabTrigger>clmsp</tabTrigger>
+	<scope>source.css, source.less, source.scss</scope>
+	<description>column-span</description>
+</snippet>

@@ -2,7 +2,7 @@
 	<content><![CDATA[
 z-index: 
 ]]></content>
-	<tabTrigger>z-in</tabTrigger>
+	<tabTrigger>zin</tabTrigger>
 	<scope>source.css, source.less, source.scss, source.sass</scope>
 	<description>z-index</description>
 </snippet>

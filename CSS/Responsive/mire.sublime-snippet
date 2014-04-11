@@ -2,7 +2,7 @@
 	<content><![CDATA[
 min-resolution: 
 ]]></content>
-	<tabTrigger>mir</tabTrigger>
+	<tabTrigger>mire</tabTrigger>
 	<scope>source.css, source.less, source.scss, source.sass</scope>
 	<description>min-resolution</description>
 </snippet>

@@ -1,9 +1,9 @@
 <snippet>
 	<content><![CDATA[
--webkit-appearance: ${1:none}
--moz-appearance: ${1:none}
--ms-appearance: ${1:none}
-appearance: ${1:none}
+-webkit-appearance: $1
+-moz-appearance: $1
+-ms-appearance: $1
+appearance: $1
 $2
 ]]></content>
 	<tabTrigger>app</tabTrigger>

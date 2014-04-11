@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-appearance: ${1:none}
+appearance: 
 ]]></content>
 	<tabTrigger>app</tabTrigger>
 	<scope>source.css, source.less, source.scss, source.sass</scope>
