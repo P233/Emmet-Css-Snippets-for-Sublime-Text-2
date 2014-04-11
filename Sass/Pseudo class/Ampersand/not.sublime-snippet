@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+&:not($1)
+	${2:/* style */}
+]]></content>
+	<tabTrigger>not:a</tabTrigger>
+	<scope>source.sass</scope>
+	<description>&amp;:not()</description>
+</snippet>
