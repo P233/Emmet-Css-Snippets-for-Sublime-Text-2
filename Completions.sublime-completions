@@ -2,7 +2,7 @@
 	"scope": "source.sass meta.property-list.css.sass - variable.other.normal, source.scss meta.property-list.css.sass - variable.other.normal",
 
 	"completions": [
-		{ "trigger": "important", "contents": "!important" },
+		{ "trigger": "!important", "contents": "!important" },
 		{ "trigger": "rgb()", "contents": "rgb($1)" },
 		{ "trigger": "rgba()", "contents": "rgba($1)" },
 		{ "trigger": "hsl()", "contents": "hsl($1)" },
@@ -34,6 +34,10 @@
 		{ "trigger": "translateY()", "contents": "translateY($1)" },
 		{ "trigger": "translateZ()", "contents": "translateZ($1)" },
 		{ "trigger": "cubic-bezier()", "contents": "cubic-bezier($1)" },
-		{ "trigger": "steps()", "contents": "steps($1)" }
+		{ "trigger": "steps()", "contents": "steps($1)" },
+		{ "trigger": "linear-gradient()", "contents": "linear-gradient($1)" },
+		{ "trigger": "radial-gradient()", "contents": "radial-gradient($1)" },
+		{ "trigger": "repeating-linear-gradient()", "contents": "repeating-linear-gradient($1)" },
+		{ "trigger": "repeating-radial-gradient()", "contents": "repeating-radial-gradient($1)" }
 	]
 }

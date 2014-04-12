@@ -1,7 +1,6 @@
 <snippet>
 	<content><![CDATA[
 background-size: 
-
 ]]></content>
 	<tabTrigger>bgz</tabTrigger>
 	<scope>source.css, source.less, source.scss, source.sass</scope>
