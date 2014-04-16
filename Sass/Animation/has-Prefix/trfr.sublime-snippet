@@ -8,6 +8,6 @@ transform: rotate(${1:90}deg)
 $2
 ]]></content>
 	<tabTrigger>trf:r</tabTrigger>
-	<scope>source.sass</scope>
+	<scope>source.sass - meta.property-list - support.function.name.sass.library - variable.other.library</scope>
 	<description>transform:rotate()</description>
 </snippet>

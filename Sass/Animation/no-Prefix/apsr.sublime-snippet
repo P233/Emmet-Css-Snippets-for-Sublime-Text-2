@@ -4,6 +4,6 @@ animation-play-state: running
 
 ]]></content>
 	<tabTrigger>aps:r</tabTrigger>
-	<scope>source.sass</scope>
+	<scope>source.sass - meta.property-list - support.function.name.sass.library - variable.other.library</scope>
 	<description>animation-play-state:running</description>
 </snippet>

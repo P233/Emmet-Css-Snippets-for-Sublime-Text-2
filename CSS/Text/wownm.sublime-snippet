@@ -4,6 +4,6 @@ word-wrap: normal;
 
 ]]></content>
 	<tabTrigger>wow:nm</tabTrigger>
-	<scope>source.css, source.less, source.scss</scope>
+	<scope>source.css meta.property-list.css - meta.property-value.css, source.less - meta.property-value.css, source.scss - meta.property-list - support.function.name.sass.library - variable.other.library</scope>
 	<description>word-wrap:normal</description>
 </snippet>

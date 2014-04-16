@@ -4,6 +4,6 @@
 
 ]]></content>
 	<tabTrigger>wkos:t</tabTrigger>
-	<scope>source.sass</scope>
+	<scope>source.sass - meta.property-list - support.function.name.sass.library - variable.other.library</scope>
 	<description>-webkit-overflow-scrolling:touch</description>
 </snippet>

@@ -6,6 +6,6 @@ column-rule-style: $1
 $2
 ]]></content>
 	<tabTrigger>clmrs</tabTrigger>
-	<scope>source.sass</scope>
+	<scope>source.sass - meta.property-list - support.function.name.sass.library - variable.other.library</scope>
 	<description>column-rule-style</description>
 </snippet>

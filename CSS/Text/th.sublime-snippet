@@ -3,6 +3,6 @@
 text-height: 
 ]]></content>
 	<tabTrigger>th</tabTrigger>
-	<scope>source.css, source.less, source.scss, source.sass</scope>
+	<scope>source.css meta.property-list.css - meta.property-value.css, source.less - meta.property-value.css, source.sass - meta.property-list - support.function.name.sass.library - variable.other.library, source.scss - meta.property-list - support.function.name.sass.library - variable.other.library</scope>
 	<description>text-height</description>
 </snippet>
