@@ -6,6 +6,6 @@
 
 ]]></content>
 	<tabTrigger>fli:a</tabTrigger>
-	<scope>source.less, source.scss</scope>
+	<scope>source.less - meta.property-value.css, source.scss - meta.property-list - support.function.name.sass.library - variable.other.library</scope>
 	<description>&amp;:first-line</description>
 </snippet>
