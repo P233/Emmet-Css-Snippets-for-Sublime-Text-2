@@ -4,6 +4,6 @@ bottom: auto
 
 ]]></content>
 	<tabTrigger>bt:a</tabTrigger>
-	<scope>source.sass - meta.property-list - support.function.name.sass.library - variable.other.root</scope>
+	<scope>source.sass - meta.property-list - support.function.name.sass.library - variable.other.library</scope>
 	<description>bottom:auto</description>
 </snippet>

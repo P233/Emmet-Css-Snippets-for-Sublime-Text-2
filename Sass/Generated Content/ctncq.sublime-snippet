@@ -4,6 +4,6 @@ content: no-close-quote
 
 ]]></content>
 	<tabTrigger>ct:ncq</tabTrigger>
-	<scope>source.sass - meta.property-list - support.function.name.sass.library - variable.other.root</scope>
+	<scope>source.sass - meta.property-list - support.function.name.sass.library - variable.other.library</scope>
 	<description>content:no-close-quote</description>
 </snippet>

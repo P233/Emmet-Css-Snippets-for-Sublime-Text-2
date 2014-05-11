@@ -4,6 +4,6 @@ border-fit: overwrite
 
 ]]></content>
 	<tabTrigger>bdf:ow</tabTrigger>
-	<scope>source.sass - meta.property-list - support.function.name.sass.library - variable.other.root</scope>
+	<scope>source.sass - meta.property-list - support.function.name.sass.library - variable.other.library</scope>
 	<description>border-fit:overwrite</description>
 </snippet>

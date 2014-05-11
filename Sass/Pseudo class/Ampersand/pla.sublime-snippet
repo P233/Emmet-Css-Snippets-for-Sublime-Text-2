@@ -9,6 +9,6 @@
 $2
 ]]></content>
 	<tabTrigger>pla:a</tabTrigger>
-	<scope>source.sass - meta.property-list - support.function.name.sass.library - variable.other.root</scope>
+	<scope>source.sass - meta.property-list - support.function.name.sass.library - variable.other.library</scope>
 	<description>&amp;:placeholder</description>
 </snippet>

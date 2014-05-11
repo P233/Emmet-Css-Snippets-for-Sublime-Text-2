@@ -4,6 +4,6 @@ text-justify: auto
 
 ]]></content>
 	<tabTrigger>tj:a</tabTrigger>
-	<scope>source.sass - meta.property-list - support.function.name.sass.library - variable.other.root</scope>
+	<scope>source.sass - meta.property-list - support.function.name.sass.library - variable.other.library</scope>
 	<description>text-justify:auto</description>
 </snippet>

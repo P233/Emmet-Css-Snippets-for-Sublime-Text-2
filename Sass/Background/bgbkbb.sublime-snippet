@@ -4,6 +4,6 @@ background-break: bounding-box
 
 ]]></content>
 	<tabTrigger>bgbk:bb</tabTrigger>
-	<scope>source.sass - meta.property-list - support.function.name.sass.library - variable.other.root</scope>
+	<scope>source.sass - meta.property-list - support.function.name.sass.library - variable.other.library</scope>
 	<description>background-break:bounding-box</description>
 </snippet>

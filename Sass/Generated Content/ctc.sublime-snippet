@@ -4,6 +4,6 @@ content: counter($1)
 
 ]]></content>
 	<tabTrigger>ct:c</tabTrigger>
-	<scope>source.sass - meta.property-list - support.function.name.sass.library - variable.other.root</scope>
+	<scope>source.sass - meta.property-list - support.function.name.sass.library - variable.other.library</scope>
 	<description>content:counter()</description>
 </snippet>

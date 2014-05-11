@@ -4,6 +4,6 @@ display: ruby-base
 
 ]]></content>
 	<tabTrigger>d:rbb</tabTrigger>
-	<scope>source.sass - meta.property-list - support.function.name.sass.library - variable.other.root</scope>
+	<scope>source.sass - meta.property-list - support.function.name.sass.library - variable.other.library</scope>
 	<description>display:ruby-base</description>
 </snippet>

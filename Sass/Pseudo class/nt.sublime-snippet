@@ -4,6 +4,6 @@ $1:nth-of-type($2)
 	${3:/* style */}
 ]]></content>
 	<tabTrigger>nt</tabTrigger>
-	<scope>source.sass - meta.property-list - support.function.name.sass.library - variable.other.root</scope>
+	<scope>source.sass - meta.property-list - support.function.name.sass.library - variable.other.library</scope>
 	<description>:nth-of-type()</description>
 </snippet>

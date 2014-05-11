@@ -8,6 +8,6 @@ animation-fill-mode: backwards
 
 ]]></content>
 	<tabTrigger>afm:bw</tabTrigger>
-	<scope>source.sass - meta.property-list - support.function.name.sass.library - variable.other.root</scope>
+	<scope>source.sass - meta.property-list - support.function.name.sass.library - variable.other.library</scope>
 	<description>animation-fill-mode:backwards</description>
 </snippet>

@@ -8,6 +8,6 @@ transition-duration: $1;
 $2
 ]]></content>
 	<tabTrigger>trsdu</tabTrigger>
-	<scope>source.css meta.property-list.css - meta.property-value.css, source.less - meta.property-value.css, source.scss - meta.property-list - support.function.name.sass.library - variable.other.root</scope>
+	<scope>source.css meta.property-list.css - meta.property-value.css, source.less - meta.property-value.css, source.scss - meta.property-list - support.function.name.sass.library - variable.other.library</scope>
 	<description>transition-duration</description>
 </snippet>

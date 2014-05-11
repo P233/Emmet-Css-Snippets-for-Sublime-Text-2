@@ -4,6 +4,6 @@ background-clip: content-box
 
 ]]></content>
 	<tabTrigger>bgcp:cb</tabTrigger>
-	<scope>source.sass - meta.property-list - support.function.name.sass.library - variable.other.root</scope>
+	<scope>source.sass - meta.property-list - support.function.name.sass.library - variable.other.library</scope>
 	<description>background-clip:content-box</description>
 </snippet>

@@ -4,6 +4,6 @@ vertical-align: text-top
 
 ]]></content>
 	<tabTrigger>va:tt</tabTrigger>
-	<scope>source.sass - meta.property-list - support.function.name.sass.library - variable.other.root</scope>
+	<scope>source.sass - meta.property-list - support.function.name.sass.library - variable.other.library</scope>
 	<description>vertical-align:text-top</description>
 </snippet>

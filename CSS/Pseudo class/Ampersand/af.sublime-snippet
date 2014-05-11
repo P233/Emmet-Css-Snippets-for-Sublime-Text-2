@@ -7,6 +7,6 @@
 
 ]]></content>
 	<tabTrigger>af:a</tabTrigger>
-	<scope>source.less - meta.property-value.css, source.scss - meta.property-list - support.function.name.sass.library - variable.other.root</scope>
+	<scope>source.less - meta.property-value.css, source.scss - meta.property-list - support.function.name.sass.library - variable.other.library</scope>
 	<description>&amp;:after</description>
 </snippet>

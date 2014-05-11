@@ -4,6 +4,6 @@ border-style: hidden;
 
 ]]></content>
 	<tabTrigger>bds:h</tabTrigger>
-	<scope>source.css meta.property-list.css - meta.property-value.css, source.less - meta.property-value.css, source.scss - meta.property-list - support.function.name.sass.library - variable.other.root</scope>
+	<scope>source.css meta.property-list.css - meta.property-value.css, source.less - meta.property-value.css, source.scss - meta.property-list - support.function.name.sass.library - variable.other.library</scope>
 	<description>border-style:hidden</description>
 </snippet>
