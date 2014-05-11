@@ -1,0 +1,19 @@
+
+Emmet CSS Snippets
+
+Thank you for installing Emmet CSS Snippets. This package is an alternative for Emmet and a few snippet triggers were changed, please check the cheat sheet at http://p233.github.io/Emmet-Css-Snippets-for-Sublime-Text-2/
+
+## Features
+
+* Works with default CSS package, [LESS](https://sublime.wbond.net/packages/LESS), and [Syntax Highlighting for Sass](https://sublime.wbond.net/packages/Syntax%20Highlighting%20for%20Sass)
+* Two versions: `has-Prefix` or `no-Prefix`
+* Smart completion rule: propery snippes will no longer popup when you typing propery values
+* Pseudo class completions
+* Extra propery value completions
+
+## Prefix
+
+If you intend to use snippets with no prefix, add `has-Prefix` into the ignored_packages list of your settings file. The other way round, if you intend to use snippets with prefix, add `no-Prefix` into the ignored_packages list.
+
+-------------
+Enjoy coding!
