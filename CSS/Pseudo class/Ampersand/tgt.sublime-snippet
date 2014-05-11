@@ -6,6 +6,6 @@
 
 ]]></content>
 	<tabTrigger>tgt:a</tabTrigger>
-	<scope>source.less - meta.property-value.css, source.scss - meta.property-list - support.function.name.sass.library - variable.other.library</scope>
+	<scope>source.less - meta.property-value.css, source.scss - meta.property-list - support.function.name.sass.library - variable.other.root</scope>
 	<description>&amp;:target</description>
 </snippet>

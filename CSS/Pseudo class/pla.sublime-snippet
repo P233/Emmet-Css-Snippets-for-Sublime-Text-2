@@ -12,6 +12,6 @@ $1:-ms-input-placeholder {
 $3
 ]]></content>
 	<tabTrigger>pla</tabTrigger>
-	<scope>source.css meta.property-list.css - meta.property-value.css, source.less - meta.property-value.css, source.scss - meta.property-list - support.function.name.sass.library - variable.other.library</scope>
+	<scope>source.css meta.property-list.css - meta.property-value.css, source.less - meta.property-value.css, source.scss - meta.property-list - support.function.name.sass.library - variable.other.root</scope>
 	<description>:placeholder</description>
 </snippet>

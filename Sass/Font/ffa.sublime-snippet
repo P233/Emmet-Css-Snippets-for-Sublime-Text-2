@@ -6,6 +6,6 @@
 
 ]]></content>
 	<tabTrigger>ffa</tabTrigger>
-	<scope>source.sass - meta.property-list - support.function.name.sass.library - variable.other.library</scope>
+	<scope>source.sass - meta.property-list - support.function.name.sass.library - variable.other.root</scope>
 	<description>@font-face</description>
 </snippet>

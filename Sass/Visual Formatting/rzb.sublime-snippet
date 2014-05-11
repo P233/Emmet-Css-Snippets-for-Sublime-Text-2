@@ -4,6 +4,6 @@ resize: both
 
 ]]></content>
 	<tabTrigger>rz:b</tabTrigger>
-	<scope>source.sass - meta.property-list - support.function.name.sass.library - variable.other.library</scope>
+	<scope>source.sass - meta.property-list - support.function.name.sass.library - variable.other.root</scope>
 	<description>resize:both</description>
 </snippet>
