@@ -5,6 +5,6 @@
 	${2:/* style */}
 ]]></content>
 	<tabTrigger>be:a</tabTrigger>
-	<scope>source.sass</scope>
+	<scope>source.sass - meta.property-list - support.function.name.sass.library - variable.other.root</scope>
 	<description>&amp;:before</description>
 </snippet>

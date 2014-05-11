@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+-webkit-column-rule: $1;
+-moz-column-rule: $1;
+column-rule: $1;
+$2
+]]></content>
+	<tabTrigger>clmru</tabTrigger>
+	<scope>source.css meta.property-list.css - meta.property-value.css, source.less - meta.property-value.css, source.scss - meta.property-list - support.function.name.sass.library - variable.other.root</scope>
+	<description>column-rule</description>
+</snippet>

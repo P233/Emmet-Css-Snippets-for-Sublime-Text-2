@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+-webkit-animation-direction: reverse
+-moz-animation-direction: reverse
+-ms-animation-direction: reverse
+-o-animation-direction: reverse
+animation-direction: reverse
+
+]]></content>
+	<tabTrigger>adi:re</tabTrigger>
+	<scope>source.sass - meta.property-list - support.function.name.sass.library - variable.other.root</scope>
+	<description>animation-direction:reverse</description>
+</snippet>

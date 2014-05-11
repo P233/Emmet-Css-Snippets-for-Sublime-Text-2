@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+-webkit-columns: $1;
+-moz-columns: $1;
+columns: $1;
+$2
+]]></content>
+	<tabTrigger>clm</tabTrigger>
+	<scope>source.css meta.property-list.css - meta.property-value.css, source.less - meta.property-value.css, source.scss - meta.property-list - support.function.name.sass.library - variable.other.root</scope>
+	<description>columns</description>
+</snippet>

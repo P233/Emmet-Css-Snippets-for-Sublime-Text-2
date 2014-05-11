@@ -4,6 +4,6 @@ background-origin: content-box
 
 ]]></content>
 	<tabTrigger>bgo:cb</tabTrigger>
-	<scope>source.sass</scope>
+	<scope>source.sass - meta.property-list - support.function.name.sass.library - variable.other.root</scope>
 	<description>background-origin:content-box</description>
 </snippet>

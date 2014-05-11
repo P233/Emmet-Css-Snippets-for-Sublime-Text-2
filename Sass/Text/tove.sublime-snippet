@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+text-overflow: ellipsis
+
+]]></content>
+	<tabTrigger>tov:e</tabTrigger>
+	<scope>source.sass - meta.property-list - support.function.name.sass.library - variable.other.root</scope>
+	<description>text-overflow:ellipsis</description>
+</snippet>

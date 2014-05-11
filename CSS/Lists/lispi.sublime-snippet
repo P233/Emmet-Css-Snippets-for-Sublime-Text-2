@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+list-style-position: inside;
+
+]]></content>
+	<tabTrigger>lisp:i</tabTrigger>
+	<scope>source.css meta.property-list.css - meta.property-value.css, source.less - meta.property-value.css, source.scss - meta.property-list - support.function.name.sass.library - variable.other.root</scope>
+	<description>list-style-position:inside</description>
+</snippet>

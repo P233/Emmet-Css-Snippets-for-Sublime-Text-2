@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-/*------- ${1:comment} -------*/
-$2
-]]></content>
-	<tabTrigger>com</tabTrigger>
-	<description>/*-----*/</description>
-	<scope>source.css, source.less, source.scss, source.sass</scope>
-</snippet>

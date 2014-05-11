@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+-webkit-perspective: $1
+-moz-perspective: $1
+-ms-perspective: $1
+-o-perspective: $1
+perspective: $1
+$2
+]]></content>
+	<tabTrigger>pep</tabTrigger>
+	<scope>source.sass - meta.property-list - support.function.name.sass.library - variable.other.root</scope>
+	<description>perspective</description>
+</snippet>

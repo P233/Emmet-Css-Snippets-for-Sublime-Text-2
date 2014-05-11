@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[
-border: ${1:1px} ${2:solid} ${3:#000}
-]]></content>
-	<tabTrigger>bd+</tabTrigger>
-	<scope>source.css, source.less, source.scss, source.sass</scope>
-	<description>border:1px solid #000</description>
-</snippet>

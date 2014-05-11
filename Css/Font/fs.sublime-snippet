@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[
-font-style: 
-]]></content>
-	<tabTrigger>fs</tabTrigger>
-	<scope>source.css, source.less, source.scss, source.sass</scope>
-	<description>font-style</description>
-</snippet>

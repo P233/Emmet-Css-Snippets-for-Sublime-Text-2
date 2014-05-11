@@ -4,6 +4,6 @@ cursor: hand
 
 ]]></content>
 	<tabTrigger>cur:ha</tabTrigger>
-	<scope>source.sass</scope>
+	<scope>source.sass - meta.property-list - support.function.name.sass.library - variable.other.root</scope>
 	<description>cursor:hand</description>
 </snippet>

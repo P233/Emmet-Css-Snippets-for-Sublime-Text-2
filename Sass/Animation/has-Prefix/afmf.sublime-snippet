@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+-webkit-animation-fill-mode: forwards
+-moz-animation-fill-mode: forwards
+-ms-animation-fill-mode: forwards
+-o-animation-fill-mode: forwards
+animation-fill-mode: forwards
+
+]]></content>
+	<tabTrigger>afm:f</tabTrigger>
+	<scope>source.sass - meta.property-list - support.function.name.sass.library - variable.other.root</scope>
+	<description>animation-fill-mode:forwards</description>
+</snippet>

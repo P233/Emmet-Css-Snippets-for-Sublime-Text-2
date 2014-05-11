@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+-webkit-animation-fill-mode: backwards
+-moz-animation-fill-mode: backwards
+-ms-animation-fill-mode: backwards
+-o-animation-fill-mode: backwards
+animation-fill-mode: backwards
+
+]]></content>
+	<tabTrigger>afm:bw</tabTrigger>
+	<scope>source.sass - meta.property-list - support.function.name.sass.library - variable.other.root</scope>
+	<description>animation-fill-mode:backwards</description>
+</snippet>

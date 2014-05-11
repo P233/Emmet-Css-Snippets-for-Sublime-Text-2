@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+&:last-of-type {
+	${1:/* style */}
+}
+
+]]></content>
+	<tabTrigger>lot:a</tabTrigger>
+	<scope>source.less - meta.property-value.css, source.scss - meta.property-list - support.function.name.sass.library - variable.other.root</scope>
+	<description>&amp;:last-of-type</description>
+</snippet>

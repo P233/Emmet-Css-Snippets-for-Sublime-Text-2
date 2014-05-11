@@ -4,6 +4,6 @@ font-family: Capitals,Impact, fantasy
 
 ]]></content>
 	<tabTrigger>ff:f</tabTrigger>
-	<scope>source.sass</scope>
+	<scope>source.sass - meta.property-list - support.function.name.sass.library - variable.other.root</scope>
 	<description>font-family:fantasy</description>
 </snippet>

@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[
-border-corner-image: 
-]]></content>
-	<tabTrigger>bdci</tabTrigger>
-	<scope>source.css, source.less, source.scss, source.sass</scope>
-	<description>border-corner-image</description>
-</snippet>

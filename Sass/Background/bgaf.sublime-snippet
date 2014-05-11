@@ -4,6 +4,6 @@ background-attachment: fixed
 
 ]]></content>
 	<tabTrigger>bga:f</tabTrigger>
-	<scope>source.sass</scope>
+	<scope>source.sass - meta.property-list - support.function.name.sass.library - variable.other.root</scope>
 	<description>background-attachment:fixed</description>
 </snippet>

@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[
-padding-left: 
-]]></content>
-	<tabTrigger>pl</tabTrigger>
-	<scope>source.css, source.less, source.scss, source.sass</scope>
-	<description>padding-left</description>
-</snippet>

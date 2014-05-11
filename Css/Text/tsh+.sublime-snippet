@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[
-text-shadow: ${1:0} ${2:0} ${3:0} ${4:#000}
-]]></content>
-	<tabTrigger>tsh+</tabTrigger>
-	<scope>source.css, source.less, source.scss, source.sass</scope>
-	<description>text-shadow:0 0 0 #000</description>
-</snippet>

@@ -4,6 +4,6 @@ filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=${1:100})
 
 ]]></content>
 	<tabTrigger>op:ie</tabTrigger>
-	<scope>source.sass</scope>
+	<scope>source.sass - meta.property-list - support.function.name.sass.library - variable.other.root</scope>
 	<description>filter:opacity</description>
 </snippet>

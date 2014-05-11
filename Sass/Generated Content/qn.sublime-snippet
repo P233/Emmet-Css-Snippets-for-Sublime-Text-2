@@ -4,6 +4,6 @@ quotes: none
 
 ]]></content>
 	<tabTrigger>q:n</tabTrigger>
-	<scope>source.sass</scope>
+	<scope>source.sass - meta.property-list - support.function.name.sass.library - variable.other.root</scope>
 	<description>quotes:none</description>
 </snippet>

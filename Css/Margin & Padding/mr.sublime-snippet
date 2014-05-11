@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[
-margin-right: 
-]]></content>
-	<tabTrigger>mr</tabTrigger>
-	<scope>source.css, source.less, source.scss, source.sass</scope>
-	<description>margin-right</description>
-</snippet>

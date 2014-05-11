@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-content: "$1"
-
-]]></content>
-	<tabTrigger>ct</tabTrigger>
-	<scope>source.sass</scope>
-	<description>content</description>
-</snippet>

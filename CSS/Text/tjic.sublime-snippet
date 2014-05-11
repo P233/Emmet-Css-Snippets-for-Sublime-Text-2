@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+text-justify: inter-cluster;
+
+]]></content>
+	<tabTrigger>tj:ic</tabTrigger>
+	<scope>source.css meta.property-list.css - meta.property-value.css, source.less - meta.property-value.css, source.scss - meta.property-list - support.function.name.sass.library - variable.other.root</scope>
+	<description>text-justify:inter-cluster</description>
+</snippet>

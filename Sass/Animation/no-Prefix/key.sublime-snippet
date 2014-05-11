@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+@keyframes ${1:name}
+	0%
+		${2:/* style */}
+	${3:50%}
+	100%
+		${4:/* style */}
+$5
+]]></content>
+	<tabTrigger>key</tabTrigger>
+	<scope>source.sass - meta.property-list - support.function.name.sass.library - variable.other.root</scope>
+	<description>@keyframes</description>
+</snippet>

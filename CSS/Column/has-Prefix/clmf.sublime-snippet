@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+-webkit-column-fill: $1;
+-moz-column-fill: $1;
+column-fill: $1;
+$2
+]]></content>
+	<tabTrigger>clmf</tabTrigger>
+	<scope>source.css meta.property-list.css - meta.property-value.css, source.less - meta.property-value.css, source.scss - meta.property-list - support.function.name.sass.library - variable.other.root</scope>
+	<description>column-fill</description>
+</snippet>

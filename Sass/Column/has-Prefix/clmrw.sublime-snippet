@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+-webkit-column-rule-width: $1
+-moz-column-rule-width: $1
+column-rule-width: $1
+$2
+]]></content>
+	<tabTrigger>clmrw</tabTrigger>
+	<scope>source.sass - meta.property-list - support.function.name.sass.library - variable.other.root</scope>
+	<description>column-rule-width</description>
+</snippet>

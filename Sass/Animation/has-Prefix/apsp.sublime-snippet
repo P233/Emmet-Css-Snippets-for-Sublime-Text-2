@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+-webkit-animation-play-state: paused
+-moz-animation-play-state: paused
+-ms-animation-play-state: paused
+-o-animation-play-state: paused
+animation-play-state: paused
+
+]]></content>
+	<tabTrigger>aps:p</tabTrigger>
+	<scope>source.sass - meta.property-list - support.function.name.sass.library - variable.other.root</scope>
+	<description>animation-play-state:paused</description>
+</snippet>

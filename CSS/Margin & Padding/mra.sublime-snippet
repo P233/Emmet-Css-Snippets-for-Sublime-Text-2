@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+margin-right: auto;
+
+]]></content>
+	<tabTrigger>mr:a</tabTrigger>
+	<scope>source.css meta.property-list.css - meta.property-value.css, source.less - meta.property-value.css, source.scss - meta.property-list - support.function.name.sass.library - variable.other.root</scope>
+	<description>margin-right:auto</description>
+</snippet>

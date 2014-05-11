@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[
-font-emphasize-style: 
-]]></content>
-	<tabTrigger>fems</tabTrigger>
-	<scope>source.css, source.less, source.scss, source.sass</scope>
-	<description>font-emphasize-style</description>
-</snippet>

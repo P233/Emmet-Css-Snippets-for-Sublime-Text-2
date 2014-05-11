@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+display: table-header-group;
+
+]]></content>
+	<tabTrigger>d:tbhg</tabTrigger>
+	<scope>source.css meta.property-list.css - meta.property-value.css, source.less - meta.property-value.css, source.scss - meta.property-list - support.function.name.sass.library - variable.other.root</scope>
+	<description>display:table-header-group</description>
+</snippet>

@@ -4,6 +4,6 @@ font-variant: small-caps
 
 ]]></content>
 	<tabTrigger>fv:sc</tabTrigger>
-	<scope>source.sass</scope>
+	<scope>source.sass - meta.property-list - support.function.name.sass.library - variable.other.root</scope>
 	<description>font-variant:small-caps</description>
 </snippet>

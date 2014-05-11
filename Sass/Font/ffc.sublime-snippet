@@ -4,6 +4,6 @@ font-family: 'Monotype Corsiva', 'Comic Sans MS', cursive
 
 ]]></content>
 	<tabTrigger>ff:c</tabTrigger>
-	<scope>source.sass</scope>
+	<scope>source.sass - meta.property-list - support.function.name.sass.library - variable.other.root</scope>
 	<description>font-family:cursive</description>
 </snippet>

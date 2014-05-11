@@ -4,6 +4,6 @@ white-space: pre
 
 ]]></content>
 	<tabTrigger>whs:p</tabTrigger>
-	<scope>source.sass</scope>
+	<scope>source.sass - meta.property-list - support.function.name.sass.library - variable.other.root</scope>
 	<description>white-space:pre</description>
 </snippet>

@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+&:first-line {
+	${1:/* style */}
+}
+
+]]></content>
+	<tabTrigger>fli:a</tabTrigger>
+	<scope>source.less - meta.property-value.css, source.scss - meta.property-list - support.function.name.sass.library - variable.other.root</scope>
+	<description>&amp;:first-line</description>
+</snippet>

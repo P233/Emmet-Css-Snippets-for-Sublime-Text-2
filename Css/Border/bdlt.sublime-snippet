@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[
-border-length: 
-]]></content>
-	<tabTrigger>bdlt</tabTrigger>
-	<scope>source.css, source.less, source.scss, source.sass</scope>
-	<description>border-length</description>
-</snippet>

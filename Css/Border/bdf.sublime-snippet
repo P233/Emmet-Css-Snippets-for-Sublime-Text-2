@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[
-border-fit: 
-]]></content>
-	<tabTrigger>bdf</tabTrigger>
-	<scope>source.css, source.less, source.scss, source.sass</scope>
-	<description>border-fit</description>
-</snippet>

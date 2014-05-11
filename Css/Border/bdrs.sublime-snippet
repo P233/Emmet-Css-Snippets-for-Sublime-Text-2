@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[
-border-right-style: 
-]]></content>
-	<tabTrigger>bdrs</tabTrigger>
-	<scope>source.css, source.less, source.scss, source.sass</scope>
-	<description>border-right-style</description>
-</snippet>

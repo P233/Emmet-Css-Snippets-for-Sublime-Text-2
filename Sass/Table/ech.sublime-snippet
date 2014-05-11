@@ -4,6 +4,6 @@ empty-cells: hide
 
 ]]></content>
 	<tabTrigger>ec:h</tabTrigger>
-	<scope>source.sass</scope>
+	<scope>source.sass - meta.property-list - support.function.name.sass.library - variable.other.root</scope>
 	<description>empty-cells:hide</description>
 </snippet>

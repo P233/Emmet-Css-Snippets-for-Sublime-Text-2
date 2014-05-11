@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+background-repeat: space
+
+]]></content>
+	<tabTrigger>bgr:sp</tabTrigger>
+	<scope>source.sass - meta.property-list - support.function.name.sass.library - variable.other.root</scope>
+	<description>background-repeat:space</description>
+</snippet>

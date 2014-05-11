@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[
-box-shadow: 
-]]></content>
-	<tabTrigger>bxsh</tabTrigger>
-	<scope>source.css, source.less, source.scss, source.sass</scope>
-	<description>box-shadow</description>
-</snippet>

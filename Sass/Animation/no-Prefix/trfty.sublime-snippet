@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+transform: translateY($1)
+$2
+]]></content>
+	<tabTrigger>trf:ty</tabTrigger>
+	<scope>source.sass - meta.property-list - support.function.name.sass.library - variable.other.root</scope>
+	<description>transform:translateY()</description>
+</snippet>

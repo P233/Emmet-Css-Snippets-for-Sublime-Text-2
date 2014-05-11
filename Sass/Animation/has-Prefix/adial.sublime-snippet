@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+-webkit-animation-direction: alternate
+-moz-animation-direction: alternate
+-ms-animation-direction: alternate
+-o-animation-direction: alternate
+animation-direction: alternate
+
+]]></content>
+	<tabTrigger>adi:al</tabTrigger>
+	<scope>source.sass - meta.property-list - support.function.name.sass.library - variable.other.root</scope>
+	<description>animation-direction:alternate</description>
+</snippet>

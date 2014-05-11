@@ -4,6 +4,6 @@ background: none
 
 ]]></content>
 	<tabTrigger>bg:n</tabTrigger>
-	<scope>source.sass</scope>
+	<scope>source.sass - meta.property-list - support.function.name.sass.library - variable.other.root</scope>
 	<description>background:none</description>
 </snippet>

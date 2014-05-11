@@ -4,6 +4,6 @@ font-family: Monaco,'Courier New', monospace
 
 ]]></content>
 	<tabTrigger>ff:m</tabTrigger>
-	<scope>source.sass</scope>
+	<scope>source.sass - meta.property-list - support.function.name.sass.library - variable.other.root</scope>
 	<description>font-family:monospace</description>
 </snippet>

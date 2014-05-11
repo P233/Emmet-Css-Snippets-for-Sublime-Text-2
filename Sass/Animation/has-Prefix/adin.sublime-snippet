@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+-webkit-animation-direction: normal
+-moz-animation-direction: normal
+-ms-animation-direction: normal
+-o-animation-direction: normal
+animation-direction: normal
+
+]]></content>
+	<tabTrigger>adi:n</tabTrigger>
+	<scope>source.sass - meta.property-list - support.function.name.sass.library - variable.other.root</scope>
+	<description>animation-direction:normal</description>
+</snippet>

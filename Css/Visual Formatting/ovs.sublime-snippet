@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[
-overflow-style: 
-]]></content>
-	<tabTrigger>ovs</tabTrigger>
-	<scope>source.css, source.less, source.scss, source.sass</scope>
-	<description>overflow-style</description>
-</snippet>

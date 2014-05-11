@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+background-origin: padding-box;
+
+]]></content>
+	<tabTrigger>bgo:pb</tabTrigger>
+	<scope>source.css meta.property-list.css - meta.property-value.css, source.less - meta.property-value.css, source.scss - meta.property-list - support.function.name.sass.library - variable.other.root</scope>
+	<description>background-origin:padding-box</description>
+</snippet>

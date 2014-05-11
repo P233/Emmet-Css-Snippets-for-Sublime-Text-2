@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+border-style: 
+]]></content>
+	<tabTrigger>bds</tabTrigger>
+	<scope>source.css meta.property-list.css - meta.property-value.css, source.less - meta.property-value.css, source.sass - meta.property-list - support.function.name.sass.library - variable.other.root, source.scss - meta.property-list - support.function.name.sass.library - variable.other.root</scope>
+	<description>border-style</description>
+</snippet>

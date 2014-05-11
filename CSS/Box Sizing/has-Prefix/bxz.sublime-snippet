@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+-webkit-box-sizing: $1;
+-moz-box-sizing: $1;
+-ms-box-sizing: $1;
+box-sizing: $1;
+$2
+]]></content>
+	<tabTrigger>bxz</tabTrigger>
+	<scope>source.css meta.property-list.css - meta.property-value.css, source.less - meta.property-value.css, source.scss - meta.property-list - support.function.name.sass.library - variable.other.root</scope>
+	<description>box-sizing</description>
+</snippet>

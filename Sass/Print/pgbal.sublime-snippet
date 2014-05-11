@@ -4,6 +4,6 @@ page-break-after: left
 
 ]]></content>
 	<tabTrigger>pgba:l</tabTrigger>
-	<scope>source.sass</scope>
+	<scope>source.sass - meta.property-list - support.function.name.sass.library - variable.other.root</scope>
 	<description>page-break-after:left</description>
 </snippet>

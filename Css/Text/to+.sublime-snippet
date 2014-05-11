@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[
-text-outline: ${1:0} ${2:0} ${3:#000}
-]]></content>
-	<tabTrigger>to+</tabTrigger>
-	<scope>source.css, source.less, source.scss, source.sass</scope>
-	<description>text-outline:0 0 #000</description>
-</snippet>

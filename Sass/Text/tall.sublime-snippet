@@ -4,6 +4,6 @@ text-align-last: left
 
 ]]></content>
 	<tabTrigger>tal:l</tabTrigger>
-	<scope>source.sass</scope>
+	<scope>source.sass - meta.property-list - support.function.name.sass.library - variable.other.root</scope>
 	<description>text-align-last:left</description>
 </snippet>

@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[
-list-style-position: 
-]]></content>
-	<tabTrigger>lisp</tabTrigger>
-	<scope>source.css, source.less, source.scss, source.sass</scope>
-	<description>list-style-position</description>
-</snippet>

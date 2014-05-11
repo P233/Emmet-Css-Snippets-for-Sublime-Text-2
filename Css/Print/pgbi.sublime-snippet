@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[
-page-break-inside: 
-]]></content>
-	<tabTrigger>pgbi</tabTrigger>
-	<scope>source.css, source.less, source.scss, source.sass</scope>
-	<description>page-break-inside</description>
-</snippet>

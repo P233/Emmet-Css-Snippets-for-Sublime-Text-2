@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[
-max-width: 
-]]></content>
-	<tabTrigger>maw</tabTrigger>
-	<scope>source.css, source.less, source.scss, source.sass</scope>
-	<description>max-width</description>
-</snippet>

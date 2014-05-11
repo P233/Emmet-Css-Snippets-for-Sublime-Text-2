@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='${1:path}',sizingMethod='${2:crop}')";
+filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='${1:path}',sizingMethod='${2:crop}');
+$3
+]]></content>
+	<tabTrigger>bg:ie</tabTrigger>
+	<scope>source.css meta.property-list.css - meta.property-value.css, source.less - meta.property-value.css, source.scss - meta.property-list - support.function.name.sass.library - variable.other.root</scope>
+	<description>filter:AlphaImagesLoader</description>
+</snippet>

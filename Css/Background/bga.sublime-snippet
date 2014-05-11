@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[
-background-attachment: 
-]]></content>
-	<tabTrigger>bga</tabTrigger>
-	<scope>source.css, source.less, source.scss, source.sass</scope>
-	<description>background-attachment</description>
-</snippet>

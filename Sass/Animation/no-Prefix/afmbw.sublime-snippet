@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+animation-fill-mode: backwards
+
+]]></content>
+	<tabTrigger>afm:bw</tabTrigger>
+	<scope>source.sass - meta.property-list - support.function.name.sass.library - variable.other.root</scope>
+	<description>animation-fill-mode:backwards</description>
+</snippet>

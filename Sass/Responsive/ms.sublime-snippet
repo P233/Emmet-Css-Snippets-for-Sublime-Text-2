@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+@media screen and ($1)${2: and (}
+	${3:/* style */}
+]]></content>
+	<tabTrigger>ms</tabTrigger>
+	<scope>source.sass - meta.property-list - support.function.name.sass.library - variable.other.root</scope>
+	<description>@media screen</description>
+</snippet>

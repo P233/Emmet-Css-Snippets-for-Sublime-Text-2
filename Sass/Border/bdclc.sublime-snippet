@@ -4,6 +4,6 @@ border-collapse: collapse
 
 ]]></content>
 	<tabTrigger>bdcl:c</tabTrigger>
-	<scope>source.sass</scope>
+	<scope>source.sass - meta.property-list - support.function.name.sass.library - variable.other.root</scope>
 	<description>border-collapse:collapse</description>
 </snippet>

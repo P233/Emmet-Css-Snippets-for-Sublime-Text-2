@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+background-clip: content-box;
+
+]]></content>
+	<tabTrigger>bgcp:cb</tabTrigger>
+	<scope>source.css meta.property-list.css - meta.property-value.css, source.less - meta.property-value.css, source.scss - meta.property-list - support.function.name.sass.library - variable.other.root</scope>
+	<description>background-clip:content-box</description>
+</snippet>

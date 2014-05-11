@@ -4,6 +4,6 @@ font-emphasize-style: none
 
 ]]></content>
 	<tabTrigger>fems:n</tabTrigger>
-	<scope>source.sass</scope>
+	<scope>source.sass - meta.property-list - support.function.name.sass.library - variable.other.root</scope>
 	<description>font-emphasize-style:none</description>
 </snippet>

@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[
-orphans: 
-]]></content>
-	<tabTrigger>orp</tabTrigger>
-	<scope>source.css, source.less, source.scss, source.sass</scope>
-	<description>orphans</description>
-</snippet>

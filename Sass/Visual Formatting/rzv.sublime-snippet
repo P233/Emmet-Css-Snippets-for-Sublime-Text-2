@@ -1,11 +1,9 @@
 <snippet>
 	<content><![CDATA[
--webkit-resize: vertical
--moz-resize: vertical
 resize: vertical
 
 ]]></content>
 	<tabTrigger>rz:v</tabTrigger>
-	<scope>source.sass</scope>
+	<scope>source.sass - meta.property-list - support.function.name.sass.library - variable.other.root</scope>
 	<description>resize:vertical</description>
 </snippet>

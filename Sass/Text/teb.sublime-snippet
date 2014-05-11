@@ -4,6 +4,6 @@ text-emphasis: before
 
 ]]></content>
 	<tabTrigger>te:b</tabTrigger>
-	<scope>source.sass</scope>
+	<scope>source.sass - meta.property-list - support.function.name.sass.library - variable.other.root</scope>
 	<description>text-emphasis:before</description>
 </snippet>

@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+-webkit-transform: scaleX($1);
+-moz-transform: scaleX($1);
+-ms-transform: scaleX($1);
+-o-transform: scaleX($1);
+transform: scaleX($1);
+$2
+]]></content>
+	<tabTrigger>trf:scx</tabTrigger>
+	<scope>source.css meta.property-list.css - meta.property-value.css, source.less - meta.property-value.css, source.scss - meta.property-list - support.function.name.sass.library - variable.other.root</scope>
+	<description>transform:scaleX()</description>
+</snippet>

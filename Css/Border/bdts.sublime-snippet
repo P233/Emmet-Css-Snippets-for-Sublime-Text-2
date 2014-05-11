@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[
-border-top-style: 
-]]></content>
-	<tabTrigger>bdts</tabTrigger>
-	<scope>source.css, source.less, source.scss, source.sass</scope>
-	<description>border-top-style</description>
-</snippet>

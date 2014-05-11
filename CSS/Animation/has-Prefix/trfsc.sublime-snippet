@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+-webkit-transform: scale($1, $2);
+-moz-transform: scale($1, $2);
+-ms-transform: scale($1, $2);
+-o-transform: scale($1, $2);
+transform: scale($1, $2);
+$3
+]]></content>
+	<tabTrigger>trf:sc</tabTrigger>
+	<scope>source.css meta.property-list.css - meta.property-value.css, source.less - meta.property-value.css, source.scss - meta.property-list - support.function.name.sass.library - variable.other.root</scope>
+	<description>transform:scale()</description>
+</snippet>

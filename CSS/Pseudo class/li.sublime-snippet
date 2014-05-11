@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+$1:link {
+	${2:/* style */}
+}
+
+]]></content>
+	<tabTrigger>li</tabTrigger>
+	<scope>source.css - meta.property-list.css, source.less - meta.property-value.css, source.scss - meta.property-list - support.function.name.sass.library - variable.other.root</scope>
+	<description>:link</description>
+</snippet>

@@ -4,6 +4,6 @@ list-style-position: outside
 
 ]]></content>
 	<tabTrigger>lisp:o</tabTrigger>
-	<scope>source.sass</scope>
+	<scope>source.sass - meta.property-list - support.function.name.sass.library - variable.other.root</scope>
 	<description>list-style-position:outside</description>
 </snippet>

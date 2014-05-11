@@ -4,6 +4,6 @@ $1:lang($2)
 	${3:/* style */}
 ]]></content>
 	<tabTrigger>ln</tabTrigger>
-	<scope>source.sass</scope>
+	<scope>source.sass - meta.property-list - support.function.name.sass.library - variable.other.root</scope>
 	<description>:lang</description>
 </snippet>

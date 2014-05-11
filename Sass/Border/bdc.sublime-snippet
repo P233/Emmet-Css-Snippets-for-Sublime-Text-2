@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[
-border-color: ${1:#000}
-]]></content>
-	<tabTrigger>bdc</tabTrigger>
-	<scope>source.sass</scope>
-	<description>border-color:#000</description>
-</snippet>

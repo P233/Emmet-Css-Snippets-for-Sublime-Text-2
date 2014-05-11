@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+-webkit-transition: $1
+-moz-transition: $1
+-ms-transition: $1
+-o-transition: $1
+transition: $1
+$2
+]]></content>
+	<tabTrigger>trs</tabTrigger>
+	<scope>source.sass - meta.property-list - support.function.name.sass.library - variable.other.root</scope>
+	<description>transition</description>
+</snippet>

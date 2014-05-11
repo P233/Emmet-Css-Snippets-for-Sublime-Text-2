@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+-webkit-column-rule-style: $1
+-moz-column-rule-style: $1
+column-rule-style: $1
+$2
+]]></content>
+	<tabTrigger>clmrs</tabTrigger>
+	<scope>source.sass - meta.property-list - support.function.name.sass.library - variable.other.root</scope>
+	<description>column-rule-style</description>
+</snippet>

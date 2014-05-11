@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+font-stretch: condensed
+
+]]></content>
+	<tabTrigger>fst:cd</tabTrigger>
+	<scope>source.sass - meta.property-list - support.function.name.sass.library - variable.other.root</scope>
+	<description>font-stretch:condensed</description>
+</snippet>

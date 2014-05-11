@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+font-stretch: expanded
+
+]]></content>
+	<tabTrigger>fst:ep</tabTrigger>
+	<scope>source.sass - meta.property-list - support.function.name.sass.library - variable.other.root</scope>
+	<description>font-stretch:expanded</description>
+</snippet>

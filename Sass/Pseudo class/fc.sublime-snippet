@@ -4,6 +4,6 @@ $1:first-child
 	${2:/* style */}
 ]]></content>
 	<tabTrigger>fc</tabTrigger>
-	<scope>source.sass</scope>
+	<scope>source.sass - meta.property-list - support.function.name.sass.library - variable.other.root</scope>
 	<description>:first-child</description>
 </snippet>

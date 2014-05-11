@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[
-border-right-width: 
-]]></content>
-	<tabTrigger>bdrw</tabTrigger>
-	<scope>source.css, source.less, source.scss, source.sass</scope>
-	<description>border-right-width</description>
-</snippet>

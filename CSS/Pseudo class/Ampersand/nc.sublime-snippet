@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+&:nth-child($1) {
+	${2:/* style */}
+}
+
+]]></content>
+	<tabTrigger>nc:a</tabTrigger>
+	<scope>source.less - meta.property-value.css, source.scss - meta.property-list - support.function.name.sass.library - variable.other.root</scope>
+	<description>&amp;:nth-child</description>
+</snippet>

@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+-webkit-animation-duration: $1;
+-moz-animation-duration: $1;
+-ms-animation-duration: $1;
+-o-animation-duration: $1;
+animation-duration: $1;
+$2
+]]></content>
+	<tabTrigger>adu</tabTrigger>
+	<scope>source.css meta.property-list.css - meta.property-value.css, source.less - meta.property-value.css, source.scss - meta.property-list - support.function.name.sass.library - variable.other.root</scope>
+	<description>animation-duration</description>
+</snippet>

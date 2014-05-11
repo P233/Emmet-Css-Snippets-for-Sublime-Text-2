@@ -4,6 +4,6 @@ word-break: break-strict
 
 ]]></content>
 	<tabTrigger>wob:bs</tabTrigger>
-	<scope>source.sass</scope>
+	<scope>source.sass - meta.property-list - support.function.name.sass.library - variable.other.root</scope>
 	<description>word-break:break-strict</description>
 </snippet>

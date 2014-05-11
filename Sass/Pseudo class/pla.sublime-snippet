@@ -9,6 +9,6 @@ $2:-ms-input-placeholder
 $4
 ]]></content>
 	<tabTrigger>pla</tabTrigger>
-	<scope>source.sass</scope>
+	<scope>source.sass - meta.property-list - support.function.name.sass.library - variable.other.root</scope>
 	<description>:placeholder</description>
 </snippet>

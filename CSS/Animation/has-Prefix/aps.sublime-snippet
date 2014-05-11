@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+-webkit-animation-play-state: $1;
+-moz-animation-play-state: $1;
+-ms-animation-play-state: $1;
+-o-animation-play-state: $1;
+animation-play-state: $1;
+$2
+]]></content>
+	<tabTrigger>aps</tabTrigger>
+	<scope>source.css meta.property-list.css - meta.property-value.css, source.less - meta.property-value.css, source.scss - meta.property-list - support.function.name.sass.library - variable.other.root</scope>
+	<description>animation-play-state</description>
+</snippet>

@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[
-outline-offset: 
-]]></content>
-	<tabTrigger>oo</tabTrigger>
-	<scope>source.css, source.less, source.scss, source.sass</scope>
-	<description>outline-offset</description>
-</snippet>

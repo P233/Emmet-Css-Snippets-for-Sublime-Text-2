@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[
-widows: 
-]]></content>
-	<tabTrigger>widows</tabTrigger>
-	<scope>source.css, source.less, source.scss, source.sass</scope>
-	<description>widows</description>
-</snippet>

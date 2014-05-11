@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[
-list-style-image: 
-]]></content>
-	<tabTrigger>lisi</tabTrigger>
-	<scope>source.css, source.less, source.scss, source.sass</scope>
-	<description>list-style-image</description>
-</snippet>

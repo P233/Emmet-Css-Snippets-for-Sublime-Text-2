@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+-webkit-transition-timing-function: $1;
+-moz-transition-timing-function: $1;
+-ms-transition-timing-function: $1;
+-o-transition-timing-function: $1;
+transition-timing-function: $1;
+$2
+]]></content>
+	<tabTrigger>trstf</tabTrigger>
+	<scope>source.css meta.property-list.css - meta.property-value.css, source.less - meta.property-value.css, source.scss - meta.property-list - support.function.name.sass.library - variable.other.root</scope>
+	<description>transition-timing-function</description>
+</snippet>

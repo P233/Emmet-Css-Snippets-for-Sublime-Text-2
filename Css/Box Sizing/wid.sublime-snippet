@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[
-width: 
-]]></content>
-	<tabTrigger>wid</tabTrigger>
-	<scope>source.css, source.less, source.scss, source.sass</scope>
-	<description>width</description>
-</snippet>

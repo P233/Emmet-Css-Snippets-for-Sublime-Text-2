@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+-webkit-background-size: $1
+-moz-background-size: $1
+background-size: $1
+$2
+]]></content>
+	<tabTrigger>bgz</tabTrigger>
+	<scope>source.sass - meta.property-list - support.function.name.sass.library - variable.other.root</scope>
+	<description>background-size</description>
+</snippet>

@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+-webkit-perspective-origin: $1;
+-moz-perspective-origin: $1;
+-ms-perspective-origin: $1;
+-o-perspective-origin: $1;
+perspective-origin: $1;
+$2
+]]></content>
+	<tabTrigger>pepo</tabTrigger>
+	<scope>source.css meta.property-list.css - meta.property-value.css, source.less - meta.property-value.css, source.scss - meta.property-list - support.function.name.sass.library - variable.other.root</scope>
+	<description>perspective-origin</description>
+</snippet>

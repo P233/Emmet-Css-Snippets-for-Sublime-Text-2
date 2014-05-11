@@ -1,0 +1,53 @@
+<snippet>
+	<content><![CDATA[
+@-webkit-keyframes ${1:name} {
+	0% {
+		${2:/* style */}
+	}
+	${3:50% }
+	100% {
+		${4:/* style */}
+	}
+}
+@-moz-keyframes ${1:name} {
+	0% {
+		${2:/* style */}
+	}
+	${3:50% }
+	100% {
+		${4:/* style */}
+	}
+}
+@-ms-keyframes ${1:name} {
+	0% {
+		${2:/* style */}
+	}
+	${3:50% }
+	100% {
+		${4:/* style */}
+	}
+}
+@-o-keyframes ${1:name} {
+	0% {
+		${2:/* style */}
+	}
+	${3:50% }
+	100% {
+		${4:/* style */}
+	}
+}
+@keyframes ${1:name} {
+	0% {
+		${2:/* style */}
+	}
+	${3:50% }
+	100% {
+		${4:/* style */}
+	}
+}
+$5
+]]></content>
+	<tabTrigger>key</tabTrigger>
+	<scope>source.css meta.property-list.css - meta.property-value.css, source.less - meta.property-value.css, source.scss - meta.property-list - support.function.name.sass.library - variable.other.root</scope>
+	<description>@keyframes</description>
+</snippet>

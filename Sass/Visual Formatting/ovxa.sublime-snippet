@@ -4,6 +4,6 @@ overflow-x: auto
 
 ]]></content>
 	<tabTrigger>ovx:a</tabTrigger>
-	<scope>source.sass</scope>
+	<scope>source.sass - meta.property-list - support.function.name.sass.library - variable.other.root</scope>
 	<description>overflow-x:auto</description>
 </snippet>

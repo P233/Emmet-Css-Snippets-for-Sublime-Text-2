@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+-webkit-user-select: $1
+-moz-user-select: $1
+-ms-user-select: $1
+user-select: $1
+$2
+]]></content>
+	<tabTrigger>us</tabTrigger>
+	<scope>source.sass - meta.property-list - support.function.name.sass.library - variable.other.root</scope>
+	<description>user-select</description>
+</snippet>

@@ -4,6 +4,6 @@ border-top-style: none
 
 ]]></content>
 	<tabTrigger>bdts:n</tabTrigger>
-	<scope>source.sass</scope>
+	<scope>source.sass - meta.property-list - support.function.name.sass.library - variable.other.root</scope>
 	<description>border-top-style:none</description>
 </snippet>

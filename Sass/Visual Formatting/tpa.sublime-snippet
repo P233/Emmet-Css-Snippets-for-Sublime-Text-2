@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+top: auto
+
+]]></content>
+	<tabTrigger>tp:a</tabTrigger>
+	<scope>source.sass - meta.property-list - support.function.name.sass.library - variable.other.root</scope>
+	<description>top:auto</description>
+</snippet>

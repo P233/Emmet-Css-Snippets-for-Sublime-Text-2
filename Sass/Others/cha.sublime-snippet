@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-@charset "${1:UTF-8}"
-$2
-]]></content>
-	<tabTrigger>cha</tabTrigger>
-	<scope>source.sass</scope>
-	<description>@charset</description>
-</snippet>

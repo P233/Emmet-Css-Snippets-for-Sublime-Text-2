@@ -4,6 +4,6 @@ font-family: Helvetica, Arial, sans-serif
 
 ]]></content>
 	<tabTrigger>ff:ss</tabTrigger>
-	<scope>source.sass</scope>
+	<scope>source.sass - meta.property-list - support.function.name.sass.library - variable.other.root</scope>
 	<description>font-family:sans-serif</description>
 </snippet>

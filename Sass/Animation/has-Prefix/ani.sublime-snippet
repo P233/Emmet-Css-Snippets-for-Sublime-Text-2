@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+-webkit-animation: $1
+-moz-animation: $1
+-ms-animation: $1
+-o-animation: $1
+animation: $1
+$2
+]]></content>
+	<tabTrigger>ani</tabTrigger>
+	<scope>source.sass - meta.property-list - support.function.name.sass.library - variable.other.root</scope>
+	<description>animation</description>
+</snippet>

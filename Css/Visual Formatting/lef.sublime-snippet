@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[
-left: 
-]]></content>
-	<tabTrigger>lef</tabTrigger>
-	<scope>source.css, source.less, source.scss, source.sass</scope>
-	<description>left</description>
-</snippet>

@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+background-image: -webkit-gradient(${1:Style_1})
+background-image: -webkit-radial-gradient(${2:Style_2})
+background-image: -moz-radial-gradient(${2:Style_2})
+background-image: -o-radial-gradient(${2:Style_2})
+background-image: radial-gradient(${3:Style_3})
+
+]]></content>
+	<tabTrigger>bgi:rg</tabTrigger>
+	<scope>source.sass - meta.property-list - support.function.name.sass.library - variable.other.root</scope>
+	<description>radial-gradient</description>
+</snippet>

@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+-webkit-box-sizing: border-box
+-moz-box-sizing: border-box
+-ms-box-sizing: border-box
+box-sizing: border-box
+
+]]></content>
+	<tabTrigger>bxz:bb</tabTrigger>
+	<scope>source.sass - meta.property-list - support.function.name.sass.library - variable.other.root</scope>
+	<description>box-sizing:border-box</description>
+</snippet>

@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+animation-iteration-count: infinite
+
+]]></content>
+	<tabTrigger>aic:i</tabTrigger>
+	<scope>source.sass - meta.property-list - support.function.name.sass.library - variable.other.root</scope>
+	<description>animation-iteration-count:infinite</description>
+</snippet>

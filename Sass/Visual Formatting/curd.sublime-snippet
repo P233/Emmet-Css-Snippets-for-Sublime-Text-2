@@ -4,6 +4,6 @@ cursor: default
 
 ]]></content>
 	<tabTrigger>cur:d</tabTrigger>
-	<scope>source.sass</scope>
+	<scope>source.sass - meta.property-list - support.function.name.sass.library - variable.other.root</scope>
 	<description>cursor:default</description>
 </snippet>

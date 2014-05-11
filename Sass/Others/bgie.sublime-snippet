@@ -5,6 +5,6 @@ filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='${1:path}',sizin
 $3
 ]]></content>
 	<tabTrigger>bg:ie</tabTrigger>
-	<scope>source.sass</scope>
+	<scope>source.sass - meta.property-list - support.function.name.sass.library - variable.other.root</scope>
 	<description>filter:AlphaImagesLoader</description>
 </snippet>

@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+text-wrap: none;
+
+]]></content>
+	<tabTrigger>tw:no</tabTrigger>
+	<scope>source.css meta.property-list.css - meta.property-value.css, source.less - meta.property-value.css, source.scss - meta.property-list - support.function.name.sass.library - variable.other.root</scope>
+	<description>text-wrap:none</description>
+</snippet>

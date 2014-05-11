@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+border-top-color: transparent
+
+]]></content>
+	<tabTrigger>bdtc:t</tabTrigger>
+	<scope>source.sass - meta.property-list - support.function.name.sass.library - variable.other.root</scope>
+	<description>border-top-color:transparent</description>
+</snippet>

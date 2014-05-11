@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+$1::-webkit-input-placeholder {
+	${2:/* style */}
+}
+$1:-moz-placeholder {
+	${2:/* style */}
+}
+$1:-ms-input-placeholder {
+	${2:/* style */}
+}
+$3
+]]></content>
+	<tabTrigger>pla</tabTrigger>
+	<scope>source.css - meta.property-list.css, source.less - meta.property-value.css, source.scss - meta.property-list - support.function.name.sass.library - variable.other.root</scope>
+	<description>:placeholder</description>
+</snippet>

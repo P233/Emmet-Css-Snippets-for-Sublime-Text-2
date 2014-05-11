@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[
-page-break-after: 
-]]></content>
-	<tabTrigger>pgba</tabTrigger>
-	<scope>source.css, source.less, source.scss, source.sass</scope>
-	<description>page-break-after</description>
-</snippet>

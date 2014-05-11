@@ -5,6 +5,6 @@ $1:after
 	${3:/* style */}
 ]]></content>
 	<tabTrigger>af</tabTrigger>
-	<scope>source.sass</scope>
+	<scope>source.sass - meta.property-list - support.function.name.sass.library - variable.other.root</scope>
 	<description>:after</description>
 </snippet>

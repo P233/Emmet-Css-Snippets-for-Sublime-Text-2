@@ -4,6 +4,6 @@ border-style: double
 
 ]]></content>
 	<tabTrigger>bds:db</tabTrigger>
-	<scope>source.sass</scope>
+	<scope>source.sass - meta.property-list - support.function.name.sass.library - variable.other.root</scope>
 	<description>border-style:double</description>
 </snippet>

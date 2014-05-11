@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+-webkit-animation-timing-function: $1
+-moz-animation-timing-function: $1
+-ms-animation-timing-function: $1
+-o-animation-timing-function: $1
+animation-timing-function: $1
+$2
+]]></content>
+	<tabTrigger>atf</tabTrigger>
+	<scope>source.sass - meta.property-list - support.function.name.sass.library - variable.other.root</scope>
+	<description>animation-timing-function</description>
+</snippet>

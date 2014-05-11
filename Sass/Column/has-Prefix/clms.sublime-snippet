@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+-webkit-column-span: $1
+-moz-column-span: $1
+column-span: $1
+$2
+]]></content>
+	<tabTrigger>clmsp</tabTrigger>
+	<scope>source.sass - meta.property-list - support.function.name.sass.library - variable.other.root</scope>
+	<description>column-span</description>
+</snippet>

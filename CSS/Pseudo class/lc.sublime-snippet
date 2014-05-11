@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+$1:last-child {
+	${2:/* style */}
+}
+
+]]></content>
+	<tabTrigger>lc</tabTrigger>
+	<scope>source.css - meta.property-list.css, source.less - meta.property-value.css, source.scss - meta.property-list - support.function.name.sass.library - variable.other.root</scope>
+	<description>:last-child</description>
+</snippet>

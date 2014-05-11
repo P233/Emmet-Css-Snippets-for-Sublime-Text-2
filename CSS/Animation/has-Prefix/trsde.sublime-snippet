@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+-webkit-transition-delay: $1;
+-moz-transition-delay: $1;
+-ms-transition-delay: $1;
+-o-transition-delay: $1;
+transition-delay: $1;
+$2
+]]></content>
+	<tabTrigger>trsde</tabTrigger>
+	<scope>source.css meta.property-list.css - meta.property-value.css, source.less - meta.property-value.css, source.scss - meta.property-list - support.function.name.sass.library - variable.other.root</scope>
+	<description>transition-delay</description>
+</snippet>

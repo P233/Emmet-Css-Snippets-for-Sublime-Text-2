@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+-webkit-appearance: $1;
+-moz-appearance: $1;
+-ms-appearance: $1;
+appearance: $1;
+$2
+]]></content>
+	<tabTrigger>app</tabTrigger>
+	<scope>source.css meta.property-list.css - meta.property-value.css, source.less - meta.property-value.css, source.scss - meta.property-list - support.function.name.sass.library - variable.other.root</scope>
+	<description>appearance</description>
+</snippet>

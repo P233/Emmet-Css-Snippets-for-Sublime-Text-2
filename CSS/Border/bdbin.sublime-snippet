@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+border-bottom-image: none;
+
+]]></content>
+	<tabTrigger>bdbi:n</tabTrigger>
+	<scope>source.css meta.property-list.css - meta.property-value.css, source.less - meta.property-value.css, source.scss - meta.property-list - support.function.name.sass.library - variable.other.root</scope>
+	<description>border-bottom-image:none</description>
+</snippet>

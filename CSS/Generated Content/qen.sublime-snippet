@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+quotes: '\201C' '\201D' '\2018' '\2019';
+
+]]></content>
+	<tabTrigger>q:en</tabTrigger>
+	<scope>source.css meta.property-list.css - meta.property-value.css, source.less - meta.property-value.css, source.scss - meta.property-list - support.function.name.sass.library - variable.other.root</scope>
+	<description>quotes:en</description>
+</snippet>

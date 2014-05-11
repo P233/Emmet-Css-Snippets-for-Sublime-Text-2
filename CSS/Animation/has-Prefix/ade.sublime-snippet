@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+-webkit-animation-delay: $1;
+-moz-animation-delay: $1;
+-ms-animation-delay: $1;
+-o-animation-delay: $1;
+animation-delay: $1;
+$2
+]]></content>
+	<tabTrigger>ade</tabTrigger>
+	<scope>source.css meta.property-list.css - meta.property-value.css, source.less - meta.property-value.css, source.scss - meta.property-list - support.function.name.sass.library - variable.other.root</scope>
+	<description>animation-delay</description>
+</snippet>

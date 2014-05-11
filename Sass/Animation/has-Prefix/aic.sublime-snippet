@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+-webkit-animation-iteration-count: $1
+-moz-animation-iteration-count: $1
+-ms-animation-iteration-count: $1
+-o-animation-iteration-count: $1
+animation-iteration-count: $1
+$2
+]]></content>
+	<tabTrigger>aic</tabTrigger>
+	<scope>source.sass - meta.property-list - support.function.name.sass.library - variable.other.root</scope>
+	<description>animation-iteration-count</description>
+</snippet>

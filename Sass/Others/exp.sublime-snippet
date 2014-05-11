@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[
-expression($1)
-]]></content>
-	<tabTrigger>exp</tabTrigger>
-	<scope>source.sass</scope>
-	<description>expression()</description>
-</snippet>

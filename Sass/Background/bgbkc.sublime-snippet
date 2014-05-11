@@ -4,6 +4,6 @@ background-break: continuous
 
 ]]></content>
 	<tabTrigger>bgbk:c</tabTrigger>
-	<scope>source.sass</scope>
+	<scope>source.sass - meta.property-list - support.function.name.sass.library - variable.other.root</scope>
 	<description>background-break:continuous</description>
 </snippet>

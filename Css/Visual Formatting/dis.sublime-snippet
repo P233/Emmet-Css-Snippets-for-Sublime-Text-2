@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[
-display: 
-]]></content>
-	<tabTrigger>dis</tabTrigger>
-	<scope>source.css, source.less, source.scss, source.sass</scope>
-	<description>display</description>
-</snippet>

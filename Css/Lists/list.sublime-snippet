@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[
-list-style-type: 
-]]></content>
-	<tabTrigger>list</tabTrigger>
-	<scope>source.css, source.less, source.scss, source.sass</scope>
-	<description>list-style-type</description>
-</snippet>

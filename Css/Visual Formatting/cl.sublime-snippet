@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[
-clear: 
-]]></content>
-	<tabTrigger>cl</tabTrigger>
-	<scope>source.css, source.less, source.scss, source.sass</scope>
-	<description>clear</description>
-</snippet>

@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+-webkit-transform: skewY($1)
+-moz-transform: skewY($1)
+-ms-transform: skewY($1)
+-o-transform: skewY($1)
+transform: skewY($1)
+$2
+]]></content>
+	<tabTrigger>trf:sky</tabTrigger>
+	<scope>source.sass - meta.property-list - support.function.name.sass.library - variable.other.root</scope>
+	<description>transform:skewY()</description>
+</snippet>

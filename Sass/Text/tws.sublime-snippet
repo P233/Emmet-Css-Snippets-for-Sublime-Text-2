@@ -4,6 +4,6 @@ text-wrap: suppress
 
 ]]></content>
 	<tabTrigger>tw:s</tabTrigger>
-	<scope>source.sass</scope>
+	<scope>source.sass - meta.property-list - support.function.name.sass.library - variable.other.root</scope>
 	<description>text-wrap:suppress</description>
 </snippet>

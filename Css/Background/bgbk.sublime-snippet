@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[
-background-break: 
-]]></content>
-	<tabTrigger>bgbk</tabTrigger>
-	<scope>source.css, source.less, source.scss, source.sass</scope>
-	<description>background-break</description>
-</snippet>

@@ -4,6 +4,6 @@ text-emphasis: accent
 
 ]]></content>
 	<tabTrigger>te:ac</tabTrigger>
-	<scope>source.sass</scope>
+	<scope>source.sass - meta.property-list - support.function.name.sass.library - variable.other.root</scope>
 	<description>text-emphasis:accent</description>
 </snippet>

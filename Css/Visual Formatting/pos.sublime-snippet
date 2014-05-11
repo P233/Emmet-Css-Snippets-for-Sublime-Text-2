@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[
-position: 
-]]></content>
-	<tabTrigger>pos</tabTrigger>
-	<scope>source.css, source.less, source.scss, source.sass</scope>
-	<description>position</description>
-</snippet>

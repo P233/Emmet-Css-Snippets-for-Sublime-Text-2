@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[
-outline: 
-]]></content>
-	<tabTrigger>out</tabTrigger>
-	<scope>source.css, source.less, source.scss, source.sass</scope>
-	<description>outline</description>
-</snippet>

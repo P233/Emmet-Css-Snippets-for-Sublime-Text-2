@@ -4,6 +4,6 @@ text-indent: -9999px
 
 ]]></content>
 	<tabTrigger>ti:-</tabTrigger>
-	<scope>source.sass</scope>
+	<scope>source.sass - meta.property-list - support.function.name.sass.library - variable.other.root</scope>
 	<description>text-indent:-9999px</description>
 </snippet>

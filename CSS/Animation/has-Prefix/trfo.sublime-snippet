@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+-webkit-transform-origin: $1;
+-moz-transform-origin: $1;
+-ms-transform-origin: $1;
+-o-transform-origin: $1;
+transform-origin: $1;
+$2
+]]></content>
+	<tabTrigger>trfo</tabTrigger>
+	<scope>source.css meta.property-list.css - meta.property-value.css, source.less - meta.property-value.css, source.scss - meta.property-list - support.function.name.sass.library - variable.other.root</scope>
+	<description>transform-origin</description>
+</snippet>

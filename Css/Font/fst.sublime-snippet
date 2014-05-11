@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[
-font-stretch: 
-]]></content>
-	<tabTrigger>fst</tabTrigger>
-	<scope>source.css, source.less, source.scss, source.sass</scope>
-	<description>font-stretch</description>
-</snippet>

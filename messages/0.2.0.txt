@@ -1,0 +1,13 @@
+
+Emmet CSS Snippets Update
+
+Thank you for using Emmet CSS Snippets.
+
+* This package now contains two snippet versions: one with vendor prefixes, another one with plain property name. If you intend to use snippets with no prefix, add `has-Prefix` into the ignored_packages list of your settings file. The other way round, if you intend to use snippets with prefix, add `no-Prefix` into the ignored_packages list.
+
+* Updated completion rule: propery snippes will no longer popup when you typing propery values.
+
+* There are also a new cheat sheet available at http://p233.github.io/Emmet-Css-Snippets-for-Sublime-Text-2/
+
+-------------
+Enjoy coding!

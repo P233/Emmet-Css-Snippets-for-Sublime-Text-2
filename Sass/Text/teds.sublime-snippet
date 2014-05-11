@@ -4,6 +4,6 @@ text-emphasis: disc
 
 ]]></content>
 	<tabTrigger>te:ds</tabTrigger>
-	<scope>source.sass</scope>
+	<scope>source.sass - meta.property-list - support.function.name.sass.library - variable.other.root</scope>
 	<description>text-emphasis:disc</description>
 </snippet>

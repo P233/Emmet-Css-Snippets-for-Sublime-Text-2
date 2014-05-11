@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[
-border-top-width: 
-]]></content>
-	<tabTrigger>bdtw</tabTrigger>
-	<scope>source.css, source.less, source.scss, source.sass</scope>
-	<description>border-top-width</description>
-</snippet>

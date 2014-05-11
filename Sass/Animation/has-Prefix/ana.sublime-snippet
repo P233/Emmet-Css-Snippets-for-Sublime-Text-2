@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+-webkit-animation-name: $1
+-moz-animation-name: $1
+-ms-animation-name: $1
+-o-animation-name: $1
+animation-name: $1
+$2
+]]></content>
+	<tabTrigger>ana</tabTrigger>
+	<scope>source.sass - meta.property-list - support.function.name.sass.library - variable.other.root</scope>
+	<description>animation-name</description>
+</snippet>

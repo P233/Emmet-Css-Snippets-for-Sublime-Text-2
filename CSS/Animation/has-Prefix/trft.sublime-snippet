@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+-webkit-transform: translate($1, $2);
+-moz-transform: translate($1, $2);
+-ms-transform: translate($1, $2);
+-o-transform: translate($1, $2);
+transform: translate($1, $2);
+$3
+]]></content>
+	<tabTrigger>trf:t</tabTrigger>
+	<scope>source.css meta.property-list.css - meta.property-value.css, source.less - meta.property-value.css, source.scss - meta.property-list - support.function.name.sass.library - variable.other.root</scope>
+	<description>transform:translate()</description>
+</snippet>

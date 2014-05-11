@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[
-border-left-width: 
-]]></content>
-	<tabTrigger>bdlw</tabTrigger>
-	<scope>source.css, source.less, source.scss, source.sass</scope>
-	<description>border-left-width</description>
-</snippet>

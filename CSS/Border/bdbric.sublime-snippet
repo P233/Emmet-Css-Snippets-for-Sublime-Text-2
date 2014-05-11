@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+border-bottom-right-image: continue;
+
+]]></content>
+	<tabTrigger>bdbri:c</tabTrigger>
+	<scope>source.css meta.property-list.css - meta.property-value.css, source.less - meta.property-value.css, source.scss - meta.property-list - support.function.name.sass.library - variable.other.root</scope>
+	<description>border-bottom-right-image:continue</description>
+</snippet>

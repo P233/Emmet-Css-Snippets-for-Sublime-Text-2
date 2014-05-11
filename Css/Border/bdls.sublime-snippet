@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[
-border-left-style: 
-]]></content>
-	<tabTrigger>bdls</tabTrigger>
-	<scope>source.css, source.less, source.scss, source.sass</scope>
-	<description>border-left-style</description>
-</snippet>

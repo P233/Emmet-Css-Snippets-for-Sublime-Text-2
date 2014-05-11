@@ -1,11 +1,9 @@
 <snippet>
 	<content><![CDATA[
--webkit-background-clip: padding-box
--moz-background-clip: padding-box
 background-clip: padding-box
 
 ]]></content>
 	<tabTrigger>bgcp:pb</tabTrigger>
-	<scope>source.sass</scope>
+	<scope>source.sass - meta.property-list - support.function.name.sass.library - variable.other.root</scope>
 	<description>background-clip:padding-box</description>
 </snippet>

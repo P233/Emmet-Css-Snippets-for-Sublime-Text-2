@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[
-text-height: 
-]]></content>
-	<tabTrigger>th</tabTrigger>
-	<scope>source.css, source.less, source.scss, source.sass</scope>
-	<description>text-height</description>
-</snippet>

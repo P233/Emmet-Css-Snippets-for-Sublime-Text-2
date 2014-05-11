@@ -4,6 +4,6 @@ font-smooth: always
 
 ]]></content>
 	<tabTrigger>fsm:al</tabTrigger>
-	<scope>source.sass</scope>
+	<scope>source.sass - meta.property-list - support.function.name.sass.library - variable.other.root</scope>
 	<description>font-smooth:always</description>
 </snippet>

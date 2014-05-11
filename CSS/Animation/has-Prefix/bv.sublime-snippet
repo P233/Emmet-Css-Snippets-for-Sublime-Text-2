@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+-webkit-backface-visibility: $1;
+-moz-backface-visibility: $1;
+-ms-backface-visibility: $1;
+-o-backface-visibility: $1;
+backface-visibility: $1;
+$2
+]]></content>
+	<tabTrigger>bv</tabTrigger>
+	<scope>source.css meta.property-list.css - meta.property-value.css, source.less - meta.property-value.css, source.scss - meta.property-list - support.function.name.sass.library - variable.other.root</scope>
+	<description>backface-visibility</description>
+</snippet>

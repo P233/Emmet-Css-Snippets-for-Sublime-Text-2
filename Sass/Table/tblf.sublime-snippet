@@ -4,6 +4,6 @@ table-layout: fixed
 
 ]]></content>
 	<tabTrigger>tbl:f</tabTrigger>
-	<scope>source.sass</scope>
+	<scope>source.sass - meta.property-list - support.function.name.sass.library - variable.other.root</scope>
 	<description>table-layout:fixed</description>
 </snippet>

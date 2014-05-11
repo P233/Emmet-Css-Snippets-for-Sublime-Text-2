@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+margin: auto
+
+]]></content>
+	<tabTrigger>m:au</tabTrigger>
+	<scope>source.sass - meta.property-list - support.function.name.sass.library - variable.other.root</scope>
+	<description>margin:auto</description>
+</snippet>

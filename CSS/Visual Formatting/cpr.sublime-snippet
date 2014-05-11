@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+clip: rect($1);
+
+]]></content>
+	<tabTrigger>cp:r</tabTrigger>
+	<scope>source.css meta.property-list.css - meta.property-value.css, source.less - meta.property-value.css, source.scss - meta.property-list - support.function.name.sass.library - variable.other.root</scope>
+	<description>clip:rect()</description>
+</snippet>

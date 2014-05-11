@@ -4,6 +4,6 @@ $1:checked
 	${2:/* style */}
 ]]></content>
 	<tabTrigger>ch</tabTrigger>
-	<scope>source.sass</scope>
+	<scope>source.sass - meta.property-list - support.function.name.sass.library - variable.other.root</scope>
 	<description>:checked</description>
 </snippet>

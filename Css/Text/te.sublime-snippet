@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[
-text-emphasis: 
-]]></content>
-	<tabTrigger>te</tabTrigger>
-	<scope>source.css, source.less, source.scss, source.sass</scope>
-	<description>text-emphasis</description>
-</snippet>

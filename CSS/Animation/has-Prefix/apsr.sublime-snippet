@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+-webkit-animation-play-state: running;
+-moz-animation-play-state: running;
+-ms-animation-play-state: running;
+-o-animation-play-state: running;
+animation-play-state: running;
+
+]]></content>
+	<tabTrigger>aps:r</tabTrigger>
+	<scope>source.css meta.property-list.css - meta.property-value.css, source.less - meta.property-value.css, source.scss - meta.property-list - support.function.name.sass.library - variable.other.root</scope>
+	<description>animation-play-state:running</description>
+</snippet>

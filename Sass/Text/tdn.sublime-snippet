@@ -4,6 +4,6 @@ text-decoration: none
 
 ]]></content>
 	<tabTrigger>td:n</tabTrigger>
-	<scope>source.sass</scope>
+	<scope>source.sass - meta.property-list - support.function.name.sass.library - variable.other.root</scope>
 	<description>text-decoration:none</description>
 </snippet>

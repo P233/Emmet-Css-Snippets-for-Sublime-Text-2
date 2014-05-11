@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+-webkit-transform-style: $1
+-moz-transform-style: $1
+-ms-transform-style: $1
+-o-transform-style: $1
+transform-style: $1
+$2
+]]></content>
+	<tabTrigger>trfst</tabTrigger>
+	<scope>source.sass - meta.property-list - support.function.name.sass.library - variable.other.root</scope>
+	<description>transform-style</description>
+</snippet>

@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[
-letter-spacing: 
-]]></content>
-	<tabTrigger>lts</tabTrigger>
-	<scope>source.css, source.less, source.scss, source.sass</scope>
-	<description>letter-spacing</description>
-</snippet>

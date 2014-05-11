@@ -4,6 +4,6 @@ $1:focus
 	${2:/* style */}
 ]]></content>
 	<tabTrigger>foc</tabTrigger>
-	<scope>source.sass</scope>
+	<scope>source.sass - meta.property-list - support.function.name.sass.library - variable.other.root</scope>
 	<description>:focus</description>
 </snippet>

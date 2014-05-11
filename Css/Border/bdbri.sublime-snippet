@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[
-border-bottom-right-image: 
-]]></content>
-	<tabTrigger>bdbri</tabTrigger>
-	<scope>source.css, source.less, source.scss, source.sass</scope>
-	<description>border-bottom-right-image</description>
-</snippet>

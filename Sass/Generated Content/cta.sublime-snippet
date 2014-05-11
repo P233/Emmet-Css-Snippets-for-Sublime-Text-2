@@ -1,9 +1,9 @@
 <snippet>
 	<content><![CDATA[
-content: attr("$1")
+content: attr($1)
 
 ]]></content>
 	<tabTrigger>ct:a</tabTrigger>
-	<scope>source.sass</scope>
+	<scope>source.sass - meta.property-list - support.function.name.sass.library - variable.other.root</scope>
 	<description>content:attr()</description>
 </snippet>

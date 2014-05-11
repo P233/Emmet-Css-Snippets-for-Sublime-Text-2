@@ -4,6 +4,6 @@ border-style: none
 
 ]]></content>
 	<tabTrigger>bds:n</tabTrigger>
-	<scope>source.sass</scope>
+	<scope>source.sass - meta.property-list - support.function.name.sass.library - variable.other.root</scope>
 	<description>border-style:none</description>
 </snippet>
