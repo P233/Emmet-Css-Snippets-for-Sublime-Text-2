@@ -1,8 +1,10 @@
 {
-	"scope": "source.sass meta.property-list.css.sass - variable.other.normal, source.scss meta.property-list.css.sass - variable.other.normal",
+	"scope": "source.sass meta.property-list.css.sass - variable.other.value, source.scss meta.property-list.css.sass - variable.other.value",
 
 	"completions": [
 		{ "trigger": "!important", "contents": "!important" },
+		{ "trigger": "inherit", "contents": "inherit" },
+		{ "trigger": "transparent", "contents": "transparent" },
 		{ "trigger": "rgb()", "contents": "rgb($1)" },
 		{ "trigger": "rgba()", "contents": "rgba($1)" },
 		{ "trigger": "hsl()", "contents": "hsl($1)" },
