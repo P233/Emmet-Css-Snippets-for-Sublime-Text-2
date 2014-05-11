@@ -1,5 +1,5 @@
 {
-	"scope": "source.sass meta.property-list.css.sass - variable.other.value, source.scss meta.property-list.css.sass - variable.other.value",
+	"scope": "source.css meta.property-value.css, source.less meta.property-value.css, source.sass meta.property-list.css.sass - variable.other.value, source.scss meta.property-list.css.sass - variable.other.value",
 
 	"completions": [
 		{ "trigger": "!important", "contents": "!important" },
