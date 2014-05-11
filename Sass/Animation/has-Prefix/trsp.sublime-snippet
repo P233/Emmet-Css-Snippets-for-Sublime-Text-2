@@ -8,6 +8,6 @@ transition-property: $1
 $2
 ]]></content>
 	<tabTrigger>trsp</tabTrigger>
-	<scope>source.sass - meta.property-list - support.function.name.sass.library - variable.other.library</scope>
+	<scope>source.sass - meta.property-list - support.function.name.sass.library - variable.other.root</scope>
 	<description>transition-property</description>
 </snippet>

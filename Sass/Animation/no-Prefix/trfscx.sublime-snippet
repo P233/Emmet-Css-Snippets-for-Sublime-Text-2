@@ -4,6 +4,6 @@ transform: scaleX($1)
 $2
 ]]></content>
 	<tabTrigger>trf:scx</tabTrigger>
-	<scope>source.sass - meta.property-list - support.function.name.sass.library - variable.other.library</scope>
+	<scope>source.sass - meta.property-list - support.function.name.sass.library - variable.other.root</scope>
 	<description>transform:scaleX()</description>
 </snippet>
