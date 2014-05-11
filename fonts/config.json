@@ -1,0 +1,52 @@
+{
+  "name": "fontello",
+  "css_prefix_text": "icon-",
+  "css_use_suffix": false,
+  "hinting": true,
+  "units_per_em": 1000,
+  "ascent": 850,
+  "glyphs": [
+    {
+      "uid": "005a38f6af74b31aeb817fedb09d2175",
+      "css": "keyboard",
+      "code": 59396,
+      "src": "entypo"
+    },
+    {
+      "uid": "2626e3a1bbcd90e45849af3b58a1d594",
+      "css": "trash",
+      "code": 59395,
+      "src": "entypo"
+    },
+    {
+      "uid": "898ddc67cb7d9ae53dbd4cce78043e9e",
+      "css": "flow-cascade",
+      "code": 59394,
+      "src": "entypo"
+    },
+    {
+      "uid": "8a1d446e5555e76f82ddb1c8b526f579",
+      "css": "flow-tree",
+      "code": 59392,
+      "src": "entypo"
+    },
+    {
+      "uid": "5f88095dc5e638863a0c733e99c32568",
+      "css": "flow-parallel",
+      "code": 59393,
+      "src": "entypo"
+    },
+    {
+      "uid": "d94334f23acba022bfd68e49d76b31bb",
+      "css": "github",
+      "code": 59397,
+      "src": "entypo"
+    },
+    {
+      "uid": "d090355c31f497b61d676416c1fd39fb",
+      "css": "twitter",
+      "code": 59398,
+      "src": "entypo"
+    }
+  ]
+}

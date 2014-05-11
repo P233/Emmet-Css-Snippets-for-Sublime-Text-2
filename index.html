@@ -1,770 +1,850 @@
 <!DOCTYPE html>
 <html>
-  <head lang="en">
-    <title>Emmet Css Snippets for Sublime Text 2</title>
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <meta name="description" content="Emmet Css Snippets for Sublime Text 2">
-    <meta name="keywords" content="Emmet Css Snippets"><!--[if lt IE 9]>
-    <script type="text/javascript" src="js/html5shiv.js"></script><![endif]-->
-    <link rel="stylesheet" href="stylesheet/style.css" type="text/css">
-  </head>
-  <body>
-    <div id="header_wrap">
-      <header class="inner">
-        <h1>Emmet Css Snippets for Sublime Text 2</h1>
-        <p id="tagline">This page is build to display the snippets list of <a href="https://github.com/P233/Emmet-Css-Snippets-for-Sublime-Text-2" target="_blank">Emmet Css Snippets for Sublime Text 2</a>. If you have any problems with this plugin or suggestions for improvement, please feel free to <a href="https://github.com/P233/Emmet-Css-Snippets-for-Sublime-Text-2/issues" target="_blank">fill an issue.</a></p><a id="tweet" href="https://twitter.com/home?status=Emmet Css Snippets http://p233.github.com/Emmet-Css-Snippets-for-Sublime-Text-2/" target="_blank" class="button">Tweet</a><a id="fork" href="https://github.com/P233/Emmet-Css-Snippets-for-Sublime-Text-2" target="_blank" class="button">View on GitHub</a>
-      </header>
+<head>
+  <title>Emmet CSS Snippets</title>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <link href='http://fonts.googleapis.com/css?family=Inconsolata|Metrophobic' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-spy="scroll" data-target=".dropdown" data-offset="150">
+
+  <header>
+    <div class="container">
+      <h1><a href="https://sublime.wbond.net/packages/Emmet%20Css%20Snippets" target="_blank">Emmet CSS Snippets</a></h1>
+      <p>Emmet CSS Snippets is an alternative for Emmet on Sublime Text. If you only need the CSS completions feature or you get trouble with Emmet, try this one.</p>
     </div>
-    <div id="wrap">
-      <div id="controller" class="inner">
-        <form>
-          <input type="text" id="search" placeholder="Search a property">
-        </form>
-        <nav><a href="#anchor1">Visual Formatting</a><a href="#anchor2">Margin &amp; Padding</a><a href="#anchor3">Box Sizing</a><a href="#anchor4">Font</a><a href="#anchor5">Text</a><a href="#anchor6">Background</a><a href="#anchor7">Color</a><a href="#anchor8">Generated Content</a><a href="#anchor9">Outline</a><a href="#anchor10">Table</a><a href="#anchor11">Border</a><a href="#anchor12">Lists</a><a href="#anchor13">Print</a><a href="#anchor14">Others</a><a href="#anchor15">Pseudo class</a><a href="#anchor16">Scss &amp; Sass</a></nav>
-      </div>
-      <div id="container" class="inner"><a name="anchor1"></a>
-        <h2>Visual Formatting</h2>
-        <p><b>pos</b><span>position:;</span><i>[ps]</i></p>
-        <p><b>pos:s</b><span>position:static;</span><i>[ps:s]</i></p>
-        <p><b>pos:a</b><span>position:absolute;</span><i>[ps:a]</i></p>
-        <p><b>pos:r</b><span>position:relative;</span><i>[ps:r]</i></p>
-        <p><b>pos:f</b><span>position:fixed;</span><i>[ps:f]</i></p>
-        <hr>
-        <p class="diff"><b>top</b><span>top:;</span></p>
-        <p><b>t:a</b><span>top:auto;</span></p>
-        <hr>
-        <p class="diff"><b>rig</b><span>right:;</span><i>[ri]</i></p>
-        <p><b>r:a</b><span>right:auto;</span></p>
-        <hr>
-        <p class="diff"><b>bot</b><span>bottom:;</span></p>
-        <p><b>b:a</b><span>bottom:auto;</span></p>
-        <hr>
-        <p class="diff"><b>lef</b><span>left:;</span><i>[le]</i></p>
-        <p><b>l:a</b><span>left:auto;</span></p>
-        <hr>
-        <p class="diff"><b>zin</b><span>z-index:;</span><i>[zi]</i></p>
-        <p><b>z:a</b><span>z-index:auto;</span></p>
-        <hr>
-        <p><b>fl</b><span>float:;</span></p>
-        <p><b>fl:n</b><span>float:none;</span></p>
-        <p><b>fl:l</b><span>float:left;</span></p>
-        <p><b>fl:r</b><span>float:right;</span></p>
-        <hr>
-        <p><b>cl</b><span>clear:;</span></p>
-        <p><b>cl:n</b><span>clear:none;</span></p>
-        <p><b>cl:l</b><span>clear:left;</span></p>
-        <p><b>cl:r</b><span>clear:right;</span></p>
-        <p><b>cl:b</b><span>clear:both;</span></p>
-        <hr>
-        <p class="diff"><b>dis</b><span>display:;</span></p>
-        <p><b>d:n</b><span>display:none;</span></p>
-        <p><b>d:b</b><span>display:block;</span></p>
-        <p><b>d:i</b><span>display:inline;</span></p>
-        <p><b>d:ib</b><span>display:inline-block;</span></p>
-        <p><b>d:li</b><span>display:list-item;</span></p>
-        <p><b>d:ri</b><span>display:run-in;</span></p>
-        <p><b>d:cp</b><span>display:compact;</span></p>
-        <p><b>d:tb</b><span>display:table;</span></p>
-        <p><b>d:itb</b><span>display:inline-table;</span><i>[d:it]</i></p>
-        <p><b>d:tbcp</b><span>display:table-caption;</span><i>[d:tcp]</i></p>
-        <p><b>d:tbcl</b><span>display:table-column;</span><i>[d:cl]</i></p>
-        <p><b>d:tbclg</b><span>display:table-column-group;</span><i>[d:cg]</i></p>
-        <p><b>d:tbhg</b><span>display:table-header-group;</span><i>[d:hg]</i></p>
-        <p><b>d:tbfg</b><span>display:table-footer-group;</span><i>[d:fg]</i></p>
-        <p><b>d:tbr</b><span>display:table-row;</span><i>[d:tr]</i></p>
-        <p><b>d:tbrg</b><span>display:table-row-group;</span><i>[d:trg]</i></p>
-        <p><b>d:tbc</b><span>display:table-cell;</span><i>[d:tc]</i></p>
-        <p><b>d:rb</b><span>display:ruby;</span></p>
-        <p><b>d:rbb</b><span>display:ruby-base;</span></p>
-        <p><b>d:rbbg</b><span>display:ruby-base-group;</span></p>
-        <p><b>d:rbt</b><span>display:ruby-text;</span></p>
-        <p><b>d:rbtg</b><span>display:ruby-text-group;</span></p>
-        <hr>
-        <p class="diff"><b>vis</b><span>visibility:;</span></p>
-        <p><b>v:v</b><span>visibility:visible;</span></p>
-        <p><b>v:h</b><span>visibility:hidden;</span></p>
-        <p><b>v:c</b><span>visibility:collapse;</span></p>
-        <hr>
-        <p><b>ov</b><span>overflow:;</span></p>
-        <p><b>ov:v</b><span>overflow:visible;</span></p>
-        <p><b>ov:h</b><span>overflow:hidden;</span><i>[o:h]</i></p>
-        <p><b>ov:s</b><span>overflow:scroll;</span></p>
-        <p><b>ov:a</b><span>overflow:auto;</span><i>[o:a]</i></p>
-        <hr>
-        <p><b>ovx</b><span>overflow-x:;</span><i>[ox]</i></p>
-        <p><b>ovx:v</b><span>overflow-x:visible;</span><i>[ox:v]</i></p>
-        <p><b>ovx:h</b><span>overflow-x:hidden;</span><i>[ox:h]</i></p>
-        <p><b>ovx:s</b><span>overflow-x:scroll;</span><i>[ox:s]</i></p>
-        <p><b>ovx:a</b><span>overflow-x:auto;</span><i>[ox:a]</i></p>
-        <hr>
-        <p><b>ovy</b><span>overflow-y:;</span><i>[oy]</i></p>
-        <p><b>ovy:v</b><span>overflow-y:visible;</span><i>[oy:v]</i></p>
-        <p><b>ovy:h</b><span>overflow-y:hidden;</span><i>[oy:h]</i></p>
-        <p><b>ovy:s</b><span>overflow-y:scroll;</span><i>[oy:s]</i></p>
-        <p><b>ovy:a</b><span>overflow-y:auto;</span><i>[oy:v]</i></p>
-        <hr>
-        <p><b>ovs</b><span>overflow-style:;</span></p>
-        <p><b>ovs:a</b><span>overflow-style:auto;</span><i>[os:a]</i></p>
-        <p><b>ovs:s</b><span>overflow-style:scrollbar;</span><i>[os:s]</i></p>
-        <p><b>ovs:p</b><span>overflow-style:panner;</span><i>[os:p]</i></p>
-        <p><b>ovs:m</b><span>overflow-style:move;</span><i>[os:m]</i></p>
-        <p><b>ovs:mq</b><span>overflow-style:marquee;</span><i>[os:q]</i></p>
-        <hr>
-        <p><b>zoo</b><span>zoom:1;</span><i>[zo]</i></p>
-        <hr>
-        <p><b>cp</b><span>clip:;</span></p>
-        <p><b>cp:a</b><span>clip:auto;</span></p>
-        <p><b>cp:r</b><span>clip:rect();</span></p>
-        <hr>
-        <p><b>rz</b><span>resize:;</span></p>
-        <p><b>rz:n</b><span>resize:none;</span><i>[r:n]</i></p>
-        <p><b>rz:b</b><span>resize:both;</span></p>
-        <p><b>rz:h</b><span>resize:horizontal;</span><i>[r:h]</i></p>
-        <p><b>rz:v</b><span>resize:vertical;</span><i>[r:v]</i></p>
-        <hr>
-        <p><b>cur</b><span>cursor:;</span></p>
-        <p><b>cur:a</b><span>cursor:auto;</span><i>[cr:a]</i></p>
-        <p><b>cur:d</b><span>cursor:default;</span><i>[cr:d]</i></p>
-        <p><b>cur:c</b><span>cursor:crosshair;</span><i>[cr:c]</i></p>
-        <p><b>cur:ha</b><span>cursor:hand;</span><i>[cr:ha]</i></p>
-        <p><b>cur:he</b><span>cursor:help;</span><i>[cr:he]</i></p>
-        <p><b>cur:m</b><span>cursor:move;</span><i>[cr:m]</i></p>
-        <p><b>cur:p</b><span>cursor:pointer;</span><i>[cr:p]</i></p>
-        <p><b>cur:t</b><span>cursor:text;</span><i>[cr:t]</i></p><a name="anchor2"></a>
-        <h2>Margin & Padding</h2>
-        <p class="diff"><b>mar</b><span>margin:;</span></p>
-        <p class="new"><b>m:au</b><span>margin:0 auto;</span><i>[m:u]</i></p>
-        <hr>
-        <p><b>mt</b><span>margin-top:;</span></p>
-        <p><b>mt:a</b><span>margin-top:auto;</span></p>
-        <hr>
-        <p><b>mr</b><span>margin-right:;</span></p>
-        <p><b>mr:a</b><span>margin-right:auto;</span></p>
-        <hr>
-        <p><b>mb</b><span>margin-bottom:;</span></p>
-        <p><b>mb:a</b><span>margin-bottom:auto;</span></p>
-        <hr>
-        <p><b>ml</b><span>margin-left:;</span></p>
-        <p><b>ml:a</b><span>margin-left:auto;</span></p>
-        <hr>
-        <p class="diff"><b>pad</b><span>padding:;</span></p>
-        <p><b>pt</b><span>padding-top:;</span></p>
-        <p><b>pr</b><span>padding-right:;</span></p>
-        <p><b>pb</b><span>padding-bottom:;</span></p>
-        <p><b>pl</b><span>padding-left:;</span></p><a name="anchor3"></a>
-        <h2>Box Sizing</h2>
-        <p><b>bxz</b><span>box-sizing:;</span></p>
-        <p><b>bxz:cb</b><span>box-sizing:content-box;</span><i>[bz:cb]</i></p>
-        <p><b>bxz:bb</b><span>box-sizing:border-box;</span><i>[bz:bb]</i></p>
-        <hr>
-        <p><b>bxsh</b><span>box-shadow:;</span><i>[bsh]</i></p>
-        <p><b>bxsh:n</b><span>box-shadow:none;</span><i>[bsh:n]</i></p>
-        <p class="new"><b>bxsh+</b><span>box-shadow:0 0 0 #000;</span><i>[bsh+]</i></p>
-        <hr>
-        <p><b>wid</b><span>width:;</span><i>[wd]</i></p>
-        <p><b>w:a</b><span>width:auto;</span></p>
-        <hr>
-        <p class="diff"><b>hei</b><span>height:;</span><i>[he]</i></p>
-        <p><b>h:a</b><span>height:auto;</span></p>
-        <hr>
-        <p><b>maw</b><span>max-width:;</span></p>
-        <p><b>maw:n</b><span>max-width:none;</span></p>
-        <hr>
-        <p><b>mah</b><span>max-height:;</span></p>
-        <p><b>mah:n</b><span>max-height:none;</span></p>
-        <hr>
-        <p><b>miw</b><span>min-width:;</span></p>
-        <p><b>mih</b><span>min-height:;</span></p><a name="anchor4"></a>
-        <h2>Font</h2>
-        <p class="diff"><b>fon</b><span>font:;</span></p>
-        <p class="diff"><b>fon+</b><span>font:1em Arial, sans-serif;</span></p>
-        <hr>
-        <p><b>fw</b><span>font-weight:;</span></p>
-        <p><b>fw:n</b><span>font-weight:normal;</span></p>
-        <p><b>fw:b</b><span>font-weight:bold;</span></p>
-        <p><b>fw:br</b><span>font-weight:bolder;</span></p>
-        <p><b>fw:lr</b><span>font-weight:lighter;</span></p>
-        <hr>
-        <p><b>fs</b><span>font-style:;</span></p>
-        <p><b>fs:n</b><span>font-style:normal;</span></p>
-        <p><b>fs:i</b><span>font-style:italic;</span></p>
-        <p><b>fs:o</b><span>font-style:oblique;</span></p>
-        <hr>
-        <p><b>fv</b><span>font-variant:;</span></p>
-        <p><b>fv:n</b><span>font-variant:normal;</span></p>
-        <p><b>fv:sc</b><span>font-variant:small-caps;</span></p>
-        <hr>
-        <p><b>fz</b><span>font-size:;</span></p>
-        <p><b>fza</b><span>font-size-adjust:;</span></p>
-        <p><b>fza:n</b><span>font-size-adjust:none;</span></p>
-        <hr>
-        <p><b>ff</b><span>font-family:;</span></p>
-        <p><b>ff:s</b><span>font-family:serif;</span></p>
-        <p><b>ff:ss</b><span>font-family:sans-serif;</span></p>
-        <p><b>ff:c</b><span>font-family:cursive;</span></p>
-        <p><b>ff:f</b><span>font-family:fantasy;</span></p>
-        <p><b>ff:m</b><span>font-family:monospace;</span></p>
-        <hr>
-        <p><b>fef</b><span>font-effect:;</span></p>
-        <p><b>fef:n</b><span>font-effect:none;</span></p>
-        <p><b>fef:eg</b><span>font-effect:engrave;</span></p>
-        <p><b>fef:eb</b><span>font-effect:emboss;</span></p>
-        <p><b>fef:o</b><span>font-effect:outline;</span></p>
-        <hr>
-        <p><b>fem</b><span>font-emphasize:;</span></p>
-        <hr>
-        <p><b>femp</b><span>font-emphasize-position:;</span><i>[fp]</i></p>
-        <p><b>femp:b</b><span>font-emphasize-position:before;</span><i>[fp:b]</i></p>
-        <p><b>femp:a</b><span>font-emphasize-position:after;</span><i>[fp:a]</i></p>
-        <hr>
-        <p><b>fems</b><span>font-emphasize-style:;</span><i>[fes]</i></p>
-        <p><b>fems:n</b><span>font-emphasize-style:none;</span><i>[fes:n]</i></p>
-        <p><b>fems:ac</b><span>font-emphasize-style:accent;</span><i>[fes:a]</i></p>
-        <p><b>fems:dt</b><span>font-emphasize-style:dot;</span><i>[fes:t]</i></p>
-        <p><b>fems:c</b><span>font-emphasize-style:circle;</span><i>[fes:c]</i></p>
-        <p><b>fems:ds</b><span>font-emphasize-style:disc;</span><i>[fes:s]</i></p>
-        <hr>
-        <p><b>fsm</b><span>font-smooth:;</span></p>
-        <p class="diff"><b>fsm:au</b><span>font-smooth:auto;</span></p>
-        <p><b>fsm:n</b><span>font-smooth:never;</span></p>
-        <p class="diff"><b>fsm:al</b><span>font-smooth:always;</span></p>
-        <hr>
-        <p><b>fst</b><span>font-stretch:;</span></p>
-        <p><b>fst:n</b><span>font-stretch:normal;</span></p>
-        <p><b>fst:uc</b><span>font-stretch:ultra-condensed;</span></p>
-        <p><b>fst:ec</b><span>font-stretch:extra-condensed;</span></p>
-        <p><b>fst:c</b><span>font-stretch:condensed;</span></p>
-        <p><b>fst:sc</b><span>font-stretch:semi-condensed;</span></p>
-        <p><b>fst:se</b><span>font-stretch:semi-expanded;</span></p>
-        <p><b>fst:e</b><span>font-stretch:expanded;</span></p>
-        <p><b>fst:ee</b><span>font-stretch:extra-expanded;</span></p>
-        <p><b>fst:ue</b><span>font-stretch:ultra-expanded;</span></p><a name="anchor5"></a>
-        <h2>Text</h2>
-        <p><b>va</b><span>vertical-align:;</span></p>
-        <p><b>va:sup</b><span>vertical-align:super;</span></p>
-        <p><b>va:t</b><span>vertical-align:top;</span></p>
-        <p><b>va:tt</b><span>vertical-align:text-top;</span></p>
-        <p><b>va:m</b><span>vertical-align:middle;</span></p>
-        <p><b>va:bl</b><span>vertical-align:baseline;</span></p>
-        <p><b>va:b</b><span>vertical-align:bottom;</span></p>
-        <p><b>va:tb</b><span>vertical-align:text-bottom;</span></p>
-        <p><b>va:sub</b><span>vertical-align:sub;</span></p>
-        <hr>
-        <p><b>ta</b><span>text-align:;</span></p>
-        <p class="diff"><b>ta:le</b><span>text-align:left;</span></p>
-        <p><b>ta:c</b><span>text-align:center;</span></p>
-        <p><b>ta:r</b><span>text-align:right;</span></p>
-        <p class="new"><b>ta:j</b><span>text-align:justify;</span></p>
-        <hr>
-        <p><b>tal</b><span>text-align-last:;</span></p>
-        <p><b>tal:a</b><span>text-align-last:auto;</span></p>
-        <p><b>tal:l</b><span>text-align-last:left;</span></p>
-        <p><b>tal:c</b><span>text-align-last:center;</span></p>
-        <p><b>tal:r</b><span>text-align-last:right;</span></p>
-        <hr>
-        <p><b>td</b><span>text-decoration:;</span></p>
-        <p><b>td:n</b><span>text-decoration:none;</span></p>
-        <p><b>td:u</b><span>text-decoration:underline;</span></p>
-        <p><b>td:o</b><span>text-decoration:overline;</span></p>
-        <p><b>td:l</b><span>text-decoration:line-through;</span></p>
-        <hr>
-        <p><b>te</b><span>text-emphasis:;</span></p>
-        <p><b>te:n</b><span>text-emphasis:none;</span></p>
-        <p><b>te:ac</b><span>text-emphasis:accent;</span></p>
-        <p><b>te:dt</b><span>text-emphasis:dot;</span></p>
-        <p><b>te:c</b><span>text-emphasis:circle;</span></p>
-        <p><b>te:ds</b><span>text-emphasis:disc;</span></p>
-        <p><b>te:b</b><span>text-emphasis:before;</span></p>
-        <p><b>te:a</b><span>text-emphasis:after;</span></p>
-        <hr>
-        <p><b>th</b><span>text-height:;</span></p>
-        <p><b>th:a</b><span>text-height:auto;</span></p>
-        <p><b>th:f</b><span>text-height:font-size;</span></p>
-        <p><b>th:t</b><span>text-height:text-size;</span></p>
-        <p><b>th:m</b><span>text-height:max-size;</span></p>
-        <hr>
-        <p><b>ti</b><span>text-indent:;</span></p>
-        <p><b>ti:-</b><span>text-indent:-9999px;</span></p>
-        <hr>
-        <p><b>tj</b><span>text-justify:;</span></p>
-        <p><b>tj:a</b><span>text-justify:auto;</span></p>
-        <p><b>tj:iw</b><span>text-justify:inter-word;</span></p>
-        <p><b>tj:ii</b><span>text-justify:inter-ideograph;</span></p>
-        <p><b>tj:ic</b><span>text-justify:inter-cluster;</span></p>
-        <p><b>tj:d</b><span>text-justify:distribute;</span></p>
-        <p><b>tj:k</b><span>text-justify:kashida;</span></p>
-        <p><b>tj:t</b><span>text-justify:tibetan;</span></p>
-        <hr>
-        <p><b>to</b><span>text-outline:;</span></p>
-        <p><b>to+</b><span>text-outline:0 0 #000;</span></p>
-        <p><b>to:n</b><span>text-outline:none;</span></p>
-        <hr>
-        <p><b>tr</b><span>text-replace:;</span></p>
-        <p><b>tr:n</b><span>text-replace:none;</span></p>
-        <hr>
-        <p><b>tt</b><span>text-transform:;</span></p>
-        <p><b>tt:n</b><span>text-transform:none;</span></p>
-        <p><b>tt:c</b><span>text-transform:capitalize;</span></p>
-        <p><b>tt:u</b><span>text-transform:uppercase;</span></p>
-        <p><b>tt:l</b><span>text-transform:lowercase;</span></p>
-        <hr>
-        <p><b>tw</b><span>text-wrap:;</span></p>
-        <p><b>tw:n</b><span>text-wrap:normal;</span></p>
-        <p><b>tw:no</b><span>text-wrap:none;</span></p>
-        <p><b>tw:u</b><span>text-wrap:unrestricted;</span></p>
-        <p><b>tw:s</b><span>text-wrap:suppress;</span></p>
-        <hr>
-        <p><b>tsh</b><span>text-shadow:;</span></p>
-        <p><b>tsh+</b><span>text-shadow:0 0 0 #000;</span></p>
-        <p><b>tsh:n</b><span>text-shadow:none;</span></p>
-        <hr>
-        <p><b>lh</b><span>line-height:;</span></p>
-        <hr>
-        <p><b>lts</b><span>letter-spacing:;</span></p>
-        <hr>
-        <p><b>whs</b><span>white-space:;</span></p>
-        <p><b>whs:n</b><span>white-space:normal;</span></p>
-        <p><b>whs:p</b><span>white-space:pre;</span></p>
-        <p><b>whs:nw</b><span>white-space:nowrap;</span></p>
-        <p><b>whs:pw</b><span>white-space:pre-wrap;</span></p>
-        <p><b>whs:pl</b><span>white-space:pre-line;</span></p>
-        <hr>
-        <p><b>whsc</b><span>white-space-collapse:;</span><i>[wc]</i></p>
-        <p><b>whsc:n</b><span>white-space-collapse:normal;</span><i>[wc:n]</i></p>
-        <p><b>whsc:k</b><span>white-space-collapse:keep-all;</span><i>[wc:k]</i></p>
-        <p><b>whsc:l</b><span>white-space-collapse:loose;</span><i>[wc:l]</i></p>
-        <p><b>whsc:bs</b><span>white-space-collapse:break-strict;</span><i>[wc:s]</i></p>
-        <p><b>whsc:ba</b><span>white-space-collapse:break-all;</span><i>[wc:a]</i></p>
-        <hr>
-        <p><b>wob</b><span>word-break:;</span></p>
-        <p><b>wob:n</b><span>word-break:normal;</span><i>[wb:n]</i></p>
-        <p><b>wob:k</b><span>word-break:keep-all;</span><i>[wb:k]</i></p>
-        <p><b>wob:l</b><span>word-break:loose;</span><i>[wb:l]</i></p>
-        <p><b>wob:bs</b><span>word-break:break-strict;</span><i>[wb:s]</i></p>
-        <p><b>wob:ba</b><span>word-break:break-all;</span><i>[wb:a]</i></p>
-        <hr>
-        <p><b>wos</b><span>word-spacing:;</span></p>
-        <hr>
-        <p><b>wow</b><span>word-wrap:;</span></p>
-        <p><b>wow:nm</b><span>word-wrap:normal;</span><i>[ww:m]</i></p>
-        <p><b>wow:n</b><span>word-wrap:none;</span><i>[ww:n]</i></p>
-        <p><b>wow:u</b><span>word-wrap:unrestricted;</span><i>[ww:u]</i></p>
-        <p><b>wow:s</b><span>word-wrap:suppress;</span></p><a name="anchor6"></a>
-        <h2>Background</h2>
-        <p><b>bg</b><span>background:;</span></p>
-        <p><b>bg+</b><span>background:#fff url() 0 0 no-repeat;</span></p>
-        <p><b>bg:n</b><span>background:none;</span></p>
-        <hr>
-        <p><b>bgc</b><span>background-color:#fff;</span></p>
-        <p class="new"><b>bgc:t</b><span>background-color:transparent;</span></p>
-        <hr>
-        <p><b>bgi</b><span>background-image:url();</span></p>
-        <p><b>bgi:n</b><span>background-image:none;</span></p>
-        <hr>
-        <p><b>bgr</b><span>background-repeat:;</span></p>
-        <p class="new"><b>bgr:r</b><span>background-repeat:repeat;</span></p>
-        <p><b>bgr:n</b><span>background-repeat:no-repeat;</span></p>
-        <p><b>bgr:x</b><span>background-repeat:repeat-x;</span></p>
-        <p><b>bgr:y</b><span>background-repeat:repeat-y;</span></p>
-        <hr>
-        <p><b>bga</b><span>background-attachment:;</span></p>
-        <p><b>bga:f</b><span>background-attachment:fixed;</span></p>
-        <p><b>bga:s</b><span>background-attachment:scroll;</span></p>
-        <hr>
-        <p><b>bgp</b><span>background-position:0 0;</span></p>
-        <p><b>bgpx</b><span>background-position-x:;</span></p>
-        <p><b>bgpy</b><span>background-position-y:;</span></p>
-        <hr>
-        <p><b>bgbk</b><span>background-break:;</span><i>[bgk]</i></p>
-        <p><b>bgbk:bb</b><span>background-break:bounding-box;</span><i>[bk:bb]</i></p>
-        <p><b>bgbk:eb</b><span>background-break:each-box;</span><i>[bk:e]</i></p>
-        <p><b>bgbk:c</b><span>background-break:continuous;</span><i>[bgk:c]</i></p>
-        <hr>
-        <p><b>bgcp</b><span>background-clip:;</span><i>[bcp]</i></p>
-        <p><b>bgcp:bb</b><span>background-clip:border-box;</span><i>[bc:bb]</i></p>
-        <p><b>bgcp:pb</b><span>background-clip:padding-box;</span><i>[bc:p]</i></p>
-        <p><b>bgcp:cb</b><span>background-clip:content-box;</span><i>[bc:cb]</i></p>
-        <p><b>bgcp:nc</b><span>background-clip:no-clip;</span><i>[bc:n]</i></p>
-        <hr>
-        <p><b>bgo</b><span>background-origin:;</span></p>
-        <p><b>bgo:pb</b><span>background-origin:padding-box;</span><i>[bo:p]</i></p>
-        <p><b>bgo:bb</b><span>background-origin:border-box;</span><i>[bo:bb]</i></p>
-        <p><b>bgo:cb</b><span>background-origin:content-box;</span><i>[bo:c]</i></p>
-        <hr>
-        <p><b>bgz</b><span>background-size:;</span></p>
-        <p><b>bgz:a</b><span>background-size:auto;</span><i>[bz:a]</i></p>
-        <p><b>bgz:ct</b><span>background-size:contain;</span><i>[bz:t]</i></p>
-        <p><b>bgz:cv</b><span>background-size:cover;</span><i>[bz:v]</i></p><a name="anchor7"></a>
-        <p class="new special"><b>bgig</b><span>background-image: -webkit-gradient(${1:Style_1});<br>
-background-image: -webkit-linear-gradient(${2:Style_2});<br>
-background-image: -moz-linear-gradient(${2:Style_2});<br>
-background-image: -o-linear-gradient(${2:Style_2});<br>
-background-image: linear-gradient(${3:Style_3});</span></p>
-        <h2>Color</h2>
-        <p class="diff"><b>col</b><span>color:#000;</span></p>
-        <p><b>op</b><span>opacity:;</span></p>
-        <hr>
-        <p class="new"><b>hsl</b><span>hsl(359,100%,100%)</span></p>
-        <p class="new"><b>hsla</b><span>hsla(359,100%,100%,0.5)</span><i>[hsa]</i></p>
-        <p class="new"><b>rgb</b><span>rgb(255,255,255)</span></p>
-        <p class="new"><b>rgba</b><span>rgba(255,255,255,0.5)</span><i>[rga]</i></p><a name="anchor8"></a>
-        <h2>Generated Content</h2>
-        <p class="diff"><b>ct</b><span>content:;</span></p>
-        <p><b>ct:n</b><span>content:normal;</span></p>
-        <p><b>ct:oq</b><span>content:open-quote;</span></p>
-        <p><b>ct:noq</b><span>content:no-open-quote;</span><i>[ct:no]</i></p>
-        <p><b>ct:cq</b><span>content:close-quote;</span></p>
-        <p><b>ct:ncq</b><span>content:no-close-quote;</span><i>[ct:nc]</i></p>
-        <p><b>ct:a</b><span>content:attr();</span></p>
-        <p><b>ct:c</b><span>content:counter();</span></p>
-        <p><b>ct:cs</b><span>content:counters();</span><i>[ct:s]</i></p>
-        <hr>
-        <p class="diff"><b>quo</b><span>quotes:;</span></p>
-        <p><b>q:n</b><span>quotes:none;</span></p>
-        <p><b>q:ru</b><span>quotes:'\00AB' '\00BB' '\201E' '\201C';</span></p>
-        <p><b>q:en</b><span>quotes:'\201C' '\201D' '\2018' '\2019';</span></p>
-        <hr>
-        <p><b>coi</b><span>counter-increment:;</span><i>[ci]</i></p>
-        <p><b>cor</b><span>counter-reset:;</span></p><a name="anchor9"></a>
-        <h2>Outline</h2>
-        <p class="diff"><b>out</b><span>outline:;</span></p>
-        <p><b>o:n</b><span>outline:none;</span></p>
-        <hr>
-        <p><b>oo</b><span>outline-offset:;</span></p>
-        <p><b>ow</b><span>outline-width:;</span></p>
-        <p><b>os</b><span>outline-style:;</span></p>
-        <hr>
-        <p><b>oc</b><span>outline-color:#000;</span></p>
-        <p><b>oc:i</b><span>outline-color:invert;</span></p><a name="anchor10"></a>
-        <h2>Table</h2>
-        <p><b>tbl</b><span>table-layout:;</span></p>
-        <p><b>tbl:a</b><span>table-layout:auto;</span></p>
-        <p><b>tbl:f</b><span>table-layout:fixed;</span></p>
-        <hr>
-        <p><b>cps</b><span>caption-side:;</span><i>[cs]</i></p>
-        <p><b>cps:t</b><span>caption-side:top;</span><i>[cs:t]</i></p>
-        <p><b>cps:b</b><span>caption-side:bottom;</span><i>[cs:b]</i></p>
-        <hr>
-        <p><b>ec</b><span>empty-cells:;</span><i>[ec]</i></p>
-        <p><b>ec:s</b><span>empty-cells:show;</span><i>[es]</i></p>
-        <p><b>ec:h</b><span>empty-cells:hide;</span><i>[eh]</i></p><a name="anchor11"></a>
-        <h2>Border</h2>
-        <p><b>bd</b><span>border:;</span></p>
-        <p><b>bd+</b><span>border:1px solid #000;</span></p>
-        <p><b>bd:n</b><span>border:none;</span></p>
-        <hr>
-        <p><b>bdbk</b><span>border-break:;</span></p>
-        <p><b>bdbk:c</b><span>border-break:close;</span></p>
-        <hr>
-        <p><b>bdcl</b><span>border-collapse:;</span></p>
-        <p><b>bdcl:c</b><span>border-collapse:collapse;</span></p>
-        <p><b>bdcl:s</b><span>border-collapse:separate;</span></p>
-        <hr>
-        <p><b>bdc</b><span>border-color:#000;</span></p>
-        <hr>
-        <p><b>bdi</b><span>border-image:url();</span></p>
-        <p><b>bdi:n</b><span>border-image:none;</span></p>
-        <hr>
-        <p><b>bdti</b><span>border-top-image:url();</span></p>
-        <p><b>bdti:n</b><span>border-top-image:none;</span></p>
-        <hr>
-        <p><b>bdri</b><span>border-right-image:url();</span></p>
-        <p><b>bdri:n</b><span>border-right-image:none;</span></p>
-        <hr>
-        <p><b>bdbi</b><span>border-bottom-image:url();</span></p>
-        <p><b>bdbi:n</b><span>border-bottom-image:none;</span></p>
-        <hr>
-        <p><b>bdli</b><span>border-left-image:url();</span></p>
-        <p><b>bdli:n</b><span>border-left-image:none;</span></p>
-        <hr>
-        <p><b>bdci</b><span>border-corner-image:url();</span><i>[bci]</i></p>
-        <p><b>bdci:n</b><span>border-corner-image:none;</span><i>[bci:n]</i></p>
-        <p><b>bdci:c</b><span>border-corner-image:continue;</span><i>[bci:c]</i></p>
-        <hr>
-        <p><b>bdtli</b><span>border-top-left-image:url();</span><i>[btli]</i></p>
-        <p><b>bdtli:n</b><span>border-top-left-image:none;</span><i>[btl:n]</i></p>
-        <p><b>bdtli:c</b><span>border-top-left-image:continue;</span><i>[btl:c]</i></p>
-        <hr>
-        <p><b>bdtri</b><span>border-top-right-image:url();</span><i>[btri]</i></p>
-        <p><b>bdtri:n</b><span>border-top-right-image:none;</span><i>[btr:n]</i></p>
-        <p><b>bdtri:c</b><span>border-top-right-image:continue;</span><i>[btr:c]</i></p>
-        <hr>
-        <p><b>bdbri</b><span>border-bottom-right-image:url();</span><i>[bbri]</i></p>
-        <p><b>bdbri:n</b><span>border-bottom-right-image:none;</span><i>[bbr:n]</i></p>
-        <p><b>bdbri:c</b><span>border-bottom-right-image:continue;</span><i>[bbr:c]</i></p>
-        <hr>
-        <p><b>bdbli</b><span>border-bottom-left-image:url();</span><i>[bbli]</i></p>
-        <p><b>bdbli:n</b><span>border-bottom-left-image:none;</span><i>[bbl:n]</i></p>
-        <p><b>bdbli:c</b><span>border-bottom-left-image:continue;</span><i>[bbl:c]</i></p>
-        <hr>
-        <p><b>bdf</b><span>border-fit:;</span><i>[bf]</i></p>
-        <p><b>bdf:c</b><span>border-fit:clip;</span><i>[bf:c]</i></p>
-        <p><b>bdf:r</b><span>border-fit:repeat;</span><i>[bf:r]</i></p>
-        <p><b>bdf:sc</b><span>border-fit:scale;</span><i>[bf:sc]</i></p>
-        <p><b>bdf:st</b><span>border-fit:stretch;</span><i>[bf:t]</i></p>
-        <p><b>bdf:ow</b><span>border-fit:overwrite;</span><i>[bf:w]</i></p>
-        <p><b>bdf:of</b><span>border-fit:overflow;</span><i>[bf:f]</i></p>
-        <p><b>bdf:sp</b><span>border-fit:space;</span><i>[bf:p]</i></p>
-        <hr>
-        <p class="new"><b>bdlt</b><span>border-length:;</span></p>
-        <p class="diff"><b>bdlt:a</b><span>border-length:auto;</span></p>
-        <hr>
-        <p><b>bdsp</b><span>border-spacing:;</span></p>
-        <hr>
-        <p><b>bds</b><span>border-style:;</span></p>
-        <p><b>bds:n</b><span>border-style:none;</span></p>
-        <p><b>bds:h</b><span>border-style:hidden;</span></p>
-        <p><b>bds:dt</b><span>border-style:dotted;</span></p>
-        <p><b>bds:ds</b><span>border-style:dashed;</span></p>
-        <p><b>bds:s</b><span>border-style:solid;</span></p>
-        <p><b>bds:db</b><span>border-style:double;</span></p>
-        <p class="diff"><b>bds:dd</b><span>border-style:dot-dash;</span></p>
-        <p class="diff"><b>bds:ddd</b><span>border-style:dot-dot-dash;</span></p>
-        <p><b>bds:w</b><span>border-style:wave;</span></p>
-        <p><b>bds:g</b><span>border-style:groove;</span></p>
-        <p><b>bds:r</b><span>border-style:ridge;</span></p>
-        <p><b>bds:i</b><span>border-style:inset;</span></p>
-        <p><b>bds:o</b><span>border-style:outset;</span></p>
-        <hr>
-        <p><b>bdw</b><span>border-width:;</span></p>
-        <hr>
-        <p><b>bdt</b><span>border-top:;</span></p>
-        <p><b>bdt+</b><span>border-top:1px solid #000;</span></p>
-        <p><b>bdt:n</b><span>border-top:none;</span></p>
-        <hr>
-        <p><b>bdtw</b><span>border-top-width:;</span></p>
-        <hr>
-        <p><b>bdts</b><span>border-top-style:;</span></p>
-        <p><b>bdts:n</b><span>border-top-style:none;</span></p>
-        <hr>
-        <p><b>bdtc</b><span>border-top-color:#000;</span></p>
-        <hr>
-        <p><b>bdr</b><span>border-right:;</span></p>
-        <p><b>bdr+</b><span>border-right:1px solid #000;</span></p>
-        <p><b>bdr:n</b><span>border-right:none;</span></p>
-        <hr>
-        <p><b>bdrw</b><span>border-right-width:;</span></p>
-        <hr>
-        <p><b>bdrs</b><span>border-right-style:;</span></p>
-        <p><b>bdrs:n</b><span>border-right-style:none;</span></p>
-        <hr>
-        <p><b>bdrc</b><span>border-right-color:#000;</span></p>
-        <hr>
-        <p><b>bdb</b><span>border-bottom:;</span></p>
-        <p><b>bdb+</b><span>border-bottom:1px solid #000;</span></p>
-        <p><b>bdb:n</b><span>border-bottom:none;</span></p>
-        <hr>
-        <p><b>bdbw</b><span>border-bottom-width:;</span></p>
-        <hr>
-        <p><b>bdbs</b><span>border-bottom-style:;</span></p>
-        <p><b>bdbs:n</b><span>border-bottom-style:none;</span></p>
-        <hr>
-        <p><b>bdbc</b><span>border-bottom-color:#000;</span></p>
-        <hr>
-        <p><b>bdl</b><span>border-left:;</span></p>
-        <p><b>bdl+</b><span>border-left:1px solid #000;</span></p>
-        <p><b>bdl:n</b><span>border-left:none;</span></p>
-        <hr>
-        <p><b>bdlw</b><span>border-left-width:;</span></p>
-        <hr>
-        <p><b>bdls</b><span>border-left-style:;</span></p>
-        <p><b>bdls:n</b><span>border-left-style:none;</span></p>
-        <hr>
-        <p><b>bdlc</b><span>border-left-color:#000;</span></p>
-        <hr>
-        <p class="diff"><b>bdrsa</b><span>border-radius:;</span><i>[bra]</i></p>
-        <p><b>bdtrrs</b><span>border-top-right-radius:;</span><i>[btrr]</i></p>
-        <p><b>bdtlrs</b><span>border-top-left-radius:;</span><i>[btlr]</i></p>
-        <p><b>bdbrrs</b><span>border-bottom-right-radius:;</span><i>[bbrr]</i></p>
-        <p><b>bdblrs</b><span>border-bottom-left-radius:;</span><i>[bblr]</i></p><a name="anchor12"></a>
-        <h2>Lists</h2>
-        <p><b>lis</b><span>list-style:;</span></p>
-        <p><b>lis:n</b><span>list-style:none;</span></p>
-        <hr>
-        <p><b>lisp</b><span>list-style-position:;</span><i>[lp]</i></p>
-        <p><b>lisp:i</b><span>list-style-position:inside;</span><i>[lp:i]</i></p>
-        <p><b>lisp:o</b><span>list-style-position:outside;</span><i>[lp:o]</i></p>
-        <hr>
-        <p><b>list</b><span>list-style-type:;</span><i>[lst]</i></p>
-        <p><b>list:n</b><span>list-style-type:none;</span><i>[lt:n]</i></p>
-        <p><b>list:d</b><span>list-style-type:disc;</span><i>[lt:d]</i></p>
-        <p><b>list:c</b><span>list-style-type:circle;</span><i>[lt:c]</i></p>
-        <p><b>list:s</b><span>list-style-type:square;</span><i>[lt:s]</i></p>
-        <p><b>list:dc</b><span>list-style-type:decimal;</span><i>[lt:dc]</i></p>
-        <p><b>list:dclz</b><span>list-style-type:decimal-leading-zero;</span><i>[lt:z]</i></p>
-        <p><b>list:lr</b><span>list-style-type:lower-roman;</span><i>[lt:l]</i></p>
-        <p><b>list:ur</b><span>list-style-type:upper-roman;</span><i>[lt:u]</i></p>
-        <hr>
-        <p><b>lisi</b><span>list-style-image:;</span><i>[lsi]</i></p>
-        <p><b>lisi:n</b><span>list-style-image:none;</span><i>[lsi:n]</i></p><a name="anchor13"></a>
-        <h2>Print</h2>
-        <p><b>pgbb</b><span>page-break-before:;</span></p>
-        <p><b>pgbb:au</b><span>page-break-before:auto;</span></p>
-        <p><b>pgbb:al</b><span>page-break-before:always;</span></p>
-        <p><b>pgbb:l</b><span>page-break-before:left;</span></p>
-        <p><b>pgbb:r</b><span>page-break-before:right;</span></p>
-        <hr>
-        <p><b>pgbi</b><span>page-break-inside:;</span></p>
-        <p><b>pgbi:au</b><span>page-break-inside:auto;</span></p>
-        <p><b>pgbi:av</b><span>page-break-inside:avoid;</span></p>
-        <hr>
-        <p><b>pgba</b><span>page-break-after:;</span></p>
-        <p><b>pgba:au</b><span>page-break-after:auto;</span></p>
-        <p><b>pgba:al</b><span>page-break-after:always;</span></p>
-        <p><b>pgba:l</b><span>page-break-after:left;</span></p>
-        <p><b>pgba:r</b><span>page-break-after:right;</span></p>
-        <hr>
-        <p><b>orp</b><span>orphans:;</span><i>[or]</i></p>
-        <p class="diff"><b>widows</b><span>widows:;</span><i>[wds]</i></p><a name="anchor14"></a>
-        <h2>Others</h2>
-        <p><b>ipt</b><span>!important</span><i>[it]</i></p>
-        <hr>
-        <p class="diff special"><b>ffa</b><span>@font-family {<br>&nbsp;&nbsp;font-family:;<br>&nbsp;&nbsp;src:url();<br>}</span></p>
-        <p class="diff special"><b>ffa+</b><span>@font-family {<br>&nbsp;&nbsp;font-family: 'FontName';<br>&nbsp;&nbsp;src: url('FileName.eot');<br>&nbsp;&nbsp;src: url('FileName.eot?#iefix') format('embedded-opentype'),<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;url('FileName.woff') format('woff'),<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;url('FileName.ttf') format('truetype'),<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;url('FileName.svg#FontName') format('svg');<br>&nbsp;&nbsp;font-style: normal;<br>&nbsp;&nbsp;font-weight: normal;<br>}</span></p>
-        <hr>
-        <p class="diff"><b>imp</b><span>@import url();</span></p>
-        <p class="diff"><b>mp</b><span>@media print {}</span></p>
-        <hr>
-        <p class="special"><b>bg:ie</b><span>filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='x.png',sizingMethod='crop');</span></p>
-        <p class="special"><b>op:ie</b><span>filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=100);</span></p>
-        <p class="special"><b>op:ms</b><span>-ms-filter:'progid:DXImageTransform.Microsoft.Alpha(Opacity=100)';</span></p>
-        <hr>
-        <p><b>trf</b><span>transform:;</span><i>[tf]</i></p>
-        <p><b>trf:r</b><span>transform:rotate(90deg);</span><i>[tf:r]</i></p>
-        <p><b>trf:sc</b><span>transform:scale(x,y);</span><i>[t:sc]</i></p>
-        <p><b>trf:scx</b><span>transform:scaleX(x);</span><i>[t:cx]</i></p>
-        <p><b>trf:scy</b><span>transform:scaleY(y);</span><i>[t:cy]</i></p>
-        <p><b>trf:skx</b><span>transform:skewX(90deg);</span><i>[t:kx]</i></p>
-        <p><b>trf:sky</b><span>transform:skewY(90deg);</span><i>[t:ky]</i></p>
-        <p><b>trf:t</b><span>transform:translate(x,y);</span><i>[tf:t]</i></p>
-        <p><b>trf:tx</b><span>transform:translateX(x);</span><i>[t:tx]</i></p>
-        <p><b>trf:ty</b><span>transform:translateY(y);</span><i>[t:ty]</i></p>
-        <hr>
-        <p><b>trs</b><span>transition:;</span></p>
-        <p><b>trsde</b><span>transition-delay:;</span><i>[tse]</i></p>
-        <p><b>trsdu</b><span>transition-duration:;</span><i>[tsdu]</i></p>
-        <p><b>trsp</b><span>transition-property:;</span><i>[tsp]</i></p>
-        <p><b>trstf</b><span>transition-timing-function:;</span><i>[tst]</i></p>
-        <hr>
-        <p><b>ani</b><span>animation:;</span></p>
-        <p><b>ann</b><span>animation-name:;</span></p>
-        <p><b>adu</b><span>animation-duration:;</span></p>
-        <p><b>atf</b><span>animation-timing-function:;</span></p>
-        <p><b>ade</b><span>animation-delay:;</span></p>
-        <p><b>aic</b><span>animation-iteration-count:;</span></p>
-        <p><b>adi</b><span>animation-direction:;</span></p>
-        <p><b>aps</b><span>animation-play-state:;</span></p>
-        <hr>
-        <p><b>key</b><span>@keyframes {}</span></p>
-        <hr>
-        <p><b>ms</b><span>@media screen and () {}</span></p>
-        <hr>
-        <p class="diff"><b>com</b><span>/*---------comment-----------*/</span></p>
-        <p class="new"><b>reset</b><span>EricMeyer's Reset CSS2.0</span></p>
-        <p class="new"><b>in</b><span>inherit;</span></p>
-        <p class="new"><b>tra</b><span>transparent;</span></p>
-        <p class="new"><b>beh</b><span>behavior:url();</span></p>
-        <p class="new"><b>cha</b><span>@charset'';</span></p><a name="anchor15"></a>
-        <h2>Pseudo Class</h2>
-        <p class="new"><b>ac</b><span> :active{}</span></p>
-        <p class="new"><b>ac:a</b><span>&:active{}</span></p>
-        <hr>
-        <p class="new"><b>af</b><span> :after{}</span></p>
-        <p class="new"><b>af:a</b><span>&:after{}</span></p>
-        <hr>
-        <p class="new"><b>be</b><span> :before{}</span></p>
-        <p class="new"><b>be:a</b><span>&:before{}</span></p>
-        <hr>
-        <p class="new"><b>ch</b><span> :checked{}</span></p>
-        <p class="new"><b>ch:a</b><span>&:checked{}</span></p>
-        <hr>
-        <p class="new"><b>dsa</b><span> :disabled{}<i>[da]</i></span></p>
-        <p class="new"><b>dsa:a</b><span>&:disabled{}<i>[da:a]</i></span></p>
-        <hr>
-        <p class="new"><b>en</b><span> :enabled{}</span></p>
-        <p class="new"><b>en:a</b><span>&:enabled{}</span></p>
-        <hr>
-        <p class="new"><b>fc</b><span> :first-child{}</span></p>
-        <p class="new"><b>fc:a</b><span>&:first-child{}</span></p>
-        <hr>
-        <p class="new"><b>fle</b><span> :first-letter{}</span></p>
-        <p class="new"><b>fle:a</b><span>&:first-letter{}</span></p>
-        <hr>
-        <p class="new"><b>fli</b><span> :first-line{}</span></p>
-        <p class="new"><b>fli:a</b><span>&:first-line{}</span></p>
-        <hr>
-        <p class="new"><b>foc</b><span> :focus{}</span></p>
-        <p class="new"><b>foc:a</b><span>&:focus{}</span></p>
-        <hr>
-        <p class="new"><b>ho</b><span> :hover{}</span></p>
-        <p class="new"><b>ho:a</b><span>&:hover{}</span></p>
-        <hr>
-        <p class="new"><b>ln</b><span> :lang(){}</span></p>
-        <p class="new"><b>ln:a</b><span>&:lang(){}</span></p>
-        <hr>
-        <p class="new"><b>lc</b><span> :last-child{}</span></p>
-        <p class="new"><b>lc:a</b><span>&:last-child{}</span></p>
-        <hr>
-        <p class="new"><b>li</b><span> :link{}</span></p>
-        <p class="new"><b>li:a</b><span>&:link{}</span></p>
-        <hr>
-        <p class="new"><b>nc</b><span> :nth-child(){}</span></p>
-        <p class="new"><b>nc:a</b><span>&:nth-child(){}</span></p>
-        <hr>
-        <p class="new"><b>vit</b><span> :visited{}</span></p>
-        <p class="new"><b>vit:a</b><span>&:visited{}</span></p>
-        <hr>
-        <p class="new"><b>tgt</b><span> :target{}</span><i>[tg]</i></p>
-        <p class="new"><b>tgt:a</b><span>&:target{}</span><i>[tg:a]</i></p>
-        <hr>
-        <p class="new"><b>fot</b><span> :first-of-type{}</span></p>
-        <p class="new"><b>fot:a</b><span>&:first-of-type{}</span></p>
-        <hr>
-        <p class="new"><b>lot</b><span> :last-of-type{}</span></p>
-        <p class="new"><b>lot:a</b><span>&:last-of-type{}</span></p>
-        <hr>
-        <p class="new"><b>not</b><span> :nth-of-type(){}</span><i>[nt]</i></p>
-        <p class="new"><b>not:a</b><span>&:nth-of-type(){}</span><i>[nt:a]</i></p><a name="anchor16"></a>
-        <h2>Scss &amp; Sass</h2>
-        <p class="new"><b>ext</b><span>@extend</span><i>[et]</i></p>
-        <p class="new"><b>inc</b><span>@include</span><i>[ic]</i></p>
-        <p class="new"><b>mix</b><span>@mixin</span><i>[mx]</i></p>
-        <p class="new"><b>ieh</b><span>ie-hex-str()</span></p><a id="top" href="#">Top</a>
-      </div>
-      <div id="note" class="inner">
-        <p>This list is based on the offical <a href="http://docs.emmet.io/cheat-sheet/" target="_blank">Cheat Sheet of Emmet.</a></p>
-        <p>* means the property alias is changed in order to increase the accuracy of autocomplete hints.</p>
-        <p>+ means this is an additional snippet.</p>
-        <p>[Simplified alias] This might be changed when adding new properties</p>
+  </header>
+
+  <nav class="dropdown" data-spy="affix" data-offset-top="268">
+    <button data-toggle="dropdown">Menu</button>
+    <ul class="nav">
+      <li><a href="#visual-formatting">Visual Formatting</a></li>
+      <li><a href="#margin-padding">Margin &amp; Padding</a></li>
+      <li><a href="#box-sizing">Box Sizing</a></li>
+      <li><a href="#font">Font</a></li>
+      <li><a href="#text">Text</a></li>
+      <li><a href="#background">Background</a></li>
+      <li><a href="#color">Color</a></li>
+      <li><a href="#generated-content">Generated content</a></li>
+      <li><a href="#outline">Outline</a></li>
+      <li><a href="#tables">Tables</a></li>
+      <li><a href="#border">Border</a></li>
+      <li><a href="#lists">Lists</a></li>
+      <li><a href="#print">Print</a></li>
+      <li><a href="#column">Column</a></li>
+      <li><a href="#responsive">Responsive</a></li>
+      <li><a href="#animation">Animation</a></li>
+      <li><a href="#webkit">Webkit</a></li>
+      <li><a href="#others">Others</a></li>
+      <li><a href="#pseudo-class">Pseudo Class</a></li>
+      <li><a href="#completions">Completions</a></li>
+    </ul>
+  </nav>
+
+  <div id="banner" data-spy="affix" data-offset-top="268">
+    <div class="container">
+      <input type="text" placeholder="Type to search triggers...">
+      <label for="radio-trigger">Trigger</label>
+      <label for="radio-property">Property</label>
+      <input id="radio-trigger" type="radio" name="search-option" checked="checked">
+      <input id="radio-property" type="radio" name="search-option">
+      <span id="block"></span>
+    </div>
+
+    <div id="result-pane">
+      <div class="container">
+        <div id="label">
+          <span class="label-short">Trigger</span><span class="label-short">Shorthand</span><span class="label-long">Property</span><span class="label-short">Emmet</span>
+        </div>
+        <ul id="result" class="snippets"></ul>
       </div>
     </div>
-    <footer class="inner">
-      <p id="trigger">Emmet Css Snippets maintained by <a href="https://github.com/P233" target="_blank">P233</a><span class="hide">></span><a href="https://github.com/P233/Jade-Snippets-for-Sublime-Text-2" target="_blank" class="hide">Jade Snippets</a><a href="http://p233.github.com/Blank-Color-Scheme/" target="_blank" class="hide">Blank Color Scheme</a></p>
-      <p>Published with <a href="http://pages.github.com" target="_blank">Github Pages</a></p>
-    </footer>
-    <script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
-    <script type="text/javascript" src="js/quicksilver.js"></script>
-    <script type="text/javascript" src="js/livesearch.js"></script>
-    <script type="text/javascript">
-      $(document).ready(function() {
-       $('#search').liveUpdate('#container p').focus();
-       $(function(){
-        $('a[href*=#]').click(function() {
-        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') 
-         && location.hostname == this.hostname) {
-          var $target = $(this.hash);
-          $target = $target.length && $target || $('[name=' + this.hash.slice(1) +']');
-           if ($target.length) {
-            var targetOffset = $target.offset().top;
-            $('html,body').animate({scrollTop: targetOffset}, 500);
-            return false;
-           }
-          }
-        });
-       });
-      });
-      
-    </script><!--[if IE]>
-    <script type="text/javascript" src="js/placeholder.js"></script><![endif]-->
-  </body>
+  </div>
+
+  <div class="container">
+    <section>
+      <h2 id="visual-formatting">Visual Formatting</h2>
+      <ul class="snippets">
+        <li><span class="trigger">pos</span><span class="shorthand"></span><span class="property">position:</span><span class="emmet">pos</span></li>
+        <li><span class="trigger">pos:s</span><span class="shorthand">ps:s</span><span class="property">position: static;</span><span class="emmet">pos:s</span></li>
+        <li><span class="trigger">pos:a</span><span class="shorthand">ps:a</span><span class="property">position: absolute;</span><span class="emmet">pos:a</span></li>
+        <li><span class="trigger">pos:r</span><span class="shorthand">ps:r</span><span class="property">position: relative;</span><span class="emmet">pos:r</span></li>
+        <li><span class="trigger">pos:f</span><span class="shorthand">ps:f</span><span class="property">position: fixed;</span><span class="emmet">pos:f</span></li>
+        <li><span class="trigger">top</span><span class="shorthand"></span><span class="property">top:</span><span class="emmet">t</span></li>
+        <li><span class="trigger">tp:a</span><span class="shorthand"></span><span class="property">top: auto;</span><span class="emmet">t:a</span></li>
+        <li><span class="trigger">rig</span><span class="shorthand">ri</span><span class="property">right:</span><span class="emmet">r</span></li>
+        <li><span class="trigger">rg:a</span><span class="shorthand"></span><span class="property">right: auto;</span><span class="emmet">r:a</span></li>
+        <li><span class="trigger">bot</span><span class="shorthand"></span><span class="property">bottom:</span><span class="emmet">b</span></li>
+        <li><span class="trigger">bt:a</span><span class="shorthand"></span><span class="property">bottom: auto;</span><span class="emmet">b:a</span></li>
+        <li><span class="trigger">lef</span><span class="shorthand">le</span><span class="property">left:</span><span class="emmet">l</span></li>
+        <li><span class="trigger">lf:a</span><span class="shorthand"></span><span class="property">left: auto;</span><span class="emmet">l:a</span></li>
+        <li><span class="trigger">zin</span><span class="shorthand">zn</span><span class="property">z-index:</span><span class="emmet">z</span></li>
+        <li><span class="trigger">z:a</span><span class="shorthand"></span><span class="property">z-index: auto;</span><span class="emmet">z:a</span></li>
+        <li><span class="trigger">fl</span><span class="shorthand"></span><span class="property">float:</span><span class="emmet">fl</span></li>
+        <li><span class="trigger">fl:n</span><span class="shorthand"></span><span class="property">float: none;</span><span class="emmet">fl:n</span></li>
+        <li><span class="trigger">fl:l</span><span class="shorthand"></span><span class="property">float: left;</span><span class="emmet">fl:l</span></li>
+        <li><span class="trigger">fl:r</span><span class="shorthand"></span><span class="property">float: right;</span><span class="emmet">fl:r</span></li>
+        <li><span class="trigger">cl</span><span class="shorthand"></span><span class="property">clear:</span><span class="emmet">cl</span></li>
+        <li><span class="trigger">cl:n</span><span class="shorthand"></span><span class="property">clear: none;</span><span class="emmet">cl:n</span></li>
+        <li><span class="trigger">cl:l</span><span class="shorthand"></span><span class="property">clear: left;</span><span class="emmet">cl:l</span></li>
+        <li><span class="trigger">cl:r</span><span class="shorthand"></span><span class="property">clear: right;</span><span class="emmet">cl:r</span></li>
+        <li><span class="trigger">cl:b</span><span class="shorthand"></span><span class="property">clear: both;</span><span class="emmet">cl:b</span></li>
+        <li><span class="trigger">dis</span><span class="shorthand"></span><span class="property">display:</span><span class="emmet">d</span></li>
+        <li><span class="trigger">d:n</span><span class="shorthand"></span><span class="property">display: none;</span><span class="emmet">d:n</span></li>
+        <li><span class="trigger">d:b</span><span class="shorthand"></span><span class="property">display: block;</span><span class="emmet">d:b</span></li>
+        <li><span class="trigger">d:in</span><span class="shorthand"></span><span class="property">display: inline;</span><span class="emmet">d:i</span></li>
+        <li><span class="trigger">d:ib</span><span class="shorthand"></span><span class="property">display: inline-block;</span><span class="emmet">d:ib</span></li>
+        <li><span class="trigger">d:li</span><span class="shorthand"></span><span class="property">display: list-item;</span><span class="emmet">d:li</span></li>
+        <li><span class="trigger">d:ri</span><span class="shorthand"></span><span class="property">display: run-in;</span><span class="emmet">d:ri</span></li>
+        <li><span class="trigger">d:cp</span><span class="shorthand"></span><span class="property">display: compact;</span><span class="emmet">d:cp</span></li>
+        <li><span class="trigger">d:tb</span><span class="shorthand">d:t</span><span class="property">display: table;</span><span class="emmet">d:tb</span></li>
+        <li><span class="trigger">d:itb</span><span class="shorthand">d:it</span><span class="property">display: inline-table;</span><span class="emmet">d:itb</span></li>
+        <li><span class="trigger">d:tbcp</span><span class="shorthand">d:tcp</span><span class="property">display: table-caption;</span><span class="emmet">d:tbcp</span></li>
+        <li><span class="trigger">d:tbcl</span><span class="shorthand">d:cl</span><span class="property">display: table-column;</span><span class="emmet">d:tbcl</span></li>
+        <li><span class="trigger">d:tbclg</span><span class="shorthand">d:cg</span><span class="property">display: table-column-group;</span><span class="emmet">d:tbclg</span></li>
+        <li><span class="trigger">d:tbhg</span><span class="shorthand">d:hg</span><span class="property">display: table-header-group;</span><span class="emmet">d:tbhg</span></li>
+        <li><span class="trigger">d:tbfg</span><span class="shorthand">d:fg</span><span class="property">display: table-footer-group;</span><span class="emmet">d:tbfg</span></li>
+        <li><span class="trigger">d:tbr</span><span class="shorthand">d:tr</span><span class="property">display: table-row;</span><span class="emmet">d:tbr</span></li>
+        <li><span class="trigger">d:tbrg</span><span class="shorthand">d:trg</span><span class="property">display: table-row-group;</span><span class="emmet">d:tbrg</span></li>
+        <li><span class="trigger">d:tbc</span><span class="shorthand">d:tc</span><span class="property">display: table-cell;</span><span class="emmet">d:tbc</span></li>
+        <li><span class="trigger">d:rb</span><span class="shorthand"></span><span class="property">display: ruby;</span><span class="emmet">d:rb</span></li>
+        <li><span class="trigger">d:rbb</span><span class="shorthand"></span><span class="property">display: ruby-base;</span><span class="emmet">d:rbb</span></li>
+        <li><span class="trigger">d:rbbg</span><span class="shorthand"></span><span class="property">display: ruby-base-group;</span><span class="emmet">d:rbbg</span></li>
+        <li><span class="trigger">d:rbt</span><span class="shorthand"></span><span class="property">display: ruby-text;</span><span class="emmet">d:rbt</span></li>
+        <li><span class="trigger">d:rbtg</span><span class="shorthand"></span><span class="property">display: ruby-text-group;</span><span class="emmet">d:rbtg</span></li>
+        <li><span class="trigger">vis</span><span class="shorthand"></span><span class="property">visibility:</span><span class="emmet">v</span></li>
+        <li><span class="trigger">v:v</span><span class="shorthand"></span><span class="property">visibility: visible;</span><span class="emmet">v:v</span></li>
+        <li><span class="trigger">v:h</span><span class="shorthand"></span><span class="property">visibility: hidden;</span><span class="emmet">v:h</span></li>
+        <li><span class="trigger">v:c</span><span class="shorthand"></span><span class="property">visibility: collapse;</span><span class="emmet">v:c</span></li>
+        <li><span class="trigger">ov</span><span class="shorthand"></span><span class="property">overflow:</span><span class="emmet">ov</span></li>
+        <li><span class="trigger">ov:v</span><span class="shorthand"></span><span class="property">overflow: visible;</span><span class="emmet">ov:v</span></li>
+        <li><span class="trigger">ov:h</span><span class="shorthand">o:h</span><span class="property">overflow: hidden;</span><span class="emmet">ov:h</span></li>
+        <li><span class="trigger">ov:sc</span><span class="shorthand">ov:c</span><span class="property">overflow: scroll;</span><span class="emmet">ov:s</span></li>
+        <li><span class="trigger">ov:a</span><span class="shorthand">o:a</span><span class="property">overflow: auto;</span><span class="emmet">ov:a</span></li>
+        <li><span class="trigger">ovx</span><span class="shorthand">ox</span><span class="property">overflow-x:</span><span class="emmet">ovx</span></li>
+        <li><span class="trigger">ovx:v</span><span class="shorthand">ox:v</span><span class="property">overflow-x: visible;</span><span class="emmet">ovx:v</span></li>
+        <li><span class="trigger">ovx:h</span><span class="shorthand">ox:h</span><span class="property">overflow-x: hidden;</span><span class="emmet">ovx:h</span></li>
+        <li><span class="trigger">ovx:s</span><span class="shorthand">ox:s</span><span class="property">overflow-x: scroll;</span><span class="emmet">ovx:s</span></li>
+        <li><span class="trigger">ovx:a</span><span class="shorthand">ox:a</span><span class="property">overflow-x: auto;</span><span class="emmet">ovx:a</span></li>
+        <li><span class="trigger">ovy</span><span class="shorthand">oy</span><span class="property">overflow-y:</span><span class="emmet">ovy</span></li>
+        <li><span class="trigger">ovy:v</span><span class="shorthand">oy:v</span><span class="property">overflow-y: visible;</span><span class="emmet">ovy:v</span></li>
+        <li><span class="trigger">ovy:h</span><span class="shorthand">oy:h</span><span class="property">overflow-y: hidden;</span><span class="emmet">ovy:h</span></li>
+        <li><span class="trigger">ovy:s</span><span class="shorthand">oy:s</span><span class="property">overflow-y: scroll;</span><span class="emmet">ovy:s</span></li>
+        <li><span class="trigger">ovy:a</span><span class="shorthand">oy:a</span><span class="property">overflow-y: auto;</span><span class="emmet">ovy:a</span></li>
+        <li><span class="trigger">ovs</span><span class="shorthand"></span><span class="property">overflow-style:</span><span class="emmet">ovs</span></li>
+        <li><span class="trigger">ovs:a</span><span class="shorthand">os:a</span><span class="property">overflow-style: auto;</span><span class="emmet">ovs:a</span></li>
+        <li><span class="trigger">ovs:s</span><span class="shorthand">os:s</span><span class="property">overflow-style: scrollbar;</span><span class="emmet">ovs:s</span></li>
+        <li><span class="trigger">ovs:p</span><span class="shorthand">os:p</span><span class="property">overflow-style: panner;</span><span class="emmet">ovs:p</span></li>
+        <li><span class="trigger">ovs:m</span><span class="shorthand">os:m</span><span class="property">overflow-style: move;</span><span class="emmet">ovs:m</span></li>
+        <li><span class="trigger">ovs:mq</span><span class="shorthand">os:q</span><span class="property">overflow-style: marquee;</span><span class="emmet">ovs:mq</span></li>
+        <li><span class="trigger">zoo</span><span class="shorthand"></span><span class="property">zoom:</span><span class="emmet">zoo, zm</span></li>
+        <li><span class="trigger">cp</span><span class="shorthand"></span><span class="property">clip:</span><span class="emmet">cp</span></li>
+        <li><span class="trigger">cp:a</span><span class="shorthand"></span><span class="property">clip: auto;</span><span class="emmet">cp:a</span></li>
+        <li><span class="trigger">cp:r</span><span class="shorthand"></span><span class="property">clip: rect();</span><span class="emmet">cp:r</span></li>
+        <li><span class="trigger">rz</span><span class="shorthand"></span><span class="property">resize:</span><span class="emmet">rsz</span></li>
+        <li><span class="trigger">rz:n</span><span class="shorthand">r:n</span><span class="property">resize: none;</span><span class="emmet">rsz:n</span></li>
+        <li><span class="trigger">rz:b</span><span class="shorthand"></span><span class="property">resize: both;</span><span class="emmet">rsz:b</span></li>
+        <li><span class="trigger">rz:h</span><span class="shorthand">r:h</span><span class="property">resize: horizontal;</span><span class="emmet">rsz:h</span></li>
+        <li><span class="trigger">rz:v</span><span class="shorthand">r:v</span><span class="property">resize: vertical;</span><span class="emmet">rsz:v</span></li>
+        <li><span class="trigger">cur</span><span class="shorthand">cu</span><span class="property">cursor:</span><span class="emmet">cur</span></li>
+        <li><span class="trigger">cur:a</span><span class="shorthand">cu:a</span><span class="property">cursor: auto;</span><span class="emmet">cur:a</span></li>
+        <li><span class="trigger">cur:d</span><span class="shorthand">cu:d</span><span class="property">cursor: default;</span><span class="emmet">cur:d</span></li>
+        <li><span class="trigger">cur:c</span><span class="shorthand">cu:c</span><span class="property">cursor: crosshair;</span><span class="emmet">cur:c</span></li>
+        <li><span class="trigger">cur:ha</span><span class="shorthand">cu:ha</span><span class="property">cursor: hand;</span><span class="emmet">cur:ha</span></li>
+        <li><span class="trigger">cur:he</span><span class="shorthand">cu:he</span><span class="property">cursor: help;</span><span class="emmet">cur:he</span></li>
+        <li><span class="trigger">cur:m</span><span class="shorthand">cu:m</span><span class="property">cursor: move;</span><span class="emmet">cur:m</span></li>
+        <li><span class="trigger">cur:p</span><span class="shorthand">cu:p</span><span class="property">cursor: pointer;</span><span class="emmet">cur:p</span></li>
+        <li><span class="trigger">cur:t</span><span class="shorthand">cu:t</span><span class="property">cursor: text;</span><span class="emmet">cur:t</span></li>
+      </ul>
+    </section>
+
+    <section>
+      <h2 id="margin-padding">Margin & Padding</h2>
+      <ul class="snippets">
+        <li><span class="trigger">mar</span><span class="shorthand"></span><span class="property">margin:</span><span class="emmet">m</span></li>
+        <li><span class="trigger">m:au</span><span class="shorthand"></span><span class="property">margin: auto;</span><span class="emmet">m:a</span></li>
+        <li><span class="trigger">mt</span><span class="shorthand"></span><span class="property">margin-top:</span><span class="emmet">mt</span></li>
+        <li><span class="trigger">mt:a</span><span class="shorthand"></span><span class="property">margin-top: auto;</span><span class="emmet">mt:a</span></li>
+        <li><span class="trigger">mr</span><span class="shorthand"></span><span class="property">margin-right:</span><span class="emmet">mr</span></li>
+        <li><span class="trigger">mr:a</span><span class="shorthand"></span><span class="property">margin-right: auto;</span><span class="emmet">mr:a</span></li>
+        <li><span class="trigger">mb</span><span class="shorthand"></span><span class="property">margin-bottom:</span><span class="emmet">mb</span></li>
+        <li><span class="trigger">mb:a</span><span class="shorthand"></span><span class="property">margin-bottom: auto;</span><span class="emmet">mb:a</span></li>
+        <li><span class="trigger">ml</span><span class="shorthand"></span><span class="property">margin-left:</span><span class="emmet">ml</span></li>
+        <li><span class="trigger">ml:a</span><span class="shorthand"></span><span class="property">margin-left: auto;</span><span class="emmet">ml:a</span></li>
+        <li><span class="trigger">pad</span><span class="shorthand"></span><span class="property">padding:</span><span class="emmet">p</span></li>
+        <li><span class="trigger">pt</span><span class="shorthand"></span><span class="property">padding-top:</span><span class="emmet">pt</span></li>
+        <li><span class="trigger">pr</span><span class="shorthand"></span><span class="property">padding-right:</span><span class="emmet">pr</span></li>
+        <li><span class="trigger">pb</span><span class="shorthand"></span><span class="property">padding-bottom:</span><span class="emmet">pb</span></li>
+        <li><span class="trigger">pl</span><span class="shorthand"></span><span class="property">padding-left:</span><span class="emmet">pl</span></li>
+      </ul>
+    </section>
+
+    <section>
+      <h2 id="box-sizing">Box Sizing</h2>
+      <ul class="snippets">
+        <li class="prefix"><span class="trigger">bxz</span><span class="shorthand"></span><span class="property">box-sizing:</span><span class="emmet">bxz</span></li>
+        <li class="prefix"><span class="trigger">bxz:cb</span><span class="shorthand">bz:cb</span><span class="property">box-sizing: content-box;</span><span class="emmet">bxz:cb</span></li>
+        <li class="prefix"><span class="trigger">bxz:bb</span><span class="shorthand">bz:bb</span><span class="property">box-sizing: border-box;</span><span class="emmet">bxz:bb</span></li>
+        <li><span class="trigger">bxsh</span><span class="shorthand"></span><span class="property">box-shadow:</span><span class="emmet">bxsh</span></li>
+        <li><span class="trigger"></span><span class="shorthand"></span><span class="property">box-shadow: inset hoff voff blur spread rgb(0, 0, 0);</span><span class="emmet">bxsh:r</span></li>
+        <li><span class="trigger"></span><span class="shorthand"></span><span class="property">box-shadow: inset h v blur spread rgba(0, 0, 0, .5);</span><span class="emmet">bxsh:ra</span></li>
+        <li><span class="trigger">bxsh:n</span><span class="shorthand">bsh:n</span><span class="property">box-shadow: none;</span><span class="emmet">bxsh:n</span></li>
+        <li><span class="trigger">wid</span><span class="shorthand"></span><span class="property">width:</span><span class="emmet">w</span></li>
+        <li><span class="trigger">w:a</span><span class="shorthand"></span><span class="property">width: auto;</span><span class="emmet">w:a</span></li>
+        <li><span class="trigger">hei</span><span class="shorthand">he</span><span class="property">height:</span><span class="emmet">h</span></li>
+        <li><span class="trigger">h:a</span><span class="shorthand"></span><span class="property">height: auto;</span><span class="emmet">h:a</span></li>
+        <li><span class="trigger">maw</span><span class="shorthand"></span><span class="property">max-width:</span><span class="emmet">maw</span></li>
+        <li><span class="trigger">maw:n</span><span class="shorthand"></span><span class="property">max-width: none;</span><span class="emmet">maw:n</span></li>
+        <li><span class="trigger">mah</span><span class="shorthand"></span><span class="property">max-height:</span><span class="emmet">mah</span></li>
+        <li><span class="trigger">mah:n</span><span class="shorthand"></span><span class="property">max-height: none;</span><span class="emmet">mah:n</span></li>
+        <li><span class="trigger">miw</span><span class="shorthand"></span><span class="property">min-width:</span><span class="emmet">miw</span></li>
+        <li><span class="trigger">mih</span><span class="shorthand"></span><span class="property">min-height:</span><span class="emmet">mih</span></li>
+        <!--
+        <li><span class="trigger">alc</span><span class="shorthand"></span><span class="property">align-content:</span><span class="emmet"></span></li>
+        <li><span class="trigger">ali</span><span class="shorthand"></span><span class="property">align-items:</span><span class="emmet"></span></li>
+        <li><span class="trigger">als</span><span class="shorthand"></span><span class="property">align-self:</span><span class="emmet"></span></li>
+        <li><span class="trigger">fx</span><span class="shorthand"></span><span class="property">flex:</span><span class="emmet"></span></li>
+        <li><span class="trigger">fxb</span><span class="shorthand"></span><span class="property">flex-basis:</span><span class="emmet"></span></li>
+        <li><span class="trigger">fxd</span><span class="shorthand"></span><span class="property">flex-direction:</span><span class="emmet"></span></li>
+        <li><span class="trigger">fxf</span><span class="shorthand"></span><span class="property">flex-flow:</span><span class="emmet"></span></li>
+        <li><span class="trigger">fxg</span><span class="shorthand"></span><span class="property">flex-grow:</span><span class="emmet"></span></li>
+        <li><span class="trigger">fxs</span><span class="shorthand"></span><span class="property">flex-shrink:</span><span class="emmet"></span></li>
+        <li><span class="trigger">fxw</span><span class="shorthand"></span><span class="property">flex-wrap:</span><span class="emmet"></span></li>
+        <li><span class="trigger">jc</span><span class="shorthand"></span><span class="property">justify-content:</span><span class="emmet"></span></li>
+        <li><span class="trigger">or</span><span class="shorthand"></span><span class="property">order:</span><span class="emmet"></span></li>
+        -->
+      </ul>
+    </section>
+
+    <section>
+      <h2 id="font">Font</h2>
+      <ul class="snippets">
+        <li><span class="trigger">ffa</span><span class="shorthand"></span><span class="property">@font-face {}</span><span class="emmet">@f</span></li>
+        <li><span class="trigger"></span><span class="shorthand"></span><span class="property">@font-face {}</span><span class="emmet">@f+</span></li>
+        <li><span class="trigger">fon</span><span class="shorthand"></span><span class="property">font:</span><span class="emmet">f</span></li>
+        <li><span class="trigger"></span><span class="shorthand"></span><span class="property">font: 1em Arial,sans-serif;</span><span class="emmet">f+</span></li>
+        <li><span class="trigger">fw</span><span class="shorthand"></span><span class="property">font-weight:</span><span class="emmet">fw</span></li>
+        <li><span class="trigger">fw:n</span><span class="shorthand"></span><span class="property">font-weight: normal;</span><span class="emmet">fw:n</span></li>
+        <li><span class="trigger">fw:b</span><span class="shorthand"></span><span class="property">font-weight: bold;</span><span class="emmet">fw:b</span></li>
+        <li><span class="trigger">fw:br</span><span class="shorthand"></span><span class="property">font-weight: bolder;</span><span class="emmet">fw:br</span></li>
+        <li><span class="trigger">fw:lr</span><span class="shorthand"></span><span class="property">font-weight: lighter;</span><span class="emmet">fw:lr</span></li>
+        <li><span class="trigger">fs</span><span class="shorthand"></span><span class="property">font-style:</span><span class="emmet">fs</span></li>
+        <li><span class="trigger">fs:n</span><span class="shorthand"></span><span class="property">font-style: normal;</span><span class="emmet">fs:n</span></li>
+        <li><span class="trigger">fs:i</span><span class="shorthand"></span><span class="property">font-style: italic;</span><span class="emmet">fs:i</span></li>
+        <li><span class="trigger">fs:o</span><span class="shorthand"></span><span class="property">font-style: oblique;</span><span class="emmet">fs:o</span></li>
+        <li><span class="trigger">fv</span><span class="shorthand"></span><span class="property">font-variant:</span><span class="emmet">fv</span></li>
+        <li><span class="trigger">fv:n</span><span class="shorthand"></span><span class="property">font-variant: normal;</span><span class="emmet">fv:n</span></li>
+        <li><span class="trigger">fv:sc</span><span class="shorthand">fv:s</span><span class="property">font-variant: small-caps;</span><span class="emmet">fv:sc</span></li>
+        <li><span class="trigger">fz</span><span class="shorthand"></span><span class="property">font-size:</span><span class="emmet">fz</span></li>
+        <li><span class="trigger">fza</span><span class="shorthand"></span><span class="property">font-size-adjust:</span><span class="emmet">fza</span></li>
+        <li><span class="trigger">fza:n</span><span class="shorthand"></span><span class="property">font-size-adjust: none;</span><span class="emmet">fza:n</span></li>
+        <li><span class="trigger">ff</span><span class="shorthand"></span><span class="property">font-family:</span><span class="emmet">ff</span></li>
+        <li><span class="trigger">ff:s</span><span class="shorthand"></span><span class="property">font-family: serif;</span><span class="emmet">ff:s</span></li>
+        <li><span class="trigger">ff:ss</span><span class="shorthand"></span><span class="property">font-family: sans-serif;</span><span class="emmet">ff:ss</span></li>
+        <li><span class="trigger">ff:c</span><span class="shorthand"></span><span class="property">font-family: cursive;</span><span class="emmet">ff:c</span></li>
+        <li><span class="trigger">ff:f</span><span class="shorthand"></span><span class="property">font-family: fantasy;</span><span class="emmet">ff:f</span></li>
+        <li><span class="trigger">ff:m</span><span class="shorthand"></span><span class="property">font-family: monospace;</span><span class="emmet">ff:m</span></li>
+        <li><span class="trigger"></span><span class="shorthand"></span><span class="property">font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;</span><span class="emmet">ff:a</span></li>
+        <li><span class="trigger">fef</span><span class="shorthand"></span><span class="property">font-effect:</span><span class="emmet">fef</span></li>
+        <li><span class="trigger">fef:n</span><span class="shorthand"></span><span class="property">font-effect: none;</span><span class="emmet">fef:n</span></li>
+        <li><span class="trigger">fef:eg</span><span class="shorthand">ffg</span><span class="property">font-effect: engrave;</span><span class="emmet">fef:eg</span></li>
+        <li><span class="trigger">fef:eb</span><span class="shorthand">ffb</span><span class="property">font-effect: emboss;</span><span class="emmet">fef:eb</span></li>
+        <li><span class="trigger">fef:o</span><span class="shorthand"></span><span class="property">font-effect: outline;</span><span class="emmet">fef:o</span></li>
+        <li><span class="trigger">fem</span><span class="shorthand"></span><span class="property">font-emphasize:</span><span class="emmet">fem</span></li>
+        <li><span class="trigger">femp</span><span class="shorthand">fp</span><span class="property">font-emphasize-position:</span><span class="emmet">femp</span></li>
+        <li><span class="trigger">femp:b</span><span class="shorthand">fp:b</span><span class="property">font-emphasize-position: before;</span><span class="emmet">femp:b</span></li>
+        <li><span class="trigger">femp:a</span><span class="shorthand">fp:a</span><span class="property">font-emphasize-position: after;</span><span class="emmet">femp:a</span></li>
+        <li><span class="trigger">fems</span><span class="shorthand">fes</span><span class="property">font-emphasize-style:</span><span class="emmet">fems</span></li>
+        <li><span class="trigger">fems:n</span><span class="shorthand">fes:n</span><span class="property">font-emphasize-style: none;</span><span class="emmet">fems:n</span></li>
+        <li><span class="trigger">fems:ac</span><span class="shorthand">fes:a</span><span class="property">font-emphasize-style: accent;</span><span class="emmet">fems:ac</span></li>
+        <li><span class="trigger">fems:dt</span><span class="shorthand">fes:t</span><span class="property">font-emphasize-style: dot;</span><span class="emmet">fems:dt</span></li>
+        <li><span class="trigger">fems:c</span><span class="shorthand">fes:c</span><span class="property">font-emphasize-style: circle;</span><span class="emmet">fems:c</span></li>
+        <li><span class="trigger">fems:ds</span><span class="shorthand">fes:s</span><span class="property">font-emphasize-style: disc;</span><span class="emmet">fems:ds</span></li>
+        <li><span class="trigger">fsm</span><span class="shorthand"></span><span class="property">font-smooth:</span><span class="emmet">fsm</span></li>
+        <li><span class="trigger">fsm:au</span><span class="shorthand">fm:u</span><span class="property">font-smooth: auto;</span><span class="emmet">fsm:a</span></li>
+        <li><span class="trigger">fsm:n</span><span class="shorthand">fm:n</span><span class="property">font-smooth: never;</span><span class="emmet">fsm:n</span></li>
+        <li><span class="trigger">fsm:al</span><span class="shorthand">fm:al</span><span class="property">font-smooth: always;</span><span class="emmet">fsm:aw</span></li>
+        <li><span class="trigger">fst</span><span class="shorthand"></span><span class="property">font-stretch:</span><span class="emmet">fst</span></li>
+        <li><span class="trigger">fst:n</span><span class="shorthand"></span><span class="property">font-stretch: normal;</span><span class="emmet">fst:n</span></li>
+        <li><span class="trigger">fst:uc</span><span class="shorthand"></span><span class="property">font-stretch: ultra-condensed;</span><span class="emmet">fst:uc</span></li>
+        <li><span class="trigger">fst:ec</span><span class="shorthand"></span><span class="property">font-stretch: extra-condensed;</span><span class="emmet">fst:ec</span></li>
+        <li><span class="trigger">fst:cd</span><span class="shorthand"></span><span class="property">font-stretch: condensed;</span><span class="emmet">fst:c</span></li>
+        <li><span class="trigger">fst:sc</span><span class="shorthand"></span><span class="property">font-stretch: semi-condensed;</span><span class="emmet">fst:sc</span></li>
+        <li><span class="trigger">fst:se</span><span class="shorthand"></span><span class="property">font-stretch: semi-expanded;</span><span class="emmet">fst:se</span></li>
+        <li><span class="trigger">fst:ep</span><span class="shorthand"></span><span class="property">font-stretch: expanded;</span><span class="emmet">fst:e</span></li>
+        <li><span class="trigger">fst:ee</span><span class="shorthand"></span><span class="property">font-stretch: extra-expanded;</span><span class="emmet">fst:ee</span></li>
+        <li><span class="trigger">fst:ue</span><span class="shorthand"></span><span class="property">font-stretch: ultra-expanded;</span><span class="emmet">fst:ue</span></li>
+      </ul>
+    </section>
+
+    <section>
+      <h2 id="text">Text</h2>
+      <ul class="snippets">
+        <li><span class="trigger">va</span><span class="shorthand"></span><span class="property">vertical-align:</span><span class="emmet">va</span></li>
+        <li><span class="trigger">va:sup</span><span class="shorthand">va:sp</span><span class="property">vertical-align: super;</span><span class="emmet">va:sup</span></li>
+        <li><span class="trigger">va:t</span><span class="shorthand"></span><span class="property">vertical-align: top;</span><span class="emmet">va:t</span></li>
+        <li><span class="trigger">va:tt</span><span class="shorthand"></span><span class="property">vertical-align: text-top;</span><span class="emmet">va:tt</span></li>
+        <li><span class="trigger">va:m</span><span class="shorthand"></span><span class="property">vertical-align: middle;</span><span class="emmet">va:m</span></li>
+        <li><span class="trigger">va:bl</span><span class="shorthand"></span><span class="property">vertical-align: baseline;</span><span class="emmet">va:bl</span></li>
+        <li><span class="trigger">va:b</span><span class="shorthand"></span><span class="property">vertical-align: bottom;</span><span class="emmet">va:b</span></li>
+        <li><span class="trigger">va:tb</span><span class="shorthand"></span><span class="property">vertical-align: text-bottom;</span><span class="emmet">va:tb</span></li>
+        <li><span class="trigger">va:sub</span><span class="shorthand">va:sb</span><span class="property">vertical-align: sub;</span><span class="emmet">va:sub</span></li>
+        <li><span class="trigger">ta</span><span class="shorthand"></span><span class="property">text-align:</span><span class="emmet">ta</span></li>
+        <li><span class="trigger">ta:le</span><span class="shorthand"></span><span class="property">text-align: left;</span><span class="emmet">ta:l</span></li>
+        <li><span class="trigger">ta:c</span><span class="shorthand"></span><span class="property">text-align: center;</span><span class="emmet">ta:c</span></li>
+        <li><span class="trigger">ta:r</span><span class="shorthand"></span><span class="property">text-align: right;</span><span class="emmet">ta:r</span></li>
+        <li><span class="trigger">ta:j</span><span class="shorthand"></span><span class="property">text-align: justify;</span><span class="emmet">ta:j</span></li>
+        <li><span class="trigger">tals</span><span class="shorthand"></span><span class="property">text-align-last:</span><span class="emmet">ta-lst</span></li>
+        <li><span class="trigger">tal:a</span><span class="shorthand"></span><span class="property">text-align-last: auto;</span><span class="emmet">tal:a</span></li>
+        <li><span class="trigger">tal:l</span><span class="shorthand"></span><span class="property">text-align-last: left;</span><span class="emmet">tal:l</span></li>
+        <li><span class="trigger">tal:c</span><span class="shorthand"></span><span class="property">text-align-last: center;</span><span class="emmet">tal:c</span></li>
+        <li><span class="trigger">tal:r</span><span class="shorthand"></span><span class="property">text-align-last: right;</span><span class="emmet">tal:r</span></li>
+        <li><span class="trigger">td</span><span class="shorthand"></span><span class="property">text-decoration:</span><span class="emmet">td</span></li>
+        <li><span class="trigger">td:n</span><span class="shorthand"></span><span class="property">text-decoration: none;</span><span class="emmet">td:n</span></li>
+        <li><span class="trigger">td:u</span><span class="shorthand"></span><span class="property">text-decoration: underline;</span><span class="emmet">td:u</span></li>
+        <li><span class="trigger">td:o</span><span class="shorthand"></span><span class="property">text-decoration: overline;</span><span class="emmet">td:o</span></li>
+        <li><span class="trigger">td:l</span><span class="shorthand"></span><span class="property">text-decoration: line-through;</span><span class="emmet">td:l</span></li>
+        <li><span class="trigger">te</span><span class="shorthand"></span><span class="property">text-emphasis:</span><span class="emmet">te</span></li>
+        <li><span class="trigger">te:n</span><span class="shorthand"></span><span class="property">text-emphasis: none;</span><span class="emmet">te:n</span></li>
+        <li><span class="trigger">te:ac</span><span class="shorthand"></span><span class="property">text-emphasis: accent;</span><span class="emmet">te:ac</span></li>
+        <li><span class="trigger">te:dt</span><span class="shorthand"></span><span class="property">text-emphasis: dot;</span><span class="emmet">te:dt</span></li>
+        <li><span class="trigger">te:c</span><span class="shorthand"></span><span class="property">text-emphasis: circle;</span><span class="emmet">te:c</span></li>
+        <li><span class="trigger">te:ds</span><span class="shorthand"></span><span class="property">text-emphasis: disc;</span><span class="emmet">te:ds</span></li>
+        <li><span class="trigger">te:b</span><span class="shorthand"></span><span class="property">text-emphasis: before;</span><span class="emmet">te:b</span></li>
+        <li><span class="trigger">te:a</span><span class="shorthand"></span><span class="property">text-emphasis: after;</span><span class="emmet">te:a</span></li>
+        <li><span class="trigger">th</span><span class="shorthand"></span><span class="property">text-height:</span><span class="emmet">th</span></li>
+        <li><span class="trigger">th:a</span><span class="shorthand"></span><span class="property">text-height: auto;</span><span class="emmet">th:a</span></li>
+        <li><span class="trigger">th:f</span><span class="shorthand"></span><span class="property">text-height: font-size;</span><span class="emmet">th:f</span></li>
+        <li><span class="trigger">th:t</span><span class="shorthand"></span><span class="property">text-height: text-size;</span><span class="emmet">th:t</span></li>
+        <li><span class="trigger">th:m</span><span class="shorthand"></span><span class="property">text-height: max-size;</span><span class="emmet">th:m</span></li>
+        <li><span class="trigger">ti</span><span class="shorthand"></span><span class="property">text-indent:</span><span class="emmet">ti</span></li>
+        <li><span class="trigger">ti:-</span><span class="shorthand"></span><span class="property">text-indent: -9999px;</span><span class="emmet">ti:-</span></li>
+        <li><span class="trigger">tj</span><span class="shorthand"></span><span class="property">text-justify:</span><span class="emmet">tj</span></li>
+        <li><span class="trigger">tj:a</span><span class="shorthand"></span><span class="property">text-justify: auto;</span><span class="emmet">tj:a</span></li>
+        <li><span class="trigger">tj:iw</span><span class="shorthand"></span><span class="property">text-justify: inter-word;</span><span class="emmet">tj:iw</span></li>
+        <li><span class="trigger">tj:ii</span><span class="shorthand"></span><span class="property">text-justify: inter-ideograph;</span><span class="emmet">tj:ii</span></li>
+        <li><span class="trigger">tj:ic</span><span class="shorthand"></span><span class="property">text-justify: inter-cluster;</span><span class="emmet">tj:ic</span></li>
+        <li><span class="trigger">tj:d</span><span class="shorthand"></span><span class="property">text-justify: distribute;</span><span class="emmet">tj:d</span></li>
+        <li><span class="trigger">tj:k</span><span class="shorthand"></span><span class="property">text-justify: kashida;</span><span class="emmet">tj:k</span></li>
+        <li><span class="trigger">tj:t</span><span class="shorthand"></span><span class="property">text-justify: tibetan;</span><span class="emmet">tj:t</span></li>
+        <li><span class="trigger">to</span><span class="shorthand"></span><span class="property">text-outline:</span><span class="emmet">to</span></li>
+        <li><span class="trigger"></span><span class="shorthand"></span><span class="property">text-outline: 0 0 #000;</span><span class="emmet">to+</span></li>
+        <li><span class="trigger">to:n</span><span class="shorthand"></span><span class="property">text-outline: none;</span><span class="emmet">to:n</span></li>
+        <li><span class="trigger">tr</span><span class="shorthand"></span><span class="property">text-replace:</span><span class="emmet">tr</span></li>
+        <li><span class="trigger">tr:n</span><span class="shorthand"></span><span class="property">text-replace: none;</span><span class="emmet">tr:n</span></li>
+        <li><span class="trigger">tt</span><span class="shorthand"></span><span class="property">text-transform:</span><span class="emmet">tt</span></li>
+        <li><span class="trigger">tt:n</span><span class="shorthand"></span><span class="property">text-transform: none;</span><span class="emmet">tt:n</span></li>
+        <li><span class="trigger">tt:c</span><span class="shorthand"></span><span class="property">text-transform: capitalize;</span><span class="emmet">tt:c</span></li>
+        <li><span class="trigger">tt:u</span><span class="shorthand"></span><span class="property">text-transform: uppercase;</span><span class="emmet">tt:u</span></li>
+        <li><span class="trigger">tt:l</span><span class="shorthand"></span><span class="property">text-transform: lowercase;</span><span class="emmet">tt:l</span></li>
+        <li><span class="trigger">tw</span><span class="shorthand"></span><span class="property">text-wrap:</span><span class="emmet">tw</span></li>
+        <li><span class="trigger">tw:n</span><span class="shorthand"></span><span class="property">text-wrap: normal;</span><span class="emmet">tw:n</span></li>
+        <li><span class="trigger">tw:no</span><span class="shorthand"></span><span class="property">text-wrap: none;</span><span class="emmet">tw:no</span></li>
+        <li><span class="trigger">tw:u</span><span class="shorthand"></span><span class="property">text-wrap: unrestricted;</span><span class="emmet">tw:u</span></li>
+        <li><span class="trigger">tw:s</span><span class="shorthand"></span><span class="property">text-wrap: suppress;</span><span class="emmet">tw:s</span></li>
+        <li><span class="trigger">tsh</span><span class="shorthand"></span><span class="property">text-shadow:</span><span class="emmet">tsh</span></li>
+        <li><span class="trigger"></span><span class="shorthand"></span><span class="property">text-shadow: h v blur rgb(0, 0, 0);</span><span class="emmet">tsh:r</span></li>
+        <li><span class="trigger"></span><span class="shorthand"></span><span class="property">text-shadow: h v blur rgba(0, 0, 0, .5);</span><span class="emmet">tsh:ra</span></li>
+        <li><span class="trigger"></span><span class="shorthand"></span><span class="property">text-shadow: 0 0 0 #000;</span><span class="emmet">tsh+</span></li>
+        <li><span class="trigger">tsh:n</span><span class="shorthand"></span><span class="property">text-shadow: none;</span><span class="emmet">tsh:n</span></li>
+        <li><span class="trigger">lh</span><span class="shorthand"></span><span class="property">line-height:</span><span class="emmet">lh</span></li>
+        <li><span class="trigger">lts</span><span class="shorthand"></span><span class="property">letter-spacing:</span><span class="emmet">lts</span></li>
+        <li><span class="trigger">whs</span><span class="shorthand"></span><span class="property">white-space:</span><span class="emmet">whs</span></li>
+        <li><span class="trigger">whs:n</span><span class="shorthand"></span><span class="property">white-space: normal;</span><span class="emmet">whs:n</span></li>
+        <li><span class="trigger">whs:p</span><span class="shorthand"></span><span class="property">white-space: pre;</span><span class="emmet">whs:p</span></li>
+        <li><span class="trigger">whs:nw</span><span class="shorthand"></span><span class="property">white-space: nowrap;</span><span class="emmet">whs:nw</span></li>
+        <li><span class="trigger">whs:pw</span><span class="shorthand"></span><span class="property">white-space: pre-wrap;</span><span class="emmet">whs:pw</span></li>
+        <li><span class="trigger">whs:pl</span><span class="shorthand"></span><span class="property">white-space: pre-line;</span><span class="emmet">whs:pl</span></li>
+        <li><span class="trigger">whsc</span><span class="shorthand">wc</span><span class="property">white-space-collapse:</span><span class="emmet">whsc</span></li>
+        <li><span class="trigger">whsc:n</span><span class="shorthand">wc:n</span><span class="property">white-space-collapse: normal;</span><span class="emmet">whsc:n</span></li>
+        <li><span class="trigger">whsc:k</span><span class="shorthand">wc:k</span><span class="property">white-space-collapse: keep-all;</span><span class="emmet">whsc:k</span></li>
+        <li><span class="trigger">whsc:l</span><span class="shorthand">wc:l</span><span class="property">white-space-collapse: loose;</span><span class="emmet">whsc:l</span></li>
+        <li><span class="trigger">whsc:bs</span><span class="shorthand">wc:s</span><span class="property">white-space-collapse: break-strict;</span><span class="emmet">whsc:bs</span></li>
+        <li><span class="trigger">whsc:ba</span><span class="shorthand">wc:a</span><span class="property">white-space-collapse: break-all;</span><span class="emmet">whsc:ba</span></li>
+        <li><span class="trigger">wob</span><span class="shorthand"></span><span class="property">word-break:</span><span class="emmet">wob</span></li>
+        <li><span class="trigger">wob:n</span><span class="shorthand">wb:n</span><span class="property">word-break: normal;</span><span class="emmet">wob:n</span></li>
+        <li><span class="trigger">wob:k</span><span class="shorthand">wb:k</span><span class="property">word-break: keep-all;</span><span class="emmet">wob:k</span></li>
+        <li><span class="trigger">wob:l</span><span class="shorthand">wb:l</span><span class="property">word-break: loose;</span><span class="emmet">wob:l</span></li>
+        <li><span class="trigger">wob:bs</span><span class="shorthand">wb:s</span><span class="property">word-break: break-strict;</span><span class="emmet">wob:bs</span></li>
+        <li><span class="trigger">wob:ba</span><span class="shorthand">wb:a</span><span class="property">word-break: break-all;</span><span class="emmet">wob:ba</span></li>
+        <li><span class="trigger">wos</span><span class="shorthand"></span><span class="property">word-spacing:</span><span class="emmet">wos</span></li>
+        <li><span class="trigger">wow</span><span class="shorthand"></span><span class="property">word-wrap:</span><span class="emmet">wow</span></li>
+        <li><span class="trigger">wow:nm</span><span class="shorthand">ww:m</span><span class="property">word-wrap: normal;</span><span class="emmet">wow:nm</span></li>
+        <li><span class="trigger">wow:n</span><span class="shorthand">ww:n</span><span class="property">word-wrap: none;</span><span class="emmet">wow:n</span></li>
+        <li><span class="trigger">wow:u</span><span class="shorthand">ww:u</span><span class="property">word-wrap: unrestricted;</span><span class="emmet">wow:u</span></li>
+        <li><span class="trigger">wow:s</span><span class="shorthand"></span><span class="property">word-wrap: suppress;</span><span class="emmet">wow:s</span></li>
+        <li><span class="trigger">wow:b</span><span class="shorthand"></span><span class="property">word-wrap: break-word;</span><span class="emmet">wow:b</span></li>
+        <li><span class="trigger">tov</span><span class="shorthand"></span><span class="property">text-overflow:</span><span class="emmet">tov</span></li>
+        <li><span class="trigger">tov:c</span><span class="shorthand"></span><span class="property">text-overflow: clip;</span><span class="emmet">tov:c</span></li>
+        <li><span class="trigger">tov:e</span><span class="shorthand"></span><span class="property">text-overflow: ellipsis;</span><span class="emmet">tov:e</span></li>
+      </ul>
+    </section>
+
+    <section>
+      <h2 id="background">Background</h2>
+      <ul class="snippets">
+        <li><span class="trigger">bg</span><span class="shorthand"></span><span class="property">background:</span><span class="emmet">bg</span></li>
+        <li><span class="trigger"></span><span class="shorthand"></span><span class="property">background: #fff url() 0 0 no-repeat;</span><span class="emmet">bg+</span></li>
+        <li><span class="trigger">bg:n</span><span class="shorthand"></span><span class="property">background: none;</span><span class="emmet">bg:n</span></li>
+        <li><span class="trigger">bgc</span><span class="shorthand"></span><span class="property">background-color:</span><span class="emmet">bgc</span></li>
+        <li><span class="trigger">bgc:t</span><span class="shorthand"></span><span class="property">background-color: transparent;</span><span class="emmet">bgc:t</span></li>
+        <li><span class="trigger">bgi</span><span class="shorthand"></span><span class="property">background-image:</span><span class="emmet">bgi</span></li>
+        <li class="prefix"><span class="trigger">bgi:lg</span><span class="shorthand"></span><span class="property">background-image: linear-gradient();</span><span class="emmet"></span></li>
+        <li class="prefix"><span class="trigger">bgi:rg</span><span class="shorthand"></span><span class="property">background-image: radial-gradient();</span><span class="emmet"></span></li>
+        <li><span class="trigger">bgi:n</span><span class="shorthand"></span><span class="property">background-image: none;</span><span class="emmet">bgi:n</span></li>
+        <li><span class="trigger">bgr</span><span class="shorthand"></span><span class="property">background-repeat:</span><span class="emmet">bgr</span></li>
+        <li><span class="trigger">bgr:n</span><span class="shorthand"></span><span class="property">background-repeat: no-repeat;</span><span class="emmet">bgr:n</span></li>
+        <li><span class="trigger">bgr:x</span><span class="shorthand"></span><span class="property">background-repeat: repeat-x;</span><span class="emmet">bgr:x</span></li>
+        <li><span class="trigger">bgr:y</span><span class="shorthand"></span><span class="property">background-repeat: repeat-y;</span><span class="emmet">bgr:y</span></li>
+        <li><span class="trigger">bgr:sp</span><span class="shorthand"></span><span class="property">background-repeat: space;</span><span class="emmet">bgr:sp</span></li>
+        <li><span class="trigger">bgr:rd</span><span class="shorthand"></span><span class="property">background-repeat: round;</span><span class="emmet">bgr:rd</span></li>
+        <li><span class="trigger">bga</span><span class="shorthand"></span><span class="property">background-attachment:</span><span class="emmet">bga</span></li>
+        <li><span class="trigger">bga:f</span><span class="shorthand"></span><span class="property">background-attachment: fixed;</span><span class="emmet">bga:f</span></li>
+        <li><span class="trigger">bga:s</span><span class="shorthand"></span><span class="property">background-attachment: scroll;</span><span class="emmet">bga:s</span></li>
+        <li><span class="trigger">bgp</span><span class="shorthand"></span><span class="property">background-position:</span><span class="emmet">bgp</span></li>
+        <li><span class="trigger">bgpx</span><span class="shorthand"></span><span class="property">background-position-x:</span><span class="emmet">bgpx</span></li>
+        <li><span class="trigger">bgpy</span><span class="shorthand"></span><span class="property">background-position-y:</span><span class="emmet">bgpy</span></li>
+        <li><span class="trigger">bgbk</span><span class="shorthand">bgk</span><span class="property">background-break:</span><span class="emmet">bgbk</span></li>
+        <li><span class="trigger">bgbk:bb</span><span class="shorthand">bk:bb</span><span class="property">background-break: bounding-box;</span><span class="emmet">bgbk:bb</span></li>
+        <li><span class="trigger">bgbk:eb</span><span class="shorthand">bk:e</span><span class="property">background-break: each-box;</span><span class="emmet">bgbk:eb</span></li>
+        <li><span class="trigger">bgbk:c</span><span class="shorthand">bgk:c</span><span class="property">background-break: continuous;</span><span class="emmet">bgbk:c</span></li>
+        <li><span class="trigger">bgcp</span><span class="shorthand">bcp</span><span class="property">background-clip:</span><span class="emmet">bgcp</span></li>
+        <li><span class="trigger">bgcp:bb</span><span class="shorthand">bc:bb</span><span class="property">background-clip: border-box;</span><span class="emmet">bgcp:bb</span></li>
+        <li><span class="trigger">bgcp:pb</span><span class="shorthand">bc:p</span><span class="property">background-clip: padding-box;</span><span class="emmet">bgcp:pb</span></li>
+        <li><span class="trigger">bgcp:cb</span><span class="shorthand">bc:cb</span><span class="property">background-clip: content-box;</span><span class="emmet">bgcp:cb</span></li>
+        <li><span class="trigger">bgcp:nc</span><span class="shorthand">bc:n</span><span class="property">background-clip: no-clip;</span><span class="emmet">bgcp:nc</span></li>
+        <li><span class="trigger">bgo</span><span class="shorthand"></span><span class="property">background-origin:</span><span class="emmet">bgo</span></li>
+        <li><span class="trigger">bgo:pb</span><span class="shorthand">bo:p</span><span class="property">background-origin: padding-box;</span><span class="emmet">bgo:pb</span></li>
+        <li><span class="trigger">bgo:bb</span><span class="shorthand">bo:bb</span><span class="property">background-origin: border-box;</span><span class="emmet">bgo:bb</span></li>
+        <li><span class="trigger">bgo:cb</span><span class="shorthand">bo:c</span><span class="property">background-origin: content-box;</span><span class="emmet">bgo:cb</span></li>
+        <li><span class="trigger">bgz</span><span class="shorthand"></span><span class="property">background-size:</span><span class="emmet">bgsz</span></li>
+        <li><span class="trigger">bgz:a</span><span class="shorthand">bz:a</span><span class="property">background-size: auto;</span><span class="emmet">bgsz:a</span></li>
+        <li><span class="trigger">bgz:ct</span><span class="shorthand">bz:t</span><span class="property">background-size: contain;</span><span class="emmet">bgsz:ct</span></li>
+        <li><span class="trigger">bgz:cv</span><span class="shorthand">bz:v</span><span class="property">background-size: cover;</span><span class="emmet">bgsz:cv</span></li>
+      </ul>
+    </section>
+
+    <section>
+      <h2 id="color">Color</h2>
+      <ul class="snippets">
+        <li><span class="trigger">col</span><span class="shorthand"></span><span class="property">color:</span><span class="emmet">c</span></li>
+        <li><span class="trigger"></span><span class="shorthand"></span><span class="property">color: rgb(0, 0, 0);</span><span class="emmet">c:r</span></li>
+        <li><span class="trigger"></span><span class="shorthand"></span><span class="property">color: rgba(0, 0, 0, .5);</span><span class="emmet">c:ra</span></li>
+        <li><span class="trigger">op</span><span class="shorthand"></span><span class="property">opacity:</span><span class="emmet">op</span></li>
+      </ul>
+    </section>
+
+    <section>
+      <h2 id="generated-content">Generated content</h2>
+      <ul class="snippets">
+        <li><span class="trigger">ct</span><span class="shorthand"></span><span class="property">content: "";</span><span class="emmet">cnt</span></li>
+        <li><span class="trigger">ct:n</span><span class="shorthand"></span><span class="property">content: normal;</span><span class="emmet">cnt:n, ct:n</span></li>
+        <li><span class="trigger">ct:oq</span><span class="shorthand"></span><span class="property">content: open-quote;</span><span class="emmet">cnt:oq, ct:oq</span></li>
+        <li><span class="trigger">ct:noq</span><span class="shorthand"></span><span class="property">content: no-open-quote;</span><span class="emmet">cnt:noq, ct:noq</span></li>
+        <li><span class="trigger">ct:cq</span><span class="shorthand"></span><span class="property">content: close-quote;</span><span class="emmet">cnt:cq, ct:cq</span></li>
+        <li><span class="trigger">ct:ncq</span><span class="shorthand"></span><span class="property">content: no-close-quote;</span><span class="emmet">cnt:ncq, ct:ncq</span></li>
+        <li><span class="trigger">ct:a</span><span class="shorthand"></span><span class="property">content: attr();</span><span class="emmet">cnt:a, ct:a</span></li>
+        <li><span class="trigger">ct:c</span><span class="shorthand"></span><span class="property">content: counter();</span><span class="emmet">cnt:c, ct:c</span></li>
+        <li><span class="trigger">ct:cs</span><span class="shorthand"></span><span class="property">content: counters();</span><span class="emmet">cnt:cs, ct:cs</span></li>
+        <li><span class="trigger"></span><span class="shorthand"></span><span class="property">content:</span><span class="emmet">ct</span></li>
+        <li><span class="trigger">quo</span><span class="shorthand"></span><span class="property">quotes:</span><span class="emmet">q</span></li>
+        <li><span class="trigger">q:n</span><span class="shorthand"></span><span class="property">quotes: none;</span><span class="emmet">q:n</span></li>
+        <li><span class="trigger">q:ru</span><span class="shorthand"></span><span class="property">quotes: '\00AB' '\00BB' '\201E' '\201C';</span><span class="emmet">q:ru</span></li>
+        <li><span class="trigger">q:en</span><span class="shorthand"></span><span class="property">quotes: '\201C' '\201D' '\2018' '\2019';</span><span class="emmet">q:en</span></li>
+        <li><span class="trigger">coi</span><span class="shorthand">ci</span><span class="property">counter-increment:</span><span class="emmet">coi</span></li>
+        <li><span class="trigger">cor</span><span class="shorthand"></span><span class="property">counter-reset:</span><span class="emmet">cor</span></li>
+      </ul>
+    </section>
+
+    <section>
+      <h2 id="outline">Outline</h2>
+      <ul class="snippets">
+        <li><span class="trigger">out</span><span class="shorthand"></span><span class="property">outline:</span><span class="emmet">ol</span></li>
+        <li><span class="trigger">o:n</span><span class="shorthand"></span><span class="property">outline: none;</span><span class="emmet">ol:n</span></li>
+        <li><span class="trigger">oo</span><span class="shorthand"></span><span class="property">outline-offset:</span><span class="emmet">olo</span></li>
+        <li><span class="trigger">ow</span><span class="shorthand"></span><span class="property">outline-width:</span><span class="emmet">olw</span></li>
+        <li><span class="trigger">os</span><span class="shorthand"></span><span class="property">outline-style:</span><span class="emmet">ols</span></li>
+        <li><span class="trigger">oc</span><span class="shorthand"></span><span class="property">outline-color:</span><span class="emmet">olc</span></li>
+        <li><span class="trigger">oc:i</span><span class="shorthand"></span><span class="property">outline-color: invert;</span><span class="emmet">olc:i</span></li>
+      </ul>
+    </section>
+
+    <section>
+      <h2 id="tables">Tables</h2>
+      <ul class="snippets">
+        <li><span class="trigger">tbl</span><span class="shorthand"></span><span class="property">table-layout:</span><span class="emmet">tbl</span></li>
+        <li><span class="trigger">tbl:a</span><span class="shorthand"></span><span class="property">table-layout: auto;</span><span class="emmet">tbl:a</span></li>
+        <li><span class="trigger">tbl:f</span><span class="shorthand"></span><span class="property">table-layout: fixed;</span><span class="emmet">tbl:f</span></li>
+        <li><span class="trigger">cps</span><span class="shorthand">cs</span><span class="property">caption-side:</span><span class="emmet">cps</span></li>
+        <li><span class="trigger">cps:t</span><span class="shorthand">cs:t</span><span class="property">caption-side: top;</span><span class="emmet">cps:t</span></li>
+        <li><span class="trigger">cps:b</span><span class="shorthand">cs:b</span><span class="property">caption-side: bottom;</span><span class="emmet">cps:b</span></li>
+        <li><span class="trigger">ec</span><span class="shorthand"></span><span class="property">empty-cells:</span><span class="emmet">ec</span></li>
+        <li><span class="trigger">ec:s</span><span class="shorthand">e:s</span><span class="property">empty-cells: show;</span><span class="emmet">ec:s</span></li>
+        <li><span class="trigger">ec:h</span><span class="shorthand">e:h</span><span class="property">empty-cells: hide;</span><span class="emmet">ec:h</span></li>
+      </ul>
+    </section>
+
+    <section>
+      <h2 id="border">Border</h2>
+      <ul class="snippets">
+        <li><span class="trigger">bd</span><span class="shorthand"></span><span class="property">border:</span><span class="emmet">bd</span></li>
+        <li><span class="trigger"></span><span class="shorthand"></span><span class="property">border: 1px solid #000;</span><span class="emmet">bd+</span></li>
+        <li><span class="trigger">bd:n</span><span class="shorthand"></span><span class="property">border: none;</span><span class="emmet">bd:n</span></li>
+        <li><span class="trigger">bdbk</span><span class="shorthand"></span><span class="property">border-break:</span><span class="emmet">bdbk</span></li>
+        <li><span class="trigger">bdbk:c</span><span class="shorthand"></span><span class="property">border-break: close;</span><span class="emmet">bdbk:c</span></li>
+        <li><span class="trigger">bdcl</span><span class="shorthand"></span><span class="property">border-collapse:</span><span class="emmet">bdcl</span></li>
+        <li><span class="trigger">bdcl:c</span><span class="shorthand"></span><span class="property">border-collapse: collapse;</span><span class="emmet">bdcl:c</span></li>
+        <li><span class="trigger">bdcl:s</span><span class="shorthand"></span><span class="property">border-collapse: separate;</span><span class="emmet">bdcl:s</span></li>
+        <li><span class="trigger">bdc</span><span class="shorthand"></span><span class="property">border-color:</span><span class="emmet">bdc</span></li>
+        <li><span class="trigger">bdc:t</span><span class="shorthand"></span><span class="property">border-color: transparent;</span><span class="emmet">bdc:t</span></li>
+        <li><span class="trigger">bdi</span><span class="shorthand"></span><span class="property">border-image:</span><span class="emmet">bdi</span></li>
+        <li><span class="trigger">bdi:n</span><span class="shorthand"></span><span class="property">border-image: none;</span><span class="emmet">bdi:n</span></li>
+        <li><span class="trigger">bdti</span><span class="shorthand"></span><span class="property">border-top-image:</span><span class="emmet">bdti</span></li>
+        <li><span class="trigger">bdti:n</span><span class="shorthand"></span><span class="property">border-top-image: none;</span><span class="emmet">bdti:n</span></li>
+        <li><span class="trigger">bdri</span><span class="shorthand"></span><span class="property">border-right-image:</span><span class="emmet">bdri</span></li>
+        <li><span class="trigger">bdri:n</span><span class="shorthand"></span><span class="property">border-right-image: none;</span><span class="emmet">bdri:n</span></li>
+        <li><span class="trigger">bdbi</span><span class="shorthand"></span><span class="property">border-bottom-image:</span><span class="emmet">bdbi</span></li>
+        <li><span class="trigger">bdbi:n</span><span class="shorthand"></span><span class="property">border-bottom-image: none;</span><span class="emmet">bdbi:n</span></li>
+        <li><span class="trigger">bdli</span><span class="shorthand"></span><span class="property">border-left-image:</span><span class="emmet">bdli</span></li>
+        <li><span class="trigger">bdli:n</span><span class="shorthand"></span><span class="property">border-left-image: none;</span><span class="emmet">bdli:n</span></li>
+        <li><span class="trigger">bdci</span><span class="shorthand"></span><span class="property">border-corner-image:</span><span class="emmet">bdci</span></li>
+        <li><span class="trigger">bdci:n</span><span class="shorthand"></span><span class="property">border-corner-image: none;</span><span class="emmet">bdci:n</span></li>
+        <li><span class="trigger">bdci:c</span><span class="shorthand"></span><span class="property">border-corner-image: continue;</span><span class="emmet">bdci:c</span></li>
+        <li><span class="trigger">bdtli</span><span class="shorthand"></span><span class="property">border-top-left-image:</span><span class="emmet">bdtli</span></li>
+        <li><span class="trigger">bdtli:n</span><span class="shorthand"></span><span class="property">border-top-left-image: none;</span><span class="emmet">bdtli:n</span></li>
+        <li><span class="trigger">bdtli:c</span><span class="shorthand"></span><span class="property">border-top-left-image: continue;</span><span class="emmet">bdtli:c</span></li>
+        <li><span class="trigger">bdtri</span><span class="shorthand"></span><span class="property">border-top-right-image:</span><span class="emmet">bdtri</span></li>
+        <li><span class="trigger">bdtri:n</span><span class="shorthand"></span><span class="property">border-top-right-image: none;</span><span class="emmet">bdtri:n</span></li>
+        <li><span class="trigger">bdtri:c</span><span class="shorthand"></span><span class="property">border-top-right-image: continue;</span><span class="emmet">bdtri:c</span></li>
+        <li><span class="trigger">bdbri</span><span class="shorthand"></span><span class="property">border-bottom-right-image:</span><span class="emmet">bdbri</span></li>
+        <li><span class="trigger">bdbri:n</span><span class="shorthand"></span><span class="property">border-bottom-right-image: none;</span><span class="emmet">bdbri:n</span></li>
+        <li><span class="trigger">bdbri:c</span><span class="shorthand"></span><span class="property">border-bottom-right-image: continue;</span><span class="emmet">bdbri:c</span></li>
+        <li><span class="trigger">bdbli</span><span class="shorthand"></span><span class="property">border-bottom-left-image:</span><span class="emmet">bdbli</span></li>
+        <li><span class="trigger">bdbli:n</span><span class="shorthand"></span><span class="property">border-bottom-left-image: none;</span><span class="emmet">bdbli:n</span></li>
+        <li><span class="trigger">bdbli:c</span><span class="shorthand"></span><span class="property">border-bottom-left-image: continue;</span><span class="emmet">bdbli:c</span></li>
+        <li><span class="trigger">bdf</span><span class="shorthand"></span><span class="property">border-fit:</span><span class="emmet">bdf</span></li>
+        <li><span class="trigger">bdf:c</span><span class="shorthand"></span><span class="property">border-fit: clip;</span><span class="emmet">bdf:c</span></li>
+        <li><span class="trigger">bdf:r</span><span class="shorthand"></span><span class="property">border-fit: repeat;</span><span class="emmet">bdf:r</span></li>
+        <li><span class="trigger">bdf:sc</span><span class="shorthand"></span><span class="property">border-fit: scale;</span><span class="emmet">bdf:sc</span></li>
+        <li><span class="trigger">bdf:st</span><span class="shorthand"></span><span class="property">border-fit: stretch;</span><span class="emmet">bdf:st</span></li>
+        <li><span class="trigger">bdf:ow</span><span class="shorthand"></span><span class="property">border-fit: overwrite;</span><span class="emmet">bdf:ow</span></li>
+        <li><span class="trigger">bdf:of</span><span class="shorthand"></span><span class="property">border-fit: overflow;</span><span class="emmet">bdf:of</span></li>
+        <li><span class="trigger">bdf:sp</span><span class="shorthand"></span><span class="property">border-fit: space;</span><span class="emmet">bdf:sp</span></li>
+        <li><span class="trigger"></span><span class="shorthand"></span><span class="property">border-length:</span><span class="emmet">bdlen</span></li>
+        <li><span class="trigger"></span><span class="shorthand"></span><span class="property">border-length: auto;</span><span class="emmet">bdlen:a</span></li>
+        <li><span class="trigger">bdsp</span><span class="shorthand"></span><span class="property">border-spacing:</span><span class="emmet">bdsp</span></li>
+        <li><span class="trigger">bds</span><span class="shorthand"></span><span class="property">border-style:</span><span class="emmet">bds</span></li>
+        <li><span class="trigger">bds:n</span><span class="shorthand"></span><span class="property">border-style: none;</span><span class="emmet">bds:n</span></li>
+        <li><span class="trigger">bds:h</span><span class="shorthand"></span><span class="property">border-style: hidden;</span><span class="emmet">bds:h</span></li>
+        <li><span class="trigger">bds:dt</span><span class="shorthand"></span><span class="property">border-style: dotted;</span><span class="emmet">bds:dt</span></li>
+        <li><span class="trigger">bds:ds</span><span class="shorthand"></span><span class="property">border-style: dashed;</span><span class="emmet">bds:ds</span></li>
+        <li><span class="trigger">bds:s</span><span class="shorthand"></span><span class="property">border-style: solid;</span><span class="emmet">bds:s</span></li>
+        <li><span class="trigger">bds:db</span><span class="shorthand"></span><span class="property">border-style: double;</span><span class="emmet">bds:db</span></li>
+        <li><span class="trigger">bds:dtds</span><span class="shorthand"></span><span class="property">border-style: dot-dash;</span><span class="emmet">bds:dtds</span></li>
+        <li><span class="trigger">bds:dtdtds</span><span class="shorthand"></span><span class="property">border-style: dot-dot-dash;</span><span class="emmet">bds:dtdtds</span></li>
+        <li><span class="trigger">bds:w</span><span class="shorthand"></span><span class="property">border-style: wave;</span><span class="emmet">bds:w</span></li>
+        <li><span class="trigger">bds:g</span><span class="shorthand"></span><span class="property">border-style: groove;</span><span class="emmet">bds:g</span></li>
+        <li><span class="trigger">bds:r</span><span class="shorthand"></span><span class="property">border-style: ridge;</span><span class="emmet">bds:r</span></li>
+        <li><span class="trigger">bds:i</span><span class="shorthand"></span><span class="property">border-style: inset;</span><span class="emmet">bds:i</span></li>
+        <li><span class="trigger">bds:o</span><span class="shorthand"></span><span class="property">border-style: outset;</span><span class="emmet">bds:o</span></li>
+        <li><span class="trigger">bdw</span><span class="shorthand"></span><span class="property">border-width:</span><span class="emmet">bdw</span></li>
+        <li><span class="trigger">bdt</span><span class="shorthand"></span><span class="property">border-top:</span><span class="emmet">bdt, bt</span></li>
+        <li><span class="trigger"></span><span class="shorthand"></span><span class="property">border-top: 1px solid #000;</span><span class="emmet">bdt+</span></li>
+        <li><span class="trigger">bdt:n</span><span class="shorthand"></span><span class="property">border-top: none;</span><span class="emmet">bdt:n</span></li>
+        <li><span class="trigger">bdtw</span><span class="shorthand"></span><span class="property">border-top-width:</span><span class="emmet">bdtw</span></li>
+        <li><span class="trigger">bdts</span><span class="shorthand"></span><span class="property">border-top-style:</span><span class="emmet">bdts</span></li>
+        <li><span class="trigger">bdts:n</span><span class="shorthand"></span><span class="property">border-top-style: none;</span><span class="emmet">bdts:n</span></li>
+        <li><span class="trigger">bdtc</span><span class="shorthand"></span><span class="property">border-top-color:</span><span class="emmet">bdtc</span></li>
+        <li><span class="trigger">bdtc:t</span><span class="shorthand"></span><span class="property">border-top-color: transparent;</span><span class="emmet">bdtc:t</span></li>
+        <li><span class="trigger">bdr</span><span class="shorthand"></span><span class="property">border-right:</span><span class="emmet">bdr, br</span></li>
+        <li><span class="trigger"></span><span class="shorthand"></span><span class="property">border-right: 1px solid #000;</span><span class="emmet">bdr+</span></li>
+        <li><span class="trigger">bdr:n</span><span class="shorthand"></span><span class="property">border-right: none;</span><span class="emmet">bdr:n</span></li>
+        <li><span class="trigger">bdrw</span><span class="shorthand"></span><span class="property">border-right-width:</span><span class="emmet">bdrw</span></li>
+        <li><span class="trigger">bdrst</span><span class="shorthand"></span><span class="property">border-right-style:</span><span class="emmet">bdrst</span></li>
+        <li><span class="trigger">bdrst:n</span><span class="shorthand"></span><span class="property">border-right-style: none;</span><span class="emmet">bdrst:n</span></li>
+        <li><span class="trigger">bdrc</span><span class="shorthand"></span><span class="property">border-right-color:</span><span class="emmet">bdrc</span></li>
+        <li><span class="trigger">bdrc:t</span><span class="shorthand"></span><span class="property">border-right-color: transparent;</span><span class="emmet">bdrc:t</span></li>
+        <li><span class="trigger">bdb</span><span class="shorthand"></span><span class="property">border-bottom:</span><span class="emmet">bdb, bb</span></li>
+        <li><span class="trigger"></span><span class="shorthand"></span><span class="property">border-bottom: 1px solid #000;</span><span class="emmet">bdb+</span></li>
+        <li><span class="trigger">bdb:n</span><span class="shorthand"></span><span class="property">border-bottom: none;</span><span class="emmet">bdb:n</span></li>
+        <li><span class="trigger">bdbw</span><span class="shorthand"></span><span class="property">border-bottom-width:</span><span class="emmet">bdbw</span></li>
+        <li><span class="trigger">bdbs</span><span class="shorthand"></span><span class="property">border-bottom-style:</span><span class="emmet">bdbs</span></li>
+        <li><span class="trigger">bdbs:n</span><span class="shorthand"></span><span class="property">border-bottom-style: none;</span><span class="emmet">bdbs:n</span></li>
+        <li><span class="trigger">bdbc</span><span class="shorthand"></span><span class="property">border-bottom-color:</span><span class="emmet">bdbc</span></li>
+        <li><span class="trigger">bdbc:t</span><span class="shorthand"></span><span class="property">border-bottom-color: transparent;</span><span class="emmet">bdbc:t</span></li>
+        <li><span class="trigger">bdl</span><span class="shorthand"></span><span class="property">border-left:</span><span class="emmet">bdl, bl</span></li>
+        <li><span class="trigger"></span><span class="shorthand"></span><span class="property">border-left: 1px solid #000;</span><span class="emmet">bdl+</span></li>
+        <li><span class="trigger">bdl:n</span><span class="shorthand"></span><span class="property">border-left: none;</span><span class="emmet">bdl:n</span></li>
+        <li><span class="trigger">bdlw</span><span class="shorthand"></span><span class="property">border-left-width:</span><span class="emmet">bdlw</span></li>
+        <li><span class="trigger">bdls</span><span class="shorthand"></span><span class="property">border-left-style:</span><span class="emmet">bdls</span></li>
+        <li><span class="trigger">bdls:n</span><span class="shorthand"></span><span class="property">border-left-style: none;</span><span class="emmet">bdls:n</span></li>
+        <li><span class="trigger">bdlc</span><span class="shorthand"></span><span class="property">border-left-color:</span><span class="emmet">bdlc</span></li>
+        <li><span class="trigger">bdlc:t</span><span class="shorthand"></span><span class="property">border-left-color: transparent;</span><span class="emmet">bdlc:t</span></li>
+        <li><span class="trigger">bdra</span><span class="shorthand">bra</span><span class="property">border-radius:</span><span class="emmet">bdrs</span></li>
+        <li><span class="trigger">bdtrra</span><span class="shorthand"></span><span class="property">border-top-right-radius:</span><span class="emmet">bdtrrs</span></li>
+        <li><span class="trigger">bdtlra</span><span class="shorthand"></span><span class="property">border-top-left-radius:</span><span class="emmet">bdtlrs</span></li>
+        <li><span class="trigger">bdbrra</span><span class="shorthand"></span><span class="property">border-bottom-right-radius:</span><span class="emmet">bdbrrs</span></li>
+        <li><span class="trigger">bdblra</span><span class="shorthand"></span><span class="property">border-bottom-left-radius:</span><span class="emmet">bdblrs</span></li>
+      </ul>
+    </section>
+
+    <section>
+      <h2 id="lists">Lists</h2>
+      <ul class="snippets">
+        <li><span class="trigger">lis</span><span class="shorthand"></span><span class="property">list-style:</span><span class="emmet">lis</span></li>
+        <li><span class="trigger">lis:n</span><span class="shorthand"></span><span class="property">list-style: none;</span><span class="emmet">lis:n</span></li>
+        <li><span class="trigger">lisp</span><span class="shorthand"></span><span class="property">list-style-position:</span><span class="emmet">lisp</span></li>
+        <li><span class="trigger">lisp:i</span><span class="shorthand"></span><span class="property">list-style-position: inside;</span><span class="emmet">lisp:i</span></li>
+        <li><span class="trigger">lisp:o</span><span class="shorthand"></span><span class="property">list-style-position: outside;</span><span class="emmet">lisp:o</span></li>
+        <li><span class="trigger">list</span><span class="shorthand"></span><span class="property">list-style-type:</span><span class="emmet">list</span></li>
+        <li><span class="trigger">list:n</span><span class="shorthand"></span><span class="property">list-style-type: none;</span><span class="emmet">list:n</span></li>
+        <li><span class="trigger">list:d</span><span class="shorthand"></span><span class="property">list-style-type: disc;</span><span class="emmet">list:d</span></li>
+        <li><span class="trigger">list:c</span><span class="shorthand"></span><span class="property">list-style-type: circle;</span><span class="emmet">list:c</span></li>
+        <li><span class="trigger">list:s</span><span class="shorthand"></span><span class="property">list-style-type: square;</span><span class="emmet">list:s</span></li>
+        <li><span class="trigger">list:dc</span><span class="shorthand"></span><span class="property">list-style-type: decimal;</span><span class="emmet">list:dc</span></li>
+        <li><span class="trigger">list:dclz</span><span class="shorthand"></span><span class="property">list-style-type: decimal-leading-zero;</span><span class="emmet">list:dclz</span></li>
+        <li><span class="trigger">list:lr</span><span class="shorthand"></span><span class="property">list-style-type: lower-roman;</span><span class="emmet">list:lr</span></li>
+        <li><span class="trigger">list:ur</span><span class="shorthand"></span><span class="property">list-style-type: upper-roman;</span><span class="emmet">list:ur</span></li>
+        <li><span class="trigger">lisi</span><span class="shorthand"></span><span class="property">list-style-image:</span><span class="emmet">lisi</span></li>
+        <li><span class="trigger">lisi:n</span><span class="shorthand"></span><span class="property">list-style-image: none;</span><span class="emmet">lisi:n</span></li>
+      </ul>
+    </section>
+
+    <section>
+      <h2 id="print">Print</h2>
+      <ul class="snippets">
+        <li><span class="trigger">pgbb</span><span class="shorthand"></span><span class="property">page-break-before:</span><span class="emmet">pgbb</span></li>
+        <li><span class="trigger">pgbb:au</span><span class="shorthand"></span><span class="property">page-break-before: auto;</span><span class="emmet">pgbb:au</span></li>
+        <li><span class="trigger">pgbb:al</span><span class="shorthand"></span><span class="property">page-break-before: always;</span><span class="emmet">pgbb:al</span></li>
+        <li><span class="trigger">pgbb:l</span><span class="shorthand"></span><span class="property">page-break-before: left;</span><span class="emmet">pgbb:l</span></li>
+        <li><span class="trigger">pgbb:r</span><span class="shorthand"></span><span class="property">page-break-before: right;</span><span class="emmet">pgbb:r</span></li>
+        <li><span class="trigger">pgbi</span><span class="shorthand"></span><span class="property">page-break-inside:</span><span class="emmet">pgbi</span></li>
+        <li><span class="trigger">pgbi:au</span><span class="shorthand"></span><span class="property">page-break-inside: auto;</span><span class="emmet">pgbi:au</span></li>
+        <li><span class="trigger">pgbi:av</span><span class="shorthand"></span><span class="property">page-break-inside: avoid;</span><span class="emmet">pgbi:av</span></li>
+        <li><span class="trigger">pgba</span><span class="shorthand"></span><span class="property">page-break-after:</span><span class="emmet">pgba</span></li>
+        <li><span class="trigger">pgba:au</span><span class="shorthand"></span><span class="property">page-break-after: auto;</span><span class="emmet">pgba:au</span></li>
+        <li><span class="trigger">pgba:al</span><span class="shorthand"></span><span class="property">page-break-after: always;</span><span class="emmet">pgba:al</span></li>
+        <li><span class="trigger">pgba:l</span><span class="shorthand"></span><span class="property">page-break-after: left;</span><span class="emmet">pgba:l</span></li>
+        <li><span class="trigger">pgba:r</span><span class="shorthand"></span><span class="property">page-break-after: right;</span><span class="emmet">pgba:r</span></li>
+        <li><span class="trigger">orp</span><span class="shorthand"></span><span class="property">orphans:</span><span class="emmet">orp</span></li>
+        <li><span class="trigger">widows</span><span class="shorthand">wido</span><span class="property">widows:</span><span class="emmet">wid</span></li>
+      </ul>
+    </section>
+
+    <section>
+      <h2 id="column">Column</h2>
+      <ul class="snippets">
+        <li class="prefix"><span class="trigger">clm</span><span class="shorthand"></span><span class="property">columns:</span><span class="emmet">colm</span></li>
+        <li class="prefix"><span class="trigger">clmc</span><span class="shorthand"></span><span class="property">column-count:</span><span class="emmet">colmc</span></li>
+        <li class="prefix"><span class="trigger">clmf</span><span class="shorthand"></span><span class="property">column-fill:</span><span class="emmet">colmf</span></li>
+        <li class="prefix"><span class="trigger">clmg</span><span class="shorthand"></span><span class="property">column-gap:</span><span class="emmet">colmg</span></li>
+        <li class="prefix"><span class="trigger">clmru</span><span class="shorthand"></span><span class="property">column-rule:</span><span class="emmet">colmr</span></li>
+        <li class="prefix"><span class="trigger">clmrc</span><span class="shorthand"></span><span class="property">column-rule-color:</span><span class="emmet">colmrc</span></li>
+        <li class="prefix"><span class="trigger">clmrs</span><span class="shorthand"></span><span class="property">column-rule-style:</span><span class="emmet">colmrs</span></li>
+        <li class="prefix"><span class="trigger">clmrw</span><span class="shorthand"></span><span class="property">column-rule-width:</span><span class="emmet">colmrw</span></li>
+        <li class="prefix"><span class="trigger">clms</span><span class="shorthand"></span><span class="property">column-span:</span><span class="emmet">colms</span></li>
+        <li class="prefix"><span class="trigger">clmw</span><span class="shorthand"></span><span class="property">column-width:</span><span class="emmet">colmw</span></li>
+      </ul>
+    </section>
+
+    <section>
+      <h2 id="responsive">Responsive</h2>
+      <ul class="snippets">
+        <li><span class="trigger">ms</span><span class="shorthand"></span><span class="property">@media screen {}</span><span class="emmet">@m, @media</span></li>
+        <li><span class="trigger">mare</span><span class="shorthand"></span><span class="property">max-resolution:</span><span class="emmet">mar</span></li>
+        <li><span class="trigger">mire</span><span class="shorthand"></span><span class="property">min-resolution:</span><span class="emmet">mir</span></li>
+        <li><span class="trigger">ori</span><span class="shorthand"></span><span class="property">orientation:</span><span class="emmet">ori</span></li>
+        <li><span class="trigger">ori:l</span><span class="shorthand"></span><span class="property">orientation: landscape</span><span class="emmet">ori:l</span></li>
+        <li><span class="trigger">ori:p</span><span class="shorthand"></span><span class="property">orientation: portrait</span><span class="emmet">ori:p</span></li>
+      </ul>
+    </section>
+
+    <section>
+      <h2 id="animation">Animation</h2>
+      <ul class="snippets">
+        <li class="prefix"><span class="trigger">key</span><span class="shorthand"></span><span class="property">@keyframes identifier {}</span><span class="emmet">@kf</span></li>
+        <li class="prefix"><span class="trigger">ani</span><span class="shorthand"></span><span class="property">animation:</span><span class="emmet">anim</span></li>
+        <li><span class="trigger"></span><span class="shorthand"></span><span class="property">animation:</span><span class="emmet">anim-</span></li>
+        <li class="prefix"><span class="trigger">ade</span><span class="shorthand"></span><span class="property">animation-delay:</span><span class="emmet">animdel</span></li>
+        <li class="prefix"><span class="trigger">adi</span><span class="shorthand"></span><span class="property">animation-direction:</span><span class="emmet">animdir</span></li>
+        <li class="prefix"><span class="trigger">adi:al</span><span class="shorthand"></span><span class="property">animation-direction: alternate;</span><span class="emmet">animdir:a</span></li>
+        <li class="prefix"><span class="trigger">adi:ar</span><span class="shorthand"></span><span class="property">animation-direction: alternate-reverse;</span><span class="emmet">animdir:ar</span></li>
+        <li class="prefix"><span class="trigger">adi:n</span><span class="shorthand"></span><span class="property">animation-direction: normal;</span><span class="emmet">animdir:n</span></li>
+        <li class="prefix"><span class="trigger">adi:re</span><span class="shorthand"></span><span class="property">animation-direction: reverse;</span><span class="emmet">animdir:r</span></li>
+        <li class="prefix"><span class="trigger">adu</span><span class="shorthand"></span><span class="property">animation-duration:</span><span class="emmet">animdur</span></li>
+        <li class="prefix"><span class="trigger">afm</span><span class="shorthand"></span><span class="property">animation-fill-mode:</span><span class="emmet">animfm</span></li>
+        <li class="prefix"><span class="trigger">afm:bw</span><span class="shorthand"></span><span class="property">animation-fill-mode: backwards;</span><span class="emmet">animfm:b</span></li>
+        <li class="prefix"><span class="trigger">afm:bo</span><span class="shorthand"></span><span class="property">animation-fill-mode: both;</span><span class="emmet">animfm:bt, animfm:bh</span></li>
+        <li class="prefix"><span class="trigger">afm:f</span><span class="shorthand"></span><span class="property">animation-fill-mode: forwards;</span><span class="emmet">animfm:f</span></li>
+        <li class="prefix"><span class="trigger">aic</span><span class="shorthand"></span><span class="property">animation-iteration-count:</span><span class="emmet">animic</span></li>
+        <li class="prefix"><span class="trigger">aic:i</span><span class="shorthand"></span><span class="property">animation-iteration-count: infinite;</span><span class="emmet">animic:i</span></li>
+        <li class="prefix"><span class="trigger">ana</span><span class="shorthand"></span><span class="property">animation-name:</span><span class="emmet">animn</span></li>
+        <li class="prefix"><span class="trigger">aps</span><span class="shorthand"></span><span class="property">animation-play-state:</span><span class="emmet">animps</span></li>
+        <li class="prefix"><span class="trigger">aps:p</span><span class="shorthand"></span><span class="property">animation-play-state: paused;</span><span class="emmet">animps:p</span></li>
+        <li class="prefix"><span class="trigger">aps:r</span><span class="shorthand"></span><span class="property">animation-play-state: running;</span><span class="emmet">animps:r</span></li>
+        <li class="prefix"><span class="trigger">atf</span><span class="shorthand"></span><span class="property">animation-timing-function:</span><span class="emmet">animtf</span></li>
+        <li><span class="trigger"></span><span class="shorthand"></span><span class="property">animation-timing-function: cubic-bezier();</span><span class="emmet">animtf:cb</span></li>
+        <li><span class="trigger"></span><span class="shorthand"></span><span class="property">animation-timing-function: ease;</span><span class="emmet">animtf:e</span></li>
+        <li><span class="trigger"></span><span class="shorthand"></span><span class="property">animation-timing-function: ease-in;</span><span class="emmet">animtf:ei</span></li>
+        <li><span class="trigger"></span><span class="shorthand"></span><span class="property">animation-timing-function: ease-in-out;</span><span class="emmet">animtf:eio</span></li>
+        <li><span class="trigger"></span><span class="shorthand"></span><span class="property">animation-timing-function: ease-out;</span><span class="emmet">animtf:eo</span></li>
+        <li><span class="trigger"></span><span class="shorthand"></span><span class="property">animation-timing-function: linear;</span><span class="emmet">animtf:l</span></li>
+        <li class="prefix"><span class="trigger">trf</span><span class="shorthand">tf</span><span class="property">transform:</span><span class="emmet">trf</span></li>
+        <li class="prefix"><span class="trigger">trf:r</span><span class="shorthand"></span><span class="property">transform: rotate(angle);</span><span class="emmet">trf:r</span></li>
+        <li class="prefix"><span class="trigger">trf:sc</span><span class="shorthand">t:sc</span><span class="property">transform: scale(x, y);</span><span class="emmet">trf:sc</span></li>
+        <li class="prefix"><span class="trigger">trf:scx</span><span class="shorthand">t:sx</span><span class="property">transform: scaleX(x);</span><span class="emmet">trf:scx</span></li>
+        <li class="prefix"><span class="trigger">trf:scy</span><span class="shorthand">t:sy</span><span class="property">transform: scaleY(y);</span><span class="emmet">trf:scy</span></li>
+        <li class="prefix"><span class="trigger">trf:skx</span><span class="shorthand">t:kx</span><span class="property">transform: skewX(angle);</span><span class="emmet">trf:skx</span></li>
+        <li class="prefix"><span class="trigger">trf:sky</span><span class="shorthand">t:ky</span><span class="property">transform: skewY(angle);</span><span class="emmet">trf:sky</span></li>
+        <li class="prefix"><span class="trigger">trf:t</span><span class="shorthand">tf:t</span><span class="property">transform: translate(x, y);</span><span class="emmet">trf:t</span></li>
+        <li class="prefix"><span class="trigger">trf:tx</span><span class="shorthand">t:tx</span><span class="property">transform: translateX(x);</span><span class="emmet">trf:tx</span></li>
+        <li class="prefix"><span class="trigger">trf:ty</span><span class="shorthand">t:ty</span><span class="property">transform: translateY(y);</span><span class="emmet">trf:ty</span></li>
+        <li class="prefix"><span class="trigger">trfo</span><span class="shorthand"></span><span class="property">transform-origin:</span><span class="emmet">trfo</span></li>
+        <li class="prefix"><span class="trigger">trfst</span><span class="shorthand"></span><span class="property">transform-style:</span><span class="emmet">trfs</span></li>
+        <li class="prefix"><span class="trigger">trs</span><span class="shorthand"></span><span class="property">transition:</span><span class="emmet">trs</span></li>
+        <li class="prefix"><span class="trigger">trsde</span><span class="shorthand"></span><span class="property">transition-delay:</span><span class="emmet">trsde</span></li>
+        <li class="prefix"><span class="trigger">trsdu</span><span class="shorthand"></span><span class="property">transition-duration:</span><span class="emmet">trsdu</span></li>
+        <li class="prefix"><span class="trigger">trsp</span><span class="shorthand"></span><span class="property">transition-property:</span><span class="emmet">trsp</span></li>
+        <li class="prefix"><span class="trigger">trstf</span><span class="shorthand"></span><span class="property">transition-timing-function:</span><span class="emmet">trstf</span></li>
+        <li class="prefix"><span class="trigger">pep</span><span class="shorthand"></span><span class="property">perspective:</span><span class="emmet"></span></li>
+        <li class="prefix"><span class="trigger">pepo</span><span class="shorthand"></span><span class="property">perspectiveg-origin:</span><span class="emmet"></span></li>
+        <li class="prefix"><span class="trigger">bv</span><span class="shorthand"></span><span class="property">backface-visibility:</span><span class="emmet"></span></li>
+      </ul>
+    </section>
+
+    <section>
+      <h2 id="webkit">Webkit</h2>
+      <ul class="snippets">
+        <li><span class="trigger">wkfs</span><span class="shorthand"></span><span class="property">-webkit-font-smoothing:</span><span class="emmet">wfsm</span></li>
+        <li><span class="trigger">wkfs:a</span><span class="shorthand"></span><span class="property">-webkit-font-smoothing: antialiased;</span><span class="emmet">wfsm:a</span></li>
+        <li><span class="trigger">wkfs:n</span><span class="shorthand"></span><span class="property">-webkit-font-smoothing: none;</span><span class="emmet">wfsm:n</span></li>
+        <li><span class="trigger">wkfs:s</span><span class="shorthand"></span><span class="property">-webkit-font-smoothing: subpixel-antialiased;</span><span class="emmet">wfsm:s, wfsm:sa</span></li>
+        <li><span class="trigger">wkos:t</span><span class="shorthand"></span><span class="property">-webkit-overflow-scrolling: touch;</span><span class="emmet"></span></li>
+      </ul>
+    </section>
+
+    <section>
+      <h2 id="others">Others</h2>
+      <ul class="snippets">
+        <li><span class="trigger"></span><span class="shorthand"></span><span class="property">!important</span><span class="emmet">!</span></li>
+        <li><span class="trigger">imp</span><span class="shorthand"></span><span class="property">@import</span><span class="emmet">@i, @import</span></li>
+        <li><span class="trigger">mp</span><span class="shorthand"></span><span class="property">@media print {}</span><span class="emmet"></span></li>
+        <li><span class="trigger">app</span><span class="shorthand"></span><span class="property">appearance:</span><span class="emmet">ap</span></li>
+        <li><span class="trigger">us</span><span class="shorthand"></span><span class="property">user-select:</span><span class="emmet">us</span></li>
+        <li><span class="trigger"></span><span class="shorthand"></span><span class="property">/* comment */</span><span class="emmet">cm</span></li>
+        <li><span class="trigger">bg:ie</span><span class="shorthand"></span><span class="property">filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='x.png',sizingMethod='crop');</span><span class="emmet">bg:ie</span></li>
+        <li><span class="trigger">op:ie</span><span class="shorthand"></span><span class="property">filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);</span><span class="emmet">op:ie</span></li>
+        <li><span class="trigger">op:ms</span><span class="shorthand"></span><span class="property">-ms-filter: 'progid:DXImageTransform.Microsoft.Alpha(Opacity=100)';</span><span class="emmet">op:ms</span></li>
+      </ul>
+    </section>
+
+    <section>
+      <h2 id="pseudo-class">Pseudo Class</h2>
+      <ul class="snippets">
+        <li><span class="trigger">ac</span><span class="shorthand"></span><span class="property">:active {}</span><span class="emmet"></span></li>
+        <li><span class="trigger">ac:a</span><span class="shorthand"></span><span class="property">&amp;:active {}</span><span class="emmet"></span></li>
+        <li><span class="trigger">af</span><span class="shorthand"></span><span class="property">:after {}</span><span class="emmet"></span></li>
+        <li><span class="trigger">af:a</span><span class="shorthand"></span><span class="property">&amp;:after {}</span><span class="emmet"></span></li>
+        <li><span class="trigger">be</span><span class="shorthand"></span><span class="property">:before {}</span><span class="emmet"></span></li>
+        <li><span class="trigger">be:a</span><span class="shorthand"></span><span class="property">&amp;:before {}</span><span class="emmet"></span></li>
+        <li><span class="trigger">ch</span><span class="shorthand"></span><span class="property">:checked {}</span><span class="emmet"></span></li>
+        <li><span class="trigger">ch:a</span><span class="shorthand"></span><span class="property">&amp;:checked {}</span><span class="emmet"></span></li>
+        <li><span class="trigger">dsa</span><span class="shorthand">da</span><span class="property">:disabled {}</span><span class="emmet"></span></li>
+        <li><span class="trigger">dsa:a</span><span class="shorthand">da:a</span><span class="property">&amp;:disabled {}</span><span class="emmet"></span></li>
+        <li><span class="trigger">en</span><span class="shorthand"></span><span class="property">:enabled {}</span><span class="emmet"></span></li>
+        <li><span class="trigger">en:a</span><span class="shorthand"></span><span class="property">&amp;:enabled {}</span><span class="emmet"></span></li>
+        <li><span class="trigger">fc</span><span class="shorthand"></span><span class="property">:first-child {}</span><span class="emmet"></span></li>
+        <li><span class="trigger">fc:a</span><span class="shorthand"></span><span class="property">&amp;:first-child {}</span><span class="emmet"></span></li>
+        <li><span class="trigger">fle</span><span class="shorthand"></span><span class="property">:first-letter {}</span><span class="emmet"></span></li>
+        <li><span class="trigger">fle:a</span><span class="shorthand"></span><span class="property">&amp;:first-letter {}</span><span class="emmet"></span></li>
+        <li><span class="trigger">fli</span><span class="shorthand"></span><span class="property">:first-line {}</span><span class="emmet"></span></li>
+        <li><span class="trigger">fli:a</span><span class="shorthand"></span><span class="property">&amp;:first-line {}</span><span class="emmet"></span></li>
+        <li><span class="trigger">foc</span><span class="shorthand"></span><span class="property">:focus {}</span><span class="emmet"></span></li>
+        <li><span class="trigger">foc:a</span><span class="shorthand"></span><span class="property">&amp;:focus {}</span><span class="emmet"></span></li>
+        <li><span class="trigger">ho</span><span class="shorthand"></span><span class="property">:hover {}</span><span class="emmet"></span></li>
+        <li><span class="trigger">ho:a</span><span class="shorthand"></span><span class="property">&amp;:hover {}</span><span class="emmet"></span></li>
+        <li><span class="trigger">ln</span><span class="shorthand"></span><span class="property">:lang() {}</span><span class="emmet"></span></li>
+        <li><span class="trigger">ln:a</span><span class="shorthand"></span><span class="property">&amp;:lang() {}</span><span class="emmet"></span></li>
+        <li><span class="trigger">lc</span><span class="shorthand"></span><span class="property">:last-child {}</span><span class="emmet"></span></li>
+        <li><span class="trigger">lc:a</span><span class="shorthand"></span><span class="property">&amp;:last-child {}</span><span class="emmet"></span></li>
+        <li><span class="trigger">li</span><span class="shorthand"></span><span class="property">:link {}</span><span class="emmet"></span></li>
+        <li><span class="trigger">li:a</span><span class="shorthand"></span><span class="property">&amp;:link {}</span><span class="emmet"></span></li>
+        <li><span class="trigger">nc</span><span class="shorthand"></span><span class="property">:nth-child() {}</span><span class="emmet"></span></li>
+        <li><span class="trigger">nc:a</span><span class="shorthand"></span><span class="property">&amp;:nth-child() {}</span><span class="emmet"></span></li>
+        <li><span class="trigger">vit</span><span class="shorthand"></span><span class="property">:visited {}</span><span class="emmet"></span></li>
+        <li><span class="trigger">vit:a</span><span class="shorthand"></span><span class="property">&amp;:visited {}</span><span class="emmet"></span></li>
+        <li><span class="trigger">tgt</span><span class="shorthand">tg</span><span class="property">:target {}</span><span class="emmet"></span></li>
+        <li><span class="trigger">tgt:a</span><span class="shorthand">tg:a</span><span class="property">&amp;:target {}</span><span class="emmet"></span></li>
+        <li><span class="trigger">fot</span><span class="shorthand"></span><span class="property">:first-of-type {}</span><span class="emmet"></span></li>
+        <li><span class="trigger">fot:a</span><span class="shorthand"></span><span class="property">&amp;:first-of-type {}</span><span class="emmet"></span></li>
+        <li><span class="trigger">lot</span><span class="shorthand"></span><span class="property">:last-of-type {}</span><span class="emmet"></span></li>
+        <li><span class="trigger">lot:a</span><span class="shorthand"></span><span class="property">&amp;:last-of-type {}</span><span class="emmet"></span></li>
+        <li><span class="trigger">nt</span><span class="shorthand"></span><span class="property">:nth-of-type() {}</span><span class="emmet"></span></li>
+        <li><span class="trigger">nt:a</span><span class="shorthand"></span><span class="property">&amp;:nth-of-type() {}</span><span class="emmet"></span></li>
+        <li><span class="trigger">not</span><span class="shorthand"></span><span class="property">:not() {}</span><span class="emmet"></span></li>
+        <li><span class="trigger">not:a</span><span class="shorthand"></span><span class="property">&amp;:not() {}</span><span class="emmet"></span></li>
+      </ul>
+    </section>
+
+    <section>
+      <h2 id="completions">Completions</h2>
+      <ul class="completions">
+        <li>!important</li>
+        <li>inherit</li>
+        <li>transparent</li>
+        <li>rgb()</li>
+        <li>rgba()</li>
+        <li>hsl()</li>
+        <li>hsla()</li>
+        <li>calc()</li>
+        <li>rect()</li>
+        <li>url()</li>
+        <li>attr()</li>
+        <li>counter()</li>
+        <li>counters()</li>
+        <li>matrix()</li>
+        <li>matrix3D()</li>
+        <li>rotate()</li>
+        <li>rotate3D()</li>
+        <li>rotateX()</li>
+        <li>rotateY()</li>
+        <li>rotateZ()</li>
+        <li>scale()</li>
+        <li>scale3D()</li>
+        <li>scaleX()</li>
+        <li>scaleY()</li>
+        <li>scaleZ()</li>
+        <li>skew()</li>
+        <li>skewX()</li>
+        <li>skewY()</li>
+        <li>translate()</li>
+        <li>translate3D()</li>
+        <li>translateX()</li>
+        <li>translateY()</li>
+        <li>translateZ()</li>
+        <li>cubic-bezier()</li>
+        <li>steps()</li>
+        <li>linear-gradient()</li>
+        <li>radial-gradient()</li>
+        <li>repeating-linear-gradient()</li>
+        <li>repeating-radial-gradient()</li>
+      </ul>
+    </section>
+  </div>
+
+  <div id="info" data-spy="affix" data-offset-bottom="150">
+    <span class="new">New added</span>
+    <span class="diff">Different</span>
+    <span class="prefix">Has prefix</span>
+    <span class="removed">Removed</span>
+    <span class="key"><kbd>Enter</kbd> focus input</span>
+    <span class="key"><kbd>Esc</kbd> cancel searching</span>
+  </div>
+
+  <footer>Brought to you by <a href="">Peiwen Lu</a></footer>
+
+  <script src="https://code.jquery.com/jquery-2.1.0.min.js"></script>
+  <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
 </html>
